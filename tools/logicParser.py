@@ -7,8 +7,8 @@ TeviRuleToPoptacker = {
     "I19" : "celia",
     "ITEM_ORB": "ranged",
     "ITEM_LINEBOMB": "bombs",
-    "ITEM_AREABOMB":"bombThrow",
-    "ITEM_BOMBFUEL":"bombFuel",
+    "ITEM_AREABOMB":"$canBombThrow",
+    "ITEM_BOMBFUEL":"$canBombFuel",
     "ITEM_BombLengthExtend":"bombRange",
     "ITEM_SPEEDUP": "speed",
     "ITEM_AntiIce":"slip",
@@ -195,10 +195,14 @@ class OpLit:
             if "ITEM" in self.name or "QUEST" in self.name:
                 if "ITEM_Rotater" == self.name:
                     return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1,[$hasAmount|dagger|1]"
-                elif self.name in ["ITEM_AREABOMB","ITEM_BOMBFUEL","ITEM_BombLengthExtend"]:
+                elif self.name in ["ITEM_BombLengthExtend"]:
                     return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1,$hasAmount|bombs|1"
                 elif "ITEM_AirSlide" == self.name:
                     return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1,$hasAmount|slide|1"
+                elif "ITEM_AREABOMB" == self.name:
+                    return "$canBombThrow"
+                elif "ITEM_BOMBFUEL" == self.name:
+                    return "$canBombFuel"
                 elif "OrbTypeS" in self.name:
                     return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1,$hasAmount|ranged|2,$hasAmount|sable|1"
                 elif "OrbTypeC" in self.name:

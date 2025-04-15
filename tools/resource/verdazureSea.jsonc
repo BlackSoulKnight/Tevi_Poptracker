@@ -7,6 +7,7 @@
       "@Exit Logic/1307,$hasAmount|airDash|1,[$False]",
       "@Verdazure Sea East,$hasAmount|water|1",
       "@Verdazure Sea to Forest,$hasAmount|bombs|1",
+      "@Verdazure Sea to Forest,$hasAmount|bombThrow|1,$hasAmount|bombs|1",
       "@Verdazure Sea to Forest,$hasAmount|water|1"
     ],
     "children": [
@@ -61,7 +62,8 @@
             "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -101,7 +103,8 @@
             "name": "Invictus",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -110,6 +113,26 @@
             "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
             "x": 599,
             "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Verdazure Sea to Forgotton City - Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1 , ITEM_WATERMOVENT"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
+            "x": 695,
+            "y": 360
           }
         ]
       }
@@ -170,31 +193,12 @@
   },
   {
     "name": "Verdazure Sea to Forgotten city",
+    "clear_as_group": false,
     "access_rules": [
       "@Verdazure Sea West,$hasAmount|water|1 , $hasAmount|bombs|1",
+      "@Verdazure Sea West,$hasAmount|water|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
       "@Exit Logic/1303"
     ],
-    "children": [
-      {
-        "name": "Verdazure Sea to Forgotton City - Grape Bunny Potion",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Grape Bunny Potion",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
-            "x": 695,
-            "y": 360
-          }
-        ]
-      }
-    ]
+    "children": []
   }
 ]

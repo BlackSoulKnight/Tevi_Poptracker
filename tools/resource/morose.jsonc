@@ -126,7 +126,8 @@
             "name": "Special Action: Paparazzo",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $canChargeShot"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $canChargeShot",
+              "$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1 , $canChargeShot"
             ]
           }
         ],
@@ -147,7 +148,9 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|airDash|1 , $hasAmount|jetpack|3 , $hasAmount|bombs|1",
-              "$hasAmount|airDash|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|bombs|1"
+              "$hasAmount|airDash|1 , $hasAmount|jetpack|3 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+              "$hasAmount|airDash|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|bombs|1",
+              "$hasAmount|airDash|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],

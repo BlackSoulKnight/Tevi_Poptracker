@@ -13,7 +13,8 @@
             "name": "Upper Slash: Volley",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -136,7 +137,8 @@
             "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -200,8 +202,11 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|highJump|1",
+              "$canBombThrow , $hasAmount|highJump|1",
               "$hasAmount|bombs|1 , $hasAmount|airJump|1",
-              "$hasAmount|bombs|1 , $hasAmount|jetpack|1"
+              "$canBombThrow , $hasAmount|airJump|1",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+              "$canBombThrow , $hasAmount|jetpack|1"
             ]
           }
         ],
@@ -309,7 +314,8 @@
             "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -373,7 +379,9 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1",
-              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|1",
+              "$hasAmount|slide|1 , $canBombThrow , $hasAmount|airJump|1",
+              "$hasAmount|slide|1 , $canBombThrow , $hasAmount|jetpack|1"
             ]
           }
         ],
@@ -396,10 +404,11 @@
       "@Desert Base Entrance,$hasAmount|jetpack|1",
       "@Desert Base Entrance,$hasAmount|airJump|1",
       "@Desert Base Entrance,$hasAmount|highJump|1",
-      "@Desert Base Entrance,$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
-      "@Desert Base Entrance,rabbitJump",
-      "@Desert Base Entrance,backflip , $hasAmount|speed|1",
-      "@Desert Base Entrance,backflip , [$False]",
+      "@Desert Base Entrance,$hasAmount|bombs|1",
+      "@Desert Base Entrance,$canBombThrow",
+      "@Desert Base Entrance,$canRabbitJump",
+      "@Desert Base Entrance,$canBackflip , $hasAmount|speed|1",
+      "@Desert Base Entrance,$canBackflip , [$False]",
       "@Desert Base Upper Half"
     ],
     "children": [
@@ -451,7 +460,8 @@
             "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -491,10 +501,14 @@
       "@Desert Base Main,$hasAmount|highJump|1 , $hasAmount|airJump|1 , $hasAmount|wallJump|1",
       "@Desert Base Main,$hasAmount|jetpack|1 , $hasAmount|wallJump|1",
       "@Desert Base Main,$hasAmount|airJump|1 , $hasAmount|wallJump|2",
-      "@Desert Base Entrance,backflip , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1",
+      "@Desert Base Entrance,$canBackflip , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1",
+      "@Desert Base Entrance,$canBackflip , $hasAmount|slide|1 , $canBombThrow , $hasAmount|dagger|1",
       "@Desert Base Entrance,$hasAmount|airJump|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1",
+      "@Desert Base Entrance,$hasAmount|airJump|1 , $hasAmount|slide|1 , $canBombThrow , $hasAmount|dagger|1",
       "@Desert Base Entrance,$hasAmount|jetpack|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1",
-      "@Desert Base Entrance,$hasAmount|airDash|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1"
+      "@Desert Base Entrance,$hasAmount|jetpack|1 , $hasAmount|slide|1 , $canBombThrow , $hasAmount|dagger|1",
+      "@Desert Base Entrance,$hasAmount|airDash|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1",
+      "@Desert Base Entrance,$hasAmount|airDash|1 , $hasAmount|slide|1 , $canBombThrow , $hasAmount|dagger|1"
     ],
     "children": [
       {
@@ -585,7 +599,8 @@
             "name": "Gilded Left Hand",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -625,7 +640,8 @@
             "name": "Under Score",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -698,7 +714,7 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 0,
+            "x": 50,
             "y": 0
           }
         ]
@@ -771,8 +787,8 @@
             "name": "EVENT_EliteChallangeB",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
-              "$hasAmount|slide|1",
+              "$hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$canBombThrow , $hasAmount|slide|1",
               "$hasAmount|bombs|1 , [hiddenPaths]"
             ]
           }
@@ -796,7 +812,8 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -816,7 +833,8 @@
             "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -843,7 +861,7 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 0,
+            "x": 90,
             "y": 0
           }
         ]
@@ -907,7 +925,8 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -945,6 +964,7 @@
     "name": "Gurun Desert",
     "access_rules": [
       "@Thanatara Canyon Lower,$hasAmount|bombs|1",
+      "@Thanatara Canyon Lower,$canBombThrow",
       "@Thanatara Canyon Lower,openMorose",
       "@Exit Logic/0102"
     ],
@@ -1034,7 +1054,8 @@
   {
     "name": "Solennian Ruins Entrance",
     "access_rules": [
-      "@Exit Logic/2206"
+      "@Exit Logic/2206",
+      "@Solennian Ruins"
     ],
     "children": [
       {
@@ -1047,7 +1068,9 @@
             "access_rules": [
               "$hasAmount|jetpack|2",
               "$hasAmount|jetpack|1 , $hasAmount|airJump|1",
-              "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|wallJump|1"
+              "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|wallJump|1",
+              "$hasAmount|jetpack|1 , $hasAmount|highJump|1",
+              "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1"
             ]
           }
         ],
@@ -1064,7 +1087,8 @@
   {
     "name": "Solennian Ruins",
     "access_rules": [
-      "@Solennian Ruins Entrance,$hasAmount|bombs|1"
+      "@Solennian Ruins Entrance,$hasAmount|bombs|1",
+      "@Solennian Ruins Entrance,$canBombThrow"
     ],
     "children": [
       {
@@ -1225,7 +1249,7 @@
               "$hasAmount|dagger|1",
               "$canUseVenaBomb",
               "$hasAmount|ranged|1",
-              "$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
+              "$canBombThrow"
             ]
           }
         ],
@@ -1286,6 +1310,14 @@
       "@Valhalla Breath West,$hasAmount|bombs|1 , $hasAmount|airJump|1",
       "@Valhalla Breath West,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
       "@Valhalla Breath West,$hasAmount|bombs|1 , $hasAmount|airDash|1",
+      "@Valhalla Breath West,$canBombThrow , ceilingKick",
+      "@Valhalla Breath West,$canBombThrow , $hasAmount|airJump|1",
+      "@Valhalla Breath West,$canBombThrow , $hasAmount|jetpack|1",
+      "@Valhalla Breath West,$canBombThrow , $hasAmount|airDash|1",
+      "@Valhalla Breath West,HddenP , ceilingKick",
+      "@Valhalla Breath West,HddenP , $hasAmount|airJump|1",
+      "@Valhalla Breath West,HddenP , $hasAmount|jetpack|1",
+      "@Valhalla Breath West,HddenP , $hasAmount|airDash|1",
       "@Exit Logic/2105",
       "@Exit Logic/2100"
     ],
@@ -1323,7 +1355,7 @@
               "$canChargeShot",
               "$hasAmount|airDash|1",
               "$hasAmount|highJump|1",
-              "rabbitWallJump"
+              "$canRabbitWallJump"
             ]
           }
         ],
@@ -1343,7 +1375,7 @@
             "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
+              "$canBombThrow"
             ]
           }
         ],
@@ -1404,15 +1436,15 @@
     "name": "Valhalla Breath West",
     "access_rules": [
       "@Exit Logic/2101",
-      "@Heavens Valley West,$hasAmount|jetpack|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+      "@Heavens Valley West,$hasAmount|jetpack|1 , $canBombThrow",
       "@Heavens Valley West,$hasAmount|jetpack|1 , [hiddenPaths]",
-      "@Heavens Valley West,$hasAmount|airDash|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+      "@Heavens Valley West,$hasAmount|airDash|1 , $canBombThrow",
       "@Heavens Valley West,$hasAmount|airDash|1 , [hiddenPaths]",
-      "@Heavens Valley West,$hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+      "@Heavens Valley West,$hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $canBombThrow",
       "@Heavens Valley West,$hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1 , [hiddenPaths]",
-      "@Heavens Valley West,$hasAmount|airJump|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+      "@Heavens Valley West,$hasAmount|airJump|1 , $canBombThrow",
       "@Heavens Valley West,$hasAmount|airJump|1 , [hiddenPaths]",
-      "@Heavens Valley West,$canChargeShot , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+      "@Heavens Valley West,$canChargeShot , $canBombThrow",
       "@Heavens Valley West,$canChargeShot , [hiddenPaths]"
     ],
     "children": [
@@ -1467,7 +1499,8 @@
             "name": "Orbital Slash",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -1487,7 +1520,8 @@
             "name": "Quickstab: Flurry",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -1527,7 +1561,8 @@
             "name": "Combo Momentum: Fever",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -1783,7 +1818,8 @@
             "name": "Special Action: Paparazzo",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $canChargeShot"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $canChargeShot",
+              "$hasAmount|slide|1 , $canBombThrow , $canChargeShot"
             ]
           }
         ],
@@ -1804,7 +1840,9 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|airDash|1 , $hasAmount|jetpack|3 , $hasAmount|bombs|1",
-              "$hasAmount|airDash|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|bombs|1"
+              "$hasAmount|airDash|1 , $hasAmount|jetpack|3 , $canBombThrow",
+              "$hasAmount|airDash|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|bombs|1",
+              "$hasAmount|airDash|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1 , $canBombThrow"
             ]
           }
         ],
@@ -2025,6 +2063,7 @@
       "@Exit Logic/0603",
       "@Exit Logic/0600",
       "@Travoll Industrie to CopperWood,$hasAmount|bombs|1",
+      "@Travoll Industrie to CopperWood,$canBombThrow",
       "@Travoll Industrie to CopperWood,$hasAmount|slide|1"
     ],
     "children": [
@@ -2059,7 +2098,7 @@
             "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1"
+              "$canBombThrow"
             ]
           }
         ],
@@ -2079,7 +2118,8 @@
             "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -2159,6 +2199,7 @@
     "name": "Travoll Industrie to CopperWood",
     "access_rules": [
       "@Travoll Industrie,$hasAmount|bombs|1",
+      "@Travoll Industrie,$canBombThrow",
       "@Travoll Industrie,$hasAmount|slide|1",
       "@Exit Logic/0605"
     ],
@@ -2188,11 +2229,14 @@
   {
     "name": "Travoll Mines",
     "access_rules": [
-      "@Travoll Mines to Morose City,$hasAmount|bombs|1 , $hasAmount|bombFuel|1,$hasAmount|bombs|1",
-      "@Travoll Mines to Thanatara Canyon,$hasAmount|bombs|1 , $hasAmount|bombFuel|1,$hasAmount|bombs|1",
+      "@Travoll Mines to Morose City,$hasAmount|bombs|1 , $canBombFuel",
+      "@Travoll Mines to Morose City,$canBombThrow , $canBombFuel",
+      "@Travoll Mines to Thanatara Canyon,$hasAmount|bombs|1 , $canBombFuel",
       "@Exit Logic/0500",
       "@Travoll Mines to Forest,$hasAmount|bombs|1 , $hasAmount|dagger|1",
       "@Travoll Mines to Forest,$hasAmount|bombs|1 , ^$EVENT_FreeStrongAttack",
+      "@Travoll Mines to Forest,$canBombThrow , $hasAmount|dagger|1",
+      "@Travoll Mines to Forest,$canBombThrow , ^$EVENT_FreeStrongAttack",
       "@Travoll Mines to Swamp"
     ],
     "children": [
@@ -2204,7 +2248,8 @@
             "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -2247,7 +2292,7 @@
             "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot , $hasAmount|bombFuel|1,$hasAmount|bombs|1"
+              "$canChargeShot , $canBombFuel"
             ]
           }
         ],
@@ -2267,7 +2312,7 @@
             "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot , $hasAmount|bombFuel|1,$hasAmount|bombs|1"
+              "$canChargeShot , $canBombFuel"
             ]
           }
         ],
@@ -2290,7 +2335,8 @@
             "name": "Aerial Accel",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -2311,6 +2357,7 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1",
+              "$canBombThrow",
               "ceilingKick"
             ]
           }
@@ -2331,7 +2378,7 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1 , $hasAmount|bombFuel|1,$hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $canBombThrow , $canBombFuel"
             ]
           }
         ],
@@ -2351,7 +2398,8 @@
             "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -2368,7 +2416,7 @@
   {
     "name": "Travoll Mines to Swamp",
     "access_rules": [
-      "@Travoll Mines,$hasAmount|slide|1 , $hasAmount|bombFuel|1,$hasAmount|bombs|1",
+      "@Travoll Mines,$hasAmount|slide|1 , $canBombFuel",
       "@Exit Logic/0503"
     ],
     "children": [
@@ -2410,7 +2458,8 @@
             "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -2428,6 +2477,7 @@
     "name": "Travoll Mines to Forest",
     "access_rules": [
       "@Travoll Mines,$hasAmount|bombs|1",
+      "@Travoll Mines,$canBombThrow",
       "@Exit Logic/0509"
     ],
     "children": [
@@ -2492,7 +2542,8 @@
             "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -2532,7 +2583,8 @@
             "name": "Special Action: Olive Branch",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot , $hasAmount|bombs|1"
+              "$canChargeShot , $hasAmount|bombs|1",
+              "$canChargeShot , $canBombThrow"
             ]
           }
         ],
@@ -2646,7 +2698,8 @@
             "name": "Titanium Spanner",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -2683,7 +2736,8 @@
   {
     "name": "Forest Maze boss",
     "access_rules": [
-      "@Forest Maze,$hasAmount|bombs|1"
+      "@Forest Maze,$hasAmount|bombs|1",
+      "@Forest Maze,$canBombThrow"
     ],
     "children": [
       {
@@ -2978,9 +3032,11 @@
     "name": "Gloamwood Middle",
     "access_rules": [
       "@Gloamwood Copperwood to CopperWood,$hasAmount|bombs|1",
+      "@Gloamwood Copperwood to CopperWood,$canBombThrow",
       "@Gloamwood to Relicts,$hasAmount|bombRange|1,$hasAmount|bombs|1",
       "@Gloamwood Bottom,$hasAmount|airJump|1",
       "@Gloamwood Bottom,$hasAmount|bombs|1",
+      "@Gloamwood Bottom,$canBombThrow",
       "@Gloamwood Bottom,$hasAmount|jetpack|1",
       "@Gloamwood Bottom,$hasAmount|airDash|1",
       "@Gloamwood Bottom,[$False]",
@@ -2999,7 +3055,8 @@
             "name": "Quick Bomber",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -3039,7 +3096,8 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -3101,8 +3159,11 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|airJump|1 , $hasAmount|bombs|1",
+              "$hasAmount|airJump|1 , $canBombThrow",
               "$hasAmount|jetpack|1 , $hasAmount|bombs|1",
-              "$hasAmount|airDash|1 , $hasAmount|bombs|1"
+              "$hasAmount|jetpack|1 , $canBombThrow",
+              "$hasAmount|airDash|1 , $hasAmount|bombs|1",
+              "$hasAmount|airDash|1 , $canBombThrow"
             ]
           }
         ],
@@ -3221,9 +3282,13 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|jetpack|1 , $hasAmount|bombs|1",
+              "$hasAmount|jetpack|1 , $canBombThrow",
               "$hasAmount|airDash|1 , $hasAmount|bombs|1",
+              "$hasAmount|airDash|1 , $canBombThrow",
               "$hasAmount|airJump|1 , $hasAmount|bombs|1",
-              "rabbitWallJump , $hasAmount|bombs|1"
+              "$hasAmount|airJump|1 , $canBombThrow",
+              "$canRabbitWallJump , $hasAmount|bombs|1",
+              "$canRabbitWallJump , $canBombThrow"
             ]
           }
         ],
@@ -3277,11 +3342,11 @@
       "@Gloamwood to Blushwood,$hasAmount|airJump|1",
       "@Gloamwood to Blushwood,$hasAmount|airDash|1",
       "@Gloamwood to Blushwood,$hasAmount|jetpack|1",
-      "@Gloamwood to Blushwood,rabbitJump",
+      "@Gloamwood to Blushwood,$canRabbitJump",
       "@Gloamwood Middle,$hasAmount|airJump|1",
       "@Gloamwood Middle,$hasAmount|airDash|1",
       "@Gloamwood Middle,$hasAmount|jetpack|1",
-      "@Gloamwood Middle,rabbitJump"
+      "@Gloamwood Middle,$canRabbitJump"
     ],
     "children": [
       {
@@ -3375,7 +3440,8 @@
     "access_rules": [
       "@Gloamwood Right",
       "@Exit Logic/0901",
-      "@Ulskan To Plague Forest,$hasAmount|slide|1 , $hasAmount|bombs|1"
+      "@Ulskan To Plague Forest,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Ulskan To Plague Forest,$hasAmount|slide|1 , $canBombThrow"
     ],
     "children": [
       {
@@ -3457,7 +3523,8 @@
             "name": "Decay Antidote",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -3477,7 +3544,8 @@
             "name": "Dodge: Golden Luck",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $canChargeShot"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $canChargeShot",
+              "$hasAmount|slide|1 , $canBombThrow , $canChargeShot"
             ]
           }
         ],
@@ -3525,7 +3593,8 @@
             "name": "C. Rank Frenzy: Defend",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -3545,7 +3614,8 @@
             "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -3565,7 +3635,8 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -3585,7 +3656,8 @@
             "name": "Slick Boots",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -3606,6 +3678,7 @@
             "item_count": 1,
             "access_rules": [
               "$canChargeShot , $hasAmount|bombs|1",
+              "$canChargeShot , $canBombThrow",
               "$canChargeShot , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1",
               "$canChargeShot , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1",
               "$canChargeShot , $hasAmount|airJump|1 , $hasAmount|jetpack|1"
@@ -3652,7 +3725,8 @@
             "name": "Dodge Enhancer: Upper",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -3704,6 +3778,26 @@
             "force_invisibility_rules": [
               "$True"
             ]
+          }
+        ]
+      },
+      {
+        "name": "Plague Forest - Aplomb",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Aplomb",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|decayMask|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Plagued Forest",
+            "x": 648,
+            "y": 407
           }
         ]
       },
@@ -3772,30 +3866,11 @@
   {
     "name": "Plague Forest to Ulskan",
     "access_rules": [
-      "@Plague Forest,$hasAmount|bombs|1 , $hasAmount|slide|1",
+      "@Plague Forest,$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|decayMask|1",
+      "@Plague Forest,$canBombThrow , $hasAmount|slide|1 , $hasAmount|decayMask|1",
       "@Exit Logic/1004"
     ],
     "children": [
-      {
-        "name": "Plague Forest - Aplomb",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Aplomb",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "The Plagued Forest",
-            "x": 648,
-            "y": 408
-          }
-        ]
-      },
       {
         "name": "Plague Forest - Blood Armor",
         "access_rules": [],
@@ -3822,7 +3897,9 @@
     "name": "Ulvosa",
     "access_rules": [
       "@Ulvosa to Gloamwood,$hasAmount|bombs|1 , $canChargeShot , [hiddenPaths]",
-      "@Ulvosa to Gloamwood,$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1"
+      "@Ulvosa to Gloamwood,$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1",
+      "@Ulvosa to Gloamwood,$canBombThrow , $canChargeShot , [hiddenPaths]",
+      "@Ulvosa to Gloamwood,$canBombThrow , $canChargeShot , $hasAmount|slide|1"
     ],
     "children": [
       {
@@ -3876,7 +3953,7 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1 , $hasAmount|slide|1"
+              "$canBombThrow , $hasAmount|slide|1"
             ]
           }
         ],
@@ -3976,7 +4053,8 @@
             "name": "Core Expansion: Vitalize",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -3996,7 +4074,8 @@
             "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -4080,8 +4159,11 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|orbS2|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2 , $hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2 , $canBombThrow , $hasAmount|slide|1",
               "$hasAmount|burst|1 , $hasAmount|bombs|1 , $hasAmount|slide|1",
-              "$canUseVenaBomb , $hasAmount|bombs|1 , $hasAmount|slide|1"
+              "$hasAmount|burst|1 , $canBombThrow , $hasAmount|slide|1",
+              "$canUseVenaBomb , $hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$canUseVenaBomb , $canBombThrow , $hasAmount|slide|1"
             ]
           }
         ],
@@ -4119,11 +4201,12 @@
     "name": "CopperWood",
     "access_rules": [
       "@CopperWood Industry to Travoll Industrie,$hasAmount|bombs|1",
+      "@CopperWood Industry to Travoll Industrie,$canBombThrow",
       "@CopperWood Industry to Travoll Industrie,$hasAmount|slide|1",
       "@CopperWood EP Pot",
       "@Exit Logic/0701",
       "@Exit Logic/0704",
-      "@Exit Logic/0700,$hasAmount|bombs|1"
+      "@Exit Logic/0700"
     ],
     "children": [
       {
@@ -4134,7 +4217,8 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -4214,6 +4298,7 @@
     "name": "CopperWood EP Pot",
     "access_rules": [
       "@CopperWood Industry to Travoll Industrie,$hasAmount|bombs|1",
+      "@CopperWood Industry to Travoll Industrie,$canBombThrow",
       "@CopperWood,$hasAmount|airJump|1",
       "@CopperWood,$hasAmount|jetpack|1"
     ],
@@ -4282,7 +4367,13 @@
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
-              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|3"
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|3",
+              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|highJump|1",
+              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
+              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
+              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
+              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
+              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|jetpack|3"
             ]
           }
         ],
@@ -4307,7 +4398,13 @@
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
-              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|3"
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|3",
+              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|highJump|1",
+              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
+              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
+              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
+              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
+              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|jetpack|3"
             ]
           }
         ],
@@ -4328,7 +4425,8 @@
     "name": "Relicts",
     "access_rules": [
       "@Exit Logic/2404",
-      "@Relicts to Gloamwood,$hasAmount|bombs|1"
+      "@Relicts to Gloamwood,$hasAmount|bombs|1",
+      "@Relicts to Gloamwood,$canBombThrow"
     ],
     "children": [
       {
@@ -4339,7 +4437,8 @@
             "name": "MP Quicken: Accelerate",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -4359,7 +4458,8 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -4489,7 +4589,8 @@
             "name": "MP Surge: Soul",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -4507,7 +4608,8 @@
     "name": "Ana Thema",
     "access_rules": [
       "@Exit Logic/0805",
-      "@Ana Thema to Gallery,$hasAmount|slide|1 , $hasAmount|bombs|1"
+      "@Ana Thema to Gallery,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Ana Thema to Gallery,$hasAmount|slide|1 , $canBombThrow"
     ],
     "children": [
       {
@@ -4518,9 +4620,9 @@
             "name": "Library Key",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|wallJump|1",
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|3",
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1"
+              "$canBombThrow , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|wallJump|1",
+              "$canBombThrow , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|3",
+              "$canBombThrow , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1"
             ]
           }
         ],
@@ -4541,9 +4643,13 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $hasAmount|airDash|1 , $canBombThrow",
               "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|bombs|1",
-              "$hasAmount|slide|1 , rabbitJump , $hasAmount|bombs|1",
-              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $canBombThrow",
+              "$hasAmount|slide|1 , $canRabbitJump , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canRabbitJump , $canBombThrow",
+              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $canBombThrow"
             ]
           }
         ],
@@ -4627,7 +4733,8 @@
             "name": "Deft A",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -4670,7 +4777,8 @@
             "name": "Terrestrial Agility",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -4885,6 +4993,7 @@
     "name": "Ana Thema to Gallery",
     "access_rules": [
       "@Ana Thema,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Ana Thema,$hasAmount|slide|1 , $canBombThrow",
       "@Exit Logic/0806"
     ],
     "children": [
@@ -4896,7 +5005,8 @@
             "name": "C. Rank Frenzy: Starter",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -4913,7 +5023,8 @@
   {
     "name": "Magma Pits",
     "access_rules": [
-      "@Magma Pits Entrance,$hasAmount|bombs|1"
+      "@Magma Pits Entrance,$hasAmount|bombs|1",
+      "@Magma Pits Entrance,$canBombThrow"
     ],
     "children": [
       {
@@ -5024,7 +5135,8 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -5094,7 +5206,8 @@
     "name": "Magma Depths",
     "access_rules": [
       "@Magma Depths O,$hasAmount|powder|1,$hasAmount|slide|1",
-      "@Swamp,$hasAmount|bombs|1"
+      "@Swamp,$hasAmount|bombs|1",
+      "@Swamp,$canBombThrow"
     ],
     "children": [
       {
@@ -5165,7 +5278,8 @@
             "name": "MP Surge: Brawl",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -5266,7 +5380,9 @@
     "name": "Pre Swamp",
     "access_rules": [
       "@Magma Pits Entrance,$hasAmount|bombs|1",
+      "@Magma Pits Entrance,$canBombThrow",
       "@Magma Pits,$hasAmount|bombs|1",
+      "@Magma Pits,$canBombThrow",
       "@Swamp Entrance,$hasAmount|slide|1",
       "@Swamp,$hasAmount|airDash|1",
       "@Swamp,$hasAmount|ranged|1",
@@ -5324,7 +5440,8 @@
             "name": "Aerial Kinetics",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -5344,7 +5461,8 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -5362,10 +5480,11 @@
     "name": "Swamp",
     "access_rules": [
       "@Magma Pits,$canChargeShot , $hasAmount|bombs|1",
+      "@Magma Pits,$canChargeShot , $canBombThrow",
       "@Pre Swamp,$hasAmount|dagger|1",
       "@Pre Swamp,$hasAmount|ranged|1",
       "@Pre Swamp,$hasAmount|airDash|1",
-      "@Pre Swamp,$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+      "@Pre Swamp,$canBombThrow",
       "@Swamp to Tartarus,$hasAmount|slide|1 , [hiddenPaths] , $hasAmount|jetpack|2",
       "@Swamp to Tartarus,$hasAmount|slide|1 , [hiddenPaths] , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
       "@Swamp to Tartarus,$hasAmount|slide|1 , [hiddenPaths] , $hasAmount|jetpack|1 , $hasAmount|airDash|1",
@@ -5373,7 +5492,11 @@
       "@Swamp to Tartarus,$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|2",
       "@Swamp to Tartarus,$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
       "@Swamp to Tartarus,$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1",
-      "@Swamp to Tartarus,$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1"
+      "@Swamp to Tartarus,$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1",
+      "@Swamp to Tartarus,$hasAmount|slide|1 , $canBombThrow , $hasAmount|jetpack|2",
+      "@Swamp to Tartarus,$hasAmount|slide|1 , $canBombThrow , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
+      "@Swamp to Tartarus,$hasAmount|slide|1 , $canBombThrow , $hasAmount|jetpack|1 , $hasAmount|airDash|1",
+      "@Swamp to Tartarus,$hasAmount|slide|1 , $canBombThrow , $hasAmount|airDash|1 , $hasAmount|airJump|1"
     ],
     "children": [
       {
@@ -5384,7 +5507,8 @@
             "name": "Cluster Bomb",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -5530,7 +5654,8 @@
             "name": "C. Count Frenzy: Preemptive",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -5551,7 +5676,8 @@
       "@Ana Thema,^$EVENT_MoroseVisited , $hasAmount|ticketHell|1",
       "@Exit Logic/1502",
       "@Tartarus Catacombs,$hasAmount|slide|1",
-      "@Tartarus Catacombs,$hasAmount|bombs|1"
+      "@Tartarus Catacombs,$hasAmount|bombs|1",
+      "@Tartarus Catacombs,$canBombThrow"
     ],
     "children": [
       {
@@ -5645,7 +5771,8 @@
             "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -5911,7 +6038,11 @@
               "$hasAmount|bombs|1 , $hasAmount|airJump|1",
               "$hasAmount|bombs|1 , $hasAmount|airDash|1",
               "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
-              "$hasAmount|bombs|1 , $hasAmount|highJump|1"
+              "$hasAmount|bombs|1 , $hasAmount|highJump|1",
+              "$canBombThrow , $hasAmount|airJump|1",
+              "$canBombThrow , $hasAmount|airDash|1",
+              "$canBombThrow , $hasAmount|jetpack|1",
+              "$canBombThrow , $hasAmount|highJump|1"
             ]
           }
         ],
@@ -5973,7 +6104,8 @@
             "name": "Dodge: Panic Switch",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -6022,7 +6154,8 @@
             "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|slide|1"
+              "$hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$canBombThrow , $hasAmount|slide|1"
             ]
           }
         ],
@@ -6053,7 +6186,7 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1"
+              "$canBombThrow"
             ]
           }
         ],
@@ -6073,7 +6206,8 @@
             "name": "Double Drop",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -6093,7 +6227,8 @@
             "name": "Crystal Shrapnel",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -6114,7 +6249,9 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|slide|1",
-              "$hasAmount|bombs|1 , $canChargeShot"
+              "$canBombThrow , $hasAmount|slide|1",
+              "$hasAmount|bombs|1 , $canChargeShot",
+              "$canBombThrow , $canChargeShot"
             ]
           }
         ],
@@ -6177,7 +6314,7 @@
       "@Lab Left,$hasAmount|bombs|1 , $hasAmount|airJump|1",
       "@Lab Left,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
       "@Lab Left,$hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
-      "@Lab Left,$hasAmount|bombs|1 , rabbitWallJump",
+      "@Lab Left,$hasAmount|bombs|1 , $canRabbitWallJump",
       "@Lab to Verdazure Swamp Connection,$hasAmount|bombRange|3 , $hasAmount|bombs|1"
     ],
     "children": [
@@ -6190,7 +6327,7 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombRange|3 , $hasAmount|bombs|1",
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1"
+              "$canBombThrow , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -6210,7 +6347,8 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -6290,7 +6428,8 @@
             "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -6376,7 +6515,8 @@
             "name": "C. Rank Frenzy: Focus A",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -6416,7 +6556,7 @@
       "@Lab Hub,$hasAmount|airJump|1 , $hasAmount|slide|1 , $hasAmount|bombs|1",
       "@Lab Hub,$hasAmount|airDash|1 , $hasAmount|wallJump|1 , $hasAmount|slide|1 , $hasAmount|bombs|1",
       "@Lab Hub,$hasAmount|jetpack|1 , $hasAmount|slide|1 , $hasAmount|bombs|1",
-      "@Lab Hub,rabbitWallJump , $hasAmount|slide|1 , $hasAmount|bombs|1"
+      "@Lab Hub,$canRabbitWallJump , $hasAmount|slide|1 , $hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -6498,6 +6638,7 @@
       "@Exit Logic/1307,$hasAmount|airDash|1,[$False]",
       "@Verdazure Sea East,$hasAmount|water|1",
       "@Verdazure Sea to Forest,$hasAmount|bombs|1",
+      "@Verdazure Sea to Forest,$canBombThrow",
       "@Verdazure Sea to Forest,$hasAmount|water|1"
     ],
     "children": [
@@ -6552,7 +6693,8 @@
             "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -6592,7 +6734,8 @@
             "name": "Invictus",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -6601,6 +6744,26 @@
             "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
             "x": 599,
             "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Verdazure Sea to Forgotton City - Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1 , ITEM_WATERMOVENT"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
+            "x": 695,
+            "y": 360
           }
         ]
       }
@@ -6654,35 +6817,6 @@
             "force_invisibility_rules": [
               "$True"
             ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Verdazure Sea to Forgotten city",
-    "access_rules": [
-      "@Verdazure Sea West,$hasAmount|water|1 , $hasAmount|bombs|1",
-      "@Exit Logic/1303"
-    ],
-    "children": [
-      {
-        "name": "Verdazure Sea to Forgotton City - Grape Bunny Potion",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Grape Bunny Potion",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
-            "x": 695,
-            "y": 360
           }
         ]
       }
@@ -6786,7 +6920,8 @@
             "name": "Double Airstrike",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -6880,7 +7015,7 @@
             "access_rules": [
               "$hasAmount|airJump|1",
               "$hasAmount|jetpack|1",
-              "rabbitWallJump",
+              "$canRabbitWallJump",
               "$hasAmount|airDash|1 , $hasAmount|wallJump|1"
             ]
           }
@@ -6903,8 +7038,12 @@
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1",
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|1",
-              "$hasAmount|slide|1 , $hasAmount|bombs|1 , rabbitWallJump",
-              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airDash|1 , $hasAmount|wallJump|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $canRabbitWallJump",
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airDash|1 , $hasAmount|wallJump|1",
+              "$hasAmount|slide|1 , $canBombThrow , $hasAmount|airJump|1",
+              "$hasAmount|slide|1 , $canBombThrow , $hasAmount|jetpack|1",
+              "$hasAmount|slide|1 , $canBombThrow , $canRabbitWallJump",
+              "$hasAmount|slide|1 , $canBombThrow , $hasAmount|airDash|1 , $hasAmount|wallJump|1"
             ]
           }
         ],
@@ -6926,7 +7065,10 @@
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|3",
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|speed|3",
-              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1",
+              "$hasAmount|slide|1 , $canBombThrow , $hasAmount|jetpack|3",
+              "$hasAmount|slide|1 , $canBombThrow , $hasAmount|airJump|1 , $hasAmount|speed|3",
+              "$hasAmount|slide|1 , $canBombThrow , $hasAmount|airJump|1 , $hasAmount|jetpack|1"
             ]
           }
         ],
@@ -6948,7 +7090,7 @@
     "access_rules": [
       "@Morose City,^$EVENT_AnathemaVisited , $hasAmount|ticketHeaven|1",
       "@Ana Thema,^$EVENT_MoroseVisited , $hasAmount|ticketHeaven|1",
-      "@Exit Logic/2008,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Exit Logic/2008",
       "@Exit Logic/2003",
       "@Exit Logic/2001"
     ],
@@ -6981,7 +7123,8 @@
             "name": "EVENT_EliteChallangeF",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|slide|1"
+              "$hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$canBombThrow , $hasAmount|slide|1"
             ]
           }
         ],
@@ -7004,7 +7147,8 @@
             "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -7026,8 +7170,8 @@
             "access_rules": [
               "$hasAmount|jetpack|1",
               "$hasAmount|airJump|1",
-              "$hasAmount|airDash|1 , $hasAmount|wallJump|1",
-              "rabbitWallJump"
+              "$hasAmount|airDash|1 , $hasAmount|wallJump|1 , [$canUseFastItem]",
+              "$canRabbitWallJump"
             ]
           }
         ],
@@ -7047,7 +7191,8 @@
             "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -7093,7 +7238,7 @@
             "name": "Combo Momentum: Saver",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1",
+              "$canBombThrow",
               "$hasAmount|bombRange|3"
             ]
           }
@@ -7297,6 +7442,7 @@
       "@EverGarden To Valley,$hasAmount|airJump|1",
       "@EverGarden To Valley,$hasAmount|jetpack|1",
       "@EverGarden To Valhalla,$hasAmount|bombs|1",
+      "@EverGarden To Valhalla,$canBombThrow",
       "@EverGarden BossPath",
       "@EverGarden Boss Area"
     ],
@@ -7309,7 +7455,8 @@
             "name": "Slipstream Boots",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -7330,6 +7477,7 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1",
+              "$canBombThrow",
               "$hasAmount|airDash|1",
               "$hasAmount|jetpack|1",
               "$hasAmount|airJump|1"
@@ -7432,8 +7580,11 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|jetpack|1 , $hasAmount|bombs|1",
+              "$hasAmount|jetpack|1 , $canBombThrow",
               "$hasAmount|airDash|1 , $hasAmount|bombs|1",
-              "$hasAmount|wallJump|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1"
+              "$hasAmount|airDash|1 , $canBombThrow",
+              "$hasAmount|wallJump|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$hasAmount|wallJump|1 , $canBombThrow , $hasAmount|airJump|1"
             ]
           }
         ],
@@ -7456,7 +7607,7 @@
               "$canChargeShot , $hasAmount|airJump|1",
               "$canChargeShot , $hasAmount|jetpack|1",
               "$canChargeShot , $hasAmount|airDash|1",
-              "$canChargeShot , rabbitWallJump"
+              "$canChargeShot , $canRabbitWallJump"
             ]
           }
         ],
@@ -7594,7 +7745,8 @@
             "name": "Debuff Counter",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -7615,7 +7767,13 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1",
-              "$hasAmount|wallJump|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $canBombThrow",
+              "$hasAmount|jetpack|1 , $hasAmount|bombs|1",
+              "$hasAmount|jetpack|1 , $canBombThrow",
+              "$hasAmount|airJump|1 , $hasAmount|bombs|1",
+              "$hasAmount|airJump|1 , $canBombThrow",
+              "$hasAmount|wallJump|1 , $hasAmount|bombs|1",
+              "$hasAmount|wallJump|1 , $canBombThrow"
             ]
           }
         ],
@@ -7723,7 +7881,7 @@
             "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1",
+              "$canBombThrow",
               "$hasAmount|bombRange|1,$hasAmount|bombs|1"
             ]
           }
@@ -7745,7 +7903,7 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|bombs|1",
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1"
+              "$canBombThrow , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -7884,7 +8042,8 @@
             "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -8000,7 +8159,8 @@
             "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -8088,7 +8248,7 @@
             "name": "Bomb Pitcher",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $canChargeShot"
+              "$canBombThrow , $canChargeShot"
             ]
           }
         ],
@@ -8108,7 +8268,8 @@
             "name": "Triple Threat",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $canChargeShot"
+              "$hasAmount|bombs|1 , $canChargeShot",
+              "$canBombThrow , $canChargeShot"
             ]
           }
         ],
@@ -8128,7 +8289,8 @@
             "name": "Combustible",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $canChargeShot"
+              "$hasAmount|bombs|1 , $canChargeShot",
+              "$canBombThrow , $canChargeShot"
             ]
           }
         ],
@@ -8191,7 +8353,7 @@
             "name": "EVENT_Memloch",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombRange|1,$hasAmount|bombs|1"
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|decayAntidote|1"
             ]
           }
         ],
@@ -8238,7 +8400,7 @@
               "$hasAmount|airJump|1 , $canChargeShot",
               "$hasAmount|jetpack|1 , $canChargeShot",
               "$hasAmount|airDash|1 , $canChargeShot",
-              "rabbitJump , $canChargeShot"
+              "$canRabbitJump , $canChargeShot"
             ]
           }
         ],
@@ -8289,7 +8451,8 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -8307,9 +8470,13 @@
     "name": "Gallery of Souls",
     "access_rules": [
       "@Gallery of Souls Entrance,$hasAmount|bombs|1",
-      "@Gallery of Souls Boss Area,$hasAmount|jetpack|2 , $hasAmount|bombs|1 , $airOrSlide,[$False]",
-      "@Gallery of Souls Boss Area,$hasAmount|wallJump|1 , $hasAmount|bombs|1 , $airOrSlide,[$False]",
-      "@Gallery of Souls Boss Area,$hasAmount|airJump|1 , $hasAmount|bombs|1 , $airOrSlide,[$False]"
+      "@Gallery of Souls Entrance,$canBombThrow",
+      "@Gallery of Souls Boss Area,$hasAmount|jetpack|2 , $hasAmount|bombs|1 , $airOrSlide,[$False] , $hasAmount|slide|1",
+      "@Gallery of Souls Boss Area,$hasAmount|jetpack|2 , $canBombThrow , $airOrSlide,[$False] , $hasAmount|slide|1",
+      "@Gallery of Souls Boss Area,$hasAmount|wallJump|1 , $hasAmount|bombs|1 , $airOrSlide,[$False] , $hasAmount|slide|1",
+      "@Gallery of Souls Boss Area,$hasAmount|wallJump|1 , $canBombThrow , $airOrSlide,[$False] , $hasAmount|slide|1",
+      "@Gallery of Souls Boss Area,$hasAmount|airJump|1 , $hasAmount|bombs|1 , $airOrSlide,[$False] , $hasAmount|slide|1",
+      "@Gallery of Souls Boss Area,$hasAmount|airJump|1 , $canBombThrow , $airOrSlide,[$False] , $hasAmount|slide|1"
     ],
     "children": [
       {
@@ -8320,7 +8487,8 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -8361,6 +8529,7 @@
       "@Gallery of Souls,$hasAmount|wallJump|1 , $canChargeShot",
       "@Gallery of Souls,$hasAmount|airJump|1 , $canChargeShot",
       "@Gallery of Souls,$hasAmount|bombs|1 , $canChargeShot",
+      "@Gallery of Souls,$canBombThrow , $canChargeShot",
       "@Gallery of Souls to Sea,$hasAmount|bombRange|3"
     ],
     "children": [
@@ -8372,7 +8541,8 @@
             "name": "Hero Call",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -8473,6 +8643,9 @@
       "@Verdazure Swamp,$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|highJump|1",
       "@Verdazure Swamp,$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1",
       "@Verdazure Swamp,$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|1",
+      "@Verdazure Swamp,$hasAmount|slide|1 , $canBombThrow , $hasAmount|highJump|1",
+      "@Verdazure Swamp,$hasAmount|slide|1 , $canBombThrow , $hasAmount|airJump|1",
+      "@Verdazure Swamp,$hasAmount|slide|1 , $canBombThrow , $hasAmount|jetpack|1",
       "@Forgotten City Upper Exit,$canChargeShot"
     ],
     "children": [
@@ -8484,7 +8657,7 @@
             "name": "MP Surge: Dodge",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1 , $canChargeShot"
+              "$canBombThrow , $canChargeShot"
             ]
           }
         ],
@@ -8504,7 +8677,8 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -8524,7 +8698,8 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -8564,7 +8739,7 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2 , $hasAmount|slide|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
+              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2 , $hasAmount|slide|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $canBombThrow"
             ]
           }
         ],
@@ -8625,6 +8800,7 @@
     "name": "Verdazure Swamp",
     "access_rules": [
       "@Verdazure Ocean,$hasAmount|bombs|1 , $hasAmount|slide|1",
+      "@Verdazure Ocean,$canBombThrow , $hasAmount|slide|1",
       "@Verdazure Swamp to Lab,$hasAmount|slide|1"
     ],
     "children": [
@@ -8700,7 +8876,8 @@
             "name": "EVENT_SnowMechanic",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -8803,7 +8980,8 @@
             "name": "Bulletproof Pillar S",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -8874,7 +9052,8 @@
   {
     "name": "Forgotten City",
     "access_rules": [
-      "@Forgotten City Entrance,$hasAmount|bombs|1"
+      "@Forgotten City Entrance,$hasAmount|bombs|1",
+      "@Forgotten City Entrance,$canBombThrow"
     ],
     "children": [
       {
@@ -8885,7 +9064,8 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -9135,6 +9315,7 @@
       "@Snowveil Entrance,$hasAmount|airDash|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|2 , $hasAmount|highJump|1 , [$False]",
       "@Snowveil Entrance,$hasAmount|airDash|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|3 , [$False]",
       "@Snowveil Entrance,$hasAmount|bombs|1",
+      "@Snowveil Entrance,$canBombThrow",
       "@Exit Logic/1204",
       "@Snowveil Ex"
     ],
@@ -9147,7 +9328,7 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1 , $hasAmount|slide|1"
+              "$canBombThrow , $hasAmount|slide|1"
             ]
           }
         ],
@@ -9208,9 +9389,13 @@
     "name": "Snowveil Ex",
     "access_rules": [
       "@Snowveil,$canChargeShot , $hasAmount|bombs|1",
+      "@Snowveil,$canChargeShot , $canBombThrow",
       "@Snowveil,$hasAmount|airJump|1 , $hasAmount|bombs|1",
+      "@Snowveil,$hasAmount|airJump|1 , $canBombThrow",
       "@Snowveil,$hasAmount|jetpack|1 , $hasAmount|bombs|1",
-      "@Snowveil above Verglas Village,$hasAmount|bombs|1"
+      "@Snowveil,$hasAmount|jetpack|1 , $canBombThrow",
+      "@Snowveil above Verglas Village,$hasAmount|bombs|1",
+      "@Snowveil above Verglas Village,$canBombThrow"
     ],
     "children": [
       {
@@ -9386,8 +9571,13 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|jetpack|2 , $hasAmount|airJump|1",
+              "$canBombThrow , $hasAmount|jetpack|2 , $hasAmount|airJump|1",
               "$hasAmount|bombs|1 , $hasAmount|jetpack|3",
-              "$hasAmount|bombs|1 , $hasAmount|jetpack|2 , $hasAmount|highJump|1 , $hasAmount|dagger|1,[$False]"
+              "$canBombThrow , $hasAmount|jetpack|3",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1",
+              "$canBombThrow , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|2 , $hasAmount|highJump|1 , $hasAmount|dagger|1,[$False]",
+              "$canBombThrow , $hasAmount|jetpack|2 , $hasAmount|highJump|1 , $hasAmount|dagger|1,[$False]"
             ]
           }
         ],
@@ -9405,7 +9595,8 @@
     "name": "Snow City",
     "access_rules": [
       "@Exit Logic/1604",
-      "@Snowveil Above HQ,$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+      "@Snowveil Above HQ,$hasAmount|bombs|1",
+      "@Snowveil Above HQ,$canBombThrow",
       "@Golden Hands HQ Sewer",
       "@Golden Hands HQ Extra"
     ],
@@ -9418,7 +9609,8 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -9438,7 +9630,8 @@
             "name": "Slash Quartet",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -9595,7 +9788,7 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombRange|3 , $hasAmount|bombs|1 , $hasAmount|slide|1",
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1 , $hasAmount|slide|1"
+              "$canBombThrow , $hasAmount|bombs|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -9615,7 +9808,8 @@
             "name": "Thick Pillar",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|slide|1"
+              "$hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$canBombThrow , $hasAmount|slide|1"
             ]
           }
         ],
@@ -9658,7 +9852,8 @@
             "name": "EVENT_SnowMechanic",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|slide|1"
+              "$hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$canBombThrow , $hasAmount|slide|1"
             ]
           }
         ],
@@ -9689,7 +9884,8 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , ^$EVENT_HQSwitch1"
+              "$hasAmount|bombs|1 , ^$EVENT_HQSwitch1",
+              "$canBombThrow , ^$EVENT_HQSwitch1"
             ]
           }
         ],
@@ -9729,7 +9925,8 @@
             "name": "Headbutt",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|slide|1 , ^$EVENT_HQSwitch1"
+              "$hasAmount|bombs|1 , $hasAmount|slide|1 , ^$EVENT_HQSwitch1",
+              "$canBombThrow , $hasAmount|slide|1 , ^$EVENT_HQSwitch1"
             ]
           }
         ],
@@ -9789,7 +9986,8 @@
             "name": "EVENT_HQSwitch1",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $canChargeShot , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $canChargeShot , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canChargeShot , $canBombThrow"
             ]
           }
         ],
@@ -9820,7 +10018,8 @@
             "name": "Dodge Enhancer: Spanner",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $canBombThrow"
             ]
           }
         ],
@@ -9839,7 +10038,8 @@
     "access_rules": [
       "@Snow City,$hasAmount|slide|1",
       "@Snow City,$canChargeShot",
-      "@Golden Hands HQ,$hasAmount|bombs|1 , $canChargeShot"
+      "@Golden Hands HQ,$hasAmount|bombs|1 , $canChargeShot",
+      "@Golden Hands HQ,$canBombThrow , $canChargeShot"
     ],
     "children": [
       {
@@ -9893,7 +10093,8 @@
               "$hasAmount|wallJump|1",
               "$hasAmount|airJump|1",
               "$hasAmount|jetpack|1",
-              "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1"
+              "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1",
+              "$canBombThrow , $canChargeShot , $hasAmount|slide|1"
             ]
           }
         ],
@@ -9916,7 +10117,8 @@
               "$hasAmount|wallJump|1",
               "$hasAmount|airJump|1",
               "$hasAmount|jetpack|1",
-              "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1"
+              "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1",
+              "$canBombThrow , $canChargeShot , $hasAmount|slide|1"
             ]
           }
         ],
@@ -9939,7 +10141,8 @@
               "$hasAmount|wallJump|1",
               "$hasAmount|airJump|1",
               "$hasAmount|jetpack|1",
-              "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1"
+              "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1",
+              "$canBombThrow , $canChargeShot , $hasAmount|slide|1"
             ]
           }
         ],
@@ -9960,7 +10163,8 @@
     "name": "DreamKeeper Outside Right",
     "access_rules": [
       "@Exit Logic/1800",
-      "@DreamKeeper,$hasAmount|slide|1 , $hasAmount|bombs|1"
+      "@DreamKeeper,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@DreamKeeper,$hasAmount|slide|1 , $canBombThrow"
     ],
     "children": [
       {
@@ -10012,8 +10216,9 @@
     "name": "DreamKeeper Outside Left",
     "access_rules": [
       "@DreamKeeper Outside Right,$canChargeShot , $hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@DreamKeeper Outside Right,$canChargeShot , $hasAmount|slide|1 , $canBombThrow",
       "@Exit Logic/1801",
-      "@DreamKeeper Outside Left Snow To Snowveil,rabbitJump",
+      "@DreamKeeper Outside Left Snow To Snowveil,$canRabbitJump",
       "@DreamKeeper Outside Left Snow To Snowveil,$hasAmount|airDash|1",
       "@DreamKeeper Outside Left Snow To Snowveil,$hasAmount|airJump|1",
       "@DreamKeeper Outside Left Snow To Snowveil,$hasAmount|jetpack|1",
@@ -10087,13 +10292,17 @@
     "name": "DreamKeeper",
     "access_rules": [
       "@DreamKeeper Outside Right,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $hasAmount|bombs|1 , $hasAmount|slide|1 , ^$EVENT_SnowMechanic",
-      "@DreamKeeper Outside Right,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $hasAmount|bombs|1 , $hasAmount|slide|1 , earlyDream",
+      "@DreamKeeper Outside Right,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $hasAmount|bombs|1 , $hasAmount|slide|1 , $canEarlyDream",
+      "@DreamKeeper Outside Right,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $canBombThrow , $hasAmount|slide|1 , ^$EVENT_SnowMechanic",
+      "@DreamKeeper Outside Right,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $canBombThrow , $hasAmount|slide|1 , $canEarlyDream",
       "@DreamKeeper Outside Right,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|slide|1 , ^$EVENT_SnowMechanic",
-      "@DreamKeeper Outside Right,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|slide|1 , earlyDream",
+      "@DreamKeeper Outside Right,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|slide|1 , $canEarlyDream",
+      "@DreamKeeper Outside Right,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|slide|1 , $canBombThrow , $hasAmount|slide|1 , ^$EVENT_SnowMechanic",
+      "@DreamKeeper Outside Right,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|slide|1 , $canBombThrow , $hasAmount|slide|1 , $canEarlyDream",
       "@DreamKeeper Outside Left,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $hasAmount|slide|1 , ^$EVENT_SnowMechanic",
-      "@DreamKeeper Outside Left,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $hasAmount|slide|1 , earlyDream",
+      "@DreamKeeper Outside Left,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $hasAmount|slide|1 , $canEarlyDream",
       "@DreamKeeper Outside Left,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|slide|1 , $hasAmount|slide|1 , ^$EVENT_SnowMechanic",
-      "@DreamKeeper Outside Left,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|slide|1 , $hasAmount|slide|1 , earlyDream"
+      "@DreamKeeper Outside Left,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|slide|1 , $hasAmount|slide|1 , $canEarlyDream"
     ],
     "children": [
       {
@@ -10107,7 +10316,7 @@
               "$hasAmount|dagger|1",
               "$canUseVenaBomb",
               "$canChargeShot",
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1"
+              "$canBombThrow"
             ]
           }
         ],
@@ -10190,7 +10399,8 @@
             "name": "Refractor",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|slide|1"
+              "$hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$canBombThrow , $hasAmount|slide|1"
             ]
           }
         ],
@@ -10210,7 +10420,8 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -10230,7 +10441,8 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -10293,7 +10505,8 @@
             "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -10313,7 +10526,8 @@
             "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -10333,7 +10547,7 @@
             "name": "Dominator",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1"
+              "$canBombThrow"
             ]
           }
         ],
@@ -10385,8 +10599,11 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|airJump|1 , $hasAmount|jetpack|2 , [$canUseFastItem] , $hasAmount|bombs|1",
+              "$hasAmount|airJump|1 , $hasAmount|jetpack|2 , [$canUseFastItem] , $canBombThrow",
               "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $hasAmount|bombs|1",
-              "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|highJump|1 , [$canUseFastItem] , $hasAmount|bombs|1"
+              "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $canBombThrow",
+              "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|highJump|1 , [$canUseFastItem] , $hasAmount|bombs|1",
+              "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|highJump|1 , [$canUseFastItem] , $canBombThrow"
             ]
           }
         ],
@@ -10426,7 +10643,8 @@
   {
     "name": "Dreamless Depths",
     "access_rules": [
-      "@DreamKeeper,$hasAmount|slide|1 , $hasAmount|bombs|1"
+      "@DreamKeeper,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@DreamKeeper,$hasAmount|slide|1 , $canBombThrow"
     ],
     "children": [
       {
@@ -10439,7 +10657,7 @@
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|ranged|1",
               "$hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|dagger|1",
-              "$hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -10458,7 +10676,8 @@
     "access_rules": [
       "@Exit Logic/1901",
       "@Heavens Valley Snow Route Middle,$hasAmount|slide|1",
-      "@Heavens Valley Snow Route Middle,$hasAmount|bombs|1"
+      "@Heavens Valley Snow Route Middle,$hasAmount|bombs|1",
+      "@Heavens Valley Snow Route Middle,$canBombThrow"
     ],
     "children": [
       {
@@ -10469,6 +10688,7 @@
             "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
+              "$canBombThrow",
               "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
@@ -10537,6 +10757,7 @@
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|1",
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$hasAmount|slide|1 , $canBombThrow",
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , [$False]"
             ]
           }
@@ -10588,7 +10809,7 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1",
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1"
+              "$canBombThrow"
             ]
           }
         ],
@@ -10628,7 +10849,8 @@
             "name": "EVENT_SnowMechanic",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -10739,7 +10961,11 @@
       "@Sinner's Oath Entrance,$canChargeShot , $hasAmount|bombs|1 , [hiddenPaths]",
       "@Sinner's Oath Entrance,$canChargeShot , $hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|airDash|1",
       "@Sinner's Oath Entrance,$canChargeShot , $hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|jetpack|1",
-      "@Sinner's Oath Entrance,$canChargeShot , $hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|airJump|1"
+      "@Sinner's Oath Entrance,$canChargeShot , $hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|airJump|1",
+      "@Sinner's Oath Entrance,$canChargeShot , $canBombThrow , [hiddenPaths]",
+      "@Sinner's Oath Entrance,$canChargeShot , $canBombThrow , $hasAmount|slide|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|airDash|1",
+      "@Sinner's Oath Entrance,$canChargeShot , $canBombThrow , $hasAmount|slide|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|jetpack|1",
+      "@Sinner's Oath Entrance,$canChargeShot , $canBombThrow , $hasAmount|slide|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|airJump|1"
     ],
     "children": [
       {
@@ -10759,6 +10985,28 @@
             "map": "Sinner's Oath + Phantasmic Palace",
             "x": 456,
             "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Sinners Hell - Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombRange|3 , $hasAmount|bombs|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|airJump|1",
+              "$hasAmount|bombRange|3 , $hasAmount|bombs|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|jetpack|1",
+              "$hasAmount|bombRange|3 , $hasAmount|bombs|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|wallJump|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sinner's Oath + Phantasmic Palace",
+            "x": 120,
+            "y": 163
           }
         ]
       },
@@ -10832,6 +11080,7 @@
     "name": "Illusion Palace Entrance",
     "access_rules": [
       "@Sinner's Oath Entrance,$hasAmount|bombs|1 , [hiddenPaths]",
+      "@Sinner's Oath Entrance,$canBombThrow , [hiddenPaths]",
       "@Sinner's Oath"
     ],
     "children": [
@@ -10922,28 +11171,6 @@
           {
             "map": "Sinner's Oath + Phantasmic Palace",
             "x": 216,
-            "y": 164
-          }
-        ]
-      },
-      {
-        "name": "Sinners Hell - Grape Bunny Potion",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Grape Bunny Potion",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombRange|3 , $hasAmount|bombs|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|airJump|1",
-              "$hasAmount|bombRange|3 , $hasAmount|bombs|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|jetpack|1",
-              "$hasAmount|bombRange|3 , $hasAmount|bombs|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|wallJump|1"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Sinner's Oath + Phantasmic Palace",
-            "x": 120,
             "y": 164
           }
         ]
@@ -12301,7 +12528,7 @@
             "name": "Cluster Bomb",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $canUpgradeItems"
+              "$canBombThrow , $canUpgradeItems"
             ]
           }
         ],
@@ -12321,7 +12548,7 @@
             "name": "Cluster Bomb",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $canUpgradeItems"
+              "$canBombThrow , $canUpgradeItems"
             ]
           }
         ],
@@ -12581,7 +12808,7 @@
             "name": "Bomb Fuel",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombFuel|1,$hasAmount|bombs|1 , $canUpgradeItems"
+              "$canBombFuel , $canUpgradeItems"
             ]
           }
         ],
@@ -12601,7 +12828,7 @@
             "name": "Bomb Fuel",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombFuel|1,$hasAmount|bombs|1 , $canUpgradeItems"
+              "$canBombFuel , $canUpgradeItems"
             ]
           }
         ],
@@ -12976,10 +13203,11 @@
     ]
   },
   {
-    "name": "Thanatara Canyon - Heavens Valley West",
+    "name": "Thanatara Canyon to Heavens Valley West",
     "clear_as_group": false,
     "access_rules": [
       "@Thanatara Canyon,$hasAmount|bombs|1",
+      "@Thanatara Canyon,$canBombThrow",
       "@Exit Logic/0105"
     ],
     "children": []
@@ -12989,6 +13217,7 @@
     "clear_as_group": false,
     "access_rules": [
       "@Travoll Mines to Morose City,$hasAmount|bombs|1",
+      "@Travoll Mines to Morose City,$canBombThrow",
       "@Exit Logic/0507"
     ],
     "children": []
@@ -12998,7 +13227,8 @@
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0900",
-      "@Gloamwood Middle,$hasAmount|bombs|1"
+      "@Gloamwood Middle,$hasAmount|bombs|1",
+      "@Gloamwood Middle,$canBombThrow"
     ],
     "children": []
   },
@@ -13007,7 +13237,8 @@
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0906",
-      "@Gloamwood Middle,$hasAmount|bombs|1"
+      "@Gloamwood Middle,$hasAmount|bombs|1",
+      "@Gloamwood Middle,$canBombThrow"
     ],
     "children": []
   },
@@ -13025,6 +13256,16 @@
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/1102"
+    ],
+    "children": []
+  },
+  {
+    "name": "Verdazure Sea to Forgotten city",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Verdazure Sea West,$hasAmount|water|1 , $hasAmount|bombs|1",
+      "@Verdazure Sea West,$hasAmount|water|1 , $canBombThrow",
+      "@Exit Logic/1303"
     ],
     "children": []
   },
@@ -13052,7 +13293,9 @@
     "access_rules": [
       "@Exit Logic/1403",
       "@Forgotten City,$hasAmount|bombs|1 , $hasAmount|slide|1",
-      "@Forgotten City,$hasAmount|bombs|1 , $hasAmount|water|1"
+      "@Forgotten City,$hasAmount|bombs|1 , $hasAmount|water|1",
+      "@Forgotten City,$canBombThrow , $hasAmount|slide|1",
+      "@Forgotten City,$canBombThrow , $hasAmount|water|1"
     ],
     "children": []
   },
@@ -13062,6 +13305,7 @@
     "access_rules": [
       "@Tartarus,$hasAmount|slide|1",
       "@Tartarus,$hasAmount|bombs|1",
+      "@Tartarus,$canBombThrow",
       "@Exit Logic/1503"
     ],
     "children": []
@@ -13070,8 +13314,8 @@
     "name": "Magma Pits Entrance",
     "clear_as_group": false,
     "access_rules": [
-      "@Exit Logic/1700,$hasAmount|bombs|1",
-      "@Swamp Entrance,$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
+      "@Exit Logic/1700",
+      "@Swamp Entrance,$hasAmount|slide|1 , $canBombThrow"
     ],
     "children": []
   },
@@ -13102,7 +13346,7 @@
     "clear_as_group": false,
     "access_rules": [
       "@Swamp,[hiddenPaths]",
-      "@Swamp,$hasAmount|bombThrow|1,$hasAmount|bombs|1",
+      "@Swamp,$canBombThrow",
       "@Exit Logic/1702"
     ],
     "children": []
@@ -13112,6 +13356,7 @@
     "clear_as_group": false,
     "access_rules": [
       "@DreamKeeper Outside Left,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@DreamKeeper Outside Left,$hasAmount|slide|1 , $canBombThrow",
       "@Exit Logic/1805"
     ],
     "children": []
@@ -13121,6 +13366,7 @@
     "clear_as_group": false,
     "access_rules": [
       "@Heavens Valley Snow Route Middle,$hasAmount|bombs|1 , $hasAmount|slide|1",
+      "@Heavens Valley Snow Route Middle,$canBombThrow , $hasAmount|slide|1",
       "@Exit Logic/1900"
     ],
     "children": []
@@ -13130,7 +13376,8 @@
     "clear_as_group": false,
     "access_rules": [
       "@Relicts,$hasAmount|bombs|1",
-      "@Exit Logic/2406,$hasAmount|bombs|1"
+      "@Relicts,$canBombThrow",
+      "@Exit Logic/2406"
     ],
     "children": []
   },
@@ -13139,7 +13386,8 @@
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2503",
-      "@Catacombs Main,$hasAmount|bombs|1"
+      "@Catacombs Main,$hasAmount|bombs|1",
+      "@Catacombs Main,$canBombThrow"
     ],
     "children": []
   },
@@ -13151,7 +13399,7 @@
       "@Lab Hub,$hasAmount|airJump|1",
       "@Lab Hub,$hasAmount|airDash|1 , $hasAmount|wallJump|1",
       "@Lab Hub,$hasAmount|jetpack|1",
-      "@Lab Hub,rabbitWallJump"
+      "@Lab Hub,$canRabbitWallJump"
     ],
     "children": []
   },
@@ -13170,6 +13418,7 @@
     "clear_as_group": false,
     "access_rules": [
       "@Gallery of Souls Boss Area,$hasAmount|bombs|1",
+      "@Gallery of Souls Boss Area,$canBombThrow",
       "@Exit Logic/2707"
     ],
     "children": []
@@ -13194,6 +13443,11 @@
       "@EverGarden,$hasAmount|bombs|1 , $hasAmount|airDash|1",
       "@EverGarden,$hasAmount|bombs|1 , $hasAmount|airJump|1",
       "@EverGarden,$hasAmount|bombs|1 , $hasAmount|speed|3",
+      "@EverGarden,$canBombThrow , [hiddenPaths]",
+      "@EverGarden,$canBombThrow , $hasAmount|jetpack|1",
+      "@EverGarden,$canBombThrow , $hasAmount|airDash|1",
+      "@EverGarden,$canBombThrow , $hasAmount|airJump|1",
+      "@EverGarden,$canBombThrow , $hasAmount|speed|3",
       "@Exit Logic/2902"
     ],
     "children": []

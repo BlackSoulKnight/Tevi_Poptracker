@@ -13,7 +13,8 @@
             "name": "Upper Slash: Volley",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -136,7 +137,8 @@
             "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -200,8 +202,11 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|highJump|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|highJump|1",
               "$hasAmount|bombs|1 , $hasAmount|airJump|1",
-              "$hasAmount|bombs|1 , $hasAmount|jetpack|1"
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|jetpack|1"
             ]
           }
         ],

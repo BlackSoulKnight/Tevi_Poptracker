@@ -73,7 +73,7 @@
             "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1",
+              "$canBombThrow",
               "$hasAmount|bombRange|1,$hasAmount|bombs|1"
             ]
           }
@@ -95,7 +95,7 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|bombs|1",
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1"
+              "$canBombThrow , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -234,7 +234,8 @@
             "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],

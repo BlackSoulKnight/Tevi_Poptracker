@@ -2,7 +2,8 @@
   {
     "name": "Solennian Ruins Entrance",
     "access_rules": [
-      "@Exit Logic/2206"
+      "@Exit Logic/2206",
+      "@Solennian Ruins"
     ],
     "children": [
       {
@@ -15,7 +16,9 @@
             "access_rules": [
               "$hasAmount|jetpack|2",
               "$hasAmount|jetpack|1 , $hasAmount|airJump|1",
-              "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|wallJump|1"
+              "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|wallJump|1",
+              "$hasAmount|jetpack|1 , $hasAmount|highJump|1",
+              "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1"
             ]
           }
         ],
@@ -32,7 +35,8 @@
   {
     "name": "Solennian Ruins",
     "access_rules": [
-      "@Solennian Ruins Entrance,$hasAmount|bombs|1"
+      "@Solennian Ruins Entrance,$hasAmount|bombs|1",
+      "@Solennian Ruins Entrance,$canBombThrow"
     ],
     "children": [
       {
@@ -193,7 +197,7 @@
               "$hasAmount|dagger|1",
               "$canUseVenaBomb",
               "$hasAmount|ranged|1",
-              "$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
+              "$canBombThrow"
             ]
           }
         ],

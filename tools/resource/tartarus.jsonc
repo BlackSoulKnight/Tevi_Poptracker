@@ -6,7 +6,8 @@
       "@Ana Thema,^$EVENT_MoroseVisited , $hasAmount|ticketHell|1",
       "@Exit Logic/1502",
       "@Tartarus Catacombs,$hasAmount|slide|1",
-      "@Tartarus Catacombs,$hasAmount|bombs|1"
+      "@Tartarus Catacombs,$hasAmount|bombs|1",
+      "@Tartarus Catacombs,$hasAmount|bombThrow|1,$hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -100,7 +101,8 @@
             "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],

@@ -41,6 +41,9 @@
       "@Verdazure Swamp,$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|highJump|1",
       "@Verdazure Swamp,$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1",
       "@Verdazure Swamp,$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|1",
+      "@Verdazure Swamp,$hasAmount|slide|1 , $canBombThrow , $hasAmount|highJump|1",
+      "@Verdazure Swamp,$hasAmount|slide|1 , $canBombThrow , $hasAmount|airJump|1",
+      "@Verdazure Swamp,$hasAmount|slide|1 , $canBombThrow , $hasAmount|jetpack|1",
       "@Forgotten City Upper Exit,$canChargeShot"
     ],
     "children": [
@@ -52,7 +55,7 @@
             "name": "MP Surge: Dodge",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1 , $canChargeShot"
+              "$canBombThrow , $canChargeShot"
             ]
           }
         ],
@@ -72,7 +75,8 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -92,7 +96,8 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -132,7 +137,7 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2 , $hasAmount|slide|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
+              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2 , $hasAmount|slide|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $canBombThrow"
             ]
           }
         ],
@@ -193,6 +198,7 @@
     "name": "Verdazure Swamp",
     "access_rules": [
       "@Verdazure Ocean,$hasAmount|bombs|1 , $hasAmount|slide|1",
+      "@Verdazure Ocean,$canBombThrow , $hasAmount|slide|1",
       "@Verdazure Swamp to Lab,$hasAmount|slide|1"
     ],
     "children": [
@@ -268,7 +274,8 @@
             "name": "EVENT_SnowMechanic",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -371,7 +378,8 @@
             "name": "Bulletproof Pillar S",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -442,7 +450,8 @@
   {
     "name": "Forgotten City",
     "access_rules": [
-      "@Forgotten City Entrance,$hasAmount|bombs|1"
+      "@Forgotten City Entrance,$hasAmount|bombs|1",
+      "@Forgotten City Entrance,$canBombThrow"
     ],
     "children": [
       {
@@ -453,7 +462,8 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],

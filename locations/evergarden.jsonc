@@ -6,6 +6,7 @@
       "@EverGarden To Valley,$hasAmount|airJump|1",
       "@EverGarden To Valley,$hasAmount|jetpack|1",
       "@EverGarden To Valhalla,$hasAmount|bombs|1",
+      "@EverGarden To Valhalla,$canBombThrow",
       "@EverGarden BossPath",
       "@EverGarden Boss Area"
     ],
@@ -18,7 +19,8 @@
             "name": "Slipstream Boots",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -39,6 +41,7 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1",
+              "$canBombThrow",
               "$hasAmount|airDash|1",
               "$hasAmount|jetpack|1",
               "$hasAmount|airJump|1"
@@ -141,8 +144,11 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|jetpack|1 , $hasAmount|bombs|1",
+              "$hasAmount|jetpack|1 , $canBombThrow",
               "$hasAmount|airDash|1 , $hasAmount|bombs|1",
-              "$hasAmount|wallJump|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1"
+              "$hasAmount|airDash|1 , $canBombThrow",
+              "$hasAmount|wallJump|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$hasAmount|wallJump|1 , $canBombThrow , $hasAmount|airJump|1"
             ]
           }
         ],
@@ -165,7 +171,7 @@
               "$canChargeShot , $hasAmount|airJump|1",
               "$canChargeShot , $hasAmount|jetpack|1",
               "$canChargeShot , $hasAmount|airDash|1",
-              "$canChargeShot , rabbitWallJump"
+              "$canChargeShot , $canRabbitWallJump"
             ]
           }
         ],
@@ -303,7 +309,8 @@
             "name": "Debuff Counter",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -324,7 +331,13 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1",
-              "$hasAmount|wallJump|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $canBombThrow",
+              "$hasAmount|jetpack|1 , $hasAmount|bombs|1",
+              "$hasAmount|jetpack|1 , $canBombThrow",
+              "$hasAmount|airJump|1 , $hasAmount|bombs|1",
+              "$hasAmount|airJump|1 , $canBombThrow",
+              "$hasAmount|wallJump|1 , $hasAmount|bombs|1",
+              "$hasAmount|wallJump|1 , $canBombThrow"
             ]
           }
         ],

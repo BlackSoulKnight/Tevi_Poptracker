@@ -4,7 +4,7 @@
     "access_rules": [
       "@Morose City,^$EVENT_AnathemaVisited , $hasAmount|ticketHeaven|1",
       "@Ana Thema,^$EVENT_MoroseVisited , $hasAmount|ticketHeaven|1",
-      "@Exit Logic/2008,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Exit Logic/2008",
       "@Exit Logic/2003",
       "@Exit Logic/2001"
     ],
@@ -37,7 +37,8 @@
             "name": "EVENT_EliteChallangeF",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|slide|1"
+              "$hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$canBombThrow , $hasAmount|slide|1"
             ]
           }
         ],
@@ -60,7 +61,8 @@
             "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -82,8 +84,8 @@
             "access_rules": [
               "$hasAmount|jetpack|1",
               "$hasAmount|airJump|1",
-              "$hasAmount|airDash|1 , $hasAmount|wallJump|1",
-              "rabbitWallJump"
+              "$hasAmount|airDash|1 , $hasAmount|wallJump|1 , [$canUseFastItem]",
+              "$canRabbitWallJump"
             ]
           }
         ],
@@ -103,7 +105,8 @@
             "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -149,7 +152,7 @@
             "name": "Combo Momentum: Saver",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1",
+              "$canBombThrow",
               "$hasAmount|bombRange|3"
             ]
           }

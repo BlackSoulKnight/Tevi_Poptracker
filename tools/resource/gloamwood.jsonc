@@ -96,9 +96,11 @@
     "name": "Gloamwood Middle",
     "access_rules": [
       "@Gloamwood Copperwood to CopperWood,$hasAmount|bombs|1",
+      "@Gloamwood Copperwood to CopperWood,$hasAmount|bombThrow|1,$hasAmount|bombs|1",
       "@Gloamwood to Relicts,$hasAmount|bombRange|1,$hasAmount|bombs|1",
       "@Gloamwood Bottom,$hasAmount|airJump|1",
       "@Gloamwood Bottom,$hasAmount|bombs|1",
+      "@Gloamwood Bottom,$hasAmount|bombThrow|1,$hasAmount|bombs|1",
       "@Gloamwood Bottom,$hasAmount|jetpack|1",
       "@Gloamwood Bottom,$hasAmount|airDash|1",
       "@Gloamwood Bottom,[$False]",
@@ -117,7 +119,8 @@
             "name": "Quick Bomber",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -157,7 +160,8 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -219,8 +223,11 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|airJump|1 , $hasAmount|bombs|1",
+              "$hasAmount|airJump|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
               "$hasAmount|jetpack|1 , $hasAmount|bombs|1",
-              "$hasAmount|airDash|1 , $hasAmount|bombs|1"
+              "$hasAmount|jetpack|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+              "$hasAmount|airDash|1 , $hasAmount|bombs|1",
+              "$hasAmount|airDash|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -339,9 +346,13 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|jetpack|1 , $hasAmount|bombs|1",
+              "$hasAmount|jetpack|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
               "$hasAmount|airDash|1 , $hasAmount|bombs|1",
+              "$hasAmount|airDash|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
               "$hasAmount|airJump|1 , $hasAmount|bombs|1",
-              "rabbitWallJump , $hasAmount|bombs|1"
+              "$hasAmount|airJump|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+              "$canRabbitWallJump , $hasAmount|bombs|1",
+              "$canRabbitWallJump , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -395,11 +406,11 @@
       "@Gloamwood to Blushwood,$hasAmount|airJump|1",
       "@Gloamwood to Blushwood,$hasAmount|airDash|1",
       "@Gloamwood to Blushwood,$hasAmount|jetpack|1",
-      "@Gloamwood to Blushwood,rabbitJump",
+      "@Gloamwood to Blushwood,$canRabbitJump",
       "@Gloamwood Middle,$hasAmount|airJump|1",
       "@Gloamwood Middle,$hasAmount|airDash|1",
       "@Gloamwood Middle,$hasAmount|jetpack|1",
-      "@Gloamwood Middle,rabbitJump"
+      "@Gloamwood Middle,$canRabbitJump"
     ],
     "children": [
       {
@@ -493,7 +504,8 @@
     "access_rules": [
       "@Gloamwood Right",
       "@Exit Logic/0901",
-      "@Ulskan To Plague Forest,$hasAmount|slide|1 , $hasAmount|bombs|1"
+      "@Ulskan To Plague Forest,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Ulskan To Plague Forest,$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -575,7 +587,8 @@
             "name": "Decay Antidote",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -595,7 +608,8 @@
             "name": "Dodge: Golden Luck",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $canChargeShot"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $canChargeShot",
+              "$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1 , $canChargeShot"
             ]
           }
         ],

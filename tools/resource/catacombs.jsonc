@@ -23,7 +23,11 @@
               "$hasAmount|bombs|1 , $hasAmount|airJump|1",
               "$hasAmount|bombs|1 , $hasAmount|airDash|1",
               "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
-              "$hasAmount|bombs|1 , $hasAmount|highJump|1"
+              "$hasAmount|bombs|1 , $hasAmount|highJump|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|airDash|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|highJump|1"
             ]
           }
         ],
@@ -85,7 +89,8 @@
             "name": "Dodge: Panic Switch",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -134,7 +139,8 @@
             "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|slide|1"
+              "$hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -185,7 +191,8 @@
             "name": "Double Drop",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -205,7 +212,8 @@
             "name": "Crystal Shrapnel",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -226,7 +234,9 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|slide|1",
-              "$hasAmount|bombs|1 , $canChargeShot"
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$hasAmount|bombs|1 , $canChargeShot",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $canChargeShot"
             ]
           }
         ],
@@ -289,7 +299,7 @@
       "@Lab Left,$hasAmount|bombs|1 , $hasAmount|airJump|1",
       "@Lab Left,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
       "@Lab Left,$hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
-      "@Lab Left,$hasAmount|bombs|1 , rabbitWallJump",
+      "@Lab Left,$hasAmount|bombs|1 , $canRabbitWallJump",
       "@Lab to Verdazure Swamp Connection,$hasAmount|bombRange|3 , $hasAmount|bombs|1"
     ],
     "children": [
@@ -322,7 +332,8 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -402,7 +413,8 @@
             "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -488,7 +500,8 @@
             "name": "C. Rank Frenzy: Focus A",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -528,7 +541,7 @@
       "@Lab Hub,$hasAmount|airJump|1 , $hasAmount|slide|1 , $hasAmount|bombs|1",
       "@Lab Hub,$hasAmount|airDash|1 , $hasAmount|wallJump|1 , $hasAmount|slide|1 , $hasAmount|bombs|1",
       "@Lab Hub,$hasAmount|jetpack|1 , $hasAmount|slide|1 , $hasAmount|bombs|1",
-      "@Lab Hub,rabbitWallJump , $hasAmount|slide|1 , $hasAmount|bombs|1"
+      "@Lab Hub,$canRabbitWallJump , $hasAmount|slide|1 , $hasAmount|bombs|1"
     ],
     "children": [
       {

@@ -33,7 +33,8 @@
             "name": "C. Rank Frenzy: Defend",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -53,7 +54,8 @@
             "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -73,7 +75,8 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -93,7 +96,8 @@
             "name": "Slick Boots",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -114,6 +118,7 @@
             "item_count": 1,
             "access_rules": [
               "$canChargeShot , $hasAmount|bombs|1",
+              "$canChargeShot , $canBombThrow",
               "$canChargeShot , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1",
               "$canChargeShot , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1",
               "$canChargeShot , $hasAmount|airJump|1 , $hasAmount|jetpack|1"
@@ -160,7 +165,8 @@
             "name": "Dodge Enhancer: Upper",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -212,6 +218,26 @@
             "force_invisibility_rules": [
               "$True"
             ]
+          }
+        ]
+      },
+      {
+        "name": "Plague Forest - Aplomb",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Aplomb",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|decayMask|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Plagued Forest",
+            "x": 648,
+            "y": 407
           }
         ]
       },
@@ -280,30 +306,11 @@
   {
     "name": "Plague Forest to Ulskan",
     "access_rules": [
-      "@Plague Forest,$hasAmount|bombs|1 , $hasAmount|slide|1",
+      "@Plague Forest,$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|decayMask|1",
+      "@Plague Forest,$canBombThrow , $hasAmount|slide|1 , $hasAmount|decayMask|1",
       "@Exit Logic/1004"
     ],
     "children": [
-      {
-        "name": "Plague Forest - Aplomb",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Aplomb",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "The Plagued Forest",
-            "x": 648,
-            "y": 408
-          }
-        ]
-      },
       {
         "name": "Plague Forest - Blood Armor",
         "access_rules": [],

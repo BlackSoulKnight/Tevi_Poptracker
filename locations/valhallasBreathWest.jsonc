@@ -6,6 +6,14 @@
       "@Valhalla Breath West,$hasAmount|bombs|1 , $hasAmount|airJump|1",
       "@Valhalla Breath West,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
       "@Valhalla Breath West,$hasAmount|bombs|1 , $hasAmount|airDash|1",
+      "@Valhalla Breath West,$canBombThrow , ceilingKick",
+      "@Valhalla Breath West,$canBombThrow , $hasAmount|airJump|1",
+      "@Valhalla Breath West,$canBombThrow , $hasAmount|jetpack|1",
+      "@Valhalla Breath West,$canBombThrow , $hasAmount|airDash|1",
+      "@Valhalla Breath West,HddenP , ceilingKick",
+      "@Valhalla Breath West,HddenP , $hasAmount|airJump|1",
+      "@Valhalla Breath West,HddenP , $hasAmount|jetpack|1",
+      "@Valhalla Breath West,HddenP , $hasAmount|airDash|1",
       "@Exit Logic/2105",
       "@Exit Logic/2100"
     ],
@@ -43,7 +51,7 @@
               "$canChargeShot",
               "$hasAmount|airDash|1",
               "$hasAmount|highJump|1",
-              "rabbitWallJump"
+              "$canRabbitWallJump"
             ]
           }
         ],
@@ -63,7 +71,7 @@
             "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
+              "$canBombThrow"
             ]
           }
         ],
@@ -124,15 +132,15 @@
     "name": "Valhalla Breath West",
     "access_rules": [
       "@Exit Logic/2101",
-      "@Heavens Valley West,$hasAmount|jetpack|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+      "@Heavens Valley West,$hasAmount|jetpack|1 , $canBombThrow",
       "@Heavens Valley West,$hasAmount|jetpack|1 , [hiddenPaths]",
-      "@Heavens Valley West,$hasAmount|airDash|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+      "@Heavens Valley West,$hasAmount|airDash|1 , $canBombThrow",
       "@Heavens Valley West,$hasAmount|airDash|1 , [hiddenPaths]",
-      "@Heavens Valley West,$hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+      "@Heavens Valley West,$hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $canBombThrow",
       "@Heavens Valley West,$hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1 , [hiddenPaths]",
-      "@Heavens Valley West,$hasAmount|airJump|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+      "@Heavens Valley West,$hasAmount|airJump|1 , $canBombThrow",
       "@Heavens Valley West,$hasAmount|airJump|1 , [hiddenPaths]",
-      "@Heavens Valley West,$canChargeShot , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+      "@Heavens Valley West,$canChargeShot , $canBombThrow",
       "@Heavens Valley West,$canChargeShot , [hiddenPaths]"
     ],
     "children": [
@@ -187,7 +195,8 @@
             "name": "Orbital Slash",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -207,7 +216,8 @@
             "name": "Quickstab: Flurry",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -247,7 +257,8 @@
             "name": "Combo Momentum: Fever",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],

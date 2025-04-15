@@ -3,7 +3,9 @@
     "name": "Ulvosa",
     "access_rules": [
       "@Ulvosa to Gloamwood,$hasAmount|bombs|1 , $canChargeShot , [hiddenPaths]",
-      "@Ulvosa to Gloamwood,$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1"
+      "@Ulvosa to Gloamwood,$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1",
+      "@Ulvosa to Gloamwood,$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $canChargeShot , [hiddenPaths]",
+      "@Ulvosa to Gloamwood,$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1"
     ],
     "children": [
       {
@@ -157,7 +159,8 @@
             "name": "Core Expansion: Vitalize",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -177,7 +180,8 @@
             "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -261,8 +265,11 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|orbS2|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2 , $hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$hasAmount|orbS2|1,$hasAmount|ranged|2,$hasAmount|sable|1 , $canChargeShot , sable , $hasAmount|ranged|2 , $hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|slide|1",
               "$hasAmount|burst|1 , $hasAmount|bombs|1 , $hasAmount|slide|1",
-              "$canUseVenaBomb , $hasAmount|bombs|1 , $hasAmount|slide|1"
+              "$hasAmount|burst|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$canUseVenaBomb , $hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$canUseVenaBomb , $hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|slide|1"
             ]
           }
         ],

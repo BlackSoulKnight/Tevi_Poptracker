@@ -4,8 +4,8 @@ Sable               = function(count) return Tracker:ProviderCountForCode("sable
 Celia               = function(count) return Tracker:ProviderCountForCode("celia")                     >= (count or 1) end
 Orbitars            = function(count) return Tracker:ProviderCountForCode("ranged")                    >= (count or 1) end
 CrossBomb           = function(count) return Tracker:ProviderCountForCode("bombs")                     >= (count or 1) end
-ClusterBomb         = function(count) return Tracker:ProviderCountForCode("bombThrow")                 >= (count or 1) and CrossBomb(1) end
-BombFuel            = function(count) return Tracker:ProviderCountForCode("bombFuel")                  >= (count or 1) and CrossBomb(1) end
+ClusterBomb         = function(count) return Tracker:ProviderCountForCode("bombThrow")                 >= (count or 1) end
+BombFuel            = function(count) return Tracker:ProviderCountForCode("bombFuel")                  >= (count or 1) end
 Combustible         = function(count) return Tracker:ProviderCountForCode("bombRange")                 >= (count or 1) and CrossBomb(1) end
 RunningBoots        = function(count) return Tracker:ProviderCountForCode("speed")                     >= (count or 1) end
 SlickBoots          = function(count) return Tracker:ProviderCountForCode("slide")                     >= (count or 1) end
@@ -226,9 +226,9 @@ function hasDark()
 end
 
 
-canBombThrow = function() return ClusterBomb(1) and CrossBomb(1) end
+canBombThrow = function() return ClusterBomb() end
 canAirSlide = function() return AiryPowder() and SlickBoots() end
-canBombFuel = function() return BombFuel() and CrossBomb() end
+canBombFuel = function() return BombFuel() and CrossBomb() or ClusterBomb() end
 canVortex = function() return VortexGloves() and Dagger() end
 canBombLengthExtend = function() return Combustible() and CrossBomb() end
 
@@ -268,7 +268,7 @@ canUpgradeItems = function() return (not RandomItemUpgrade() or hasAllMovement()
 
 canUpgradeOrbType = function() return hasAllMovement() and CrossBomb() end
 
-canUpgradeCore = function() return hasAllMovement() and CrossBomb() and bombThrow() and Combustible() end
+canUpgradeCore = function() return hasAllMovement() and CrossBomb() and canBombThrow() and Combustible() end
 
 hasAllMovement = function() return RabiBoots() and DoubleRabiBoots() and ParkourBoots() and SlickBoots() and Hydrodynamo() and SlipstreamBoots() and Jetpack() end
 

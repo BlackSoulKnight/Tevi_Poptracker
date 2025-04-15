@@ -3,7 +3,8 @@
     "name": "Snow City",
     "access_rules": [
       "@Exit Logic/1604",
-      "@Snowveil Above HQ,$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+      "@Snowveil Above HQ,$hasAmount|bombs|1",
+      "@Snowveil Above HQ,$hasAmount|bombThrow|1,$hasAmount|bombs|1",
       "@Golden Hands HQ Sewer",
       "@Golden Hands HQ Extra"
     ],
@@ -16,7 +17,8 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -36,7 +38,8 @@
             "name": "Slash Quartet",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -213,7 +216,8 @@
             "name": "Thick Pillar",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|slide|1"
+              "$hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -256,7 +260,8 @@
             "name": "EVENT_SnowMechanic",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|slide|1"
+              "$hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -287,7 +292,8 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , ^$EVENT_HQSwitch1"
+              "$hasAmount|bombs|1 , ^$EVENT_HQSwitch1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , ^$EVENT_HQSwitch1"
             ]
           }
         ],
@@ -327,7 +333,8 @@
             "name": "Headbutt",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|slide|1 , ^$EVENT_HQSwitch1"
+              "$hasAmount|bombs|1 , $hasAmount|slide|1 , ^$EVENT_HQSwitch1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|slide|1 , ^$EVENT_HQSwitch1"
             ]
           }
         ],
@@ -387,7 +394,8 @@
             "name": "EVENT_HQSwitch1",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $canChargeShot , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $canChargeShot , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canChargeShot , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -418,7 +426,8 @@
             "name": "Dodge Enhancer: Spanner",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -437,7 +446,8 @@
     "access_rules": [
       "@Snow City,$hasAmount|slide|1",
       "@Snow City,$canChargeShot",
-      "@Golden Hands HQ,$hasAmount|bombs|1 , $canChargeShot"
+      "@Golden Hands HQ,$hasAmount|bombs|1 , $canChargeShot",
+      "@Golden Hands HQ,$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $canChargeShot"
     ],
     "children": [
       {
@@ -491,7 +501,8 @@
               "$hasAmount|wallJump|1",
               "$hasAmount|airJump|1",
               "$hasAmount|jetpack|1",
-              "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1"
+              "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1"
             ]
           }
         ],
@@ -514,7 +525,8 @@
               "$hasAmount|wallJump|1",
               "$hasAmount|airJump|1",
               "$hasAmount|jetpack|1",
-              "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1"
+              "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1"
             ]
           }
         ],
@@ -537,7 +549,8 @@
               "$hasAmount|wallJump|1",
               "$hasAmount|airJump|1",
               "$hasAmount|jetpack|1",
-              "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1"
+              "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1"
             ]
           }
         ],

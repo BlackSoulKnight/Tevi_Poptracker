@@ -3,7 +3,8 @@
     "name": "Ana Thema",
     "access_rules": [
       "@Exit Logic/0805",
-      "@Ana Thema to Gallery,$hasAmount|slide|1 , $hasAmount|bombs|1"
+      "@Ana Thema to Gallery,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Ana Thema to Gallery,$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -37,9 +38,13 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
               "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|bombs|1",
-              "$hasAmount|slide|1 , rabbitJump , $hasAmount|bombs|1",
-              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canRabbitJump , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canRabbitJump , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -123,7 +128,8 @@
             "name": "Deft A",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -166,7 +172,8 @@
             "name": "Terrestrial Agility",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -381,6 +388,7 @@
     "name": "Ana Thema to Gallery",
     "access_rules": [
       "@Ana Thema,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Ana Thema,$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
       "@Exit Logic/0806"
     ],
     "children": [
@@ -392,7 +400,8 @@
             "name": "C. Rank Frenzy: Starter",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],

@@ -131,8 +131,8 @@
             "name": "EVENT_EliteChallangeB",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
-              "$hasAmount|slide|1",
+              "$hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$canBombThrow , $hasAmount|slide|1",
               "$hasAmount|bombs|1 , [hiddenPaths]"
             ]
           }
@@ -156,7 +156,8 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -176,7 +177,8 @@
             "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -267,7 +269,8 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -305,6 +308,7 @@
     "name": "Gurun Desert",
     "access_rules": [
       "@Thanatara Canyon Lower,$hasAmount|bombs|1",
+      "@Thanatara Canyon Lower,$canBombThrow",
       "@Thanatara Canyon Lower,openMorose",
       "@Exit Logic/0102"
     ],

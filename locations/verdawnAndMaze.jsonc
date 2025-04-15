@@ -38,7 +38,8 @@
             "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -78,7 +79,8 @@
             "name": "Special Action: Olive Branch",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot , $hasAmount|bombs|1"
+              "$canChargeShot , $hasAmount|bombs|1",
+              "$canChargeShot , $canBombThrow"
             ]
           }
         ],
@@ -192,7 +194,8 @@
             "name": "Titanium Spanner",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -229,7 +232,8 @@
   {
     "name": "Forest Maze boss",
     "access_rules": [
-      "@Forest Maze,$hasAmount|bombs|1"
+      "@Forest Maze,$hasAmount|bombs|1",
+      "@Forest Maze,$canBombThrow"
     ],
     "children": [
       {

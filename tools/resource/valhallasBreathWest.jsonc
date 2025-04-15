@@ -6,6 +6,14 @@
       "@Valhalla Breath West,$hasAmount|bombs|1 , $hasAmount|airJump|1",
       "@Valhalla Breath West,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
       "@Valhalla Breath West,$hasAmount|bombs|1 , $hasAmount|airDash|1",
+      "@Valhalla Breath West,$hasAmount|bombThrow|1,$hasAmount|bombs|1 , ceilingKick",
+      "@Valhalla Breath West,$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|airJump|1",
+      "@Valhalla Breath West,$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+      "@Valhalla Breath West,$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|airDash|1",
+      "@Valhalla Breath West,HddenP , ceilingKick",
+      "@Valhalla Breath West,HddenP , $hasAmount|airJump|1",
+      "@Valhalla Breath West,HddenP , $hasAmount|jetpack|1",
+      "@Valhalla Breath West,HddenP , $hasAmount|airDash|1",
       "@Exit Logic/2105",
       "@Exit Logic/2100"
     ],
@@ -43,7 +51,7 @@
               "$canChargeShot",
               "$hasAmount|airDash|1",
               "$hasAmount|highJump|1",
-              "rabbitWallJump"
+              "$canRabbitWallJump"
             ]
           }
         ],
@@ -187,7 +195,8 @@
             "name": "Orbital Slash",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -207,7 +216,8 @@
             "name": "Quickstab: Flurry",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -247,7 +257,8 @@
             "name": "Combo Momentum: Fever",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],

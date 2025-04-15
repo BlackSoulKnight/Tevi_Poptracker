@@ -5,6 +5,7 @@
       "@Exit Logic/0603",
       "@Exit Logic/0600",
       "@Travoll Industrie to CopperWood,$hasAmount|bombs|1",
+      "@Travoll Industrie to CopperWood,$hasAmount|bombThrow|1,$hasAmount|bombs|1",
       "@Travoll Industrie to CopperWood,$hasAmount|slide|1"
     ],
     "children": [
@@ -59,7 +60,8 @@
             "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -139,6 +141,7 @@
     "name": "Travoll Industrie to CopperWood",
     "access_rules": [
       "@Travoll Industrie,$hasAmount|bombs|1",
+      "@Travoll Industrie,$hasAmount|bombThrow|1,$hasAmount|bombs|1",
       "@Travoll Industrie,$hasAmount|slide|1",
       "@Exit Logic/0605"
     ],

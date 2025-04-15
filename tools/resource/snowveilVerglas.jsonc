@@ -34,6 +34,7 @@
       "@Snowveil Entrance,$hasAmount|airDash|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|2 , $hasAmount|highJump|1 , [$False]",
       "@Snowveil Entrance,$hasAmount|airDash|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|3 , [$False]",
       "@Snowveil Entrance,$hasAmount|bombs|1",
+      "@Snowveil Entrance,$hasAmount|bombThrow|1,$hasAmount|bombs|1",
       "@Exit Logic/1204",
       "@Snowveil Ex"
     ],
@@ -107,9 +108,13 @@
     "name": "Snowveil Ex",
     "access_rules": [
       "@Snowveil,$canChargeShot , $hasAmount|bombs|1",
+      "@Snowveil,$canChargeShot , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
       "@Snowveil,$hasAmount|airJump|1 , $hasAmount|bombs|1",
+      "@Snowveil,$hasAmount|airJump|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
       "@Snowveil,$hasAmount|jetpack|1 , $hasAmount|bombs|1",
-      "@Snowveil above Verglas Village,$hasAmount|bombs|1"
+      "@Snowveil,$hasAmount|jetpack|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
+      "@Snowveil above Verglas Village,$hasAmount|bombs|1",
+      "@Snowveil above Verglas Village,$hasAmount|bombThrow|1,$hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -285,8 +290,13 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|jetpack|2 , $hasAmount|airJump|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|jetpack|2 , $hasAmount|airJump|1",
               "$hasAmount|bombs|1 , $hasAmount|jetpack|3",
-              "$hasAmount|bombs|1 , $hasAmount|jetpack|2 , $hasAmount|highJump|1 , $hasAmount|dagger|1,[$False]"
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|jetpack|3",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|2 , $hasAmount|highJump|1 , $hasAmount|dagger|1,[$False]",
+              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|jetpack|2 , $hasAmount|highJump|1 , $hasAmount|dagger|1,[$False]"
             ]
           }
         ],

@@ -1,9 +1,10 @@
 [
   {
-    "name": "Thanatara Canyon - Heavens Valley West",
+    "name": "Thanatara Canyon to Heavens Valley West",
     "clear_as_group": false,
     "access_rules": [
       "@Thanatara Canyon,$hasAmount|bombs|1",
+      "@Thanatara Canyon,$hasAmount|bombThrow|1,$hasAmount|bombs|1",
       "@Exit Logic/0105"
     ],
     "children": []
@@ -13,6 +14,7 @@
     "clear_as_group": false,
     "access_rules": [
       "@Travoll Mines to Morose City,$hasAmount|bombs|1",
+      "@Travoll Mines to Morose City,$hasAmount|bombThrow|1,$hasAmount|bombs|1",
       "@Exit Logic/0507"
     ],
     "children": []
@@ -22,7 +24,8 @@
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0900",
-      "@Gloamwood Middle,$hasAmount|bombs|1"
+      "@Gloamwood Middle,$hasAmount|bombs|1",
+      "@Gloamwood Middle,$hasAmount|bombThrow|1,$hasAmount|bombs|1"
     ],
     "children": []
   },
@@ -31,7 +34,8 @@
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/0906",
-      "@Gloamwood Middle,$hasAmount|bombs|1"
+      "@Gloamwood Middle,$hasAmount|bombs|1",
+      "@Gloamwood Middle,$hasAmount|bombThrow|1,$hasAmount|bombs|1"
     ],
     "children": []
   },
@@ -76,7 +80,9 @@
     "access_rules": [
       "@Exit Logic/1403",
       "@Forgotten City,$hasAmount|bombs|1 , $hasAmount|slide|1",
-      "@Forgotten City,$hasAmount|bombs|1 , $hasAmount|water|1"
+      "@Forgotten City,$hasAmount|bombs|1 , $hasAmount|water|1",
+      "@Forgotten City,$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|slide|1",
+      "@Forgotten City,$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|water|1"
     ],
     "children": []
   },
@@ -86,6 +92,7 @@
     "access_rules": [
       "@Tartarus,$hasAmount|slide|1",
       "@Tartarus,$hasAmount|bombs|1",
+      "@Tartarus,$hasAmount|bombThrow|1,$hasAmount|bombs|1",
       "@Exit Logic/1503"
     ],
     "children": []
@@ -94,7 +101,7 @@
     "name": "Magma Pits Entrance",
     "clear_as_group": false,
     "access_rules": [
-      "@Exit Logic/1700,$hasAmount|bombs|1",
+      "@Exit Logic/1700",
       "@Swamp Entrance,$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1"
     ],
     "children": []
@@ -136,6 +143,7 @@
     "clear_as_group": false,
     "access_rules": [
       "@DreamKeeper Outside Left,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@DreamKeeper Outside Left,$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
       "@Exit Logic/1805"
     ],
     "children": []
@@ -145,6 +153,7 @@
     "clear_as_group": false,
     "access_rules": [
       "@Heavens Valley Snow Route Middle,$hasAmount|bombs|1 , $hasAmount|slide|1",
+      "@Heavens Valley Snow Route Middle,$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|slide|1",
       "@Exit Logic/1900"
     ],
     "children": []
@@ -154,7 +163,8 @@
     "clear_as_group": false,
     "access_rules": [
       "@Relicts,$hasAmount|bombs|1",
-      "@Exit Logic/2406,$hasAmount|bombs|1"
+      "@Relicts,$hasAmount|bombThrow|1,$hasAmount|bombs|1",
+      "@Exit Logic/2406"
     ],
     "children": []
   },
@@ -163,7 +173,8 @@
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/2503",
-      "@Catacombs Main,$hasAmount|bombs|1"
+      "@Catacombs Main,$hasAmount|bombs|1",
+      "@Catacombs Main,$hasAmount|bombThrow|1,$hasAmount|bombs|1"
     ],
     "children": []
   },
@@ -175,7 +186,7 @@
       "@Lab Hub,$hasAmount|airJump|1",
       "@Lab Hub,$hasAmount|airDash|1 , $hasAmount|wallJump|1",
       "@Lab Hub,$hasAmount|jetpack|1",
-      "@Lab Hub,rabbitWallJump"
+      "@Lab Hub,$canRabbitWallJump"
     ],
     "children": []
   },
@@ -195,14 +206,55 @@
       "@Lab,$hasAmount|bombRange|3 , $hasAmount|bombs|1",
       "@Exit Logic/2510"
     ],
-    "children": []
-
+    "children": [
+      {
+        "name": "Lab to Verdazure Swamp Connection - Alterscope",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Alterscope",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Catacombs + Omphalos Laboratory",
+            "x": 1320,
+            "y": 362
+          }
+        ]
+      },
+      {
+        "name": "Lab to Verdazure Swamp Connection - MP Quicken: Battlescars",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "MP Quicken: Battlescars",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Catacombs + Omphalos Laboratory",
+            "x": 1368,
+            "y": 362
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Gallery of Souls to Sea",
     "clear_as_group": false,
     "access_rules": [
       "@Gallery of Souls Boss Area,$hasAmount|bombs|1",
+      "@Gallery of Souls Boss Area,$hasAmount|bombThrow|1,$hasAmount|bombs|1",
       "@Exit Logic/2707"
     ],
     "children": []
@@ -227,6 +279,11 @@
       "@EverGarden,$hasAmount|bombs|1 , $hasAmount|airDash|1",
       "@EverGarden,$hasAmount|bombs|1 , $hasAmount|airJump|1",
       "@EverGarden,$hasAmount|bombs|1 , $hasAmount|speed|3",
+      "@EverGarden,$hasAmount|bombThrow|1,$hasAmount|bombs|1 , [hiddenPaths]",
+      "@EverGarden,$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+      "@EverGarden,$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|airDash|1",
+      "@EverGarden,$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|airJump|1",
+      "@EverGarden,$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|speed|3",
       "@Exit Logic/2902"
     ],
     "children": []

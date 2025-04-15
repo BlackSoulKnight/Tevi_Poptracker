@@ -4,7 +4,8 @@
     "access_rules": [
       "@Exit Logic/1901",
       "@Heavens Valley Snow Route Middle,$hasAmount|slide|1",
-      "@Heavens Valley Snow Route Middle,$hasAmount|bombs|1"
+      "@Heavens Valley Snow Route Middle,$hasAmount|bombs|1",
+      "@Heavens Valley Snow Route Middle,$canBombThrow"
     ],
     "children": [
       {
@@ -15,6 +16,7 @@
             "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
+              "$canBombThrow",
               "$hasAmount|slide|1 , $hasAmount|bombs|1"
             ]
           }
@@ -83,6 +85,7 @@
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|1",
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$hasAmount|slide|1 , $canBombThrow",
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , [$False]"
             ]
           }
@@ -134,7 +137,7 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1",
-              "$hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1"
+              "$canBombThrow"
             ]
           }
         ],
@@ -174,7 +177,8 @@
             "name": "EVENT_SnowMechanic",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],

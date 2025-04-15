@@ -3,7 +3,8 @@
     "name": "Relicts",
     "access_rules": [
       "@Exit Logic/2404",
-      "@Relicts to Gloamwood,$hasAmount|bombs|1"
+      "@Relicts to Gloamwood,$hasAmount|bombs|1",
+      "@Relicts to Gloamwood,$canBombThrow"
     ],
     "children": [
       {
@@ -14,7 +15,8 @@
             "name": "MP Quicken: Accelerate",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -34,7 +36,8 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -164,7 +167,8 @@
             "name": "MP Surge: Soul",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],

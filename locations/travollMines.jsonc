@@ -2,11 +2,14 @@
   {
     "name": "Travoll Mines",
     "access_rules": [
-      "@Travoll Mines to Morose City,$hasAmount|bombs|1 , $hasAmount|bombFuel|1,$hasAmount|bombs|1",
-      "@Travoll Mines to Thanatara Canyon,$hasAmount|bombs|1 , $hasAmount|bombFuel|1,$hasAmount|bombs|1",
+      "@Travoll Mines to Morose City,$hasAmount|bombs|1 , $canBombFuel",
+      "@Travoll Mines to Morose City,$canBombThrow , $canBombFuel",
+      "@Travoll Mines to Thanatara Canyon,$hasAmount|bombs|1 , $canBombFuel",
       "@Exit Logic/0500",
       "@Travoll Mines to Forest,$hasAmount|bombs|1 , $hasAmount|dagger|1",
       "@Travoll Mines to Forest,$hasAmount|bombs|1 , ^$EVENT_FreeStrongAttack",
+      "@Travoll Mines to Forest,$canBombThrow , $hasAmount|dagger|1",
+      "@Travoll Mines to Forest,$canBombThrow , ^$EVENT_FreeStrongAttack",
       "@Travoll Mines to Swamp"
     ],
     "children": [
@@ -18,7 +21,8 @@
             "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -61,7 +65,7 @@
             "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot , $hasAmount|bombFuel|1,$hasAmount|bombs|1"
+              "$canChargeShot , $canBombFuel"
             ]
           }
         ],
@@ -81,7 +85,7 @@
             "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot , $hasAmount|bombFuel|1,$hasAmount|bombs|1"
+              "$canChargeShot , $canBombFuel"
             ]
           }
         ],
@@ -104,7 +108,8 @@
             "name": "Aerial Accel",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -125,6 +130,7 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1",
+              "$canBombThrow",
               "ceilingKick"
             ]
           }
@@ -145,7 +151,7 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1 , $hasAmount|bombs|1 , $hasAmount|bombFuel|1,$hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $canBombThrow , $canBombFuel"
             ]
           }
         ],
@@ -165,7 +171,8 @@
             "name": "Kiwi Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
@@ -182,7 +189,7 @@
   {
     "name": "Travoll Mines to Swamp",
     "access_rules": [
-      "@Travoll Mines,$hasAmount|slide|1 , $hasAmount|bombFuel|1,$hasAmount|bombs|1",
+      "@Travoll Mines,$hasAmount|slide|1 , $canBombFuel",
       "@Exit Logic/0503"
     ],
     "children": [
@@ -224,7 +231,8 @@
             "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -242,6 +250,7 @@
     "name": "Travoll Mines to Forest",
     "access_rules": [
       "@Travoll Mines,$hasAmount|bombs|1",
+      "@Travoll Mines,$canBombThrow",
       "@Exit Logic/0509"
     ],
     "children": [

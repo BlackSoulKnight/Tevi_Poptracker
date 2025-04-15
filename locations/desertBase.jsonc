@@ -33,7 +33,8 @@
             "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -97,7 +98,9 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1",
-              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|1",
+              "$hasAmount|slide|1 , $canBombThrow , $hasAmount|airJump|1",
+              "$hasAmount|slide|1 , $canBombThrow , $hasAmount|jetpack|1"
             ]
           }
         ],
@@ -120,10 +123,11 @@
       "@Desert Base Entrance,$hasAmount|jetpack|1",
       "@Desert Base Entrance,$hasAmount|airJump|1",
       "@Desert Base Entrance,$hasAmount|highJump|1",
-      "@Desert Base Entrance,$hasAmount|bombs|1 , $hasAmount|bombThrow|1,$hasAmount|bombs|1",
-      "@Desert Base Entrance,rabbitJump",
-      "@Desert Base Entrance,backflip , $hasAmount|speed|1",
-      "@Desert Base Entrance,backflip , [$False]",
+      "@Desert Base Entrance,$hasAmount|bombs|1",
+      "@Desert Base Entrance,$canBombThrow",
+      "@Desert Base Entrance,$canRabbitJump",
+      "@Desert Base Entrance,$canBackflip , $hasAmount|speed|1",
+      "@Desert Base Entrance,$canBackflip , [$False]",
       "@Desert Base Upper Half"
     ],
     "children": [
@@ -175,7 +179,8 @@
             "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -215,10 +220,14 @@
       "@Desert Base Main,$hasAmount|highJump|1 , $hasAmount|airJump|1 , $hasAmount|wallJump|1",
       "@Desert Base Main,$hasAmount|jetpack|1 , $hasAmount|wallJump|1",
       "@Desert Base Main,$hasAmount|airJump|1 , $hasAmount|wallJump|2",
-      "@Desert Base Entrance,backflip , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1",
+      "@Desert Base Entrance,$canBackflip , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1",
+      "@Desert Base Entrance,$canBackflip , $hasAmount|slide|1 , $canBombThrow , $hasAmount|dagger|1",
       "@Desert Base Entrance,$hasAmount|airJump|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1",
+      "@Desert Base Entrance,$hasAmount|airJump|1 , $hasAmount|slide|1 , $canBombThrow , $hasAmount|dagger|1",
       "@Desert Base Entrance,$hasAmount|jetpack|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1",
-      "@Desert Base Entrance,$hasAmount|airDash|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1"
+      "@Desert Base Entrance,$hasAmount|jetpack|1 , $hasAmount|slide|1 , $canBombThrow , $hasAmount|dagger|1",
+      "@Desert Base Entrance,$hasAmount|airDash|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1",
+      "@Desert Base Entrance,$hasAmount|airDash|1 , $hasAmount|slide|1 , $canBombThrow , $hasAmount|dagger|1"
     ],
     "children": [
       {
@@ -309,7 +318,8 @@
             "name": "Gilded Left Hand",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -349,7 +359,8 @@
             "name": "Under Score",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
