@@ -120,6 +120,8 @@ for v in PoptrackerList:
         ve["access_rules"] = []
 
 extra = open(Path+"\\APlocationFile.txt",'w+')
+utTracker = open(Path+"\\UT_Tracker_Mapping.txt",'w+')
+
 baseID = 44966541000
 
 
@@ -216,7 +218,10 @@ for val in RandomizerLocationList:
         PoptrackerList[regionsIds[val["Location"]]]["children"].append(locTemplate)
     
     extra.write(f"[{baseID}] ="+"{{"+f'"@{val["Location"]}/{itemName}/{locName}"'+"}},\n")
+    utTracker.write(f'"{itemName}/{locName}":{baseID}\n')
     baseID += 1
+
+utTracker.close()
 extra.close()
 for k,v in RandomizerAreaList.items():
     for area in v:
