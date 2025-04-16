@@ -1,213 +1,183 @@
 [
-  {
-    "name": "Ana Thema",
-    "location_size": 24,
-    "location_border_thickness": 4,
-    "img": "images/maps/anaThema.jpg"
-  },
-
-  {
-    "name": "Blushwood",
-    "location_size": 24,
-    "location_border_thickness": 4,
-    "img": "images/maps/blushwood.jpg"
-  },
-  
-  {
-    "name": "Thanatara Canyon + Gurun Desert",
-    "location_size": 24,
-    "location_border_thickness": 4,
-    "img": "images/maps/canyon_desert.jpg"
-  },
-  
-  {
-    "name": "The Catacombs + Omphalos Laboratory",
-    "location_size": 24,
-    "location_border_thickness": 4,
-    "img": "images/maps/catacombs_laboratory.jpg"
-  },
-
-  {
-    "name": "Copperwood",
-    "location_size": 24,
-    "location_border_thickness": 4,
-    "img": "images/maps/copperwood.jpg"
-  },
-  
-  {
-    "name": "Verdawn Forest + Misty Maze",
-    "location_size": 24,
-    "location_border_thickness": 4,
-    "img": "images/maps/forest_maze.jpg"
-  },
-  
-  {
-    "name": "Evernight Garden",
-    "location_size": 24,
-    "location_border_thickness": 4,
-    "img": "images/maps/garden.jpg"
-  },
-  
-  {
-    "name": "Gloamwood",
-    "location_size": 24,
-    "location_border_thickness": 4,
-    "img": "images/maps/gloamwood.jpg"
-  },
-  
-  {
-    "name": "Travoll Industrial Park",
-    "location_size": 24,
-    "location_border_thickness": 4,
-    "img": "images/maps/industrialPark.jpg"
-  },
-  
-  {
-    "name": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-    "location_size": 24,
-    "location_border_thickness": 4,
-    "img": "images/maps/magma_swamplands.jpg"
-  },
-  
-  {
-    "name": "Travoll Mines",
-    "location_size": 24,
-    "location_border_thickness": 4,
-    "img": "images/maps/mines.jpg"
-  },
-  
-  {
-    "name": "Gallery of Mirrors + Gallery of Souls",
-    "location_size": 24,
-    "location_border_thickness": 4,
-    "img": "images/maps/mirrors_souls.jpg"
-  },
-  
-  {
-    "name": "Morose",
-    "location_size": 24,
-    "location_border_thickness": 4,
-    "img": "images/maps/morose.jpg"
-  },
-  
-  {
-    "name": "Oasis",
-    "location_size": 24,
-    "location_border_thickness": 4,
-    "img": "images/maps/oasis.jpg"
-  },
-  
-  {
-    "name": "Sinner's Oath + Phantasmic Palace",
-    "location_size": 24,
-    "location_border_thickness": 4,
-    "img": "images/maps/oath_palace.jpg"
-  },
-  
-  {
-    "name": "The Plagued Forest",
-    "location_size": 24,
-    "location_border_thickness": 4,
-    "img": "images/maps/plaguedForest.jpg"
-  },
-  
-  {
-    "name": "Cloister of Redemption",
-    "location_size": 24,
-    "location_border_thickness": 4,
-    "img": "images/maps/redemption.jpg"
-  },
-  
-  {
-    "name": "The Relicts",
-    "location_size": 24,
-    "location_border_thickness": 4,
-    "img": "images/maps/relicts.jpg"
-  },
-  
-  {
-    "name": "The Solennian Ruins",
-    "location_size": 24,
-    "location_border_thickness": 4,
-    "img": "images/maps/ruins.jpg"
-  },
-  
-  {
-    "name": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-    "location_size": 24,
-    "location_border_thickness": 4,
-    "img": "images/maps/sea(East)_city_swamplands_snow.jpg"
-  },
-  
-  {
-    "name": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
-    "location_size": 24,
-    "location_border_thickness": 4,
-    "img": "images/maps/sea(West)_moat_beach.jpg"
-  },
-  
+    
   {
     "name": "The Sewerways + Golden Hands Desert Base",
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/sewerways_desertBase.jpg"
   },
-
   {
-    "name": "Snowveil + Dreamer's Keep",
+    "name": "Thanatara Canyon + Gurun Desert",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/snowveil_keep.jpg"
+    "img": "images/maps/canyon_desert.jpg"
   },
- 
   {
-    "name": "Snowveil + Verglas Village",
+    "name": "Oasis",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/snowveil_verglas.jpg"
+    "img": "images/maps/oasis.jpg"
   },
-
   {
-    "name": "Snowveilian Valley + Desert Hands HQ",
+    "name": "Morose",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/snowveilValley_handsHQ.jpg"
+    "img": "images/maps/morose.jpg"
   },
-    
   {
-    "name": "Tartarus",
+    "name": "Verdawn Forest + Misty Maze",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/tartarus.jpg"
+    "img": "images/maps/forest_maze.jpg"
   },
-    
+  {
+    "name": "Travoll Mines",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/mines.jpg"
+  },
+  {
+    "name": "Travoll Industrial Park",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/industrialPark.jpg"
+  },
+  {
+    "name": "Copperwood",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/copperwood.jpg"
+  },
+  {
+    "name": "Ana Thema",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/anaThema.jpg"
+  },
+  {
+    "name": "Gloamwood",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/gloamwood.jpg"
+  },
+  {
+    "name": "The Plagued Forest",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/plaguedForest.jpg"
+  },
   {
     "name": "Ulvosa",
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/Ulvosa.jpg"
   },
-    
   {
-    "name": "Valhalla",
+    "name": "Snowveil + Verglas Village",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/valhalla.jpg"
+    "img": "images/maps/snowveil_verglas.jpg"
   },
-    
+  {
+    "name": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/sea(West)_moat_beach.jpg"
+  },
+  {
+    "name": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/sea(East)_city_swamplands_snow.jpg"
+  },
+  {
+    "name": "Tartarus",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/tartarus.jpg"
+  },
+  {
+    "name": "Snowveilian Valley + Desert Hands HQ",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/snowveilValley_handsHQ.jpg"
+  },
+  {
+    "name": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/magma_swamplands.jpg"
+  },
+  {
+    "name": "Snowveil + Dreamer's Keep",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/snowveil_keep.jpg"
+  },
   {
     "name": "Heaven's Valley (East) + Valhalla's Breath (East)",
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/valley_breath(East).jpg"
   },
-    
+  {
+    "name": "Valhalla",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/valhalla.jpg"
+  },
   {
     "name": "Heaven's Valley (West) + Valhalla's Breath (West)",
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/valley_breath(West).jpg"
+  },
+  {
+    "name": "The Solennian Ruins",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/ruins.jpg"
+  },
+  {
+    "name": "Sinner's Oath + Phantasmic Palace",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/oath_palace.jpg"
+  },
+  {
+    "name": "The Relicts",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/relicts.jpg"
+  },
+  {
+    "name": "The Catacombs + Omphalos Laboratory",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/catacombs_laboratory.jpg"
+  },
+  {
+    "name": "Cloister of Redemption",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/redemption.jpg"
+  },
+  {
+    "name": "Gallery of Mirrors + Gallery of Souls",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/mirrors_souls.jpg"
+  },
+  {
+    "name": "Blushwood",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/blushwood.jpg"
+  },
+  {
+    "name": "Evernight Garden",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/garden.jpg"
   }
-
-
 ]
