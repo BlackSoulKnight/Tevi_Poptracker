@@ -169,13 +169,7 @@
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
-              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|3",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|highJump|1",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|jetpack|3"
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|3"
             ]
           }
         ],
@@ -200,13 +194,7 @@
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
-              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|3",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|highJump|1",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|jetpack|3"
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|3"
             ]
           }
         ],

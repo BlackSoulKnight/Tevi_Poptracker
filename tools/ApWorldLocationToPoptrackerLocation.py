@@ -88,7 +88,7 @@ def setMapName(area):
         name = "The Relicts"
     elif "Solennian Ruins" in area:
         name= "The Solennian Ruins"
-    elif "Sea" in area:
+    elif "Sea" in area or "Outer Moat" in area:
         name = "Verdazure Sea (West) + Outer Moat + Solanda Beach"
     elif "Desert Base" in area:
         name = "The Sewerways + Golden Hands Desert Base"
@@ -135,7 +135,6 @@ for val in RandomizerLocationList:
         regionsIds[val["Location"]] = currentRegionId
         currentRegionId +=1
         PoptrackerList.append(regionTemplate)
-
     itemName = val["LocationName"]
 
     locTemplate = {

@@ -1314,10 +1314,10 @@
       "@Valhalla Breath West,$canBombThrow , $hasAmount|airJump|1",
       "@Valhalla Breath West,$canBombThrow , $hasAmount|jetpack|1",
       "@Valhalla Breath West,$canBombThrow , $hasAmount|airDash|1",
-      "@Valhalla Breath West,HddenP , ceilingKick",
-      "@Valhalla Breath West,HddenP , $hasAmount|airJump|1",
-      "@Valhalla Breath West,HddenP , $hasAmount|jetpack|1",
-      "@Valhalla Breath West,HddenP , $hasAmount|airDash|1",
+      "@Valhalla Breath West,[hiddenPaths] , ceilingKick",
+      "@Valhalla Breath West,[hiddenPaths] , $hasAmount|airJump|1",
+      "@Valhalla Breath West,[hiddenPaths] , $hasAmount|jetpack|1",
+      "@Valhalla Breath West,[hiddenPaths] , $hasAmount|airDash|1",
       "@Exit Logic/2105",
       "@Exit Logic/2100"
     ],
@@ -4367,13 +4367,7 @@
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
-              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|3",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|highJump|1",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|jetpack|3"
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|3"
             ]
           }
         ],
@@ -4398,13 +4392,7 @@
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
-              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|3",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|highJump|1",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
-              "^$EVENT_Memine2 , $canBombThrow , $hasAmount|jetpack|3"
+              "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|3"
             ]
           }
         ],
@@ -6631,15 +6619,19 @@
     ]
   },
   {
-    "name": "Verdazure Sea West",
+    "name": "Outer Moat",
     "access_rules": [
+      "@Verdazure Sea West,$hasAmount|wallJump|1",
+      "@Verdazure Sea West,$hasAmount|airJump|1",
+      "@Verdazure Sea West,$hasAmount|jetpack|1",
+      "@Verdazure Sea West,$hasAmount|airDash|1",
+      "@Verdazure Sea West,[$canUseFastItem]",
+      "@Verdazure Sea West,$hasAmount|dagger|1,[$False]",
       "@Exit Logic/1307,$hasAmount|airJump|1",
       "@Exit Logic/1307,$hasAmount|jetpack|1",
       "@Exit Logic/1307,$hasAmount|airDash|1,[$False]",
-      "@Verdazure Sea East,$hasAmount|water|1",
       "@Verdazure Sea to Forest,$hasAmount|bombs|1",
-      "@Verdazure Sea to Forest,$canBombThrow",
-      "@Verdazure Sea to Forest,$hasAmount|water|1"
+      "@Verdazure Sea to Forest,$canBombThrow"
     ],
     "children": [
       {
@@ -6659,29 +6651,6 @@
             "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
             "x": 839,
             "y": 120
-          }
-        ]
-      },
-      {
-        "name": "Verdazure Sea - Water West",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "EVENT_Water",
-            "item_count": 1,
-            "access_rules": [
-              "$True"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
-            "x": 0,
-            "y": 0,
-            "force_invisibility_rules": [
-              "$True"
-            ]
           }
         ]
       },
@@ -6707,6 +6676,60 @@
         ]
       },
       {
+        "name": "Verdazure Sea - Invictus",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Invictus",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
+            "x": 599,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Verdazure Sea West",
+    "access_rules": [
+      "@Outer Moat",
+      "@Verdazure Sea East,$hasAmount|water|1",
+      "@Verdazure Sea to Forest,$hasAmount|water|1"
+    ],
+    "children": [
+      {
+        "name": "Verdazure Sea - Water West",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EVENT_Water",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
+            "x": 0,
+            "y": 0,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
         "name": "Verdazure Sea - Blueberry Bunny Potion",
         "access_rules": [],
         "sections": [
@@ -6727,27 +6750,6 @@
         ]
       },
       {
-        "name": "Verdazure Sea - Invictus",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Invictus",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
-            "x": 599,
-            "y": 120
-          }
-        ]
-      },
-      {
         "name": "Verdazure Sea to Forgotton City - Grape Bunny Potion",
         "access_rules": [],
         "sections": [
@@ -6755,7 +6757,7 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , ITEM_WATERMOVENT"
+              "$hasAmount|bombs|1 , $hasAmount|water|1"
             ]
           }
         ],
@@ -13274,6 +13276,8 @@
     "clear_as_group": false,
     "access_rules": [
       "@Verdazure Sea West",
+      "@Outer Moat,$hasAmount|bombs|1",
+      "@Outer Moat,$canBombThrow",
       "@Exit Logic/1304"
     ],
     "children": []

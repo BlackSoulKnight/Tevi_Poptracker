@@ -61,6 +61,8 @@
     "clear_as_group": false,
     "access_rules": [
       "@Verdazure Sea West",
+      "@Outer Moat,$hasAmount|bombs|1",
+      "@Outer Moat,$canBombThrow",
       "@Exit Logic/1304"
     ],
     "children": []

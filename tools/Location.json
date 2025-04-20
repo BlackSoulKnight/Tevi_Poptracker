@@ -3853,7 +3853,7 @@
         "slotId": 21,
         "Requirement": [
             {
-                "Method": "ITEM_AREABOMB ",
+                "Method": "ITEM_AREABOMB",
                 "Difficulty": 0
             }
         ]
@@ -4104,7 +4104,7 @@
     },
     {
         "Itemname": "ITEM_WATERMOVEMENT",
-        "Location": "Verdazure Sea West",
+        "Location": "Outer Moat",
         "LocationName": "Verdazure Sea - Hydrodynamo",
         "slotId": 1,
         "Requirement": [
@@ -4128,7 +4128,7 @@
     },
     {
         "Itemname": "STACKABLE_HP",
-        "Location": "Verdazure Sea West",
+        "Location": "Outer Moat",
         "LocationName": "Verdazure Sea - Kiwi Bunny Potion",
         "slotId": 4,
         "Requirement": [
@@ -4176,7 +4176,7 @@
     },
     {
         "Itemname": "BADGE_InvincibilityExtend",
-        "Location": "Verdazure Sea West",
+        "Location": "Outer Moat",
         "LocationName": "Verdazure Sea - Invictus",
         "slotId": 1,
         "Requirement": [
@@ -4193,7 +4193,7 @@
         "slotId": 26,
         "Requirement": [
             {
-                "Method": "ITEM_LINEBOMB && ITEM_WATERMOVENT",
+                "Method": "ITEM_LINEBOMB && ITEM_WATERMOVEMENT",
                 "Difficulty": 0
             }
         ]
@@ -5366,7 +5366,7 @@
         "slotId": 1,
         "Requirement": [
             {
-                "Method": "ITEM_AREABOMB  && ChargeShot",
+                "Method": "ITEM_AREABOMB && ChargeShot",
                 "Difficulty": 0
             }
         ]
@@ -5715,7 +5715,7 @@
         "slotId": 14,
         "Requirement": [
             {
-                "Method": "ITEM_AREABOMB  && ITEM_SLIDE",
+                "Method": "ITEM_AREABOMB && ITEM_SLIDE",
                 "Difficulty": 0
             }
         ]
@@ -6532,7 +6532,7 @@
         "slotId": 1,
         "Requirement": [
             {
-                "Method": "ITEM_AREABOMB ",
+                "Method": "ITEM_AREABOMB",
                 "Difficulty": 0
             }
         ]
@@ -7141,7 +7141,7 @@
         "slotId": 2,
         "Requirement": [
             {
-                "Method": "EVENT_Memine2 && (ITEM_LINEBOMB || ITEM_AREABOMB) && ((ITEM_WALLJUMP && (ITEM_HIJUMP || ITEM_AirDash || ITEM_DOUBLEJUMP || ITEM_JETPACK)) || (ITEM_JETPACK && ITEM_DOUBLEJUMP) || ITEM_JETPACK 3)",
+                "Method": "EVENT_Memine2 && (ITEM_LINEBOMB) && ((ITEM_WALLJUMP && (ITEM_HIJUMP || ITEM_AirDash || ITEM_DOUBLEJUMP || ITEM_JETPACK)) || (ITEM_JETPACK && ITEM_DOUBLEJUMP) || ITEM_JETPACK 3)",
                 "Difficulty": 0
             }
         ]
@@ -7153,7 +7153,7 @@
         "slotId": 2,
         "Requirement": [
             {
-                "Method": "EVENT_Memine2 &&  (ITEM_LINEBOMB || ITEM_AREABOMB) && ((ITEM_WALLJUMP && (ITEM_HIJUMP || ITEM_AirDash || ITEM_DOUBLEJUMP || ITEM_JETPACK)) || (ITEM_JETPACK && ITEM_DOUBLEJUMP) || ITEM_JETPACK 3)",
+                "Method": "EVENT_Memine2 &&  (ITEM_LINEBOMB) && ((ITEM_WALLJUMP && (ITEM_HIJUMP || ITEM_AirDash || ITEM_DOUBLEJUMP || ITEM_JETPACK)) || (ITEM_JETPACK && ITEM_DOUBLEJUMP) || ITEM_JETPACK 3)",
                 "Difficulty": 0
             }
         ]
