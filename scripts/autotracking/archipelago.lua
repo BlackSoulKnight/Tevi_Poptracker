@@ -97,8 +97,16 @@ function apply_slot_data(slot_data)
 	Tracker:FindObjectForCode("chaosMode").Active = SLOT_DATA["options"]["chaos_mode"] > 0
 	Tracker:FindObjectForCode("startWithCelia/Sable").Active = SLOT_DATA["options"]["celia_sable"] > 0 
 	Tracker:FindObjectForCode("transitionShuffle").Active = SLOT_DATA["options"]["transitionShuffle"] > 0
-	Tracker:FindObjectForCode("rabbitJump").Active = SLOT_DATA["options"]["RJump"] > 0
-	Tracker:FindObjectForCode("rabbitWallJump").Active = SLOT_DATA["options"]["RWalljump"] > 0
+	if SLOT_DATA["options"]["RJump"] then
+		Tracker:FindObjectForCode("rabbitJump").Active = SLOT_DATA["options"]["RJump"] > 0
+	end
+	if SLOT_DATA["options"]["RWalljump"] then
+		Tracker:FindObjectForCode("rabbitWallJump").Active = SLOT_DATA["options"]["RWalljump"] > 0
+	end
+	if SLOT_DATA["options"]["WalljumpTrick"] then
+		Tracker:FindObjectForCode("rabbitJump").Active = SLOT_DATA["options"]["WalljumpTrick"] >= 2
+		Tracker:FindObjectForCode("rabbitWallJump").Active = SLOT_DATA["options"]["WalljumpTrick"] >= 3
+	end
 	Tracker:FindObjectForCode("backflip").Active =  SLOT_DATA["options"]["backflip"] > 0
 	Tracker:FindObjectForCode("ceilingKick").Active = SLOT_DATA["options"]["cKick"] > 0
 	Tracker:FindObjectForCode("hiddenPaths").Active =  SLOT_DATA["options"]["hiddenP"] > 0 
