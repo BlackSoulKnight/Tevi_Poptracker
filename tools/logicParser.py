@@ -106,7 +106,7 @@ TeviRuleToPoptacker = {
     "RainbowCheck":"^$RainbowCheck",
     "ItemUse":"[$canUseFastItem]",
     "EVENT_SnowMechanic":"^$EVENT_SnowMechanic",
-
+    "Teleporter":"",
     "Everything that is by default false": "$False",
     "Memine":"$False",
     "AllMemine":"$False",
@@ -187,6 +187,8 @@ class OpLit:
                 return TeviRuleToPoptacker[itemstack[0]]
             elif itemstack[0] == "Chapter":
                 return f"$Chapter|{itemstack[1]}"
+            elif "Teleporter" in itemstack[0]:
+                return f"$canUseTeleporter|{itemstack[1]}"
             elif not '$' in TeviRuleToPoptacker[itemstack[0]]:
                 return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|{itemstack[1]}"
             else:

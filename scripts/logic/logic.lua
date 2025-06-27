@@ -21,6 +21,9 @@ function canAccessExit(exit_name)
     local entrance_logic_path = "@Entrance Logic/"..entrance
     local loc = Tracker:FindObjectForCode(entrance_logic_path)
     --print(string.format("Resolving exit logic for '%s' accessible from entrance '%s'", exit_name, entrance))
+    if Tracker:FindObjectForCode("teleporter").AcquiredCount >0 then
+        return false
+    end
     return loc.AccessibilityLevel
 end
 
@@ -30,6 +33,15 @@ function canFinish()
     end
     -- need a implentation for singleplayer / manual tracking
     return false
+end
+teleporters = {}
+
+function canUseTeleporter(id)
+    id = tonumber(id)
+    if teleporters[id] == nil then
+        teleporters[id] = false
+    end
+    return teleporters[id]
 end
 
 function Chapter (count)

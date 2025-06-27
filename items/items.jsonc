@@ -604,5 +604,11 @@
 		"type": "toggle",
 		"img": "images/items/darkElement.png",
 		"codes": "darkElement"
+	},
+	{
+		"name": "Teleporter",
+		"type": "consumable",
+		"img": "images/items/darkElement.png",
+		"codes": "teleporter"
 	}
 ]

@@ -475,7 +475,9 @@
       "@Swamp to Tartarus,$hasAmount|slide|1 , $canBombThrow , $hasAmount|jetpack|2",
       "@Swamp to Tartarus,$hasAmount|slide|1 , $canBombThrow , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
       "@Swamp to Tartarus,$hasAmount|slide|1 , $canBombThrow , $hasAmount|jetpack|1 , $hasAmount|airDash|1",
-      "@Swamp to Tartarus,$hasAmount|slide|1 , $canBombThrow , $hasAmount|airDash|1 , $hasAmount|airJump|1"
+      "@Swamp to Tartarus,$hasAmount|slide|1 , $canBombThrow , $hasAmount|airDash|1 , $hasAmount|airJump|1",
+      "@Teleporter Lava Cave,$canBombThrow",
+      "@Teleporter Lava Cave,$hasAmount|bombs|1"
     ],
     "children": [
       {

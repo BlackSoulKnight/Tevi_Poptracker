@@ -2,7 +2,8 @@
   {
     "name": "Oasis",
     "access_rules": [
-      "@Exit Logic/0201"
+      "@Exit Logic/0201",
+      "@Teleporter Oasis"
     ],
     "children": [
       {
@@ -151,7 +152,7 @@
         ]
       },
       {
-        "name": "Oasis - Astral Gear",
+        "name": "Oasis - Lily Fight",
         "access_rules": [],
         "sections": [
           {

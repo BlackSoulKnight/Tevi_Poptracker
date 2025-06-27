@@ -8,7 +8,8 @@
       "@EverGarden To Valhalla,$hasAmount|bombs|1",
       "@EverGarden To Valhalla,$canBombThrow",
       "@EverGarden BossPath",
-      "@EverGarden Boss Area"
+      "@EverGarden Boss Area",
+      "@Teleporter Evernight Garden"
     ],
     "children": [
       {
@@ -259,7 +260,7 @@
     ],
     "children": [
       {
-        "name": "EverGarden Boss Area - Astral Gear",
+        "name": "EverGarden Boss Area - Amaryllis fight",
         "access_rules": [],
         "sections": [
           {

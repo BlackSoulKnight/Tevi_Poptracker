@@ -6,7 +6,8 @@
       "@Exit Logic/0600",
       "@Travoll Industrie to CopperWood,$hasAmount|bombs|1",
       "@Travoll Industrie to CopperWood,$canBombThrow",
-      "@Travoll Industrie to CopperWood,$hasAmount|slide|1"
+      "@Travoll Industrie to CopperWood,$hasAmount|slide|1",
+      "@Teleporter Industry"
     ],
     "children": [
       {

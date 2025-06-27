@@ -4,7 +4,10 @@
     "access_rules": [
       "@Outer Moat",
       "@Verdazure Sea East,$hasAmount|water|1",
-      "@Verdazure Sea to Forest,$hasAmount|water|1"
+      "@Verdazure Sea to Forest,$hasAmount|water|1",
+      "@Teleporter Verdazure Sea,$hasAmount|bombs|1",
+      "@Teleporter Verdazure Sea,$canBombThrow",
+      "@Teleporter Verdazure Sea,$canChargeShot"
     ],
     "children": [
       {

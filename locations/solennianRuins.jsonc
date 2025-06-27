@@ -36,7 +36,9 @@
     "name": "Solennian Ruins",
     "access_rules": [
       "@Solennian Ruins Entrance,$hasAmount|bombs|1",
-      "@Solennian Ruins Entrance,$canBombThrow"
+      "@Solennian Ruins Entrance,$canBombThrow",
+      "@Teleporter Ruins,$hasAmount|bombs|1",
+      "@Teleporter Ruins,$canBombThrow"
     ],
     "children": [
       {
@@ -83,7 +85,7 @@
         ]
       },
       {
-        "name": "Solennian Ruins - Astral Gear",
+        "name": "Solennian Ruins - Katu Fight",
         "access_rules": [],
         "sections": [
           {

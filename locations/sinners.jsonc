@@ -40,6 +40,7 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
+              "$canBombThrow , $hasAmount|bombs|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|airJump|1 , [$False]",
               "$hasAmount|bombRange|3 , $hasAmount|bombs|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|airJump|1",
               "$hasAmount|bombRange|3 , $hasAmount|bombs|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|jetpack|1",
               "$hasAmount|bombRange|3 , $hasAmount|bombs|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|wallJump|1"
@@ -149,7 +150,7 @@
         ]
       },
       {
-        "name": "Illusion Palace Entrance - Astral Gear",
+        "name": "Illusion Palace Entrance - Cyril fight",
         "access_rules": [],
         "sections": [
           {
@@ -196,7 +197,8 @@
   {
     "name": "Sinner's Oath Entrance",
     "access_rules": [
-      "@Exit Logic/2301"
+      "@Exit Logic/2301",
+      "@Teleporter Sinner's Oath"
     ],
     "children": [
       {

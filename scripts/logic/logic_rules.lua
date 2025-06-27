@@ -190,8 +190,8 @@ end
 function hasWater()
 	
     local accessibilityLevel = math.max(
-    Tracker:FindObjectForCode("@//").AccessibilityLevel,
-    Tracker:FindObjectForCode("@//").AccessibilityLevel
+    Tracker:FindObjectForCode("@Verdazure Sea West/Verdazure Sea - Water West/EVENT_Water").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Verdazure Sea East/Verdazure Sea - Water/EVENT_Water").AccessibilityLevel
     )
     if accessibilityLevel >= AccessibilityLevel.Normal then
         local obj = Tracker:FindObjectForCode("fireElement")
@@ -214,7 +214,7 @@ end
 function hasDark()
 	
     local accessibilityLevel = math.max(
-    Tracker:FindObjectForCode("@Swamp Entrance/Swamp Entrance - Dark/EVENT_Dark").AccessibilityLevel,
+    Tracker:FindObjectForCode("@Pre Swamp/Swamp Entrance - Dark/EVENT_Dark").AccessibilityLevel,
     Tracker:FindObjectForCode("@Swamp/Swamp - Dark/EVENT_Dark").AccessibilityLevel,
     Tracker:FindObjectForCode("@Blushwood/Blushwood - Dark/EVENT_Dark").AccessibilityLevel,
     Tracker:FindObjectForCode("@Verdazure Swamp/Verdazure Swamp - Dark/EVENT_Dark").AccessibilityLevel

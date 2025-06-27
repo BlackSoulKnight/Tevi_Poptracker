@@ -2,7 +2,9 @@
   {
     "name": "Plague Forest",
     "access_rules": [
-      "@Exit Logic/1001"
+      "@Exit Logic/1001",
+      "@Teleporter Plague Forest,$hasAmount|bombs|1",
+      "@Teleporter Plague Forest,$canBombThrow"
     ],
     "children": [
       {
@@ -72,7 +74,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Blueberry Bunny Potion",
+            "name": "Teleporter Plague Forest",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1",
@@ -85,27 +87,6 @@
             "map": "The Plagued Forest",
             "x": 72,
             "y": 360
-          }
-        ]
-      },
-      {
-        "name": "Plague Forest - Slick Boots",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Slick Boots",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "The Plagued Forest",
-            "x": 168,
-            "y": 408
           }
         ]
       },
@@ -179,7 +160,7 @@
         ]
       },
       {
-        "name": "Plague Forest - Astral Gear",
+        "name": "Plague Forest - Malphage fight",
         "access_rules": [],
         "sections": [
           {

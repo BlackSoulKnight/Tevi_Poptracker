@@ -5,7 +5,8 @@
       "@Exit Logic/1901",
       "@Heavens Valley Snow Route Middle,$hasAmount|slide|1",
       "@Heavens Valley Snow Route Middle,$hasAmount|bombs|1",
-      "@Heavens Valley Snow Route Middle,$canBombThrow"
+      "@Heavens Valley Snow Route Middle,$canBombThrow",
+      "@Teleporter Heaven Valley East"
     ],
     "children": [
       {

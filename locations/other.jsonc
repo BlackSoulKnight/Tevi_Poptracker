@@ -84,7 +84,8 @@
       "@Forgotten City,$hasAmount|bombs|1 , $hasAmount|slide|1",
       "@Forgotten City,$hasAmount|bombs|1 , $hasAmount|water|1",
       "@Forgotten City,$canBombThrow , $hasAmount|slide|1",
-      "@Forgotten City,$canBombThrow , $hasAmount|water|1"
+      "@Forgotten City,$canBombThrow , $hasAmount|water|1",
+      "@Teleporter Forgotten City"
     ],
     "children": []
   },
@@ -166,7 +167,8 @@
     "access_rules": [
       "@Relicts,$hasAmount|bombs|1",
       "@Relicts,$canBombThrow",
-      "@Exit Logic/2406"
+      "@Exit Logic/2406",
+      "@Teleporter Relicts"
     ],
     "children": []
   },
@@ -176,7 +178,9 @@
     "access_rules": [
       "@Exit Logic/2503",
       "@Catacombs Main,$hasAmount|bombs|1",
-      "@Catacombs Main,$canBombThrow"
+      "@Catacombs Main,$canBombThrow",
+      "@Teleporter Catacombs,$hasAmount|bombs|1",
+      "@Teleporter Catacombs,$canBombThrow"
     ],
     "children": []
   },

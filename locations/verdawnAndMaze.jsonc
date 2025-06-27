@@ -7,7 +7,8 @@
       "@Exit Logic/0409",
       "@Exit Logic/0404",
       "@Exit Logic/0408",
-      "@Forest Maze"
+      "@Forest Maze",
+      "@Teleporter Forest"
     ],
     "children": [
       {
@@ -237,7 +238,7 @@
     ],
     "children": [
       {
-        "name": "Forest - Astral Gear",
+        "name": "Forest - Ribauld fight",
         "access_rules": [],
         "sections": [
           {
@@ -284,91 +285,12 @@
   {
     "name": "Forest Maze extended",
     "access_rules": [
-      "@Forest Maze boss,$hasAmount|jetpack|1",
-      "@Forest Maze boss,$hasAmount|airJump|1",
-      "@Forest Maze boss,$hasAmount|airDash|1"
+      "@Forest Maze boss,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+      "@Forest Maze boss,$hasAmount|bombs|1 , $hasAmount|airJump|1",
+      "@Forest Maze boss,$hasAmount|bombs|1 , $hasAmount|airDash|1",
+      "@Teleporter Forest Maze"
     ],
     "children": [
-      {
-        "name": "Forest Maze extended - Auto Heal",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Auto Heal",
-            "item_count": 1,
-            "access_rules": [
-              "$True"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 168,
-            "y": 744
-          }
-        ]
-      },
-      {
-        "name": "Forest Maze extended - Gilded Exultation",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Gilded Exultation",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|handRight|1 , $hasAmount|handLeft|1"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 264,
-            "y": 744
-          }
-        ]
-      },
-      {
-        "name": "Forest Maze extended - MP Surge: Recovery",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "MP Surge: Recovery",
-            "item_count": 1,
-            "access_rules": [
-              "$True"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 360,
-            "y": 744
-          }
-        ]
-      },
-      {
-        "name": "Forest Maze extended - Blueberry Bunny Potion",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Blueberry Bunny Potion",
-            "item_count": 1,
-            "access_rules": [
-              "$True"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 216,
-            "y": 696
-          }
-        ]
-      },
       {
         "name": "Forest Maze extended - Cherry Bunny Potion",
         "access_rules": [],
@@ -397,7 +319,10 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$True"
+              "$hasAmount|airJump|1",
+              "$hasAmount|jetpack|1",
+              "$hasAmount|airDash|1",
+              "$canRabbitWallJump"
             ]
           }
         ],

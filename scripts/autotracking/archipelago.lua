@@ -13,7 +13,7 @@ CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
-AP_WORLD_VERSION = "0.4"
+AP_WORLD_VERSION = "0.4.4"
 
 -- resets an item to its initial state
 function resetItem(item_code, item_type)
@@ -107,6 +107,9 @@ function apply_slot_data(slot_data)
 		Tracker:FindObjectForCode("rabbitJump").Active = SLOT_DATA["options"]["WalljumpTrick"] >= 2
 		Tracker:FindObjectForCode("rabbitWallJump").Active = SLOT_DATA["options"]["WalljumpTrick"] >= 3
 	end
+	if SLOT_DATA["options"]["teleporter_mode"] then
+		Tracker:FindObjectForCode("teleporter").AcquiredCount = SLOT_DATA["options"]["teleporter_mode"]
+	end
 	Tracker:FindObjectForCode("backflip").Active =  SLOT_DATA["options"]["backflip"] > 0
 	Tracker:FindObjectForCode("ceilingKick").Active = SLOT_DATA["options"]["cKick"] > 0
 	Tracker:FindObjectForCode("hiddenPaths").Active =  SLOT_DATA["options"]["hiddenP"] > 0 
@@ -186,6 +189,11 @@ function onClear(slot_data)
 			end
 		end
 	end
+	-- reset teleporter
+	for i = 0,36 do
+		teleporters[i] = false
+	end
+
 	apply_slot_data(slot_data)
 	Tracker:UiHint("ActivateTab", MAP_MAPPING[1])
 	LOCAL_ITEMS = {}
@@ -212,7 +220,12 @@ function onItem(index, item_id, item_name, player_number)
 	CUR_INDEX = index;
 	local mapping_entry = ITEM_MAPPING[item_id]
 	if not mapping_entry then
-		if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+		local teleporterID = item_id - 44966541500
+		if teleporterID >= 0 and teleporterID < 37 then
+			teleporters[teleporterID] = true
+			local obj = Tracker:FindObjectForCode("teleporter")
+			obj.AcquiredCount = obj.AcquiredCount + obj.Increment
+		elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 			print(string.format("onItem: could not find item mapping for id %s", item_id))
 		end
 		return

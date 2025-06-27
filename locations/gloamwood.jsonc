@@ -351,6 +351,8 @@
               "$hasAmount|airDash|1 , $canBombThrow",
               "$hasAmount|airJump|1 , $hasAmount|bombs|1",
               "$hasAmount|airJump|1 , $canBombThrow",
+              "$hasAmount|highJump|1 , $hasAmount|bombs|1",
+              "$hasAmount|highJump|1 , $canBombThrow",
               "$canRabbitWallJump , $hasAmount|bombs|1",
               "$canRabbitWallJump , $canBombThrow"
             ]
@@ -410,29 +412,10 @@
       "@Gloamwood Middle,$hasAmount|airJump|1",
       "@Gloamwood Middle,$hasAmount|airDash|1",
       "@Gloamwood Middle,$hasAmount|jetpack|1",
-      "@Gloamwood Middle,$canRabbitJump"
+      "@Gloamwood Middle,$canRabbitJump",
+      "@Teleporter Gloamwood"
     ],
     "children": [
-      {
-        "name": "Ulskan Village Area - MP Surge: Battle Start",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "MP Surge: Battle Start",
-            "item_count": 1,
-            "access_rules": [
-              "$canChargeShot"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Gloamwood",
-            "x": 664,
-            "y": 574
-          }
-        ]
-      },
       {
         "name": "Ulskan Village Area - Earth",
         "access_rules": [],
@@ -576,6 +559,10 @@
   {
     "name": "Ulskan To Plague Forest",
     "access_rules": [
+      "@Ulskan Village Area,$canBombThrow , $hasAmount|jetpack|1",
+      "@Ulskan Village Area,$canBombThrow , $hasAmount|airJump|1",
+      "@Ulskan Village Area,$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+      "@Ulskan Village Area,$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|airJump|1",
       "@Exit Logic/0904"
     ],
     "children": [

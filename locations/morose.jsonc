@@ -2,11 +2,13 @@
   {
     "name": "Morose City",
     "access_rules": [
-      "@Thanatara Canyon,openMorose",
       "@Exit Logic/0302",
       "@Exit Logic/0303",
       "@Exit Logic/0301",
-      "@Exit Logic/0300"
+      "@Exit Logic/0300",
+      "@Teleporter Morose,$hasAmount|bombs|1",
+      "@Teleporter Morose,$canBombThrow",
+      "@Teleporter Morose,openMorose"
     ],
     "children": [
       {
@@ -56,8 +58,8 @@
         ]
       },
       {
-        "name": "Morose City - Astral Gear",
-        "access_rules": [],
+        "name": "Morose City - Vena Fight",
+        "access_rules": "@Morose City/Morose City - Boss/EVENT_BOSS",
         "sections": [
           {
             "name": "Astral Gear",
@@ -69,9 +71,19 @@
         ],
         "map_locations": [
           {
-            "map": "Morose",
-            "x": 72,
-            "y": 152
+            "map": "Ana Thema",
+            "x": 404,
+            "y": 77
+          },
+          {
+            "map": "Valhalla",
+            "x": 696,
+            "y": 264
+          },
+          {
+            "map": "Tartarus",
+            "x": 505,
+            "y": 313
           }
         ]
       },

@@ -6,7 +6,10 @@
       "@Ana Thema,^$EVENT_MoroseVisited , $hasAmount|ticketHeaven|1",
       "@Exit Logic/2008",
       "@Exit Logic/2003",
-      "@Exit Logic/2001"
+      "@Exit Logic/2001",
+      "@Teleporter Valhalla City,$canChargeShot",
+      "@Teleporter Valhalla City,$hasAmount|slide|1 , $canBombThrow",
+      "@Teleporter Valhalla City,$hasAmount|slide|1 , $hasAmount|bombs|1"
     ],
     "children": [
       {

@@ -5,7 +5,11 @@
       "@Ulvosa to Gloamwood,$hasAmount|bombs|1 , $canChargeShot , [hiddenPaths]",
       "@Ulvosa to Gloamwood,$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1",
       "@Ulvosa to Gloamwood,$canBombThrow , $canChargeShot , [hiddenPaths]",
-      "@Ulvosa to Gloamwood,$canBombThrow , $canChargeShot , $hasAmount|slide|1"
+      "@Ulvosa to Gloamwood,$canBombThrow , $canChargeShot , $hasAmount|slide|1",
+      "@Teleporter Ulvosa,$hasAmount|bombs|1 , $canChargeShot , [hiddenPaths]",
+      "@Teleporter Ulvosa,$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1",
+      "@Teleporter Ulvosa,$canBombThrow , $canChargeShot , [hiddenPaths]",
+      "@Teleporter Ulvosa,$canBombThrow , $canChargeShot , $hasAmount|slide|1"
     ],
     "children": [
       {
@@ -194,7 +198,7 @@
         ]
       },
       {
-        "name": "Ulvosa - Astral Gear",
+        "name": "Ulvosa - Eidolon fight",
         "access_rules": [],
         "sections": [
           {

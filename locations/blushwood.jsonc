@@ -3,7 +3,8 @@
     "name": "Blushwood",
     "access_rules": [
       "@Exit Logic/2801",
-      "@Exit Logic/2803"
+      "@Exit Logic/2803",
+      "@Teleporter BlushWood"
     ],
     "children": [
       {
@@ -242,10 +243,7 @@
             "access_rules": [
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|3",
               "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|speed|3",
-              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1",
-              "$hasAmount|slide|1 , $canBombThrow , $hasAmount|jetpack|3",
-              "$hasAmount|slide|1 , $canBombThrow , $hasAmount|airJump|1 , $hasAmount|speed|3",
-              "$hasAmount|slide|1 , $canBombThrow , $hasAmount|airJump|1 , $hasAmount|jetpack|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1"
             ]
           }
         ],

@@ -2,6 +2,9 @@
   {
     "name": "Desert Base Entrance",
     "access_rules": [
+      "@Desert Base Main,$hasAmount|slide|1",
+      "@Desert Base Main,$hasAmount|bombs|1",
+      "@Desert Base Main,$canBombThrow",
       "@Exit Logic/0000"
     ],
     "children": [
@@ -47,7 +50,7 @@
         ]
       },
       {
-        "name": "Desert Base Entrance - Astral Gear",
+        "name": "Desert Base Entrance - Ribauld Fight",
         "access_rules": [],
         "sections": [
           {
@@ -123,12 +126,14 @@
       "@Desert Base Entrance,$hasAmount|jetpack|1",
       "@Desert Base Entrance,$hasAmount|airJump|1",
       "@Desert Base Entrance,$hasAmount|highJump|1",
-      "@Desert Base Entrance,$hasAmount|bombs|1",
       "@Desert Base Entrance,$canBombThrow",
       "@Desert Base Entrance,$canRabbitJump",
       "@Desert Base Entrance,$canBackflip , $hasAmount|speed|1",
       "@Desert Base Entrance,$canBackflip , [$False]",
-      "@Desert Base Upper Half"
+      "@Desert Base Upper Half",
+      "@Teleporter Desert Base,$hasAmount|bombs|1",
+      "@Teleporter Desert Base,$canBombThrow",
+      "@Teleporter Desert Base,$canChargeShot"
     ],
     "children": [
       {
@@ -219,7 +224,7 @@
     "access_rules": [
       "@Desert Base Main,$hasAmount|highJump|1 , $hasAmount|airJump|1 , $hasAmount|wallJump|1",
       "@Desert Base Main,$hasAmount|jetpack|1 , $hasAmount|wallJump|1",
-      "@Desert Base Main,$hasAmount|airJump|1 , $hasAmount|wallJump|2",
+      "@Desert Base Main,$hasAmount|jetpack|1 , $hasAmount|wallJump|1",
       "@Desert Base Entrance,$canBackflip , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1",
       "@Desert Base Entrance,$canBackflip , $hasAmount|slide|1 , $canBombThrow , $hasAmount|dagger|1",
       "@Desert Base Entrance,$hasAmount|airJump|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1",

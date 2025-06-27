@@ -15,7 +15,8 @@
       "@Valhalla Breath West,[hiddenPaths] , $hasAmount|jetpack|1",
       "@Valhalla Breath West,[hiddenPaths] , $hasAmount|airDash|1",
       "@Exit Logic/2105",
-      "@Exit Logic/2100"
+      "@Exit Logic/2100",
+      "@Teleporter Heaven Valley West"
     ],
     "children": [
       {
@@ -141,7 +142,8 @@
       "@Heavens Valley West,$hasAmount|airJump|1 , $canBombThrow",
       "@Heavens Valley West,$hasAmount|airJump|1 , [hiddenPaths]",
       "@Heavens Valley West,$canChargeShot , $canBombThrow",
-      "@Heavens Valley West,$canChargeShot , [hiddenPaths]"
+      "@Heavens Valley West,$canChargeShot , [hiddenPaths]",
+      "@Teleporter Valhalla Breath West"
     ],
     "children": [
       {

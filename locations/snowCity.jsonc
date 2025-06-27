@@ -3,10 +3,10 @@
     "name": "Snow City",
     "access_rules": [
       "@Exit Logic/1604",
-      "@Snowveil Above HQ,$hasAmount|bombs|1",
       "@Snowveil Above HQ,$canBombThrow",
       "@Golden Hands HQ Sewer",
-      "@Golden Hands HQ Extra"
+      "@Golden Hands HQ Extra",
+      "@Teleporter Snow City"
     ],
     "children": [
       {
@@ -515,7 +515,7 @@
         ]
       },
       {
-        "name": "Golden Hands HQ Sewer - Astral Gear",
+        "name": "Golden Hands HQ Sewer - Jezbell fight",
         "access_rules": [],
         "sections": [
           {

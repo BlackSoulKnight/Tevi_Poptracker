@@ -44,7 +44,8 @@
       "@Verdazure Swamp,$hasAmount|slide|1 , $canBombThrow , $hasAmount|highJump|1",
       "@Verdazure Swamp,$hasAmount|slide|1 , $canBombThrow , $hasAmount|airJump|1",
       "@Verdazure Swamp,$hasAmount|slide|1 , $canBombThrow , $hasAmount|jetpack|1",
-      "@Forgotten City Upper Exit,$canChargeShot"
+      "@Forgotten City Upper Exit,$canChargeShot",
+      "@Teleporter Snowdust Shores"
     ],
     "children": [
       {
@@ -536,7 +537,7 @@
         ]
       },
       {
-        "name": "Forgotten City - Astral Gear",
+        "name": "Forgotten City - Thetis fight",
         "access_rules": [],
         "sections": [
           {

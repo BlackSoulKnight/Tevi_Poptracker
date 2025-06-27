@@ -2,7 +2,9 @@
   {
     "name": "Gallery of Mirrors West",
     "access_rules": [
-      "@Exit Logic/2706,$canChargeShot"
+      "@Exit Logic/2706,$canChargeShot",
+      "@Gallery of Mirrors East,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Gallery of Mirrors East,$hasAmount|slide|1 , $canBombThrow"
     ],
     "children": [
       {
@@ -91,7 +93,9 @@
   {
     "name": "Gallery of Mirrors East",
     "access_rules": [
-      "@Gallery of Mirrors West,$canChargeShot , $hasAmount|slide|1"
+      "@Gallery of Mirrors West,$canChargeShot , $hasAmount|slide|1",
+      "@Teleporter Gallery East,$hasAmount|bombs|1",
+      "@Teleporter Gallery East,$canBombThrow"
     ],
     "children": [
       {
@@ -157,7 +161,7 @@
         ]
       },
       {
-        "name": "Gallery of Mirrors East - Astral Gear",
+        "name": "Gallery of Mirrors East - Memloch fight",
         "access_rules": [],
         "sections": [
           {
@@ -384,7 +388,9 @@
       "@Gallery of Souls,$hasAmount|airJump|1 , $canChargeShot",
       "@Gallery of Souls,$hasAmount|bombs|1 , $canChargeShot",
       "@Gallery of Souls,$canBombThrow , $canChargeShot",
-      "@Gallery of Souls to Sea,$hasAmount|bombRange|3"
+      "@Gallery of Souls to Sea,$hasAmount|bombRange|3",
+      "@Teleporter Frank Boss,$canBombThrow , $hasAmount|slide|1",
+      "@Teleporter Frank Boss,$hasAmount|bombs|1 , $hasAmount|bombRange|3 , $hasAmount|slide|1"
     ],
     "children": [
       {
@@ -409,7 +415,7 @@
         ]
       },
       {
-        "name": "Gallery of Souls Boss Area - Astral Gear",
+        "name": "Gallery of Souls Boss Area - Frankie fight",
         "access_rules": [],
         "sections": [
           {

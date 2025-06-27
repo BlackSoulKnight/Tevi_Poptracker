@@ -2,7 +2,8 @@
   {
     "name": "Cloister",
     "access_rules": [
-      "@Cloister Entrance,$hasAmount|slide|1"
+      "@Cloister Entrance,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Cloister Entrance,$hasAmount|slide|1 , $canBombThrow"
     ],
     "children": [
       {
@@ -112,7 +113,8 @@
   {
     "name": "Cloister Entrance",
     "access_rules": [
-      "@Exit Logic/2608"
+      "@Exit Logic/2608",
+      "@Teleporter Cloister,$canChargeShot"
     ],
     "children": [
       {
@@ -248,7 +250,7 @@
         ]
       },
       {
-        "name": "Cloister Boss - Astral Gear",
+        "name": "Cloister Boss - Tyberious fight",
         "access_rules": [],
         "sections": [
           {

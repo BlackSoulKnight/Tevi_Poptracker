@@ -13484,7 +13484,7 @@
     "clear_as_group": false,
     "access_rules": [
       "@Verdazure Ocean",
-      "@TeleportHub,$canUseTeleporter|16"
+      "@TeleportHub,$canUseTeleporter|15"
     ],
     "children": []
   },
@@ -13502,7 +13502,7 @@
     "clear_as_group": false,
     "access_rules": [
       "@Forgotten City Entrance",
-      "@TeleportHub,$canUseTeleporter|15"
+      "@TeleportHub,$canUseTeleporter|16"
     ],
     "children": []
   },

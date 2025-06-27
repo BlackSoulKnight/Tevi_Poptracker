@@ -249,7 +249,7 @@
         ]
       },
       {
-        "name": "Catacombs Inner - Astral Gear",
+        "name": "Catacombs Inner - Vassago fight",
         "access_rules": [],
         "sections": [
           {
@@ -300,7 +300,9 @@
       "@Lab Left,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
       "@Lab Left,$hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
       "@Lab Left,$hasAmount|bombs|1 , $canRabbitWallJump",
-      "@Lab to Verdazure Swamp Connection,$hasAmount|bombRange|3 , $hasAmount|bombs|1"
+      "@Lab to Verdazure Swamp Connection,$hasAmount|bombRange|3 , $hasAmount|bombs|1",
+      "@Teleporter Lab,$hasAmount|bombs|1 , $hasAmount|slide|1",
+      "@Teleporter Lab,$canBombThrow , $hasAmount|slide|1"
     ],
     "children": [
       {
@@ -427,7 +429,7 @@
         ]
       },
       {
-        "name": "Lab - Astral Gear",
+        "name": "Lab - Frey fight",
         "access_rules": [],
         "sections": [
           {

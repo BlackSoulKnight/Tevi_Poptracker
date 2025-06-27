@@ -131,7 +131,9 @@
     "name": "CopperWood Industry to Travoll Industrie",
     "access_rules": [
       "@Exit Logic/0705",
-      "@CopperWood EP Pot,$hasAmount|bombs|1"
+      "@CopperWood EP Pot,$hasAmount|bombs|1",
+      "@Teleporter Copper Forest,$hasAmount|bombs|1",
+      "@Teleporter Copper Forest,$canBombThrow"
     ],
     "children": [
       {

@@ -62,7 +62,8 @@
       "@DreamKeeper Outside Left Snow To Snowveil,$hasAmount|airDash|1",
       "@DreamKeeper Outside Left Snow To Snowveil,$hasAmount|airJump|1",
       "@DreamKeeper Outside Left Snow To Snowveil,$hasAmount|jetpack|1",
-      "@DreamKeeper Outside Left Snow To Snowveil,$hasAmount|highJump|1"
+      "@DreamKeeper Outside Left Snow To Snowveil,$hasAmount|highJump|1",
+      "@Teleporter DreamKeeper Outside"
     ],
     "children": [
       {
@@ -142,7 +143,9 @@
       "@DreamKeeper Outside Left,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $hasAmount|slide|1 , ^$EVENT_SnowMechanic",
       "@DreamKeeper Outside Left,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $hasAmount|slide|1 , $canEarlyDream",
       "@DreamKeeper Outside Left,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|slide|1 , $hasAmount|slide|1 , ^$EVENT_SnowMechanic",
-      "@DreamKeeper Outside Left,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|slide|1 , $hasAmount|slide|1 , $canEarlyDream"
+      "@DreamKeeper Outside Left,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|slide|1 , $hasAmount|slide|1 , $canEarlyDream",
+      "@Teleporter DreamKeeper Inside,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Teleporter DreamKeeper Inside,$hasAmount|slide|1 , $canBombThrow"
     ],
     "children": [
       {
@@ -169,7 +172,7 @@
         ]
       },
       {
-        "name": "DreamKeeper - Astral Gear #2",
+        "name": "DreamKeeper - Alius fight",
         "access_rules": [],
         "sections": [
           {
@@ -295,7 +298,7 @@
         ]
       },
       {
-        "name": "DreamKeeper - Astral Gear #1",
+        "name": "DreamKeeper - Charon fight",
         "access_rules": [],
         "sections": [
           {
@@ -484,7 +487,8 @@
     "name": "Dreamless Depths",
     "access_rules": [
       "@DreamKeeper,$hasAmount|slide|1 , $hasAmount|bombs|1",
-      "@DreamKeeper,$hasAmount|slide|1 , $canBombThrow"
+      "@DreamKeeper,$hasAmount|slide|1 , $canBombThrow",
+      "@Teleporter Deep Dream,$hasAmount|slide|1"
     ],
     "children": [
       {

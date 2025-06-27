@@ -10,7 +10,8 @@
       "@Travoll Mines to Forest,$hasAmount|bombs|1 , ^$EVENT_FreeStrongAttack",
       "@Travoll Mines to Forest,$canBombThrow , $hasAmount|dagger|1",
       "@Travoll Mines to Forest,$canBombThrow , ^$EVENT_FreeStrongAttack",
-      "@Travoll Mines to Swamp"
+      "@Travoll Mines to Swamp",
+      "@Teleporter Mines"
     ],
     "children": [
       {
@@ -58,7 +59,7 @@
         ]
       },
       {
-        "name": "Travoll Mines - Astral Gear",
+        "name": "Travoll Mines - Barados Fight",
         "access_rules": [],
         "sections": [
           {

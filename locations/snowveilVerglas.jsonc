@@ -114,11 +114,12 @@
       "@Snowveil,$hasAmount|jetpack|1 , $hasAmount|bombs|1",
       "@Snowveil,$hasAmount|jetpack|1 , $canBombThrow",
       "@Snowveil above Verglas Village,$hasAmount|bombs|1",
-      "@Snowveil above Verglas Village,$canBombThrow"
+      "@Snowveil above Verglas Village,$canBombThrow",
+      "@Teleporter Verglas Village"
     ],
     "children": [
       {
-        "name": "Snowveil - Astral Gear",
+        "name": "Snowveil - Jethro fight",
         "access_rules": [],
         "sections": [
           {

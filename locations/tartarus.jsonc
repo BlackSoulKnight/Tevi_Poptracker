@@ -7,7 +7,8 @@
       "@Exit Logic/1502",
       "@Tartarus Catacombs,$hasAmount|slide|1",
       "@Tartarus Catacombs,$hasAmount|bombs|1",
-      "@Tartarus Catacombs,$canBombThrow"
+      "@Tartarus Catacombs,$canBombThrow",
+      "@Teleporter Tartarus"
     ],
     "children": [
       {
