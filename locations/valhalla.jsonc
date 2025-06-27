@@ -156,7 +156,7 @@
             "item_count": 1,
             "access_rules": [
               "$canBombThrow",
-              "$hasAmount|bombRange|3"
+              "$hasAmount|bombRange|3 , $hasAmount|bombs|1"
             ]
           }
         ],

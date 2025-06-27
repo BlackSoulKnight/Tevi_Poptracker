@@ -626,7 +626,12 @@
             "name": "Glass Knife",
             "item_count": 1,
             "access_rules": [
-              "$True"
+              "$hasAmount|airJump|1 , $hasAmount|jetpack|1",
+              "$hasAmount|airJump|1 , $hasAmount|highJump|1",
+              "$hasAmount|jetpack|2",
+              "$hasAmount|wallJump|1",
+              "$hasAmount|jetpack|1 , $hasAmount|highJump|1",
+              "$hasAmount|airDash|1 , $hasAmount|speed|1"
             ]
           }
         ],
@@ -2895,7 +2900,8 @@
       "@Forest Maze boss,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
       "@Forest Maze boss,$hasAmount|bombs|1 , $hasAmount|airJump|1",
       "@Forest Maze boss,$hasAmount|bombs|1 , $hasAmount|airDash|1",
-      "@Teleporter Forest Maze"
+      "@Teleporter Forest Maze,$hasAmount|bombs|1 , $hasAmount|airJump|1",
+      "@Teleporter Forest Maze,$hasAmount|bombs|1 , $hasAmount|jetpack|1"
     ],
     "children": [
       {
@@ -3677,27 +3683,6 @@
         ]
       },
       {
-        "name": "Plague Forest - Blueberry Bunny Potion",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Blueberry Bunny Potion",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "The Plagued Forest",
-            "x": 72,
-            "y": 360
-          }
-        ]
-      },
-      {
         "name": "Plague Forest - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
@@ -3899,6 +3884,27 @@
       "@TeleportHub,$canUseTeleporter|11"
     ],
     "children": [
+      {
+        "name": "Plague Forest - Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Plagued Forest",
+            "x": 72,
+            "y": 360
+          }
+        ]
+      },
       {
         "name": "Plague Forest - Slick Boots",
         "access_rules": [],
@@ -7316,7 +7322,7 @@
             "item_count": 1,
             "access_rules": [
               "$canBombThrow",
-              "$hasAmount|bombRange|3"
+              "$hasAmount|bombRange|3 , $hasAmount|bombs|1"
             ]
           }
         ],
@@ -9404,7 +9410,7 @@
       "@Snowveil Entrance,$hasAmount|bombs|1",
       "@Snowveil Entrance,$canBombThrow",
       "@Exit Logic/1204",
-      "@Snowveil Ex"
+      "@Snowveil Ex,$canBombThrow"
     ],
     "children": [
       {
@@ -10420,26 +10426,6 @@
         ]
       },
       {
-        "name": "DreamKeeper - Alius fight",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Astral Gear",
-            "item_count": 1,
-            "access_rules": [
-              "$True"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 579,
-            "y": 568
-          }
-        ]
-      },
-      {
         "name": "DreamKeeper - Boss Alius",
         "access_rules": [],
         "sections": [
@@ -10463,26 +10449,6 @@
         ]
       },
       {
-        "name": "DreamKeeper - Grip Sole Boots",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Grip Sole Boots",
-            "item_count": 1,
-            "access_rules": [
-              "$True"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 389,
-            "y": 568
-          }
-        ]
-      },
-      {
         "name": "DreamKeeper - Refractor",
         "access_rules": [],
         "sections": [
@@ -10499,27 +10465,6 @@
           {
             "map": "Snowveil + Dreamer's Keep",
             "x": 437,
-            "y": 520
-          }
-        ]
-      },
-      {
-        "name": "DreamKeeper - Blueberry Bunny Potion",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Blueberry Bunny Potion",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 579,
             "y": 520
           }
         ]
@@ -10610,11 +10555,83 @@
         ]
       },
       {
-        "name": "DreamKeeper - Lemon Bunny Potion",
+        "name": "DreamKeeper - Dominator",
         "access_rules": [],
         "sections": [
           {
-            "name": "Lemon Bunny Potion",
+            "name": "Dominator",
+            "item_count": 1,
+            "access_rules": [
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 531,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Teleporter DreamKeeper Inside",
+    "access_rules": [
+      "@DreamKeeper,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@DreamKeeper,$hasAmount|slide|1 , $canBombThrow",
+      "@TeleportHub,$canUseTeleporter|21"
+    ],
+    "children": [
+      {
+        "name": "DreamKeeper - Alius fight",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 579,
+            "y": 568
+          }
+        ]
+      },
+      {
+        "name": "DreamKeeper - Grip Sole Boots",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Grip Sole Boots",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil + Dreamer's Keep",
+            "x": 579,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "DreamKeeper - Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1",
@@ -10631,13 +10648,14 @@
         ]
       },
       {
-        "name": "DreamKeeper - Dominator",
+        "name": "DreamKeeper - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
-            "name": "Dominator",
+            "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
+              "$hasAmount|bombs|1",
               "$canBombThrow"
             ]
           }
@@ -13484,7 +13502,7 @@
     "clear_as_group": false,
     "access_rules": [
       "@Verdazure Ocean",
-      "@TeleportHub,$canUseTeleporter|16"
+      "@TeleportHub,$canUseTeleporter|15"
     ],
     "children": []
   },
@@ -13502,7 +13520,7 @@
     "clear_as_group": false,
     "access_rules": [
       "@Forgotten City Entrance",
-      "@TeleportHub,$canUseTeleporter|15"
+      "@TeleportHub,$canUseTeleporter|16"
     ],
     "children": []
   },
@@ -13616,16 +13634,6 @@
       "@DreamKeeper Outside Left,$hasAmount|slide|1 , $hasAmount|bombs|1",
       "@DreamKeeper Outside Left,$hasAmount|slide|1 , $canBombThrow",
       "@Exit Logic/1805"
-    ],
-    "children": []
-  },
-  {
-    "name": "Teleporter DreamKeeper Inside",
-    "clear_as_group": false,
-    "access_rules": [
-      "@DreamKeeper,$hasAmount|slide|1 , $hasAmount|bombs|1",
-      "@DreamKeeper,$hasAmount|slide|1 , $canBombThrow",
-      "@TeleportHub,$canUseTeleporter|21"
     ],
     "children": []
   },

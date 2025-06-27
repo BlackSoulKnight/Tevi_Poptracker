@@ -36,7 +36,7 @@
       "@Snowveil Entrance,$hasAmount|bombs|1",
       "@Snowveil Entrance,$canBombThrow",
       "@Exit Logic/1204",
-      "@Snowveil Ex"
+      "@Snowveil Ex,$canBombThrow"
     ],
     "children": [
       {
@@ -133,8 +133,8 @@
         "map_locations": [
           {
             "map": "Snowveil + Verglas Village",
-            "x": 216,
-            "y": 456
+            "x": 0,
+            "y": 0
           }
         ]
       },

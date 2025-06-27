@@ -70,27 +70,6 @@
         ]
       },
       {
-        "name": "Plague Forest - Blueberry Bunny Potion",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Teleporter Plague Forest",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "The Plagued Forest",
-            "x": 72,
-            "y": 360
-          }
-        ]
-      },
-      {
         "name": "Plague Forest - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
@@ -174,8 +153,8 @@
         "map_locations": [
           {
             "map": "The Plagued Forest",
-            "x": 456,
-            "y": 312
+            "x": 0,
+            "y": 0
           }
         ]
       },

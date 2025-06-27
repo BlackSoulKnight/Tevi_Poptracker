@@ -252,8 +252,8 @@
         "map_locations": [
           {
             "map": "Verdawn Forest + Misty Maze",
-            "x": 624,
-            "y": 456
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -288,7 +288,8 @@
       "@Forest Maze boss,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
       "@Forest Maze boss,$hasAmount|bombs|1 , $hasAmount|airJump|1",
       "@Forest Maze boss,$hasAmount|bombs|1 , $hasAmount|airDash|1",
-      "@Teleporter Forest Maze"
+      "@Teleporter Forest Maze,$hasAmount|bombs|1 , $hasAmount|airJump|1",
+      "@Teleporter Forest Maze,$hasAmount|bombs|1 , $hasAmount|jetpack|1"
     ],
     "children": [
       {

@@ -175,8 +175,8 @@
         "map_locations": [
           {
             "map": "Gallery of Mirrors + Gallery of Souls",
-            "x": 887,
-            "y": 168
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -430,8 +430,8 @@
         "map_locations": [
           {
             "map": "Gallery of Mirrors + Gallery of Souls",
-            "x": 431,
-            "y": 504
+            "x": 0,
+            "y": 0
           }
         ]
       },

@@ -64,8 +64,8 @@
         "map_locations": [
           {
             "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 740,
-            "y": 430
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -344,7 +344,12 @@
             "name": "Glass Knife",
             "item_count": 1,
             "access_rules": [
-              "$True"
+              "$hasAmount|airJump|1 , $hasAmount|jetpack|1",
+              "$hasAmount|airJump|1 , $hasAmount|highJump|1",
+              "$hasAmount|jetpack|2",
+              "$hasAmount|wallJump|1",
+              "$hasAmount|jetpack|1 , $hasAmount|highJump|1",
+              "$hasAmount|airDash|1 , $hasAmount|speed|1"
             ]
           }
         ],

@@ -263,8 +263,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 216,
-            "y": 408
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -443,8 +443,8 @@
         "map_locations": [
           {
             "map": "The Catacombs + Omphalos Laboratory",
-            "x": 1248,
-            "y": 314
+            "x": 0,
+            "y": 0
           }
         ]
       },

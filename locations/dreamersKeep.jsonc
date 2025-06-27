@@ -172,26 +172,6 @@
         ]
       },
       {
-        "name": "DreamKeeper - Alius fight",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Astral Gear",
-            "item_count": 1,
-            "access_rules": [
-              "$True"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 579,
-            "y": 568
-          }
-        ]
-      },
-      {
         "name": "DreamKeeper - Boss Alius",
         "access_rules": [],
         "sections": [
@@ -215,26 +195,6 @@
         ]
       },
       {
-        "name": "DreamKeeper - Grip Sole Boots",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Grip Sole Boots",
-            "item_count": 1,
-            "access_rules": [
-              "$True"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 389,
-            "y": 568
-          }
-        ]
-      },
-      {
         "name": "DreamKeeper - Refractor",
         "access_rules": [],
         "sections": [
@@ -251,27 +211,6 @@
           {
             "map": "Snowveil + Dreamer's Keep",
             "x": 437,
-            "y": 520
-          }
-        ]
-      },
-      {
-        "name": "DreamKeeper - Blueberry Bunny Potion",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Blueberry Bunny Potion",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 579,
             "y": 520
           }
         ]
@@ -312,8 +251,8 @@
         "map_locations": [
           {
             "map": "Snowveil + Dreamer's Keep",
-            "x": 483,
-            "y": 424
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -358,27 +297,6 @@
             "map": "Snowveil + Dreamer's Keep",
             "x": 579,
             "y": 328
-          }
-        ]
-      },
-      {
-        "name": "DreamKeeper - Lemon Bunny Potion",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Lemon Bunny Potion",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 485,
-            "y": 520
           }
         ]
       },

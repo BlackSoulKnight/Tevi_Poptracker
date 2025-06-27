@@ -73,8 +73,8 @@
         "map_locations": [
           {
             "map": "Travoll Mines",
-            "x": 120,
-            "y": 456
+            "x": 0,
+            "y": 0
           }
         ]
       },
