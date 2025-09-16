@@ -1,4 +1,5 @@
 [
+    
   {
     "name": "Desert Base",
     "location_size": 24,
@@ -9,174 +10,174 @@
     "name": "Thanatara Canyon + Gurun Desert",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/canyon_desert.jpg"
+    "img": "images/maps/Thanatara Canyon.PNG"
   },
   {
     "name": "Oasis",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/oasis.jpg"
+    "img": "images/maps/Oasis.PNG"
   },
   {
     "name": "Morose",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/morose.jpg"
+    "img": "images/maps/Morose.PNG"
   },
   {
     "name": "Verdawn Forest",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/forest_maze.jpg"
+    "img": "images/maps/Forest.PNG"
   },
   {
     "name": "Travoll Mines",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/mines.jpg"
+    "img": "images/maps/Travoll Mines.PNG"
   },
   {
     "name": "Travoll Industrial Park",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/industrialPark.jpg"
+    "img": "images/maps/Travoll INdustrial Park.PNG"
   },
   {
     "name": "Copperwood",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/copperwood.jpg"
+    "img": "images/maps/Copperwood.PNG"
   },
   {
     "name": "Ana Thema",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/anaThema.jpg"
+    "img": "images/maps/Ana Thema.PNG"
   },
   {
     "name": "Gloamwood",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/gloamwood.jpg"
+    "img": "images/maps/Gloamwood.PNG"
   },
   {
     "name": "Plagued Forest",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/plaguedForest.jpg"
+    "img": "images/maps/Plagued Forest.PNG"
   },
   {
     "name": "Ulvosa",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/ulvosa.jpg"
+    "img": "images/maps/Ulvosa.PNG"
   },
   {
     "name": "Snowveil",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/snowveil_verglas.jpg"
+    "img": "images/maps/Snowveil.PNG"
   },
   {
     "name": "Verdazure Sea",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/sea(West)_moat_beach.jpg"
+    "img": "images/maps/Verdazure Sea.PNG"
   },
   {
     "name": "Forgotten City + Ocean",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/sea(East)_city_swamplands_snow.jpg"
+    "img": "images/maps/Forgotten City + Ocean.PNG"
   },
   {
     "name": "Tartarus",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/tartarus.jpg"
+    "img": "images/maps/Tartarus.PNG"
   },
   {
     "name": "Snowveilian City + HQ",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/snowveilValley_handsHQ.jpg"
+    "img": "images/maps/Snowveilian Town + Golden Hands HQ.PNG"
   },
   {
     "name": "Magma + Swamplands",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/magma_swamplands.jpg"
+    "img": "images/maps/Magma + Swamplands.PNG"
   },
   {
     "name": "Dreamer's Keep",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/snowveil_keep.jpg"
+    "img": "images/maps/Dreamer's Keep.PNG"
   },
   {
     "name": "Valhalla's Breath (East)",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/valley_breath(East).jpg"
+    "img": "images/maps/Valhalla's Breath East.PNG"
   },
   {
     "name": "Valhalla",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/valhalla.jpg"
+    "img": "images/maps/Valhalla.PNG"
   },
   {
     "name": "Valhalla's Breath (West)",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/valley_breath(West).jpg"
+    "img": "images/maps/Valhalla's Breath West.PNG"
   },
   {
     "name": "Solennian Ruins",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/ruins.jpg"
+    "img": "images/maps/Solennian Ruins.PNG"
   },
   {
     "name": "Sinner's Oath",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/oath_palace.jpg"
+    "img": "images/maps/Sinner's Oath.PNG"
   },
   {
     "name": "Relicts",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/relicts.jpg"
+    "img": "images/maps/Relicts.PNG"
   },
   {
     "name": "Catacombs + Lab",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/catacombs_laboratory.jpg"
+    "img": "images/maps/Catacombs + Lab.PNG"
   },
   {
     "name": "Cloister",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/redemption.jpg"
+    "img": "images/maps/Cloister of Redemption.PNG"
   },
   {
     "name": "Gallery of Mirrors",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/mirrors_souls.jpg"
+    "img": "images/maps/Gallery of Mirrors.PNG"
   },
   {
     "name": "Blushwood",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/blushwood.jpg"
+    "img": "images/maps/Blushwood.PNG"
   },
   {
     "name": "Evernight Garden",
     "location_size": 24,
     "location_border_thickness": 4,
-    "img": "images/maps/garden.jpg"
+    "img": "images/maps/Evernight Garden.PNG"
   }
 ]
