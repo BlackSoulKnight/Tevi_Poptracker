@@ -13,7 +13,7 @@ CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
-AP_WORLD_VERSION = "0.4.4"
+AP_WORLD_VERSION = "0.6.1"
 
 -- resets an item to its initial state
 function resetItem(item_code, item_type)
@@ -96,7 +96,7 @@ function apply_slot_data(slot_data)
 	Tracker:FindObjectForCode("randomizeItemUpgrades").Active = SLOT_DATA["options"]["randomize_item_upgrade"]
 	Tracker:FindObjectForCode("chaosMode").Active = SLOT_DATA["options"]["chaos_mode"] > 0
 	Tracker:FindObjectForCode("startWithCelia/Sable").Active = SLOT_DATA["options"]["celia_sable"] > 0 
-	Tracker:FindObjectForCode("transitionShuffle").Active = SLOT_DATA["options"]["transitionShuffle"] > 0
+	
 	if SLOT_DATA["options"]["RJump"] then
 		Tracker:FindObjectForCode("rabbitJump").Active = SLOT_DATA["options"]["RJump"] > 0
 	end
@@ -109,6 +109,17 @@ function apply_slot_data(slot_data)
 	end
 	if SLOT_DATA["options"]["teleporter_mode"] then
 		Tracker:FindObjectForCode("teleporter").AcquiredCount = SLOT_DATA["options"]["teleporter_mode"]
+	end
+	if SLOT_DATA["options"]["transitionShuffle"] then
+		Tracker:FindObjectForCode("teleporter").AcquiredCount = SLOT_DATA["options"]["transitionShuffle"]
+	end
+	if SLOT_DATA["options"]["traverse_mode"] then
+		if SLOT_DATA["options"]["traverse_mode"] == 2 then
+			Tracker:FindObjectForCode("teleporter").AcquiredCount = 1
+		end
+			if SLOT_DATA["options"]["traverse_mode"] == 1 then
+		Tracker:FindObjectForCode("transitionShuffle").Active = 1
+		end
 	end
 	Tracker:FindObjectForCode("backflip").Active =  SLOT_DATA["options"]["backflip"] > 0
 	Tracker:FindObjectForCode("ceilingKick").Active = SLOT_DATA["options"]["cKick"] > 0

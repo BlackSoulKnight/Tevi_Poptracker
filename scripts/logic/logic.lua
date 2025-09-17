@@ -27,6 +27,10 @@ function canAccessExit(exit_name)
     return loc.AccessibilityLevel
 end
 
+function notTeleporter()
+    return Tracker:FindObjectForCode("teleporter").AcquiredCount  == 0
+end
+
 function canFinish()
     if SLOT_DATA ~= nil then
         return goal_count <= Tracker:FindObjectForCode("gear")

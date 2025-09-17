@@ -22,8 +22,8 @@
         "map_locations": [
           {
             "map": "Oasis",
-            "x": 426,
-            "y": 251
+            "x": 408,
+            "y": 216
           }
         ]
       },
@@ -42,17 +42,24 @@
         "map_locations": [
           {
             "map": "Oasis",
-            "x": 282,
-            "y": 251
+            "x": 264,
+            "y": 216
           }
         ]
       },
       {
-        "name": "Oasis - PK Recon Badge",
+        "name": "Oasis - Lily Fight",
         "access_rules": [],
         "sections": [
           {
             "name": "PK Recon Badge",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$True"
@@ -62,8 +69,8 @@
         "map_locations": [
           {
             "map": "Oasis",
-            "x": 330,
-            "y": 155
+            "x": 312,
+            "y": 120
           }
         ]
       },
@@ -85,8 +92,8 @@
         "map_locations": [
           {
             "map": "Oasis",
-            "x": 234,
-            "y": 203
+            "x": 216,
+            "y": 168
           }
         ]
       },
@@ -105,8 +112,8 @@
         "map_locations": [
           {
             "map": "Oasis",
-            "x": 330,
-            "y": 203
+            "x": 312,
+            "y": 168
           }
         ]
       },
@@ -125,8 +132,8 @@
         "map_locations": [
           {
             "map": "Oasis",
-            "x": 186,
-            "y": 155
+            "x": 168,
+            "y": 120
           }
         ]
       },
@@ -146,28 +153,8 @@
         "map_locations": [
           {
             "map": "Oasis",
-            "x": 138,
-            "y": 155
-          }
-        ]
-      },
-      {
-        "name": "Oasis - Lily Fight",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Astral Gear",
-            "item_count": 1,
-            "access_rules": [
-              "$True"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Oasis",
-            "x": 378,
-            "y": 155
+            "x": 120,
+            "y": 120
           }
         ]
       },
@@ -186,8 +173,8 @@
         "map_locations": [
           {
             "map": "Oasis",
-            "x": 0,
-            "y": 0,
+            "x": 312,
+            "y": 120,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -214,8 +201,8 @@
         "map_locations": [
           {
             "map": "Oasis",
-            "x": 426,
-            "y": 203
+            "x": 408,
+            "y": 168
           }
         ]
       },
@@ -234,8 +221,8 @@
         "map_locations": [
           {
             "map": "Oasis",
-            "x": 474,
-            "y": 107
+            "x": 456,
+            "y": 72
           }
         ]
       },
@@ -254,8 +241,8 @@
         "map_locations": [
           {
             "map": "Oasis",
-            "x": 426,
-            "y": 155
+            "x": 408,
+            "y": 120
           }
         ]
       },
@@ -274,8 +261,8 @@
         "map_locations": [
           {
             "map": "Oasis",
-            "x": 666,
-            "y": 107
+            "x": 648,
+            "y": 72
           }
         ]
       }
@@ -287,7 +274,10 @@
       "@Desert Base Main,$hasAmount|slide|1",
       "@Desert Base Main,$hasAmount|bombs|1",
       "@Desert Base Main,$canBombThrow",
-      "@Exit Logic/0000"
+      "@Exit Logic/0000",
+      "@Desert Base UnderScore,$hasAmount|dagger|1 , $hasAmount|slide|1",
+      "@Desert Base UnderScore,$hasAmount|bombs|1",
+      "@Desert Base UnderScore,$canBombThrow"
     ],
     "children": [
       {
@@ -304,9 +294,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 810,
-            "y": 354
+            "map": "Desert Base",
+            "x": 792,
+            "y": 312
           }
         ]
       },
@@ -325,9 +315,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 762,
-            "y": 354
+            "map": "Desert Base",
+            "x": 744,
+            "y": 312
           }
         ]
       },
@@ -345,9 +335,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 740,
-            "y": 430
+            "map": "Desert Base",
+            "x": 744,
+            "y": 408
           }
         ]
       },
@@ -365,9 +355,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 0,
-            "y": 0,
+            "map": "Desert Base",
+            "x": 744,
+            "y": 408,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -391,9 +381,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 762,
-            "y": 306
+            "map": "Desert Base",
+            "x": 744,
+            "y": 264
           }
         ]
       }
@@ -432,9 +422,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 570,
-            "y": 450
+            "map": "Desert Base",
+            "x": 552,
+            "y": 408
           }
         ]
       },
@@ -452,9 +442,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 570,
-            "y": 354
+            "map": "Desert Base",
+            "x": 552,
+            "y": 312
           }
         ]
       },
@@ -473,9 +463,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 522,
-            "y": 546
+            "map": "Desert Base",
+            "x": 504,
+            "y": 504
           }
         ]
       },
@@ -493,9 +483,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 570,
-            "y": 498
+            "map": "Desert Base",
+            "x": 552,
+            "y": 456
           }
         ]
       }
@@ -507,14 +497,8 @@
       "@Desert Base Main,$hasAmount|highJump|1 , $hasAmount|airJump|1 , $hasAmount|wallJump|1",
       "@Desert Base Main,$hasAmount|jetpack|1 , $hasAmount|wallJump|1",
       "@Desert Base Main,$hasAmount|jetpack|1 , $hasAmount|wallJump|1",
-      "@Desert Base Entrance,$canBackflip , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1",
-      "@Desert Base Entrance,$canBackflip , $hasAmount|slide|1 , $canBombThrow , $hasAmount|dagger|1",
-      "@Desert Base Entrance,$hasAmount|airJump|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1",
-      "@Desert Base Entrance,$hasAmount|airJump|1 , $hasAmount|slide|1 , $canBombThrow , $hasAmount|dagger|1",
-      "@Desert Base Entrance,$hasAmount|jetpack|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1",
-      "@Desert Base Entrance,$hasAmount|jetpack|1 , $hasAmount|slide|1 , $canBombThrow , $hasAmount|dagger|1",
-      "@Desert Base Entrance,$hasAmount|airDash|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|dagger|1",
-      "@Desert Base Entrance,$hasAmount|airDash|1 , $hasAmount|slide|1 , $canBombThrow , $hasAmount|dagger|1"
+      "@Desert Base UnderScore,$hasAmount|bombs|1 , $hasAmount|slide|1",
+      "@Desert Base UnderScore,$canBombThrow , $hasAmount|slide|1"
     ],
     "children": [
       {
@@ -531,9 +515,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 378,
-            "y": 306
+            "map": "Desert Base",
+            "x": 360,
+            "y": 264
           }
         ]
       },
@@ -551,9 +535,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 330,
-            "y": 306
+            "map": "Desert Base",
+            "x": 312,
+            "y": 264
           }
         ]
       },
@@ -571,9 +555,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 330,
-            "y": 210
+            "map": "Desert Base",
+            "x": 312,
+            "y": 168
           }
         ]
       },
@@ -591,9 +575,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 234,
-            "y": 66
+            "map": "Desert Base",
+            "x": 216,
+            "y": 24
           }
         ]
       },
@@ -612,9 +596,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 42,
-            "y": 210
+            "map": "Desert Base",
+            "x": 24,
+            "y": 168
           }
         ]
       },
@@ -637,12 +621,25 @@
         ],
         "map_locations": [
           {
-            "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 426,
-            "y": 162
+            "map": "Desert Base",
+            "x": 408,
+            "y": 120
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Desert Base UnderScore",
+    "access_rules": [
+      "@Desert Base Entrance,$canBackflip , $hasAmount|dagger|1",
+      "@Desert Base Entrance,$hasAmount|airJump|1 , $hasAmount|dagger|1",
+      "@Desert Base Entrance,$hasAmount|jetpack|1 , $hasAmount|dagger|1",
+      "@Desert Base Entrance,$hasAmount|airDash|1 , $hasAmount|dagger|1",
+      "@Desert Base Upper Half,$hasAmount|bombs|1 , $hasAmount|slide|1",
+      "@Desert Base Upper Half,$canBombThrow , $hasAmount|slide|1"
+    ],
+    "children": [
       {
         "name": "Desert Base Upper Half - Under Score",
         "access_rules": [],
@@ -651,16 +648,15 @@
             "name": "Under Score",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1",
-              "$hasAmount|slide|1 , $canBombThrow"
+              "$True"
             ]
           }
         ],
         "map_locations": [
           {
-            "map": "The Sewerways + Golden Hands Desert Base",
-            "x": 570,
-            "y": 210
+            "map": "Desert Base",
+            "x": 552,
+            "y": 168
           }
         ]
       }
@@ -685,13 +681,13 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 203,
-            "y": 355
+            "x": 168,
+            "y": 312
           }
         ]
       },
       {
-        "name": "Thanatara Canyon - Dagger",
+        "name": "Start Equipment",
         "access_rules": [],
         "sections": [
           {
@@ -700,20 +696,7 @@
             "access_rules": [
               "$True"
             ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Thanatara Canyon + Gurun Desert",
-            "x": 0,
-            "y": 0
-          }
-        ]
-      },
-      {
-        "name": "Thanatara Canyon - Orbitars",
-        "access_rules": [],
-        "sections": [
+          },
           {
             "name": "Orbitars",
             "item_count": 1,
@@ -725,8 +708,8 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 50,
-            "y": 0
+            "x": 216,
+            "y": 312
           }
         ]
       },
@@ -745,8 +728,8 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 348,
-            "y": 354
+            "x": 312,
+            "y": 312
           }
         ]
       },
@@ -765,8 +748,8 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 395,
-            "y": 403
+            "x": 360,
+            "y": 360
           }
         ]
       },
@@ -785,8 +768,8 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 299,
-            "y": 163
+            "x": 264,
+            "y": 120
           }
         ]
       },
@@ -807,8 +790,8 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 540,
-            "y": 402,
+            "x": 504,
+            "y": 360,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -831,8 +814,8 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 395,
-            "y": 355
+            "x": 360,
+            "y": 264
           }
         ]
       },
@@ -852,15 +835,22 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 588,
-            "y": 211
+            "x": 552,
+            "y": 168
           }
         ]
       },
       {
-        "name": "Memine Completion - Rainbow Bunny Potion",
+        "name": "Memine Race Completion",
         "access_rules": [],
         "sections": [
+          {
+            "name": "Electric Wind",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_Memine"
+            ]
+          },
           {
             "name": "Rainbow Bunny Potion",
             "item_count": 1,
@@ -872,8 +862,8 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 90,
-            "y": 0
+            "x": -24,
+            "y": -72
           }
         ]
       }
@@ -903,8 +893,8 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 395,
-            "y": 595
+            "x": 360,
+            "y": 552
           }
         ]
       },
@@ -923,8 +913,8 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 588,
-            "y": 498
+            "x": 552,
+            "y": 456
           }
         ]
       },
@@ -944,8 +934,8 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 443,
-            "y": 450
+            "x": 408,
+            "y": 408
           }
         ]
       },
@@ -964,8 +954,8 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 395,
-            "y": 450
+            "x": 360,
+            "y": 408
           }
         ]
       }
@@ -995,8 +985,8 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 1067,
-            "y": 546
+            "x": 1032,
+            "y": 504
           }
         ]
       },
@@ -1015,8 +1005,8 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 971,
-            "y": 450
+            "x": 936,
+            "y": 408
           }
         ]
       },
@@ -1035,8 +1025,8 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 1307,
-            "y": 450
+            "x": 1272,
+            "y": 408
           }
         ]
       },
@@ -1055,8 +1045,8 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": 923,
-            "y": 498
+            "x": 888,
+            "y": 456
           }
         ]
       }
@@ -1087,9 +1077,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Solennian Ruins",
+            "map": "Solennian Ruins",
             "x": 600,
-            "y": 72
+            "y": 24
           }
         ]
       }
@@ -1118,9 +1108,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Solennian Ruins",
-            "x": 0,
-            "y": 0,
+            "map": "Solennian Ruins",
+            "x": 168,
+            "y": 312,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -1141,9 +1131,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Solennian Ruins",
+            "map": "Solennian Ruins",
             "x": 696,
-            "y": 216
+            "y": 168
           }
         ]
       },
@@ -1161,9 +1151,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Solennian Ruins",
+            "map": "Solennian Ruins",
             "x": 360,
-            "y": 552
+            "y": 504
           }
         ]
       },
@@ -1181,9 +1171,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Solennian Ruins",
-            "x": 0,
-            "y": 0,
+            "map": "Solennian Ruins",
+            "x": 360,
+            "y": 504,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -1204,9 +1194,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Solennian Ruins",
+            "map": "Solennian Ruins",
             "x": 72,
-            "y": 360
+            "y": 312
           }
         ]
       },
@@ -1224,9 +1214,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Solennian Ruins",
+            "map": "Solennian Ruins",
             "x": 600,
-            "y": 504
+            "y": 456
           }
         ]
       },
@@ -1239,15 +1229,16 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|wallJump|1",
-              "$hasAmount|airJump|1 , $hasAmount|jetpack|2"
+              "$hasAmount|airJump|1 , $hasAmount|jetpack|2",
+              "$hasAmount|highJump|1 , $hasAmount|jetpack|3"
             ]
           }
         ],
         "map_locations": [
           {
-            "map": "The Solennian Ruins",
+            "map": "Solennian Ruins",
             "x": 360,
-            "y": 408
+            "y": 360
           }
         ]
       },
@@ -1268,9 +1259,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Solennian Ruins",
+            "map": "Solennian Ruins",
             "x": 216,
-            "y": 552
+            "y": 504
           }
         ]
       },
@@ -1288,9 +1279,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Solennian Ruins",
+            "map": "Solennian Ruins",
             "x": 792,
-            "y": 360
+            "y": 312
           }
         ]
       },
@@ -1308,9 +1299,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Solennian Ruins",
+            "map": "Solennian Ruins",
             "x": 696,
-            "y": 360
+            "y": 312
           }
         ]
       }
@@ -1350,9 +1341,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
-            "x": 504,
-            "y": 526
+            "map": "Valhalla's Breath (West)",
+            "x": 648,
+            "y": 744
           }
         ]
       },
@@ -1375,9 +1366,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "map": "Valhalla's Breath (West)",
             "x": 504,
-            "y": 574
+            "y": 552
           }
         ]
       },
@@ -1395,9 +1386,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
-            "x": 648,
-            "y": 766
+            "map": "Valhalla's Breath (West)",
+            "x": 504,
+            "y": 504
           }
         ]
       },
@@ -1415,9 +1406,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "map": "Valhalla's Breath (West)",
             "x": 504,
-            "y": 382
+            "y": 360
           }
         ]
       },
@@ -1435,9 +1426,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
-            "x": 0,
-            "y": 0,
+            "map": "Valhalla's Breath (West)",
+            "x": 456,
+            "y": 456,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -1477,9 +1468,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "map": "Valhalla's Breath (West)",
             "x": 1128,
-            "y": 190
+            "y": 168
           }
         ]
       },
@@ -1497,9 +1488,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
-            "x": 0,
-            "y": 0,
+            "map": "Valhalla's Breath (West)",
+            "x": 600,
+            "y": 216,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -1521,9 +1512,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "map": "Valhalla's Breath (West)",
             "x": 648,
-            "y": 238
+            "y": 216
           }
         ]
       },
@@ -1542,9 +1533,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "map": "Valhalla's Breath (West)",
             "x": 1176,
-            "y": 94
+            "y": 72
           }
         ]
       },
@@ -1562,9 +1553,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "map": "Valhalla's Breath (West)",
             "x": 888,
-            "y": 48
+            "y": 24
           }
         ]
       },
@@ -1583,9 +1574,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "map": "Valhalla's Breath (West)",
             "x": 1176,
-            "y": 238
+            "y": 216
           }
         ]
       },
@@ -1606,9 +1597,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "map": "Valhalla's Breath (West)",
             "x": 648,
-            "y": 334
+            "y": 312
           }
         ]
       }
@@ -1636,9 +1627,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
-            "x": 550,
-            "y": 94
+            "map": "Valhalla's Breath (West)",
+            "x": 552,
+            "y": 72
           }
         ]
       },
@@ -1657,9 +1648,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "map": "Valhalla's Breath (West)",
             "x": 120,
-            "y": 144
+            "y": 120
           }
         ]
       },
@@ -1678,9 +1669,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
+            "map": "Valhalla's Breath (West)",
             "x": 168,
-            "y": 240
+            "y": 216
           }
         ]
       },
@@ -1698,9 +1689,43 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (West) + Valhalla's Breath (West)",
-            "x": 694,
-            "y": 94
+            "map": "Valhalla's Breath (West)",
+            "x": 696,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Teleporter Morose",
+    "access_rules": [
+      "@Thanatara Canyon",
+      "@Morose City,$hasAmount|bombs|1",
+      "@Morose City,$canBombThrow",
+      "@TeleportHub,$canUseTeleporter|3"
+    ],
+    "children": [
+      {
+        "name": "Morose City - Visit",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EVENT_MoroseVisited",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Morose",
+            "x": -504,
+            "y": -408,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       }
@@ -1719,29 +1744,6 @@
     ],
     "children": [
       {
-        "name": "Morose City - Visit",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "EVENT_MoroseVisited",
-            "item_count": 1,
-            "access_rules": [
-              "$True"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Morose",
-            "x": 0,
-            "y": 0,
-            "force_invisibility_rules": [
-              "$True"
-            ]
-          }
-        ]
-      },
-      {
         "name": "Morose City - Elite Challenge A",
         "access_rules": [],
         "sections": [
@@ -1756,8 +1758,8 @@
         "map_locations": [
           {
             "map": "Morose",
-            "x": 432,
-            "y": 60,
+            "x": 408,
+            "y": 24,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -1766,7 +1768,7 @@
       },
       {
         "name": "Morose City - Vena Fight",
-        "access_rules": "@Morose City/Morose City - Boss/EVENT_BOSS",
+        "access_rules": [],
         "sections": [
           {
             "name": "Astral Gear",
@@ -1780,7 +1782,7 @@
           {
             "map": "Morose",
             "x": 72,
-            "y": 152
+            "y": 120
           }
         ]
       },
@@ -1799,8 +1801,8 @@
         "map_locations": [
           {
             "map": "Morose",
-            "x": 0,
-            "y": 0,
+            "x": 72,
+            "y": 120,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -1822,8 +1824,8 @@
         "map_locations": [
           {
             "map": "Morose",
-            "x": 190,
-            "y": 248
+            "x": 168,
+            "y": 216
           }
         ]
       },
@@ -1843,8 +1845,8 @@
         "map_locations": [
           {
             "map": "Morose",
-            "x": 527,
-            "y": 296
+            "x": 504,
+            "y": 264
           }
         ]
       },
@@ -1866,13 +1868,13 @@
         "map_locations": [
           {
             "map": "Morose",
-            "x": 384,
-            "y": 60
+            "x": 360,
+            "y": 24
           }
         ]
       },
       {
-        "name": "Morose City Shop",
+        "name": "Morose Shop",
         "access_rules": [],
         "sections": [
           {
@@ -2012,13 +2014,13 @@
         "map_locations": [
           {
             "map": "Morose",
-            "x": 240,
-            "y": 150
+            "x": 216,
+            "y": 120
           }
         ]
       },
       {
-        "name": "Morose City Waffle Shop",
+        "name": "Waffle Shop",
         "access_rules": [],
         "sections": [
           {
@@ -2055,7 +2057,20 @@
             "access_rules": [
               "$True , $Chapter|6"
             ]
-          },
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Morose",
+            "x": 264,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Morose City Waffle Shop - Muscle Memory",
+        "access_rules": [],
+        "sections": [
           {
             "name": "Muscle Memory",
             "item_count": 1,
@@ -2066,9 +2081,9 @@
         ],
         "map_locations": [
           {
-            "map": "Morose",
-            "x": 288,
-            "y": 248
+            "map": "Crafting Map",
+            "x": 408,
+            "y": 24
           }
         ]
       }
@@ -2103,8 +2118,8 @@
         "map_locations": [
           {
             "map": "Travoll Industrial Park",
-            "x": 216,
-            "y": 360
+            "x": 168,
+            "y": 312
           }
         ]
       },
@@ -2123,8 +2138,8 @@
         "map_locations": [
           {
             "map": "Travoll Industrial Park",
-            "x": 360,
-            "y": 312
+            "x": 312,
+            "y": 264
           }
         ]
       },
@@ -2144,8 +2159,8 @@
         "map_locations": [
           {
             "map": "Travoll Industrial Park",
-            "x": 312,
-            "y": 456
+            "x": 264,
+            "y": 408
           }
         ]
       },
@@ -2164,8 +2179,8 @@
         "map_locations": [
           {
             "map": "Travoll Industrial Park",
-            "x": 264,
-            "y": 120
+            "x": 216,
+            "y": 72
           }
         ]
       },
@@ -2186,8 +2201,8 @@
         "map_locations": [
           {
             "map": "Travoll Industrial Park",
-            "x": 216,
-            "y": 120
+            "x": 168,
+            "y": 72
           }
         ]
       },
@@ -2206,8 +2221,8 @@
         "map_locations": [
           {
             "map": "Travoll Industrial Park",
-            "x": 264,
-            "y": 216
+            "x": 216,
+            "y": 168
           }
         ]
       }
@@ -2237,8 +2252,8 @@
         "map_locations": [
           {
             "map": "Travoll Industrial Park",
-            "x": 456,
-            "y": 456
+            "x": 408,
+            "y": 408
           }
         ]
       }
@@ -2275,8 +2290,8 @@
         "map_locations": [
           {
             "map": "Travoll Mines",
-            "x": 72,
-            "y": 312
+            "x": 24,
+            "y": 264
           }
         ]
       },
@@ -2295,11 +2310,16 @@
         "map_locations": [
           {
             "map": "Travoll Mines",
-            "x": 0,
-            "y": 0,
+            "x": 792,
+            "y": 72,
             "force_invisibility_rules": [
               "$True"
             ]
+          },
+          {
+            "map": "Travoll Mines",
+            "x": 792,
+            "y": 264
           }
         ]
       },
@@ -2318,7 +2338,7 @@
         "map_locations": [
           {
             "map": "Travoll Mines",
-            "x": 120,
+            "x": 72,
             "y": 456
           }
         ]
@@ -2338,8 +2358,8 @@
         "map_locations": [
           {
             "map": "Travoll Mines",
-            "x": 0,
-            "y": 0,
+            "x": 72,
+            "y": 456,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -2362,8 +2382,8 @@
         "map_locations": [
           {
             "map": "Travoll Mines",
-            "x": 312,
-            "y": 360
+            "x": 264,
+            "y": 312
           }
         ]
       },
@@ -2375,17 +2395,15 @@
             "name": "Grape Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "ceilingKick"
+              "$True"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "Travoll Mines",
-            "x": 456,
-            "y": 408
+            "x": 408,
+            "y": 360
           }
         ]
       },
@@ -2404,8 +2422,8 @@
         "map_locations": [
           {
             "map": "Travoll Mines",
-            "x": 264,
-            "y": 408
+            "x": 216,
+            "y": 360
           }
         ]
       },
@@ -2425,8 +2443,8 @@
         "map_locations": [
           {
             "map": "Travoll Mines",
-            "x": 936,
-            "y": 216
+            "x": 888,
+            "y": 168
           }
         ]
       }
@@ -2454,8 +2472,8 @@
         "map_locations": [
           {
             "map": "Travoll Mines",
-            "x": 936,
-            "y": 360
+            "x": 888,
+            "y": 312
           }
         ]
       }
@@ -2485,8 +2503,8 @@
         "map_locations": [
           {
             "map": "Travoll Mines",
-            "x": 408,
-            "y": 120
+            "x": 360,
+            "y": 72
           }
         ]
       }
@@ -2515,8 +2533,8 @@
         "map_locations": [
           {
             "map": "Travoll Mines",
-            "x": 840,
-            "y": 120
+            "x": 792,
+            "y": 72
           }
         ]
       }
@@ -2548,9 +2566,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 360,
-            "y": 312
+            "map": "Verdawn Forest",
+            "x": 312,
+            "y": 264
           }
         ]
       },
@@ -2569,9 +2587,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 456,
-            "y": 168
+            "map": "Verdawn Forest",
+            "x": 408,
+            "y": 120
           }
         ]
       },
@@ -2589,9 +2607,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 552,
-            "y": 120
+            "map": "Verdawn Forest",
+            "x": 504,
+            "y": 72
           }
         ]
       },
@@ -2610,9 +2628,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 504,
-            "y": 264
+            "map": "Verdawn Forest",
+            "x": 456,
+            "y": 216
           }
         ]
       },
@@ -2630,9 +2648,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 456,
-            "y": 264
+            "map": "Verdawn Forest",
+            "x": 408,
+            "y": 216
           }
         ]
       },
@@ -2650,9 +2668,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 888,
-            "y": 456
+            "map": "Verdawn Forest",
+            "x": 840,
+            "y": 408
           }
         ]
       },
@@ -2673,9 +2691,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 600,
-            "y": 72,
+            "map": "Verdawn Forest",
+            "x": 552,
+            "y": 24,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -2704,9 +2722,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 696,
-            "y": 408
+            "map": "Verdawn Forest",
+            "x": 648,
+            "y": 360
           }
         ]
       },
@@ -2725,9 +2743,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 504,
-            "y": 648
+            "map": "Verdawn Forest",
+            "x": 456,
+            "y": 600
           }
         ]
       },
@@ -2745,9 +2763,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 456,
-            "y": 600
+            "map": "Verdawn Forest",
+            "x": 408,
+            "y": 552
           }
         ]
       }
@@ -2761,7 +2779,7 @@
     ],
     "children": [
       {
-        "name": "Forest - Ribauld fight",
+        "name": "Forest - Roleo fight",
         "access_rules": [],
         "sections": [
           {
@@ -2774,9 +2792,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 624,
-            "y": 456
+            "map": "Verdawn Forest",
+            "x": 552,
+            "y": 408
           }
         ]
       },
@@ -2794,9 +2812,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 0,
-            "y": 0,
+            "map": "Verdawn Forest",
+            "x": 552,
+            "y": 408,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -2826,9 +2844,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 168,
-            "y": 744
+            "map": "Verdawn Forest",
+            "x": 120,
+            "y": 696
           }
         ]
       },
@@ -2846,9 +2864,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 264,
-            "y": 744
+            "map": "Verdawn Forest",
+            "x": 216,
+            "y": 696
           }
         ]
       },
@@ -2866,9 +2884,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 360,
-            "y": 744
+            "map": "Verdawn Forest",
+            "x": 312,
+            "y": 696
           }
         ]
       },
@@ -2886,9 +2904,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 216,
-            "y": 696
+            "map": "Verdawn Forest",
+            "x": 168,
+            "y": 648
           }
         ]
       }
@@ -2918,9 +2936,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 648,
-            "y": 552
+            "map": "Verdawn Forest",
+            "x": 600,
+            "y": 504
           }
         ]
       },
@@ -2941,9 +2959,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 648,
-            "y": 504
+            "map": "Verdawn Forest",
+            "x": 600,
+            "y": 456
           }
         ]
       },
@@ -2961,9 +2979,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdawn Forest + Misty Maze",
-            "x": 360,
-            "y": 648
+            "map": "Verdawn Forest",
+            "x": 312,
+            "y": 600
           }
         ]
       }
@@ -2992,8 +3010,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 184,
-            "y": 671
+            "x": 120,
+            "y": 696
           }
         ]
       },
@@ -3012,8 +3030,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 376,
-            "y": 719
+            "x": 312,
+            "y": 744
           }
         ]
       },
@@ -3032,8 +3050,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 376,
-            "y": 767
+            "x": 312,
+            "y": 792
           }
         ]
       },
@@ -3052,8 +3070,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 0,
-            "y": 0,
+            "x": 456,
+            "y": 792,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -3097,8 +3115,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 472,
-            "y": 574
+            "x": 408,
+            "y": 600
           }
         ]
       },
@@ -3117,8 +3135,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 424,
-            "y": 335
+            "x": 360,
+            "y": 360
           }
         ]
       },
@@ -3138,8 +3156,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 328,
-            "y": 290
+            "x": 264,
+            "y": 312
           }
         ]
       },
@@ -3159,8 +3177,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 424,
-            "y": 239
+            "x": 360,
+            "y": 264
           }
         ]
       },
@@ -3179,8 +3197,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 88,
-            "y": 239
+            "x": 24,
+            "y": 264
           }
         ]
       },
@@ -3204,8 +3222,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 472,
-            "y": 671
+            "x": 408,
+            "y": 696
           }
         ]
       },
@@ -3227,8 +3245,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 184,
-            "y": 143
+            "x": 120,
+            "y": 168
           }
         ]
       },
@@ -3247,8 +3265,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 0,
-            "y": 0,
+            "x": 264,
+            "y": 504,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -3270,8 +3288,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 88,
-            "y": 190
+            "x": 24,
+            "y": 216
           }
         ]
       },
@@ -3290,8 +3308,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 0,
-            "y": 0,
+            "x": 24,
+            "y": 216,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -3331,8 +3349,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 184,
-            "y": 768
+            "x": 120,
+            "y": 792
           }
         ]
       }
@@ -3361,8 +3379,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 328,
-            "y": 191,
+            "x": 264,
+            "y": 216,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -3396,8 +3414,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 664,
-            "y": 574
+            "x": 600,
+            "y": 648
           }
         ]
       }
@@ -3433,8 +3451,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 0,
-            "y": 0,
+            "x": 696,
+            "y": 552,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -3457,8 +3475,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 808,
-            "y": 671
+            "x": 744,
+            "y": 696
           }
         ]
       },
@@ -3477,8 +3495,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 760,
-            "y": 623
+            "x": 696,
+            "y": 648
           }
         ]
       }
@@ -3510,8 +3528,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 856,
-            "y": 574
+            "x": 792,
+            "y": 600
           }
         ]
       },
@@ -3523,15 +3541,16 @@
             "name": "Dual Combo: Flow",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 1096,
-            "y": 574
+            "x": 1032,
+            "y": 600
           }
         ]
       },
@@ -3551,8 +3570,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 1096,
-            "y": 480
+            "x": 1032,
+            "y": 504
           }
         ]
       }
@@ -3561,10 +3580,10 @@
   {
     "name": "Ulskan To Plague Forest",
     "access_rules": [
-      "@Ulskan Village Area,$canBombThrow , $hasAmount|jetpack|1",
-      "@Ulskan Village Area,$canBombThrow , $hasAmount|airJump|1",
-      "@Ulskan Village Area,$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
-      "@Ulskan Village Area,$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|airJump|1",
+      "@Ulskan Village Area,$canBombThrow , $hasAmount|jetpack|1 , $canUseVenaBomb",
+      "@Ulskan Village Area,$canBombThrow , $hasAmount|airJump|1 , $canUseVenaBomb",
+      "@Ulskan Village Area,$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|jetpack|1 , $canUseVenaBomb",
+      "@Ulskan Village Area,$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|airJump|1 , $canUseVenaBomb",
       "@Exit Logic/0904"
     ],
     "children": [
@@ -3584,8 +3603,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 1337,
-            "y": 480
+            "x": 1272,
+            "y": 504
           }
         ]
       },
@@ -3605,8 +3624,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": 1192,
-            "y": 430
+            "x": 1128,
+            "y": 456
           }
         ]
       }
@@ -3634,9 +3653,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Plagued Forest",
-            "x": 312,
-            "y": 600
+            "map": "Plagued Forest",
+            "x": 264,
+            "y": 552
           }
         ]
       },
@@ -3655,9 +3674,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Plagued Forest",
-            "x": 168,
-            "y": 552
+            "map": "Plagued Forest",
+            "x": 120,
+            "y": 504
           }
         ]
       },
@@ -3676,9 +3695,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Plagued Forest",
-            "x": 216,
-            "y": 552
+            "map": "Plagued Forest",
+            "x": 168,
+            "y": 504
           }
         ]
       },
@@ -3700,9 +3719,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Plagued Forest",
-            "x": 504,
-            "y": 504
+            "map": "Plagued Forest",
+            "x": 456,
+            "y": 456
           }
         ]
       },
@@ -3724,9 +3743,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Plagued Forest",
-            "x": 408,
-            "y": 408
+            "map": "Plagued Forest",
+            "x": 360,
+            "y": 312
           }
         ]
       },
@@ -3745,9 +3764,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Plagued Forest",
-            "x": 360,
-            "y": 408
+            "map": "Plagued Forest",
+            "x": 312,
+            "y": 360
           }
         ]
       },
@@ -3759,15 +3778,16 @@
             "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|decayMask|1"
+              "$hasAmount|decayMask|1",
+              "$hasAmount|decayAntidote|1"
             ]
           }
         ],
         "map_locations": [
           {
-            "map": "The Plagued Forest",
-            "x": 456,
-            "y": 312
+            "map": "Plagued Forest",
+            "x": 408,
+            "y": 264
           }
         ]
       },
@@ -3779,15 +3799,16 @@
             "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|decayMask|1"
+              "$hasAmount|decayMask|1",
+              "$hasAmount|decayAntidote|1"
             ]
           }
         ],
         "map_locations": [
           {
-            "map": "The Plagued Forest",
-            "x": 0,
-            "y": 0,
+            "map": "Plagued Forest",
+            "x": 408,
+            "y": 264,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -3802,15 +3823,16 @@
             "name": "Aplomb",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|decayMask|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|decayMask|1",
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|decayAntidote|1"
             ]
           }
         ],
         "map_locations": [
           {
-            "map": "The Plagued Forest",
-            "x": 648,
-            "y": 407
+            "map": "Plagued Forest",
+            "x": 600,
+            "y": 360
           }
         ]
       },
@@ -3828,9 +3850,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Plagued Forest",
-            "x": 168,
-            "y": 312
+            "map": "Plagued Forest",
+            "x": 120,
+            "y": 264
           }
         ]
       },
@@ -3848,9 +3870,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Plagued Forest",
-            "x": 264,
-            "y": 408
+            "map": "Plagued Forest",
+            "x": 216,
+            "y": 360
           }
         ]
       },
@@ -3868,9 +3890,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Plagued Forest",
-            "x": 168,
-            "y": 72
+            "map": "Plagued Forest",
+            "x": 120,
+            "y": 24
           }
         ]
       }
@@ -3881,7 +3903,9 @@
     "access_rules": [
       "@Plague Forest,$hasAmount|bombs|1",
       "@Plague Forest,$canBombThrow",
-      "@TeleportHub,$canUseTeleporter|11"
+      "@TeleportHub,$canUseTeleporter|11 , $hasAmount|decayAntidote|1",
+      "@TeleportHub,$canUseTeleporter|11 , $hasAmount|alembicCrystal|1",
+      "@TeleportHub,$canUseTeleporter|11 , $hasAmount|decayMask|1"
     ],
     "children": [
       {
@@ -3899,9 +3923,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Plagued Forest",
-            "x": 72,
-            "y": 360
+            "map": "Plagued Forest",
+            "x": 24,
+            "y": 312
           }
         ]
       },
@@ -3919,10 +3943,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Plagued Forest",
-
-            "x": 168,
-            "y": 408
+            "map": "Plagued Forest",
+            "x": 120,
+            "y": 360
           }
         ]
       }
@@ -3944,15 +3967,16 @@
             "name": "Blood Armor",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|bombs|1"
+              "$hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|decayMask|1",
+              "$hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|decayAntidote|1"
             ]
           }
         ],
         "map_locations": [
           {
-            "map": "The Plagued Forest",
-            "x": 648,
-            "y": 552
+            "map": "Plagued Forest",
+            "x": 600,
+            "y": 504
           }
         ]
       }
@@ -3986,8 +4010,8 @@
         "map_locations": [
           {
             "map": "Ulvosa",
-            "x": 120,
-            "y": 120
+            "x": 72,
+            "y": 72
           }
         ]
       },
@@ -4009,8 +4033,8 @@
         "map_locations": [
           {
             "map": "Ulvosa",
-            "x": 216,
-            "y": 72
+            "x": 504,
+            "y": 120
           }
         ]
       },
@@ -4029,8 +4053,8 @@
         "map_locations": [
           {
             "map": "Ulvosa",
-            "x": 360,
-            "y": 216
+            "x": 312,
+            "y": 168
           }
         ]
       },
@@ -4049,8 +4073,8 @@
         "map_locations": [
           {
             "map": "Ulvosa",
-            "x": 456,
-            "y": 72
+            "x": 408,
+            "y": 24
           }
         ]
       },
@@ -4069,8 +4093,8 @@
         "map_locations": [
           {
             "map": "Ulvosa",
-            "x": 600,
-            "y": 72
+            "x": 552,
+            "y": 24
           }
         ]
       },
@@ -4089,8 +4113,8 @@
         "map_locations": [
           {
             "map": "Ulvosa",
-            "x": 888,
-            "y": 216
+            "x": 840,
+            "y": 168
           }
         ]
       },
@@ -4109,8 +4133,8 @@
         "map_locations": [
           {
             "map": "Ulvosa",
-            "x": 888,
-            "y": 120
+            "x": 840,
+            "y": 72
           }
         ]
       },
@@ -4130,8 +4154,8 @@
         "map_locations": [
           {
             "map": "Ulvosa",
-            "x": 792,
-            "y": 456
+            "x": 744,
+            "y": 408
           }
         ]
       },
@@ -4151,8 +4175,8 @@
         "map_locations": [
           {
             "map": "Ulvosa",
-            "x": 648,
-            "y": 456
+            "x": 600,
+            "y": 408
           }
         ]
       },
@@ -4171,8 +4195,8 @@
         "map_locations": [
           {
             "map": "Ulvosa",
-            "x": 456,
-            "y": 408
+            "x": 408,
+            "y": 360
           }
         ]
       },
@@ -4191,8 +4215,8 @@
         "map_locations": [
           {
             "map": "Ulvosa",
-            "x": 0,
-            "y": 0,
+            "x": 408,
+            "y": 360,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -4214,8 +4238,8 @@
         "map_locations": [
           {
             "map": "Ulvosa",
-            "x": 360,
-            "y": 408
+            "x": 312,
+            "y": 360
           }
         ]
       },
@@ -4239,8 +4263,8 @@
         "map_locations": [
           {
             "map": "Ulvosa",
-            "x": 264,
-            "y": 408
+            "x": 216,
+            "y": 360
           }
         ]
       },
@@ -4259,8 +4283,8 @@
         "map_locations": [
           {
             "map": "Ulvosa",
-            "x": 551,
-            "y": 168
+            "x": 168,
+            "y": 24
           }
         ]
       }
@@ -4294,8 +4318,8 @@
         "map_locations": [
           {
             "map": "Copperwood",
-            "x": 600,
-            "y": 167
+            "x": 552,
+            "y": 120
           }
         ]
       },
@@ -4316,13 +4340,13 @@
         "map_locations": [
           {
             "map": "Copperwood",
-            "x": 744,
-            "y": 311
+            "x": 696,
+            "y": 264
           }
         ]
       },
       {
-        "name": "CopperWood Elite - Core Expansion: Saver",
+        "name": "Double Check",
         "access_rules": [],
         "sections": [
           {
@@ -4331,20 +4355,7 @@
             "access_rules": [
               "^$EVENT_EliteChallangeC"
             ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Copperwood",
-            "x": 885,
-            "y": 272
-          }
-        ]
-      },
-      {
-        "name": "CopperWood - Kiwi Bunny Potion",
-        "access_rules": [],
-        "sections": [
+          },
           {
             "name": "Kiwi Bunny Potion",
             "item_count": 1,
@@ -4356,8 +4367,8 @@
         "map_locations": [
           {
             "map": "Copperwood",
-            "x": 888,
-            "y": 311
+            "x": 840,
+            "y": 264
           }
         ]
       }
@@ -4387,8 +4398,8 @@
         "map_locations": [
           {
             "map": "Copperwood",
-            "x": 408,
-            "y": 311
+            "x": 360,
+            "y": 264
           }
         ]
       }
@@ -4420,8 +4431,8 @@
         "map_locations": [
           {
             "map": "Copperwood",
-            "x": 216,
-            "y": 71
+            "x": 168,
+            "y": 24
           }
         ]
       },
@@ -4445,8 +4456,8 @@
         "map_locations": [
           {
             "map": "Copperwood",
-            "x": 550,
-            "y": 70
+            "x": 504,
+            "y": 24
           }
         ]
       },
@@ -4470,8 +4481,8 @@
         "map_locations": [
           {
             "map": "Copperwood",
-            "x": 0,
-            "y": 0,
+            "x": 504,
+            "y": 24,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -4503,9 +4514,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Relicts",
-            "x": 504,
-            "y": 264
+            "map": "Relicts",
+            "x": 456,
+            "y": 216
           }
         ]
       },
@@ -4524,9 +4535,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Relicts",
-            "x": 264,
-            "y": 360
+            "map": "Relicts",
+            "x": 216,
+            "y": 312
           }
         ]
       },
@@ -4544,9 +4555,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Relicts",
-            "x": 0,
-            "y": 0,
+            "map": "Relicts",
+            "x": 216,
+            "y": 312,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -4571,9 +4582,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Relicts",
-            "x": 168,
-            "y": 312
+            "map": "Relicts",
+            "x": 120,
+            "y": 264
           }
         ]
       },
@@ -4591,9 +4602,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Relicts",
-            "x": 408,
-            "y": 168
+            "map": "Relicts",
+            "x": 360,
+            "y": 120
           }
         ]
       },
@@ -4611,9 +4622,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Relicts",
-            "x": 0,
-            "y": 0,
+            "map": "Relicts",
+            "x": 360,
+            "y": 120,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -4634,9 +4645,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Relicts",
-            "x": 504,
-            "y": 168
+            "map": "Relicts",
+            "x": 456,
+            "y": 120
           }
         ]
       },
@@ -4655,9 +4666,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Relicts",
-            "x": 504,
-            "y": 360
+            "map": "Relicts",
+            "x": 456,
+            "y": 312
           }
         ]
       }
@@ -4689,8 +4700,8 @@
         "map_locations": [
           {
             "map": "Ana Thema",
-            "x": 167,
-            "y": 74
+            "x": 120,
+            "y": 24
           }
         ]
       },
@@ -4716,13 +4727,13 @@
         "map_locations": [
           {
             "map": "Ana Thema",
-            "x": 215,
-            "y": 266
+            "x": 168,
+            "y": 216
           }
         ]
       },
       {
-        "name": "Library checks",
+        "name": "Library",
         "access_rules": [],
         "sections": [
           {
@@ -4733,21 +4744,7 @@
             ]
           },
           {
-            "name": "GemaYue",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , $Chapter|4"
-            ]
-          },
-          {
-            "name": "EinLee",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , $Chapter|4"
-            ]
-          },
-          {
-            "name": "Waero",
+            "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , $Chapter|4"
@@ -4757,8 +4754,8 @@
         "map_locations": [
           {
             "map": "Ana Thema",
-            "x": 216,
-            "y": 168
+            "x": 72,
+            "y": 264
           }
         ]
       },
@@ -4777,8 +4774,8 @@
         "map_locations": [
           {
             "map": "Ana Thema",
-            "x": 0,
-            "y": 0,
+            "x": 264,
+            "y": 264,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -4801,8 +4798,8 @@
         "map_locations": [
           {
             "map": "Ana Thema",
-            "x": 599,
-            "y": 266
+            "x": 552,
+            "y": 216
           }
         ]
       },
@@ -4821,8 +4818,8 @@
         "map_locations": [
           {
             "map": "Ana Thema",
-            "x": 0,
-            "y": 0,
+            "x": -552,
+            "y": -408,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -4845,8 +4842,8 @@
         "map_locations": [
           {
             "map": "Ana Thema",
-            "x": 551,
-            "y": 218
+            "x": 504,
+            "y": 168
           }
         ]
       },
@@ -5019,8 +5016,8 @@
         "map_locations": [
           {
             "map": "Ana Thema",
-            "x": 215,
-            "y": 218
+            "x": 168,
+            "y": 168
           }
         ]
       },
@@ -5039,8 +5036,8 @@
         "map_locations": [
           {
             "map": "Ana Thema",
-            "x": 263,
-            "y": 218,
+            "x": 120,
+            "y": 168,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -5073,8 +5070,8 @@
         "map_locations": [
           {
             "map": "Ana Thema",
-            "x": 695,
-            "y": 216
+            "x": 648,
+            "y": 168
           }
         ]
       }
@@ -5084,7 +5081,9 @@
     "name": "Magma Pits",
     "access_rules": [
       "@Magma Pits Entrance,$hasAmount|bombs|1",
-      "@Magma Pits Entrance,$canBombThrow"
+      "@Magma Pits Entrance,$canBombThrow",
+      "@Swamp,$hasAmount|bombs|1 , $hasAmount|slide|1 , $canChargeShot , $hasAmount|dagger|1",
+      "@Swamp,$canBombThrow , $hasAmount|slide|1 , $canChargeShot , $hasAmount|dagger|1"
     ],
     "children": [
       {
@@ -5101,9 +5100,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 600,
-            "y": 264
+            "map": "Magma + Swamplands",
+            "x": 552,
+            "y": 216
           }
         ]
       },
@@ -5121,9 +5120,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 504,
-            "y": 264
+            "map": "Magma + Swamplands",
+            "x": 456,
+            "y": 216
           }
         ]
       },
@@ -5141,9 +5140,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 408,
-            "y": 312
+            "map": "Magma + Swamplands",
+            "x": 360,
+            "y": 264
           }
         ]
       },
@@ -5161,9 +5160,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 72,
-            "y": 456
+            "map": "Magma + Swamplands",
+            "x": 24,
+            "y": 408
           }
         ]
       },
@@ -5181,9 +5180,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 216,
-            "y": 456
+            "map": "Magma + Swamplands",
+            "x": 168,
+            "y": 408
           }
         ]
       },
@@ -5202,9 +5201,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 168,
-            "y": 408
+            "map": "Magma + Swamplands",
+            "x": 120,
+            "y": 360
           }
         ]
       }
@@ -5234,9 +5233,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 600,
-            "y": 504
+            "map": "Magma + Swamplands",
+            "x": 552,
+            "y": 456
           }
         ]
       },
@@ -5254,9 +5253,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 552,
-            "y": 504
+            "map": "Magma + Swamplands",
+            "x": 504,
+            "y": 456
           }
         ]
       }
@@ -5284,9 +5283,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 648,
-            "y": 456
+            "map": "Magma + Swamplands",
+            "x": 600,
+            "y": 408
           }
         ]
       },
@@ -5304,9 +5303,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 600,
-            "y": 648
+            "map": "Magma + Swamplands",
+            "x": 552,
+            "y": 600
           }
         ]
       },
@@ -5324,9 +5323,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 264,
-            "y": 648
+            "map": "Magma + Swamplands",
+            "x": 216,
+            "y": 600
           }
         ]
       },
@@ -5345,9 +5344,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 360,
-            "y": 648
+            "map": "Magma + Swamplands",
+            "x": 312,
+            "y": 600
           }
         ]
       },
@@ -5366,9 +5365,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 552,
-            "y": 552
+            "map": "Magma + Swamplands",
+            "x": 504,
+            "y": 504
           }
         ]
       },
@@ -5386,9 +5385,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 552,
-            "y": 648
+            "map": "Magma + Swamplands",
+            "x": 504,
+            "y": 600
           }
         ]
       },
@@ -5407,9 +5406,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 840,
-            "y": 408
+            "map": "Magma + Swamplands",
+            "x": 792,
+            "y": 360
           }
         ]
       },
@@ -5428,9 +5427,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 792,
-            "y": 408
+            "map": "Magma + Swamplands",
+            "x": 744,
+            "y": 360
           }
         ]
       }
@@ -5443,7 +5442,8 @@
       "@Magma Pits Entrance,$canBombThrow",
       "@Magma Pits,$hasAmount|bombs|1",
       "@Magma Pits,$canBombThrow",
-      "@Swamp Entrance,$hasAmount|slide|1",
+      "@Swamp Entrance,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Swamp Entrance,$hasAmount|slide|1 , $canBombThrow",
       "@Swamp,$hasAmount|airDash|1",
       "@Swamp,$hasAmount|ranged|1",
       "@Swamp,$hasAmount|dagger|1"
@@ -5463,9 +5463,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 792,
-            "y": 216
+            "map": "Magma + Swamplands",
+            "x": 744,
+            "y": 168
           }
         ]
       },
@@ -5483,9 +5483,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0,
+            "map": "Magma + Swamplands",
+            "x": 888,
+            "y": 168,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -5507,9 +5507,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 1128,
-            "y": 264
+            "map": "Magma + Swamplands",
+            "x": 1080,
+            "y": 216
           }
         ]
       },
@@ -5528,9 +5528,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 1128,
-            "y": 168
+            "map": "Magma + Swamplands",
+            "x": 1080,
+            "y": 120
           }
         ]
       }
@@ -5576,9 +5576,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 936,
-            "y": 456
+            "map": "Magma + Swamplands",
+            "x": 888,
+            "y": 408
           }
         ]
       },
@@ -5596,9 +5596,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 0,
-            "y": 0,
+            "map": "Magma + Swamplands",
+            "x": 984,
+            "y": 360,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -5619,9 +5619,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 888,
-            "y": 264
+            "map": "Magma + Swamplands",
+            "x": 840,
+            "y": 216
           }
         ]
       },
@@ -5639,9 +5639,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 792,
-            "y": 360
+            "map": "Magma + Swamplands",
+            "x": 744,
+            "y": 312
           }
         ]
       },
@@ -5659,9 +5659,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 936,
-            "y": 408
+            "map": "Magma + Swamplands",
+            "x": 888,
+            "y": 360
           }
         ]
       },
@@ -5679,9 +5679,9 @@
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 888,
-            "y": 312
+            "map": "Magma + Swamplands",
+            "x": 840,
+            "y": 264
           }
         ]
       },
@@ -5693,18 +5693,20 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|jetpack|2",
-              "$hasAmount|jetpack|1 , $hasAmount|airJump|1",
-              "$hasAmount|jetpack|1 , $hasAmount|airDash|1",
-              "$hasAmount|airDash|1 , $hasAmount|airJump|1"
+              "$hasAmount|airDash|1 , [hiddenPaths]",
+              "$hasAmount|airDash|1 , $canBombThrow",
+              "$hasAmount|jetpack|1 , [hiddenPaths]",
+              "$hasAmount|jetpack|1 , $canBombThrow",
+              "$hasAmount|airJump|1 , [hiddenPaths]",
+              "$hasAmount|airJump|1 , $canBombThrow"
             ]
           }
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 1032,
-            "y": 502
+            "map": "Magma + Swamplands",
+            "x": 984,
+            "y": 456
           }
         ]
       },
@@ -5716,16 +5718,18 @@
             "name": "C. Count Frenzy: Preemptive",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1",
-              "$hasAmount|slide|1 , $canBombThrow"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , [hiddenPaths]",
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $canBombThrow",
+              "$hasAmount|slide|1 , $canBombThrow , [hiddenPaths]",
+              "$hasAmount|slide|1 , $canBombThrow , $canBombThrow"
             ]
           }
         ],
         "map_locations": [
           {
-            "map": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
-            "x": 1128,
-            "y": 502
+            "map": "Magma + Swamplands",
+            "x": 1080,
+            "y": 456
           }
         ]
       }
@@ -5758,7 +5762,7 @@
         "map_locations": [
           {
             "map": "Tartarus",
-            "x": 216,
+            "x": 168,
             "y": 312
           }
         ]
@@ -5778,7 +5782,7 @@
         "map_locations": [
           {
             "map": "Tartarus",
-            "x": 504,
+            "x": 456,
             "y": 360,
             "force_invisibility_rules": [
               "$True"
@@ -5801,7 +5805,7 @@
         "map_locations": [
           {
             "map": "Tartarus",
-            "x": 360,
+            "x": 312,
             "y": 408
           }
         ]
@@ -5821,7 +5825,7 @@
         "map_locations": [
           {
             "map": "Tartarus",
-            "x": 72,
+            "x": 24,
             "y": 216
           }
         ]
@@ -5842,7 +5846,7 @@
         "map_locations": [
           {
             "map": "Tartarus",
-            "x": 264,
+            "x": 216,
             "y": 264
           }
         ]
@@ -5868,7 +5872,7 @@
         "map_locations": [
           {
             "map": "Tartarus",
-            "x": 168,
+            "x": 120,
             "y": 216
           }
         ]
@@ -5888,7 +5892,7 @@
         "map_locations": [
           {
             "map": "Tartarus",
-            "x": 312,
+            "x": 264,
             "y": 120
           }
         ]
@@ -5908,7 +5912,7 @@
         "map_locations": [
           {
             "map": "Tartarus",
-            "x": 264,
+            "x": 216,
             "y": 360
           }
         ]
@@ -6047,7 +6051,7 @@
         "map_locations": [
           {
             "map": "Tartarus",
-            "x": 360,
+            "x": 312,
             "y": 312
           }
         ]
@@ -6067,7 +6071,7 @@
         "map_locations": [
           {
             "map": "Tartarus",
-            "x": 120,
+            "x": 24,
             "y": 216,
             "force_invisibility_rules": [
               "$True"
@@ -6082,12 +6086,12 @@
     "access_rules": [
       "@Catacombs Entrance,$hasAmount|slide|1 , $hasAmount|airJump|1",
       "@Catacombs Entrance,$hasAmount|slide|1 , $hasAmount|jetpack|1",
-      "@Pre Lab,$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|jetpack|1",
-      "@Pre Lab,$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|airDash|1",
-      "@Pre Lab,$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|airJump|1",
-      "@Pre Lab,$hasAmount|dagger|1 , $hasAmount|slide|1 , $hasAmount|jetpack|1",
-      "@Pre Lab,$hasAmount|dagger|1 , $hasAmount|slide|1 , $hasAmount|airDash|1",
-      "@Pre Lab,$hasAmount|dagger|1 , $hasAmount|slide|1 , $hasAmount|airJump|1"
+      "@Pre Lab,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+      "@Pre Lab,$hasAmount|bombs|1 , $hasAmount|airJump|1",
+      "@Pre Lab,$hasAmount|dagger|1 , $hasAmount|jetpack|1",
+      "@Pre Lab,$hasAmount|dagger|1 , $hasAmount|airJump|1",
+      "@Teleporter Catacombs,$hasAmount|bombs|1 , $hasAmount|airJump|1",
+      "@Teleporter Catacombs,$hasAmount|bombs|1 , $hasAmount|jetpack|1"
     ],
     "children": [
       {
@@ -6111,8 +6115,8 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 408,
+            "map": "Catacombs + Lab",
+            "x": 360,
             "y": 120
           }
         ]
@@ -6133,8 +6137,8 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 456,
+            "map": "Catacombs + Lab",
+            "x": 408,
             "y": 216
           }
         ]
@@ -6153,8 +6157,8 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 312,
+            "map": "Catacombs + Lab",
+            "x": 264,
             "y": 120
           }
         ]
@@ -6174,8 +6178,8 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 456,
+            "map": "Catacombs + Lab",
+            "x": 408,
             "y": 360
           }
         ]
@@ -6203,8 +6207,8 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 648,
+            "map": "Catacombs + Lab",
+            "x": 600,
             "y": 168
           }
         ]
@@ -6224,8 +6228,8 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 792,
+            "map": "Catacombs + Lab",
+            "x": 744,
             "y": 312
           }
         ]
@@ -6255,8 +6259,8 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 312,
+            "map": "Catacombs + Lab",
+            "x": 264,
             "y": 312
           }
         ]
@@ -6276,8 +6280,8 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 72,
+            "map": "Catacombs + Lab",
+            "x": 24,
             "y": 312
           }
         ]
@@ -6297,8 +6301,8 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 264,
+            "map": "Catacombs + Lab",
+            "x": 216,
             "y": 360
           }
         ]
@@ -6320,8 +6324,8 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 360,
+            "map": "Catacombs + Lab",
+            "x": 312,
             "y": 456
           }
         ]
@@ -6340,8 +6344,8 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 216,
+            "map": "Catacombs + Lab",
+            "x": 168,
             "y": 408
           }
         ]
@@ -6360,9 +6364,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0,
+            "map": "Catacombs + Lab",
+            "x": 168,
+            "y": 408,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -6398,8 +6402,8 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 792,
+            "map": "Catacombs + Lab",
+            "x": 744,
             "y": 408
           }
         ]
@@ -6419,8 +6423,8 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 1032,
+            "map": "Catacombs + Lab",
+            "x": 984,
             "y": 504
           }
         ]
@@ -6439,8 +6443,8 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 984,
+            "map": "Catacombs + Lab",
+            "x": 936,
             "y": 408
           }
         ]
@@ -6459,8 +6463,8 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 984,
+            "map": "Catacombs + Lab",
+            "x": 936,
             "y": 312
           }
         ]
@@ -6479,8 +6483,8 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 888,
+            "map": "Catacombs + Lab",
+            "x": 840,
             "y": 360
           }
         ]
@@ -6500,8 +6504,8 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 1032,
+            "map": "Catacombs + Lab",
+            "x": 984,
             "y": 264
           }
         ]
@@ -6520,9 +6524,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 1248,
-            "y": 314
+            "map": "Catacombs + Lab",
+            "x": 1176,
+            "y": 312
           }
         ]
       },
@@ -6540,9 +6544,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0,
+            "map": "Catacombs + Lab",
+            "x": 1176,
+            "y": 312,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -6563,9 +6567,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 0,
-            "y": 0,
+            "map": "Catacombs + Lab",
+            "x": 1176,
+            "y": 312,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -6587,9 +6591,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 1272,
-            "y": 362
+            "map": "Catacombs + Lab",
+            "x": 1224,
+            "y": 360
           }
         ]
       },
@@ -6607,9 +6611,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 1128,
-            "y": 458
+            "map": "Catacombs + Lab",
+            "x": 1080,
+            "y": 456
           }
         ]
       }
@@ -6638,8 +6642,8 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 648,
+            "map": "Catacombs + Lab",
+            "x": 600,
             "y": 456
           }
         ]
@@ -6667,9 +6671,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 1320,
-            "y": 362
+            "map": "Catacombs + Lab",
+            "x": 1272,
+            "y": 360
           }
         ]
       },
@@ -6687,9 +6691,9 @@
         ],
         "map_locations": [
           {
-            "map": "The Catacombs + Omphalos Laboratory",
-            "x": 1368,
-            "y": 362
+            "map": "Catacombs + Lab",
+            "x": 1320,
+            "y": 360
           }
         ]
       }
@@ -6725,8 +6729,8 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
-            "x": 839,
+            "map": "Verdazure Sea",
+            "x": 792,
             "y": 120
           }
         ]
@@ -6746,8 +6750,8 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
-            "x": 791,
+            "map": "Verdazure Sea",
+            "x": 744,
             "y": 216
           }
         ]
@@ -6767,8 +6771,8 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
-            "x": 599,
+            "map": "Verdazure Sea",
+            "x": 552,
             "y": 120
           }
         ]
@@ -6800,9 +6804,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
-            "x": 0,
-            "y": 0,
+            "map": "Verdazure Sea",
+            "x": 408,
+            "y": 264,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -6823,8 +6827,8 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
-            "x": 455,
+            "map": "Verdazure Sea",
+            "x": 408,
             "y": 216
           }
         ]
@@ -6843,8 +6847,8 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
-            "x": 695,
+            "map": "Verdazure Sea",
+            "x": 648,
             "y": 360
           }
         ]
@@ -6873,8 +6877,8 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
-            "x": 983,
+            "map": "Verdazure Sea",
+            "x": 936,
             "y": 168
           }
         ]
@@ -6893,9 +6897,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
-            "x": 0,
-            "y": 0,
+            "map": "Verdazure Sea",
+            "x": 984,
+            "y": 216,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -6927,8 +6931,8 @@
         "map_locations": [
           {
             "map": "Blushwood",
-            "x": 197,
-            "y": 300
+            "x": 168,
+            "y": 264
           }
         ]
       },
@@ -6942,13 +6946,27 @@
             "access_rules": [
               "$hasAmount|slide|1"
             ]
+          },
+          {
+            "name": "EVENT_Earth",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "EVENT_Light",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|slide|1"
+            ]
           }
         ],
         "map_locations": [
           {
             "map": "Blushwood",
-            "x": 0,
-            "y": 0,
+            "x": 312,
+            "y": 312,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -6970,8 +6988,8 @@
         "map_locations": [
           {
             "map": "Blushwood",
-            "x": 341,
-            "y": 492
+            "x": 312,
+            "y": 456
           }
         ]
       },
@@ -6990,8 +7008,8 @@
         "map_locations": [
           {
             "map": "Blushwood",
-            "x": 437,
-            "y": 492
+            "x": 408,
+            "y": 456
           }
         ]
       },
@@ -7011,8 +7029,8 @@
         "map_locations": [
           {
             "map": "Blushwood",
-            "x": 485,
-            "y": 348
+            "x": 456,
+            "y": 312
           }
         ]
       },
@@ -7031,8 +7049,8 @@
         "map_locations": [
           {
             "map": "Blushwood",
-            "x": 581,
-            "y": 348
+            "x": 552,
+            "y": 312
           }
         ]
       },
@@ -7053,8 +7071,8 @@
         "map_locations": [
           {
             "map": "Blushwood",
-            "x": 389,
-            "y": 300
+            "x": 360,
+            "y": 264
           }
         ]
       },
@@ -7073,8 +7091,8 @@
         "map_locations": [
           {
             "map": "Blushwood",
-            "x": 293,
-            "y": 348
+            "x": 264,
+            "y": 312
           }
         ]
       }
@@ -7106,8 +7124,8 @@
         "map_locations": [
           {
             "map": "Blushwood",
-            "x": 245,
-            "y": 204
+            "x": 216,
+            "y": 168
           }
         ]
       },
@@ -7133,8 +7151,8 @@
         "map_locations": [
           {
             "map": "Blushwood",
-            "x": 485,
-            "y": 204
+            "x": 168,
+            "y": 168
           }
         ]
       },
@@ -7155,8 +7173,8 @@
         "map_locations": [
           {
             "map": "Blushwood",
-            "x": 0,
-            "y": 0,
+            "x": 456,
+            "y": 168,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -7193,8 +7211,8 @@
         "map_locations": [
           {
             "map": "Valhalla",
-            "x": 648,
-            "y": 407
+            "x": 600,
+            "y": 360
           }
         ]
       },
@@ -7214,8 +7232,8 @@
         "map_locations": [
           {
             "map": "Valhalla",
-            "x": 0,
-            "y": 0,
+            "x": 360,
+            "y": 264,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -7238,8 +7256,8 @@
         "map_locations": [
           {
             "map": "Valhalla",
-            "x": 456,
-            "y": 311
+            "x": 408,
+            "y": 264
           }
         ]
       },
@@ -7261,8 +7279,8 @@
         "map_locations": [
           {
             "map": "Valhalla",
-            "x": 456,
-            "y": 71
+            "x": 408,
+            "y": 24
           }
         ]
       },
@@ -7282,8 +7300,8 @@
         "map_locations": [
           {
             "map": "Valhalla",
-            "x": 648,
-            "y": 215
+            "x": 600,
+            "y": 168
           }
         ]
       },
@@ -7308,8 +7326,8 @@
         "map_locations": [
           {
             "map": "Valhalla",
-            "x": 600,
-            "y": 263
+            "x": 552,
+            "y": 216
           }
         ]
       },
@@ -7329,13 +7347,13 @@
         "map_locations": [
           {
             "map": "Valhalla",
-            "x": 408,
-            "y": 167
+            "x": 360,
+            "y": 120
           }
         ]
       },
       {
-        "name": "Valhalla City Shop",
+        "name": "Valhalla Shop",
         "access_rules": [],
         "sections": [
           {
@@ -7468,8 +7486,8 @@
         "map_locations": [
           {
             "map": "Valhalla",
-            "x": 552,
-            "y": 263
+            "x": 504,
+            "y": 216
           }
         ]
       },
@@ -7488,8 +7506,8 @@
         "map_locations": [
           {
             "map": "Valhalla",
-            "x": 504,
-            "y": 71
+            "x": 456,
+            "y": 24
           }
         ]
       },
@@ -7508,8 +7526,8 @@
         "map_locations": [
           {
             "map": "Valhalla",
-            "x": 0,
-            "y": 0,
+            "x": 456,
+            "y": 24,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -7547,31 +7565,7 @@
         "map_locations": [
           {
             "map": "Evernight Garden",
-            "x": 840,
-            "y": 456
-          }
-        ]
-      },
-      {
-        "name": "EverGarden - Crystalline Cyan",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Crystalline Cyan",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|airDash|1",
-              "$hasAmount|jetpack|1",
-              "$hasAmount|airJump|1"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Evernight Garden",
-            "x": 744,
+            "x": 792,
             "y": 456
           }
         ]
@@ -7587,14 +7581,16 @@
               "$hasAmount|bombs|1 , $hasAmount|airJump|1",
               "$hasAmount|bombs|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1",
               "$hasAmount|bombs|1 , $hasAmount|jetpack|2",
-              "$hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1"
+              "$hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1",
+              "$hasAmount|bombs|1 , $hasAmount|wallJump|1 , $canRabbitWallJump",
+              "$hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $canRabbitJump"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "Evernight Garden",
-            "x": 1032,
+            "x": 984,
             "y": 408
           }
         ]
@@ -7616,7 +7612,7 @@
         "map_locations": [
           {
             "map": "Evernight Garden",
-            "x": 936,
+            "x": 888,
             "y": 360
           }
         ]
@@ -7638,8 +7634,50 @@
         "map_locations": [
           {
             "map": "Evernight Garden",
-            "x": 984,
+            "x": 936,
             "y": 360
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "EverGarden To Valhalla",
+    "access_rules": [
+      "@EverGarden,$hasAmount|bombs|1 , [hiddenPaths]",
+      "@EverGarden,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+      "@EverGarden,$hasAmount|bombs|1 , $hasAmount|airDash|1",
+      "@EverGarden,$hasAmount|bombs|1 , $hasAmount|airJump|1",
+      "@EverGarden,$hasAmount|bombs|1 , $hasAmount|speed|3",
+      "@EverGarden,$canBombThrow , [hiddenPaths]",
+      "@EverGarden,$canBombThrow , $hasAmount|jetpack|1",
+      "@EverGarden,$canBombThrow , $hasAmount|airDash|1",
+      "@EverGarden,$canBombThrow , $hasAmount|airJump|1",
+      "@EverGarden,$canBombThrow , $hasAmount|speed|3",
+      "@Exit Logic/2902"
+    ],
+    "children": [
+      {
+        "name": "EverGarden - Crystalline Cyan",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Crystalline Cyan",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow",
+              "$hasAmount|airDash|1",
+              "$hasAmount|jetpack|1",
+              "$hasAmount|airJump|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 696,
+            "y": 456
           }
         ]
       }
@@ -7675,7 +7713,7 @@
         "map_locations": [
           {
             "map": "Evernight Garden",
-            "x": 744,
+            "x": 696,
             "y": 264
           }
         ]
@@ -7698,7 +7736,7 @@
         "map_locations": [
           {
             "map": "Evernight Garden",
-            "x": 1032,
+            "x": 984,
             "y": 264
           }
         ]
@@ -7719,7 +7757,7 @@
         "map_locations": [
           {
             "map": "Evernight Garden",
-            "x": 1032,
+            "x": 984,
             "y": 216
           }
         ]
@@ -7739,7 +7777,7 @@
         "map_locations": [
           {
             "map": "Evernight Garden",
-            "x": 649,
+            "x": 600,
             "y": 120
           }
         ]
@@ -7759,8 +7797,8 @@
         "map_locations": [
           {
             "map": "Evernight Garden",
-            "x": 0,
-            "y": 0,
+            "x": 600,
+            "y": 120,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -7793,7 +7831,7 @@
         "map_locations": [
           {
             "map": "Evernight Garden",
-            "x": 312,
+            "x": 264,
             "y": 264
           }
         ]
@@ -7813,8 +7851,8 @@
         "map_locations": [
           {
             "map": "Evernight Garden",
-            "x": 0,
-            "y": 0,
+            "x": 264,
+            "y": 264,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -7837,7 +7875,7 @@
         "map_locations": [
           {
             "map": "Evernight Garden",
-            "x": 312,
+            "x": 264,
             "y": 360
           }
         ]
@@ -7864,7 +7902,7 @@
         "map_locations": [
           {
             "map": "Evernight Garden",
-            "x": 72,
+            "x": 24,
             "y": 312
           }
         ]
@@ -7884,7 +7922,7 @@
         "map_locations": [
           {
             "map": "Evernight Garden",
-            "x": 216,
+            "x": 168,
             "y": 216
           }
         ]
@@ -7912,9 +7950,9 @@
         ],
         "map_locations": [
           {
-            "map": "Cloister of Redemption",
-            "x": 190,
-            "y": 293
+            "map": "Cloister",
+            "x": 168,
+            "y": 264
           }
         ]
       },
@@ -7932,9 +7970,9 @@
         ],
         "map_locations": [
           {
-            "map": "Cloister of Redemption",
-            "x": 190,
-            "y": 197
+            "map": "Cloister",
+            "x": 168,
+            "y": 168
           }
         ]
       },
@@ -7952,9 +7990,9 @@
         ],
         "map_locations": [
           {
-            "map": "Cloister of Redemption",
-            "x": 334,
-            "y": 197
+            "map": "Cloister",
+            "x": 312,
+            "y": 168
           }
         ]
       },
@@ -7973,9 +8011,9 @@
         ],
         "map_locations": [
           {
-            "map": "Cloister of Redemption",
-            "x": 382,
-            "y": 197
+            "map": "Cloister",
+            "x": 360,
+            "y": 168
           }
         ]
       },
@@ -7994,9 +8032,9 @@
         ],
         "map_locations": [
           {
-            "map": "Cloister of Redemption",
-            "x": 334,
-            "y": 149
+            "map": "Cloister",
+            "x": 312,
+            "y": 120
           }
         ]
       }
@@ -8023,9 +8061,9 @@
         ],
         "map_locations": [
           {
-            "map": "Cloister of Redemption",
-            "x": 0,
-            "y": 0,
+            "map": "Cloister",
+            "x": -840,
+            "y": -264,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -8054,9 +8092,9 @@
         ],
         "map_locations": [
           {
-            "map": "Cloister of Redemption",
-            "x": 574,
-            "y": 437
+            "map": "Cloister",
+            "x": 552,
+            "y": 408
           }
         ]
       },
@@ -8074,9 +8112,9 @@
         ],
         "map_locations": [
           {
-            "map": "Cloister of Redemption",
-            "x": 622,
-            "y": 389
+            "map": "Cloister",
+            "x": 600,
+            "y": 360
           }
         ]
       },
@@ -8094,9 +8132,9 @@
         ],
         "map_locations": [
           {
-            "map": "Cloister of Redemption",
-            "x": 574,
-            "y": 389
+            "map": "Cloister",
+            "x": 552,
+            "y": 360
           }
         ]
       },
@@ -8114,9 +8152,9 @@
         ],
         "map_locations": [
           {
-            "map": "Cloister of Redemption",
-            "x": 622,
-            "y": 509
+            "map": "Cloister",
+            "x": 600,
+            "y": 456
           }
         ]
       },
@@ -8135,9 +8173,9 @@
         ],
         "map_locations": [
           {
-            "map": "Cloister of Redemption",
-            "x": 286,
-            "y": 389
+            "map": "Cloister",
+            "x": 264,
+            "y": 360
           }
         ]
       },
@@ -8155,9 +8193,9 @@
         ],
         "map_locations": [
           {
-            "map": "Cloister of Redemption",
-            "x": 214,
-            "y": 389
+            "map": "Cloister",
+            "x": 216,
+            "y": 360
           }
         ]
       },
@@ -8175,9 +8213,9 @@
         ],
         "map_locations": [
           {
-            "map": "Cloister of Redemption",
-            "x": 0,
-            "y": 0,
+            "map": "Cloister",
+            "x": 216,
+            "y": 360,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -8201,12 +8239,20 @@
         ],
         "map_locations": [
           {
-            "map": "Cloister of Redemption",
-            "x": 334,
-            "y": 389
+            "map": "Cloister",
+            "x": 312,
+            "y": 360
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Teleporter Cloister",
+    "access_rules": [
+      "@TeleportHub,$canUseTeleporter|32"
+    ],
+    "children": [
       {
         "name": "Cloister Main - C. Rank Frenzy: Focus MAX",
         "access_rules": [],
@@ -8223,9 +8269,9 @@
         ],
         "map_locations": [
           {
-            "map": "Cloister of Redemption",
-            "x": 430,
-            "y": 245
+            "map": "Cloister",
+            "x": 408,
+            "y": 216
           }
         ]
       }
@@ -8254,9 +8300,9 @@
         ],
         "map_locations": [
           {
-            "map": "Gallery of Mirrors + Gallery of Souls",
-            "x": 551,
-            "y": 360
+            "map": "Gallery of Mirrors",
+            "x": 504,
+            "y": 312
           }
         ]
       },
@@ -8274,9 +8320,9 @@
         ],
         "map_locations": [
           {
-            "map": "Gallery of Mirrors + Gallery of Souls",
-            "x": 455,
-            "y": 264
+            "map": "Gallery of Mirrors",
+            "x": 408,
+            "y": 216
           }
         ]
       },
@@ -8294,9 +8340,9 @@
         ],
         "map_locations": [
           {
-            "map": "Gallery of Mirrors + Gallery of Souls",
-            "x": 647,
-            "y": 216
+            "map": "Gallery of Mirrors",
+            "x": 600,
+            "y": 168
           }
         ]
       },
@@ -8314,9 +8360,9 @@
         ],
         "map_locations": [
           {
-            "map": "Gallery of Mirrors + Gallery of Souls",
-            "x": 119,
-            "y": 72
+            "map": "Gallery of Mirrors",
+            "x": 72,
+            "y": 24
           }
         ]
       }
@@ -8344,9 +8390,9 @@
         ],
         "map_locations": [
           {
-            "map": "Gallery of Mirrors + Gallery of Souls",
-            "x": 983,
-            "y": 168
+            "map": "Gallery of Mirrors",
+            "x": 936,
+            "y": 120
           }
         ]
       },
@@ -8365,9 +8411,9 @@
         ],
         "map_locations": [
           {
-            "map": "Gallery of Mirrors + Gallery of Souls",
-            "x": 791,
-            "y": 72
+            "map": "Gallery of Mirrors",
+            "x": 744,
+            "y": 24
           }
         ]
       },
@@ -8386,9 +8432,9 @@
         ],
         "map_locations": [
           {
-            "map": "Gallery of Mirrors + Gallery of Souls",
-            "x": 935,
-            "y": 72
+            "map": "Gallery of Mirrors",
+            "x": 888,
+            "y": 24
           }
         ]
       },
@@ -8400,15 +8446,16 @@
             "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|decayAntidote|1"
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|decayAntidote|1",
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|alembicCrystal|1"
             ]
           }
         ],
         "map_locations": [
           {
-            "map": "Gallery of Mirrors + Gallery of Souls",
-            "x": 887,
-            "y": 168
+            "map": "Gallery of Mirrors",
+            "x": 840,
+            "y": 120
           }
         ]
       },
@@ -8420,15 +8467,16 @@
             "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|decayAntidote|1"
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|decayAntidote|1",
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|alembicCrystal|1"
             ]
           }
         ],
         "map_locations": [
           {
-            "map": "Gallery of Mirrors + Gallery of Souls",
-            "x": 0,
-            "y": 0,
+            "map": "Gallery of Mirrors",
+            "x": 840,
+            "y": 120,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -8443,15 +8491,16 @@
             "name": "EVENT_Memloch",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|decayAntidote|1"
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|decayAntidote|1",
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|alembicCrystal|1"
             ]
           }
         ],
         "map_locations": [
           {
-            "map": "Gallery of Mirrors + Gallery of Souls",
-            "x": 0,
-            "y": 0,
+            "map": "Gallery of Mirrors",
+            "x": 840,
+            "y": 120,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -8472,9 +8521,9 @@
         ],
         "map_locations": [
           {
-            "map": "Gallery of Mirrors + Gallery of Souls",
-            "x": 935,
-            "y": 312
+            "map": "Gallery of Mirrors",
+            "x": 888,
+            "y": 264
           }
         ]
       },
@@ -8496,9 +8545,9 @@
         ],
         "map_locations": [
           {
-            "map": "Gallery of Mirrors + Gallery of Souls",
-            "x": 1031,
-            "y": 264
+            "map": "Gallery of Mirrors",
+            "x": 984,
+            "y": 216
           }
         ]
       },
@@ -8519,9 +8568,9 @@
         ],
         "map_locations": [
           {
-            "map": "Gallery of Mirrors + Gallery of Souls",
-            "x": 647,
-            "y": 312
+            "map": "Gallery of Mirrors",
+            "x": 600,
+            "y": 264
           }
         ]
       }
@@ -8548,9 +8597,9 @@
         ],
         "map_locations": [
           {
-            "map": "Gallery of Mirrors + Gallery of Souls",
-            "x": 935,
-            "y": 360
+            "map": "Gallery of Mirrors",
+            "x": 888,
+            "y": 312
           }
         ]
       }
@@ -8584,9 +8633,9 @@
         ],
         "map_locations": [
           {
-            "map": "Gallery of Mirrors + Gallery of Souls",
-            "x": 935,
-            "y": 504
+            "map": "Gallery of Mirrors",
+            "x": 888,
+            "y": 456
           }
         ]
       },
@@ -8604,9 +8653,9 @@
         ],
         "map_locations": [
           {
-            "map": "Gallery of Mirrors + Gallery of Souls",
-            "x": 887,
-            "y": 408
+            "map": "Gallery of Mirrors",
+            "x": 840,
+            "y": 360
           }
         ]
       }
@@ -8615,14 +8664,16 @@
   {
     "name": "Gallery of Souls Boss Area",
     "access_rules": [
-      "@Gallery of Souls,$hasAmount|jetpack|2 , $canChargeShot",
-      "@Gallery of Souls,$hasAmount|wallJump|1 , $canChargeShot",
-      "@Gallery of Souls,$hasAmount|airJump|1 , $canChargeShot",
-      "@Gallery of Souls,$hasAmount|bombs|1 , $canChargeShot",
-      "@Gallery of Souls,$canBombThrow , $canChargeShot",
+      "@Gallery of Souls,$hasAmount|jetpack|2 , $canChargeShot , $hasAmount|slide|1",
+      "@Gallery of Souls,$hasAmount|wallJump|1 , $canChargeShot , $hasAmount|slide|1",
+      "@Gallery of Souls,$hasAmount|airJump|1 , $canChargeShot , $hasAmount|slide|1",
+      "@Gallery of Souls,$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1",
+      "@Gallery of Souls,$canBombThrow , $canChargeShot , $hasAmount|slide|1",
       "@Gallery of Souls to Sea,$hasAmount|bombRange|3",
-      "@Teleporter Frank Boss,$canBombThrow , $hasAmount|slide|1",
-      "@Teleporter Frank Boss,$hasAmount|bombs|1 , $hasAmount|bombRange|3 , $hasAmount|slide|1"
+      "@Teleporter Frank Boss,$canBombThrow , $hasAmount|slide|1 , $hasAmount|decayAntidote|1",
+      "@Teleporter Frank Boss,$canBombThrow , $hasAmount|slide|1 , $hasAmount|alembicCrystal|1",
+      "@Teleporter Frank Boss,$hasAmount|bombs|1 , $hasAmount|bombRange|3 , $hasAmount|slide|1 , $hasAmount|decayAntidote|1",
+      "@Teleporter Frank Boss,$hasAmount|bombs|1 , $hasAmount|bombRange|3 , $hasAmount|slide|1 , $hasAmount|alembicCrystal|1"
     ],
     "children": [
       {
@@ -8640,9 +8691,9 @@
         ],
         "map_locations": [
           {
-            "map": "Gallery of Mirrors + Gallery of Souls",
-            "x": 551,
-            "y": 552
+            "map": "Gallery of Mirrors",
+            "x": 504,
+            "y": 504
           }
         ]
       },
@@ -8661,9 +8712,9 @@
         ],
         "map_locations": [
           {
-            "map": "Gallery of Mirrors + Gallery of Souls",
-            "x": 431,
-            "y": 504
+            "map": "Gallery of Mirrors",
+            "x": 408,
+            "y": 456
           }
         ]
       },
@@ -8682,9 +8733,9 @@
         ],
         "map_locations": [
           {
-            "map": "Gallery of Mirrors + Gallery of Souls",
-            "x": 0,
-            "y": 0,
+            "map": "Gallery of Mirrors",
+            "x": 408,
+            "y": 456,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -8719,9 +8770,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 108,
-            "y": 204
+            "map": "Forgotten City + Ocean",
+            "x": 408,
+            "y": 168
           }
         ]
       }
@@ -8756,9 +8807,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 348,
-            "y": 204
+            "map": "Forgotten City + Ocean",
+            "x": 648,
+            "y": 168
           }
         ]
       },
@@ -8777,9 +8828,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 300,
-            "y": 300
+            "map": "Forgotten City + Ocean",
+            "x": 600,
+            "y": 264
           }
         ]
       },
@@ -8798,9 +8849,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 636,
-            "y": 156
+            "map": "Forgotten City + Ocean",
+            "x": 936,
+            "y": 120
           }
         ]
       },
@@ -8818,9 +8869,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 972,
-            "y": 252
+            "map": "Forgotten City + Ocean",
+            "x": 1272,
+            "y": 216
           }
         ]
       },
@@ -8838,9 +8889,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 636,
-            "y": 300
+            "map": "Forgotten City + Ocean",
+            "x": 936,
+            "y": 264
           }
         ]
       },
@@ -8858,9 +8909,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 680,
-            "y": 155
+            "map": "Forgotten City + Ocean",
+            "x": 888,
+            "y": 120
           }
         ]
       },
@@ -8878,9 +8929,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0,
+            "map": "Forgotten City + Ocean",
+            "x": 888,
+            "y": 120,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -8912,9 +8963,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 1116,
-            "y": 396
+            "map": "Forgotten City + Ocean",
+            "x": 1416,
+            "y": 360
           }
         ]
       },
@@ -8932,9 +8983,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 924,
-            "y": 396
+            "map": "Forgotten City + Ocean",
+            "x": 1224,
+            "y": 360
           }
         ]
       },
@@ -8952,9 +9003,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0,
+            "map": "Forgotten City + Ocean",
+            "x": 1224,
+            "y": 744,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -8976,9 +9027,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0,
+            "map": "Forgotten City + Ocean",
+            "x": 1320,
+            "y": 744,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -8999,9 +9050,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 924,
-            "y": 540
+            "map": "Forgotten City + Ocean",
+            "x": 1224,
+            "y": 504
           }
         ]
       },
@@ -9019,9 +9070,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 876,
-            "y": 636
+            "map": "Forgotten City + Ocean",
+            "x": 1176,
+            "y": 600
           }
         ]
       },
@@ -9039,9 +9090,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 972,
-            "y": 636
+            "map": "Forgotten City + Ocean",
+            "x": 1272,
+            "y": 600
           }
         ]
       },
@@ -9059,9 +9110,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 1116,
-            "y": 684
+            "map": "Forgotten City + Ocean",
+            "x": 1416,
+            "y": 648
           }
         ]
       },
@@ -9080,9 +9131,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 1020,
-            "y": 780
+            "map": "Forgotten City + Ocean",
+            "x": 1320,
+            "y": 744
           }
         ]
       },
@@ -9102,9 +9153,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 924,
-            "y": 732
+            "map": "Forgotten City + Ocean",
+            "x": 1224,
+            "y": 696
           }
         ]
       }
@@ -9114,7 +9165,7 @@
     "name": "Forgotten City Upper Exit",
     "access_rules": [
       "@Verdazure Ocean,$hasAmount|water|1 , $hasAmount|orbS3|1,$hasAmount|ranged|2,$hasAmount|sable|1 , sable , $canChargeShot , $hasAmount|ranged|3",
-      "@Forgotten City,$canChargeShot",
+      "@Forgotten City,$canChargeShot , $hasAmount|bombs|1",
       "@Forgotten City,$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
       "@Forgotten City,$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
       "@Forgotten City,$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1"
@@ -9134,9 +9185,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 396,
-            "y": 444
+            "map": "Forgotten City + Ocean",
+            "x": 696,
+            "y": 408
           }
         ]
       }
@@ -9164,9 +9215,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 348,
-            "y": 684
+            "map": "Forgotten City + Ocean",
+            "x": 648,
+            "y": 648
           }
         ]
       },
@@ -9184,9 +9235,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 492,
-            "y": 828
+            "map": "Forgotten City + Ocean",
+            "x": 792,
+            "y": 792
           }
         ]
       },
@@ -9204,9 +9255,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 348,
-            "y": 780
+            "map": "Forgotten City + Ocean",
+            "x": 648,
+            "y": 744
           }
         ]
       },
@@ -9218,15 +9269,15 @@
             "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot"
+              "$canChargeShot , $hasAmount|bombs|1"
             ]
           }
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 536,
-            "y": 492
+            "map": "Forgotten City + Ocean",
+            "x": 840,
+            "y": 456
           }
         ]
       },
@@ -9238,7 +9289,7 @@
             "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot",
+              "$canChargeShot , $hasAmount|bombs|1",
               "$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
               "$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
               "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1"
@@ -9247,9 +9298,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 516,
-            "y": 636
+            "map": "Forgotten City + Ocean",
+            "x": 840,
+            "y": 600
           }
         ]
       },
@@ -9261,7 +9312,7 @@
             "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot",
+              "$canChargeShot , $hasAmount|bombs|1",
               "$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
               "$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
               "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1"
@@ -9270,9 +9321,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0,
+            "map": "Forgotten City + Ocean",
+            "x": 840,
+            "y": 600,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -9287,7 +9338,7 @@
             "name": "Heavy Metal",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot",
+              "$canChargeShot , $hasAmount|bombs|1",
               "$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
               "$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
               "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1"
@@ -9296,9 +9347,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 396,
-            "y": 588
+            "map": "Forgotten City + Ocean",
+            "x": 696,
+            "y": 552
           }
         ]
       },
@@ -9316,9 +9367,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 636,
-            "y": 684
+            "map": "Forgotten City + Ocean",
+            "x": 936,
+            "y": 648
           }
         ]
       },
@@ -9330,7 +9381,7 @@
             "name": "Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot , ^$EVENT_Memine5",
+              "$canChargeShot , ^$EVENT_Memine5 , $hasAmount|bombs|1",
               "$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5",
               "$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5",
               "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5"
@@ -9339,9 +9390,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 584,
-            "y": 637
+            "map": "Forgotten City + Ocean",
+            "x": 888,
+            "y": 600
           }
         ]
       },
@@ -9353,7 +9404,7 @@
             "name": "EVENT_Memine",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot , ^$EVENT_Memine5",
+              "$canChargeShot , ^$EVENT_Memine5 , $hasAmount|bombs|1",
               "$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5",
               "$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5",
               "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5"
@@ -9362,9 +9413,9 @@
         ],
         "map_locations": [
           {
-            "map": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
-            "x": 0,
-            "y": 0,
+            "map": "Forgotten City + Ocean",
+            "x": 888,
+            "y": 600,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -9394,9 +9445,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Verglas Village",
-            "x": 404,
-            "y": 600
+            "map": "Snowveil",
+            "x": 408,
+            "y": 552
           }
         ]
       }
@@ -9427,9 +9478,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Verglas Village",
-            "x": 646,
-            "y": 456
+            "map": "Snowveil",
+            "x": 648,
+            "y": 408
           }
         ]
       },
@@ -9447,9 +9498,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Verglas Village",
-            "x": 0,
-            "y": 0,
+            "map": "Snowveil",
+            "x": 600,
+            "y": 360,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -9470,9 +9521,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Verglas Village",
-            "x": 502,
-            "y": 456
+            "map": "Snowveil",
+            "x": 504,
+            "y": 408
           }
         ]
       }
@@ -9500,15 +9551,16 @@
             "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "$True"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Verglas Village",
+            "map": "Snowveil",
             "x": 216,
-            "y": 456
+            "y": 408
           }
         ]
       },
@@ -9526,9 +9578,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Verglas Village",
-            "x": 0,
-            "y": 0,
+            "map": "Snowveil",
+            "x": 216,
+            "y": 408,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -9543,15 +9595,16 @@
             "name": "Life Steal",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|vortex|1,[$hasAmount|dagger|1]"
+              "$hasAmount|bombs|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1]",
+              "$canBombThrow , $hasAmount|vortex|1,[$hasAmount|dagger|1]"
             ]
           }
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Verglas Village",
-            "x": 260,
-            "y": 456
+            "map": "Snowveil",
+            "x": 264,
+            "y": 408
           }
         ]
       },
@@ -9563,15 +9616,16 @@
             "name": "Vortex Gloves",
             "item_count": 1,
             "access_rules": [
-              "$True"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Verglas Village",
+            "map": "Snowveil",
             "x": 168,
-            "y": 408
+            "y": 360
           }
         ]
       },
@@ -9593,9 +9647,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Verglas Village",
+            "map": "Snowveil",
             "x": 216,
-            "y": 264
+            "y": 216
           }
         ]
       },
@@ -9615,9 +9669,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Verglas Village",
-            "x": 694,
-            "y": 216
+            "map": "Snowveil",
+            "x": 696,
+            "y": 168
           }
         ]
       },
@@ -9637,9 +9691,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Verglas Village",
-            "x": 550,
-            "y": 312
+            "map": "Snowveil",
+            "x": 552,
+            "y": 264
           }
         ]
       }
@@ -9677,9 +9731,39 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Verglas Village",
+            "map": "Snowveil",
             "x": 360,
-            "y": 72
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Teleporter Snow City",
+    "access_rules": [
+      "@Snow City,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Snow City,$hasAmount|slide|1 , $canBombThrow",
+      "@TeleportHub,$canUseTeleporter|18"
+    ],
+    "children": [
+      {
+        "name": "Snow City - Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian City + HQ",
+            "x": 360,
+            "y": 360
           }
         ]
       }
@@ -9696,27 +9780,6 @@
     ],
     "children": [
       {
-        "name": "Snow City - Grape Bunny Potion",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Grape Bunny Potion",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1",
-              "$hasAmount|slide|1 , $canBombThrow"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Snowveilian Valley + Desert Hands HQ",
-            "x": 407,
-            "y": 385
-          }
-        ]
-      },
-      {
         "name": "Snow City - Slash Quartet",
         "access_rules": [],
         "sections": [
@@ -9731,14 +9794,14 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveilian Valley + Desert Hands HQ",
-            "x": 647,
-            "y": 289
+            "map": "Snowveilian City + HQ",
+            "x": 600,
+            "y": 264
           }
         ]
       },
       {
-        "name": "Snow City Shop",
+        "name": "Snowveil Shop",
         "access_rules": [],
         "sections": [
           {
@@ -9856,9 +9919,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveilian Valley + Desert Hands HQ",
-            "x": 311,
-            "y": 337
+            "map": "Snowveilian City + HQ",
+            "x": 264,
+            "y": 312
           }
         ]
       }
@@ -9888,9 +9951,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveilian Valley + Desert Hands HQ",
-            "x": 647,
-            "y": 193
+            "map": "Snowveilian City + HQ",
+            "x": 600,
+            "y": 168
           }
         ]
       },
@@ -9909,9 +9972,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveilian Valley + Desert Hands HQ",
-            "x": 791,
-            "y": 193
+            "map": "Snowveilian City + HQ",
+            "x": 744,
+            "y": 168
           }
         ]
       },
@@ -9929,9 +9992,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveilian Valley + Desert Hands HQ",
-            "x": 0,
-            "y": 0,
+            "map": "Snowveilian City + HQ",
+            "x": 552,
+            "y": 120,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -9953,9 +10016,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveilian Valley + Desert Hands HQ",
-            "x": 0,
-            "y": 0,
+            "map": "Snowveilian City + HQ",
+            "x": 696,
+            "y": 168,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -9985,9 +10048,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveilian Valley + Desert Hands HQ",
-            "x": 1079,
-            "y": 289
+            "map": "Snowveilian City + HQ",
+            "x": 1032,
+            "y": 264
           }
         ]
       },
@@ -10005,9 +10068,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveilian Valley + Desert Hands HQ",
-            "x": 1271,
-            "y": 289
+            "map": "Snowveilian City + HQ",
+            "x": 1224,
+            "y": 264
           }
         ]
       },
@@ -10026,9 +10089,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveilian Valley + Desert Hands HQ",
-            "x": 839,
-            "y": 289
+            "map": "Snowveilian City + HQ",
+            "x": 792,
+            "y": 264
           }
         ]
       },
@@ -10040,15 +10103,15 @@
             "name": "Cherry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|vortex|1,[$hasAmount|dagger|1]"
+              "$hasAmount|vortex|1,[$hasAmount|dagger|1] , ^$EVENT_HQSwitch1"
             ]
           }
         ],
         "map_locations": [
           {
-            "map": "Snowveilian Valley + Desert Hands HQ",
-            "x": 695,
-            "y": 529
+            "map": "Snowveilian City + HQ",
+            "x": 648,
+            "y": 504
           }
         ]
       },
@@ -10066,9 +10129,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveilian Valley + Desert Hands HQ",
-            "x": 839,
-            "y": 385
+            "map": "Snowveilian City + HQ",
+            "x": 792,
+            "y": 360
           }
         ]
       },
@@ -10087,9 +10150,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveilian Valley + Desert Hands HQ",
-            "x": 0,
-            "y": 0,
+            "map": "Snowveilian City + HQ",
+            "x": 1080,
+            "y": 360,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -10119,9 +10182,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveilian Valley + Desert Hands HQ",
-            "x": 1031,
-            "y": 577
+            "map": "Snowveilian City + HQ",
+            "x": 984,
+            "y": 552
           }
         ]
       }
@@ -10130,8 +10193,8 @@
   {
     "name": "Golden Hands HQ Sewer",
     "access_rules": [
-      "@Snow City,$hasAmount|slide|1",
-      "@Snow City,$canChargeShot",
+      "@Snow City,$hasAmount|slide|1 , $notTeleporter",
+      "@Snow City,$canChargeShot , $notTeleporter",
       "@Golden Hands HQ,$hasAmount|bombs|1 , $canChargeShot",
       "@Golden Hands HQ,$canBombThrow , $canChargeShot"
     ],
@@ -10150,9 +10213,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveilian Valley + Desert Hands HQ",
-            "x": 695,
-            "y": 625
+            "map": "Snowveilian City + HQ",
+            "x": 648,
+            "y": 600
           }
         ]
       },
@@ -10170,9 +10233,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveilian Valley + Desert Hands HQ",
-            "x": 887,
-            "y": 673
+            "map": "Snowveilian City + HQ",
+            "x": 840,
+            "y": 648
           }
         ]
       },
@@ -10194,9 +10257,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveilian Valley + Desert Hands HQ",
-            "x": 743,
-            "y": 577
+            "map": "Snowveilian City + HQ",
+            "x": 696,
+            "y": 552
           }
         ]
       },
@@ -10218,9 +10281,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveilian Valley + Desert Hands HQ",
-            "x": 791,
-            "y": 577
+            "map": "Snowveilian City + HQ",
+            "x": 744,
+            "y": 552
           }
         ]
       },
@@ -10242,9 +10305,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveilian Valley + Desert Hands HQ",
-            "x": 0,
-            "y": 0,
+            "map": "Snowveilian City + HQ",
+            "x": 744,
+            "y": 552,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -10269,18 +10332,18 @@
             "name": "Slide Basher",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|highJump|1",
-              "$hasAmount|jetpack|1",
-              "$hasAmount|airJump|1",
-              "$hasAmount|airDash|1 , $hasAmount|wallJump|1"
+              "$hasAmount|highJump|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1]",
+              "$hasAmount|jetpack|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1]",
+              "$hasAmount|airJump|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1]",
+              "$hasAmount|airDash|1 , $hasAmount|wallJump|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1]"
             ]
           }
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 771,
-            "y": 376
+            "map": "Dreamers Keep",
+            "x": 744,
+            "y": 360
           }
         ]
       },
@@ -10298,9 +10361,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 723,
-            "y": 280
+            "map": "Dreamers Keep",
+            "x": 696,
+            "y": 264
           }
         ]
       }
@@ -10335,9 +10398,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 435,
-            "y": 136
+            "map": "Dreamers Keep",
+            "x": 408,
+            "y": 120
           }
         ]
       },
@@ -10355,9 +10418,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 435,
-            "y": 232
+            "map": "Dreamers Keep",
+            "x": 408,
+            "y": 216
           }
         ]
       },
@@ -10375,9 +10438,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 341,
-            "y": 328
+            "map": "Dreamers Keep",
+            "x": 312,
+            "y": 312
           }
         ]
       }
@@ -10419,9 +10482,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 579,
-            "y": 424
+            "map": "Dreamers Keep",
+            "x": 552,
+            "y": 408
           }
         ]
       },
@@ -10439,9 +10502,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 0,
-            "y": 0,
+            "map": "Dreamers Keep",
+            "x": 552,
+            "y": 552,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -10463,9 +10526,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 437,
-            "y": 520
+            "map": "Dreamers Keep",
+            "x": 408,
+            "y": 504
           }
         ]
       },
@@ -10484,9 +10547,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 387,
-            "y": 280
+            "map": "Dreamers Keep",
+            "x": 360,
+            "y": 264
           }
         ]
       },
@@ -10504,9 +10567,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 483,
-            "y": 424
+            "map": "Dreamers Keep",
+            "x": 456,
+            "y": 408
           }
         ]
       },
@@ -10524,9 +10587,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 0,
-            "y": 0,
+            "map": "Dreamers Keep",
+            "x": 456,
+            "y": 408,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -10548,9 +10611,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 579,
-            "y": 328
+            "map": "Dreamers Keep",
+            "x": 552,
+            "y": 312
           }
         ]
       },
@@ -10562,15 +10625,16 @@
             "name": "Dominator",
             "item_count": 1,
             "access_rules": [
-              "$canBombThrow"
+              "$canBombThrow , $hasAmount|slide|1 , [$False]",
+              "$canBombThrow , $hasAmount|vortex|1,[$hasAmount|dagger|1]"
             ]
           }
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 531,
-            "y": 184
+            "map": "Dreamers Keep",
+            "x": 504,
+            "y": 168
           }
         ]
       }
@@ -10599,9 +10663,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 579,
-            "y": 568
+            "map": "Dreamers Keep",
+            "x": 552,
+            "y": 552
           }
         ]
       },
@@ -10620,9 +10684,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 579,
-            "y": 328
+            "map": "Dreamers Keep",
+            "x": 360,
+            "y": 552
           }
         ]
       },
@@ -10641,9 +10705,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 485,
-            "y": 520
+            "map": "Dreamers Keep",
+            "x": 552,
+            "y": 504
           }
         ]
       },
@@ -10662,9 +10726,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 531,
-            "y": 184
+            "map": "Dreamers Keep",
+            "x": 456,
+            "y": 504
           }
         ]
       }
@@ -10673,10 +10737,10 @@
   {
     "name": "Dreamless Depths 2",
     "access_rules": [
-      "@Dreamless Depths,$hasAmount|highJump|1 , $hasAmount|dagger|1",
-      "@Dreamless Depths,$hasAmount|wallJump|1",
-      "@Dreamless Depths,$hasAmount|jetpack|1 , $hasAmount|dagger|1",
-      "@Dreamless Depths,$hasAmount|airJump|1 , $hasAmount|dagger|1"
+      "@Teleporter Deep Dream,$hasAmount|highJump|1 , $hasAmount|dagger|1 , $hasAmount|slide|1",
+      "@Teleporter Deep Dream,$hasAmount|wallJump|1 , $hasAmount|slide|1",
+      "@Teleporter Deep Dream,$hasAmount|jetpack|1 , $hasAmount|dagger|1 , $hasAmount|slide|1",
+      "@Teleporter Deep Dream,$hasAmount|airJump|1 , $hasAmount|dagger|1 , $hasAmount|slide|1"
     ],
     "children": [
       {
@@ -10693,9 +10757,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 389,
-            "y": 712
+            "map": "Dreamers Keep",
+            "x": 360,
+            "y": 696
           }
         ]
       },
@@ -10711,6 +10775,8 @@
               "$hasAmount|airJump|1 , $hasAmount|jetpack|2 , [$canUseFastItem] , $canBombThrow",
               "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $hasAmount|bombs|1",
               "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , $canBombThrow",
+              "$hasAmount|airJump|1 , $hasAmount|jetpack|2 , $hasAmount|airDash|1 , $hasAmount|bombs|1",
+              "$hasAmount|airJump|1 , $hasAmount|jetpack|2 , $hasAmount|airDash|1 , $canBombThrow",
               "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|highJump|1 , [$canUseFastItem] , $hasAmount|bombs|1",
               "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|highJump|1 , [$canUseFastItem] , $canBombThrow"
             ]
@@ -10718,9 +10784,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 149,
-            "y": 666
+            "map": "Dreamers Keep",
+            "x": 120,
+            "y": 648
           }
         ]
       },
@@ -10741,9 +10807,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 293,
-            "y": 666
+            "map": "Dreamers Keep",
+            "x": 264,
+            "y": 648
           }
         ]
       }
@@ -10753,8 +10819,7 @@
     "name": "Dreamless Depths",
     "access_rules": [
       "@DreamKeeper,$hasAmount|slide|1 , $hasAmount|bombs|1",
-      "@DreamKeeper,$hasAmount|slide|1 , $canBombThrow",
-      "@Teleporter Deep Dream,$hasAmount|slide|1"
+      "@DreamKeeper,$hasAmount|slide|1 , $canBombThrow"
     ],
     "children": [
       {
@@ -10773,9 +10838,9 @@
         ],
         "map_locations": [
           {
-            "map": "Snowveil + Dreamer's Keep",
-            "x": 725,
-            "y": 762
+            "map": "Dreamers Keep",
+            "x": 696,
+            "y": 744
           }
         ]
       }
@@ -10806,9 +10871,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
-            "x": 634,
-            "y": 772
+            "map": "Valhalla's Breath (East)",
+            "x": 600,
+            "y": 744
           }
         ]
       },
@@ -10826,9 +10891,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
-            "x": 0,
-            "y": 0,
+            "map": "Valhalla's Breath (East)",
+            "x": 600,
+            "y": 696,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -10849,9 +10914,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
-            "x": 0,
-            "y": 0,
+            "map": "Valhalla's Breath (East)",
+            "x": 600,
+            "y": 600,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -10875,9 +10940,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
-            "x": 729,
-            "y": 627
+            "map": "Valhalla's Breath (East)",
+            "x": 696,
+            "y": 600
           }
         ]
       },
@@ -10896,23 +10961,24 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
-            "x": 585,
-            "y": 531
+            "map": "Valhalla's Breath (East)",
+            "x": 552,
+            "y": 504
           }
         ]
       }
     ]
   },
   {
-    "name": "Heavens Valley Snow Route Middle",
+    "name": "Heavens Valley Snow Route Upper",
     "access_rules": [
-      "@Heavens Valley Snow Route Low,$hasAmount|slide|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1]",
-      "@Heavens Valley Snow Route Upper,$hasAmount|slide|1"
+      "@Heavens Valley Snow Route Middle,$hasAmount|bombs|1 , $hasAmount|slide|1",
+      "@Heavens Valley Snow Route Middle,$canBombThrow , $hasAmount|slide|1",
+      "@Exit Logic/1900"
     ],
     "children": [
       {
-        "name": "Heavens Valley Snow Route Middle - Lemon Bunny Potion",
+        "name": "Heavens Valley Snow Route - Lemon Bunny Potion",
         "access_rules": [],
         "sections": [
           {
@@ -10926,12 +10992,21 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
-            "x": 201,
-            "y": 51
+            "map": "Valhalla's Breath (East)",
+            "x": 168,
+            "y": 24
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Heavens Valley Snow Route Middle",
+    "access_rules": [
+      "@Heavens Valley Snow Route Low,$hasAmount|slide|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1]",
+      "@Heavens Valley Snow Route Upper,$hasAmount|slide|1"
+    ],
+    "children": [
       {
         "name": "Heavens Valley Snow Route Middle - Cherry Bunny Potion",
         "access_rules": [],
@@ -10946,9 +11021,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
-            "x": 249,
-            "y": 51
+            "map": "Valhalla's Breath (East)",
+            "x": 216,
+            "y": 24
           }
         ]
       },
@@ -10967,9 +11042,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
-            "x": 0,
-            "y": 0,
+            "map": "Valhalla's Breath (East)",
+            "x": 504,
+            "y": 24,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -10992,9 +11067,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
-            "x": 537,
-            "y": 51
+            "map": "Valhalla's Breath (East)",
+            "x": 504,
+            "y": 24
           }
         ]
       },
@@ -11012,9 +11087,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
-            "x": 393,
-            "y": 147
+            "map": "Valhalla's Breath (East)",
+            "x": 360,
+            "y": 120
           }
         ]
       },
@@ -11032,9 +11107,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
-            "x": 345,
-            "y": 339
+            "map": "Valhalla's Breath (East)",
+            "x": 312,
+            "y": 312
           }
         ]
       },
@@ -11055,9 +11130,9 @@
         ],
         "map_locations": [
           {
-            "map": "Heaven's Valley (East) + Valhalla's Breath (East)",
-            "x": 0,
-            "y": 0,
+            "map": "Valhalla's Breath (East)",
+            "x": 72,
+            "y": 168,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -11093,9 +11168,9 @@
         ],
         "map_locations": [
           {
-            "map": "Sinner's Oath + Phantasmic Palace",
-            "x": 456,
-            "y": 260
+            "map": "Sinner's Oath",
+            "x": 408,
+            "y": 216
           }
         ]
       },
@@ -11116,9 +11191,9 @@
         ],
         "map_locations": [
           {
-            "map": "Sinner's Oath + Phantasmic Palace",
-            "x": 120,
-            "y": 163
+            "map": "Sinner's Oath",
+            "x": 72,
+            "y": 120
           }
         ]
       },
@@ -11138,9 +11213,9 @@
         ],
         "map_locations": [
           {
-            "map": "Sinner's Oath + Phantasmic Palace",
-            "x": 600,
-            "y": 212
+            "map": "Sinner's Oath",
+            "x": 552,
+            "y": 168
           }
         ]
       },
@@ -11152,16 +11227,16 @@
             "name": "Blueberry Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|jetpack|1 , $hasAmount|airJump|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1]",
-              "$hasAmount|jetpack|1 , $hasAmount|airJump|1 , $hasAmount|bombs|1"
+              "$hasAmount|jetpack|1 , $hasAmount|airJump|1 , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|slide|1",
+              "$hasAmount|jetpack|1 , $hasAmount|airJump|1 , $hasAmount|bombs|1 , $hasAmount|slide|1"
             ]
           }
         ],
         "map_locations": [
           {
-            "map": "Sinner's Oath + Phantasmic Palace",
-            "x": 792,
-            "y": 164
+            "map": "Sinner's Oath",
+            "x": 744,
+            "y": 120
           }
         ]
       },
@@ -11180,9 +11255,9 @@
         ],
         "map_locations": [
           {
-            "map": "Sinner's Oath + Phantasmic Palace",
-            "x": 792,
-            "y": 260
+            "map": "Sinner's Oath",
+            "x": 744,
+            "y": 216
           }
         ]
       }
@@ -11210,9 +11285,9 @@
         ],
         "map_locations": [
           {
-            "map": "Sinner's Oath + Phantasmic Palace",
-            "x": 312,
-            "y": 308
+            "map": "Sinner's Oath",
+            "x": 264,
+            "y": 264
           }
         ]
       },
@@ -11230,9 +11305,9 @@
         ],
         "map_locations": [
           {
-            "map": "Sinner's Oath + Phantasmic Palace",
-            "x": 432,
-            "y": 452
+            "map": "Sinner's Oath",
+            "x": 312,
+            "y": 408
           }
         ]
       },
@@ -11250,9 +11325,9 @@
         ],
         "map_locations": [
           {
-            "map": "Sinner's Oath + Phantasmic Palace",
-            "x": 0,
-            "y": 0,
+            "map": "Sinner's Oath",
+            "x": 312,
+            "y": 408,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -11282,9 +11357,9 @@
         ],
         "map_locations": [
           {
-            "map": "Sinner's Oath + Phantasmic Palace",
-            "x": 216,
-            "y": 164
+            "map": "Sinner's Oath",
+            "x": 168,
+            "y": 120
           }
         ]
       }
@@ -11311,9 +11386,9 @@
         ],
         "map_locations": [
           {
-            "map": "Sinner's Oath + Phantasmic Palace",
-            "x": 744,
-            "y": 452
+            "map": "Sinner's Oath",
+            "x": 696,
+            "y": 408
           }
         ]
       },
@@ -11331,9 +11406,9 @@
         ],
         "map_locations": [
           {
-            "map": "Sinner's Oath + Phantasmic Palace",
-            "x": 984,
-            "y": 260
+            "map": "Sinner's Oath",
+            "x": 936,
+            "y": 216
           }
         ]
       }
@@ -11349,7 +11424,7 @@
     "children": [
       {
         "name": "Vena Shop",
-        "access_rules": "@Morose City/Morose City - Boss/EVENT_BOSS",
+        "access_rules": [],
         "sections": [
           {
             "name": "Bombard",
@@ -11431,47 +11506,19 @@
         ],
         "map_locations": [
           {
-            "map": "Ana Thema",
-            "x": 404,
-            "y": 77
+            "map": "Tartarus",
+            "x": 504,
+            "y": 312
           },
           {
             "map": "Valhalla",
-            "x": 696,
-            "y": 264
+            "x": 648,
+            "y": 216
           },
           {
-            "map": "Tartarus",
-            "x": 505,
-            "y": 313
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Memine All",
-    "access_rules": [
-      "@Thanatara Canyon,^$EVENT_Memine"
-    ],
-    "children": [
-      {
-        "name": "Memine All - Electric Wind",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Electric Wind",
-            "item_count": 1,
-            "access_rules": [
-              "^$EVENT_Memine"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Ana Thema",
+            "x": 360,
+            "y": 24
           }
         ]
       }
@@ -11497,9 +11544,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 72,
+            "y": 24
           }
         ]
       },
@@ -11517,9 +11564,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 120,
+            "y": 24
           }
         ]
       },
@@ -11537,9 +11584,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 168,
+            "y": 24
           }
         ]
       },
@@ -11557,9 +11604,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 216,
+            "y": 24
           }
         ]
       },
@@ -11577,9 +11624,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 264,
+            "y": 24
           }
         ]
       },
@@ -11597,9 +11644,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 312,
+            "y": 24
           }
         ]
       },
@@ -11617,9 +11664,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 360,
+            "y": 24
           }
         ]
       },
@@ -11637,9 +11684,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 456,
+            "y": 24
           }
         ]
       },
@@ -11657,9 +11704,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 504,
+            "y": 24
           }
         ]
       },
@@ -11677,9 +11724,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 552,
+            "y": 24
           }
         ]
       },
@@ -11697,9 +11744,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 600,
+            "y": 24
           }
         ]
       },
@@ -11717,9 +11764,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 648,
+            "y": 24
           }
         ]
       },
@@ -11737,9 +11784,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 696,
+            "y": 24
           }
         ]
       },
@@ -11757,9 +11804,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 744,
+            "y": 24
           }
         ]
       },
@@ -11777,9 +11824,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 72,
+            "y": 72
           }
         ]
       },
@@ -11797,9 +11844,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 120,
+            "y": 72
           }
         ]
       },
@@ -11817,9 +11864,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 168,
+            "y": 72
           }
         ]
       },
@@ -11837,9 +11884,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 216,
+            "y": 72
           }
         ]
       },
@@ -11857,9 +11904,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 72,
+            "y": 120
           }
         ]
       },
@@ -11877,9 +11924,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 120,
+            "y": 120
           }
         ]
       },
@@ -11897,9 +11944,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 168,
+            "y": 120
           }
         ]
       },
@@ -11917,9 +11964,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 216,
+            "y": 120
           }
         ]
       },
@@ -11937,9 +11984,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 264,
+            "y": 120
           }
         ]
       },
@@ -11957,9 +12004,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 72,
+            "y": 168
           }
         ]
       },
@@ -11977,9 +12024,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 120,
+            "y": 168
           }
         ]
       },
@@ -11997,9 +12044,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 168,
+            "y": 168
           }
         ]
       },
@@ -12017,9 +12064,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 216,
+            "y": 168
           }
         ]
       },
@@ -12037,9 +12084,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 264,
+            "y": 168
           }
         ]
       },
@@ -12057,9 +12104,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 72,
+            "y": 216
           }
         ]
       },
@@ -12077,9 +12124,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 120,
+            "y": 216
           }
         ]
       },
@@ -12097,9 +12144,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 168,
+            "y": 216
           }
         ]
       },
@@ -12117,9 +12164,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 216,
+            "y": 216
           }
         ]
       },
@@ -12137,9 +12184,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 264,
+            "y": 216
           }
         ]
       },
@@ -12157,9 +12204,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 72,
+            "y": 264
           }
         ]
       },
@@ -12177,9 +12224,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 120,
+            "y": 264
           }
         ]
       },
@@ -12197,9 +12244,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 168,
+            "y": 264
           }
         ]
       },
@@ -12217,9 +12264,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 216,
+            "y": 264
           }
         ]
       },
@@ -12237,9 +12284,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 264,
+            "y": 264
           }
         ]
       },
@@ -12257,9 +12304,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 72,
+            "y": 312
           }
         ]
       },
@@ -12277,9 +12324,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 120,
+            "y": 312
           }
         ]
       },
@@ -12297,9 +12344,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 168,
+            "y": 312
           }
         ]
       },
@@ -12317,9 +12364,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 216,
+            "y": 312
           }
         ]
       },
@@ -12337,9 +12384,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 792,
+            "y": 24
           }
         ]
       }
@@ -12366,9 +12413,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 984,
+            "y": 72
           }
         ]
       },
@@ -12387,9 +12434,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 984,
+            "y": 120
           }
         ]
       },
@@ -12407,9 +12454,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1032,
+            "y": 72
           }
         ]
       },
@@ -12427,9 +12474,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1032,
+            "y": 120
           }
         ]
       },
@@ -12447,9 +12494,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1080,
+            "y": 72
           }
         ]
       },
@@ -12467,9 +12514,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1080,
+            "y": 120
           }
         ]
       },
@@ -12487,9 +12534,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1128,
+            "y": 72
           }
         ]
       },
@@ -12507,9 +12554,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1176,
+            "y": 120
           }
         ]
       },
@@ -12527,9 +12574,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1224,
+            "y": 72
           }
         ]
       },
@@ -12547,9 +12594,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1224,
+            "y": 120
           }
         ]
       },
@@ -12567,9 +12614,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1272,
+            "y": 72
           }
         ]
       },
@@ -12587,9 +12634,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1272,
+            "y": 120
           }
         ]
       },
@@ -12607,9 +12654,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1320,
+            "y": 72
           }
         ]
       },
@@ -12627,9 +12674,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1320,
+            "y": 120
           }
         ]
       },
@@ -12647,9 +12694,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1368,
+            "y": 72
           }
         ]
       },
@@ -12667,9 +12714,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1368,
+            "y": 120
           }
         ]
       },
@@ -12687,9 +12734,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1416,
+            "y": 72
           }
         ]
       },
@@ -12707,9 +12754,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1416,
+            "y": 120
           }
         ]
       },
@@ -12727,9 +12774,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1464,
+            "y": 72
           }
         ]
       },
@@ -12747,9 +12794,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1512,
+            "y": 120
           }
         ]
       },
@@ -12767,9 +12814,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1560,
+            "y": 72
           }
         ]
       },
@@ -12787,9 +12834,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1560,
+            "y": 120
           }
         ]
       },
@@ -12807,9 +12854,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1608,
+            "y": 72
           }
         ]
       },
@@ -12827,9 +12874,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1608,
+            "y": 120
           }
         ]
       },
@@ -12847,9 +12894,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1656,
+            "y": 72
           }
         ]
       },
@@ -12867,9 +12914,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1656,
+            "y": 120
           }
         ]
       },
@@ -12887,9 +12934,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1704,
+            "y": 72
           }
         ]
       },
@@ -12907,9 +12954,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1704,
+            "y": 120
           }
         ]
       },
@@ -12927,9 +12974,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1752,
+            "y": 72
           }
         ]
       },
@@ -12947,9 +12994,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1752,
+            "y": 120
           }
         ]
       },
@@ -12967,9 +13014,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1800,
+            "y": 72
           }
         ]
       },
@@ -12987,9 +13034,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1800,
+            "y": 120
           }
         ]
       },
@@ -13007,9 +13054,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1848,
+            "y": 72
           }
         ]
       },
@@ -13027,9 +13074,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1848,
+            "y": 120
           }
         ]
       },
@@ -13047,9 +13094,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1896,
+            "y": 72
           }
         ]
       },
@@ -13067,9 +13114,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1896,
+            "y": 120
           }
         ]
       },
@@ -13087,9 +13134,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1944,
+            "y": 72
           }
         ]
       },
@@ -13107,9 +13154,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1944,
+            "y": 120
           }
         ]
       },
@@ -13127,9 +13174,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1992,
+            "y": 72
           }
         ]
       },
@@ -13147,9 +13194,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 1992,
+            "y": 120
           }
         ]
       },
@@ -13167,9 +13214,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 2040,
+            "y": 72
           }
         ]
       },
@@ -13187,9 +13234,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 2040,
+            "y": 120
           }
         ]
       },
@@ -13207,9 +13254,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 2088,
+            "y": 72
           }
         ]
       },
@@ -13227,9 +13274,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 2088,
+            "y": 120
           }
         ]
       },
@@ -13247,9 +13294,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 2088,
+            "y": 168
           }
         ]
       },
@@ -13267,9 +13314,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 2088,
+            "y": 216
           }
         ]
       },
@@ -13287,9 +13334,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 2136,
+            "y": 72
           }
         ]
       },
@@ -13307,9 +13354,9 @@
         ],
         "map_locations": [
           {
-            "map": "No Map available",
-            "x": 0,
-            "y": 0
+            "map": "Crafting Map",
+            "x": 2136,
+            "y": 120
           }
         ]
       }
@@ -13340,17 +13387,6 @@
       "@Thanatara Canyon,$hasAmount|bombs|1",
       "@Thanatara Canyon,$canBombThrow",
       "@Exit Logic/0105"
-    ],
-    "children": []
-  },
-  {
-    "name": "Teleporter Morose",
-    "clear_as_group": false,
-    "access_rules": [
-      "@Thanatara Canyon",
-      "@Morose City,$hasAmount|bombs|1",
-      "@Morose City,$canBombThrow",
-      "@TeleportHub,$canUseTeleporter|3"
     ],
     "children": []
   },
@@ -13558,21 +13594,12 @@
     "children": []
   },
   {
-    "name": "Teleporter Snow City",
-    "clear_as_group": false,
-    "access_rules": [
-      "@Snow City,$hasAmount|slide|1 , $hasAmount|bombs|1",
-      "@Snow City,$hasAmount|slide|1 , $canBombThrow",
-      "@TeleportHub,$canUseTeleporter|18"
-    ],
-    "children": []
-  },
-  {
     "name": "Magma Pits Entrance",
     "clear_as_group": false,
     "access_rules": [
       "@Exit Logic/1700",
-      "@Swamp Entrance,$hasAmount|slide|1 , $canBombThrow"
+      "@Swamp Entrance,$hasAmount|slide|1 , $canBombThrow",
+      "@Pre Swamp,$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|bombs|1 , $hasAmount|slide|1"
     ],
     "children": []
   },
@@ -13614,7 +13641,7 @@
     "access_rules": [
       "@Swamp,$hasAmount|bombs|1",
       "@Swamp,$canBombThrow",
-      "@TeleportHub,$canUseTeleporter|19"
+      "@TeleportHub,$canUseTeleporter|19 , $hasAmount|ringTemp|1"
     ],
     "children": []
   },
@@ -13638,12 +13665,12 @@
     "children": []
   },
   {
-    "name": "Heavens Valley Snow Route Upper",
+    "name": "Teleporter Deep Dream",
     "clear_as_group": false,
     "access_rules": [
-      "@Heavens Valley Snow Route Middle,$hasAmount|bombs|1 , $hasAmount|slide|1",
-      "@Heavens Valley Snow Route Middle,$canBombThrow , $hasAmount|slide|1",
-      "@Exit Logic/1900"
+      "@Dreamless Depths,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Dreamless Depths,$hasAmount|slide|1 , $canBombThrow",
+      "@TeleportHub,$canUseTeleporter|22"
     ],
     "children": []
   },
@@ -13664,9 +13691,7 @@
     "access_rules": [
       "@Exit Logic/2503",
       "@Catacombs Main,$hasAmount|bombs|1",
-      "@Catacombs Main,$canBombThrow",
-      "@Teleporter Catacombs,$hasAmount|bombs|1",
-      "@Teleporter Catacombs,$canBombThrow"
+      "@Catacombs Main,$canBombThrow"
     ],
     "children": []
   },
@@ -13714,36 +13739,12 @@
     "children": []
   },
   {
-    "name": "EverGarden To Valhalla",
-    "clear_as_group": false,
-    "access_rules": [
-      "@EverGarden,$hasAmount|bombs|1 , [hiddenPaths]",
-      "@EverGarden,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
-      "@EverGarden,$hasAmount|bombs|1 , $hasAmount|airDash|1",
-      "@EverGarden,$hasAmount|bombs|1 , $hasAmount|airJump|1",
-      "@EverGarden,$hasAmount|bombs|1 , $hasAmount|speed|3",
-      "@EverGarden,$canBombThrow , [hiddenPaths]",
-      "@EverGarden,$canBombThrow , $hasAmount|jetpack|1",
-      "@EverGarden,$canBombThrow , $hasAmount|airDash|1",
-      "@EverGarden,$canBombThrow , $hasAmount|airJump|1",
-      "@EverGarden,$canBombThrow , $hasAmount|speed|3",
-      "@Exit Logic/2902"
-    ],
-    "children": []
-  },
-  {
     "name": "Teleporter Ulvosa",
     "clear_as_group": false,
     "access_rules": [
-      "@TeleportHub,$canUseTeleporter|12"
-    ],
-    "children": []
-  },
-  {
-    "name": "Teleporter Deep Dream",
-    "clear_as_group": false,
-    "access_rules": [
-      "@TeleportHub,$canUseTeleporter|22"
+      "@TeleportHub,$canUseTeleporter|12 , $hasAmount|decayAntidote|1",
+      "@TeleportHub,$canUseTeleporter|12 , $hasAmount|alembicCrystal|1",
+      "@TeleportHub,$canUseTeleporter|12 , $hasAmount|decayMask|1"
     ],
     "children": []
   },
@@ -13791,7 +13792,7 @@
     "name": "Teleporter Sinner's Oath",
     "clear_as_group": false,
     "access_rules": [
-      "@TeleportHub,$canUseTeleporter|28"
+      "@TeleportHub,$canUseTeleporter|28 , $hasAmount|ringTemp|1"
     ],
     "children": []
   },
@@ -13820,18 +13821,11 @@
     "children": []
   },
   {
-    "name": "Teleporter Cloister",
-    "clear_as_group": false,
-    "access_rules": [
-      "@TeleportHub,$canUseTeleporter|32"
-    ],
-    "children": []
-  },
-  {
     "name": "Teleporter Gallery East",
     "clear_as_group": false,
     "access_rules": [
-      "@TeleportHub,$canUseTeleporter|33"
+      "@TeleportHub,$canUseTeleporter|33 , $hasAmount|decayAntidote|1",
+      "@TeleportHub,$canUseTeleporter|33 , $hasAmount|alembicCrystal|1"
     ],
     "children": []
   },
@@ -13839,7 +13833,8 @@
     "name": "Teleporter Frank Boss",
     "clear_as_group": false,
     "access_rules": [
-      "@TeleportHub,$canUseTeleporter|34"
+      "@TeleportHub,$canUseTeleporter|34 , $hasAmount|decayAntidote|1",
+      "@TeleportHub,$canUseTeleporter|34 , $hasAmount|alembicCrystal|1"
     ],
     "children": []
   },

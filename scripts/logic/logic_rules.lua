@@ -228,7 +228,7 @@ end
 
 canBombThrow = function() return ClusterBomb() end
 canAirSlide = function() return AiryPowder() and SlickBoots() end
-canBombFuel = function() return BombFuel() and CrossBomb() or ClusterBomb() end
+canBombFuel = function() return BombFuel() and (CrossBomb() or ClusterBomb()) end
 canVortex = function() return VortexGloves() and Dagger() end
 canBombLengthExtend = function() return Combustible() and CrossBomb() end
 

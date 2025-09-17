@@ -73,11 +73,11 @@
               }
             },
             {
-              "title": "Cloister of Redemption",
+              "title": "Cloister",
               "content": {
                 "type": "map",
                 "maps": [
-                  "Cloister of Redemption"
+                  "Cloister"
                 ]
               }
             },
@@ -91,11 +91,11 @@
               }
             },
             {
-              "title": "Gallery of Mirrors + Gallery of Souls",
+              "title": "Gallery of Mirrors",
               "content": {
                 "type": "map",
                 "maps": [
-                  "Gallery of Mirrors + Gallery of Souls"
+                  "Gallery of Mirrors"
                 ]
               }
             },
@@ -109,29 +109,29 @@
               }
             },
             {
-              "title": "Heaven's Valley (East) + Valhalla's Breath (East)",
+              "title": "Valhalla's Breath (East)",
               "content": {
                 "type": "map",
                 "maps": [
-                  "Heaven's Valley (East) + Valhalla's Breath (East)"
+                  "Valhalla's Breath (East)"
                 ]
               }
             },
             {
-              "title": "Heaven's Valley (West) + Valhalla's Breath (West)",
+              "title": "Valhalla's Breath (West)",
               "content": {
                 "type": "map",
                 "maps": [
-                  "Heaven's Valley (West) + Valhalla's Breath (West)"
+                  "Valhalla's Breath (West)"
                 ]
               }
             },
             {
-              "title": "Magma Pits + Magma Depths + Gothera Swamplands (West)",
+              "title": "Magma + Swamplands",
               "content": {
                 "type": "map",
                 "maps": [
-                  "Magma Pits + Magma Depths + Gothera Swamplands (West)"
+                  "Magma + Swamplands"
                 ]
               }
             },
@@ -154,38 +154,38 @@
               }
             },
             {
-              "title": "Sinner's Oath + Phantasmic Palace",
+              "title": "Sinner's Oath",
               "content": {
                 "type": "map",
                 "maps": [
-                  "Sinner's Oath + Phantasmic Palace"
+                  "Sinner's Oath"
                 ]
               }
             },
             {
-              "title": "Snowveil + Dreamer's Keep",
+              "title": "Dreamers Keep",
               "content": {
                 "type": "map",
                 "maps": [
-                  "Snowveil + Dreamer's Keep"
+                  "Dreamers Keep"
                 ]
               }
             },
             {
-              "title": "Snowveil + Verglas Village",
+              "title": "Snowveil",
               "content": {
                 "type": "map",
                 "maps": [
-                  "Snowveil + Verglas Village"
+                  "Snowveil"
                 ]
               }
             },
             {
-              "title": "Snowveilian Valley + Desert Hands HQ",
+              "title": "Snowveilian City + HQ",
               "content": {
                 "type": "map",
                 "maps": [
-                  "Snowveilian Valley + Desert Hands HQ"
+                  "Snowveilian City + HQ"
                 ]
               }
             },
@@ -208,47 +208,47 @@
               }
             },
             {
-              "title": "The Catacombs + Omphalos Laboratory",
+              "title": "Catacombs + Lab",
               "content": {
                 "type": "map",
                 "maps": [
-                  "The Catacombs + Omphalos Laboratory"
+                  "Catacombs + Lab"
                 ]
               }
             },
             {
-              "title": "The Plagued Forest",
+              "title": "Plagued Forest",
               "content": {
                 "type": "map",
                 "maps": [
-                  "The Plagued Forest"
+                  "Plagued Forest"
                 ]
               }
             },
             {
-              "title": "The Relicts",
+              "title": "Relicts",
               "content": {
                 "type": "map",
                 "maps": [
-                  "The Relicts"
+                  "Relicts"
                 ]
               }
             },
             {
-              "title": "The Sewerways + Golden Hands Desert Base",
+              "title": "Desert Base",
               "content": {
                 "type": "map",
                 "maps": [
-                  "The Sewerways + Golden Hands Desert Base"
+                  "Desert Base"
                 ]
               }
             },
             {
-              "title": "The Solennian Ruins",
+              "title": "Solennian Ruins",
               "content": {
                 "type": "map",
                 "maps": [
-                  "The Solennian Ruins"
+                  "Solennian Ruins"
                 ]
               }
             },
@@ -289,29 +289,29 @@
               }
             },
             {
-              "title": "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)",
+              "title": "Forgotten City + Ocean",
               "content": {
                 "type": "map",
                 "maps": [
-                  "Verdazure Ocean (East) + Forgotten City + Gothera Swamplands (East)"
+                  "Forgotten City + Ocean"
                 ]
               }
             },
             {
-              "title": "Verdazure Sea (West) + Outer Moat + Solanda Beach",
+              "title": "Verdazure Sea",
               "content": {
                 "type": "map",
                 "maps": [
-                  "Verdazure Sea (West) + Outer Moat + Solanda Beach"
+                  "Verdazure Sea"
                 ]
               }
             },
             {
-              "title": "Verdawn Forest + Misty Maze",
+              "title": "Verdawn Forest",
               "content": {
                 "type": "map",
                 "maps": [
-                  "Verdawn Forest + Misty Maze"
+                  "Verdawn Forest"
                 ]
               }
             }
