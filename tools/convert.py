@@ -281,7 +281,6 @@ for k,v in RandomizerAreaList.items():
                     PoptrackerList[regionsIds[con["Exit"]]]["access_rules"] += logic
 PoptrackerList.append({
     "name": "TeleportHub",
-    "clear_as_group": False,
     "access_rules": [
       "teleporter"
     ],

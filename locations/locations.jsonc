@@ -13856,7 +13856,6 @@
   },
   {
     "name": "TeleportHub",
-    "clear_as_group": false,
     "access_rules": [
       "teleporter"
     ],

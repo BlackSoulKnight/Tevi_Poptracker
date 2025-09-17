@@ -4,11 +4,11 @@ on:
   push:
     paths-ignore:
       - '**/*.md'
-      - 'tools/*'
+      - 'tools/**'
   pull_request:
     paths-ignore:
       - '**/*.md'
-      - 'tools/*'
+      - 'tools/**'
 jobs:
   validation:
     runs-on: ubuntu-latest
