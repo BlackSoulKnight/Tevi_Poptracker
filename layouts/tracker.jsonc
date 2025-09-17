@@ -45,156 +45,12 @@
         {
           "type": "tabbed",
           "tabs": [
-			      {
-              "title": "Ana Thema",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Ana Thema"
-                ]
-              }
-            },
             {
-              "title": "Blushwood",
+              "title": "Desert Base",
               "content": {
                 "type": "map",
                 "maps": [
-                  "Blushwood"
-                ]
-              }
-            },
-            {
-              "title": "Copperwood",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Copperwood"
-                ]
-              }
-            },
-            {
-              "title": "Cloister",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Cloister"
-                ]
-              }
-            },
-            {
-              "title": "Evernight Garden",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Evernight Garden"
-                ]
-              }
-            },
-            {
-              "title": "Gallery of Mirrors",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Gallery of Mirrors"
-                ]
-              }
-            },
-            {
-              "title": "Gloamwood",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Gloamwood"
-                ]
-              }
-            },
-            {
-              "title": "Valhalla's Breath (East)",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Valhalla's Breath (East)"
-                ]
-              }
-            },
-            {
-              "title": "Valhalla's Breath (West)",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Valhalla's Breath (West)"
-                ]
-              }
-            },
-            {
-              "title": "Magma + Swamplands",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Magma + Swamplands"
-                ]
-              }
-            },
-            {
-              "title": "Morose",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Morose"
-                ]
-              }
-            },
-            {
-              "title": "Oasis",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Oasis"
-                ]
-              }
-            },
-            {
-              "title": "Sinner's Oath",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Sinner's Oath"
-                ]
-              }
-            },
-            {
-              "title": "Dreamers Keep",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Dreamers Keep"
-                ]
-              }
-            },
-            {
-              "title": "Snowveil",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Snowveil"
-                ]
-              }
-            },
-            {
-              "title": "Snowveilian City + HQ",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Snowveilian City + HQ"
-                ]
-              }
-            },
-            {
-              "title": "Tartarus",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Tartarus"
+                  "Desert Base"
                 ]
               }
             },
@@ -208,56 +64,29 @@
               }
             },
             {
-              "title": "Catacombs + Lab",
+              "title": "Oasis",
               "content": {
                 "type": "map",
                 "maps": [
-                  "Catacombs + Lab"
+                  "Oasis"
                 ]
               }
             },
             {
-              "title": "Plagued Forest",
+              "title": "Morose",
               "content": {
                 "type": "map",
                 "maps": [
-                  "Plagued Forest"
+                  "Morose"
                 ]
               }
             },
             {
-              "title": "Relicts",
+              "title": "Verdawn Forest",
               "content": {
                 "type": "map",
                 "maps": [
-                  "Relicts"
-                ]
-              }
-            },
-            {
-              "title": "Desert Base",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Desert Base"
-                ]
-              }
-            },
-            {
-              "title": "Solennian Ruins",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Solennian Ruins"
-                ]
-              }
-            },
-            {
-              "title": "Travoll Industrial Park",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Travoll Industrial Park"
+                  "Verdawn Forest"
                 ]
               }
             },
@@ -271,6 +100,51 @@
               }
             },
             {
+              "title": "Travoll Industrial Park",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Travoll Industrial Park"
+                ]
+              }
+            },
+            {
+              "title": "Copperwood",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Copperwood"
+                ]
+              }
+            },
+            {
+              "title": "Ana Thema",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Ana Thema"
+                ]
+              }
+            },
+            {
+              "title": "Gloamwood",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Gloamwood"
+                ]
+              }
+            },
+            {
+              "title": "Plagued Forest",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Plagued Forest"
+                ]
+              }
+            },
+            {
               "title": "Ulvosa",
               "content": {
                 "type": "map",
@@ -280,20 +154,11 @@
               }
             },
             {
-              "title": "Valhalla",
+              "title": "Snowveil",
               "content": {
                 "type": "map",
                 "maps": [
-                  "Valhalla"
-                ]
-              }
-            },
-            {
-              "title": "Forgotten City + Ocean",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Forgotten City + Ocean"
+                  "Snowveil"
                 ]
               }
             },
@@ -307,11 +172,146 @@
               }
             },
             {
-              "title": "Verdawn Forest",
+              "title": "Forgotten City + Ocean",
               "content": {
                 "type": "map",
                 "maps": [
-                  "Verdawn Forest"
+                  "Forgotten City + Ocean"
+                ]
+              }
+            },
+            {
+              "title": "Tartarus",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Tartarus"
+                ]
+              }
+            },
+            {
+              "title": "Snowveilian City + HQ",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Snowveilian City + HQ"
+                ]
+              }
+            },
+            {
+              "title": "Magma + Swamplands",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Magma + Swamplands"
+                ]
+              }
+            },
+            {
+              "title": "Dreamers Keep",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Dreamers Keep"
+                ]
+              }
+            },
+            {
+              "title": "Valhalla's Breath (East)",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Valhalla's Breath (East)"
+                ]
+              }
+            },
+            {
+              "title": "Valhalla",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Valhalla"
+                ]
+              }
+            },
+            {
+              "title": "Valhalla's Breath (West)",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Valhalla's Breath (West)"
+                ]
+              }
+            },
+            {
+              "title": "Solennian Ruins",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Solennian Ruins"
+                ]
+              }
+            },
+            {
+              "title": "Sinner's Oath",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Sinner's Oath"
+                ]
+              }
+            },
+            {
+              "title": "Relicts",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Relicts"
+                ]
+              }
+            },
+            {
+              "title": "Catacombs + Lab",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Catacombs + Lab"
+                ]
+              }
+            },
+            {
+              "title": "Cloister",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Cloister"
+                ]
+              }
+            },
+            {
+              "title": "Gallery of Mirrors",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Gallery of Mirrors"
+                ]
+              }
+            },
+            {
+              "title": "Blushwood",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Blushwood"
+                ]
+              }
+            },
+            {
+              "title": "Evernight Garden",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Evernight Garden"
                 ]
               }
             }
