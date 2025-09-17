@@ -21,14 +21,14 @@ function canAccessExit(exit_name)
     local entrance_logic_path = "@Entrance Logic/"..entrance
     local loc = Tracker:FindObjectForCode(entrance_logic_path)
     --print(string.format("Resolving exit logic for '%s' accessible from entrance '%s'", exit_name, entrance))
-    if Tracker:FindObjectForCode("teleporter").AcquiredCount >0 then
+    if Tracker:FindObjectForCode("teleporterMode").Active then
         return false
     end
     return loc.AccessibilityLevel
 end
 
 function notTeleporter()
-    return Tracker:FindObjectForCode("teleporter").AcquiredCount  == 0
+    return Tracker:FindObjectForCode("teleporterMode").Active  == 0
 end
 
 function canFinish()

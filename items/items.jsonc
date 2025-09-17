@@ -484,6 +484,18 @@
 		"codes": "chaosMode"
 	},
 	{
+		"name": "Kill Bosses",
+		"type": "toggle",
+		"img": "images/items/startWithCeliaOrSable.png",
+		"codes": "bosses"
+	},
+	{
+		"name": "Teleporter Mode",
+		"type": "toggle",
+		"img": "images/items/Teleporter.png",
+		"codes": "teleporterMode"
+	},
+	{
 		"name": "Start With Celia/Sable",
 		"type": "toggle",
 		"img": "images/items/startWithCeliaOrSable.png",
@@ -604,11 +616,5 @@
 		"type": "toggle",
 		"img": "images/items/darkElement.png",
 		"codes": "darkElement"
-	},
-	{
-		"name": "Teleporter",
-		"type": "consumable",
-		"img": "images/items/darkElement.png",
-		"codes": "teleporter"
 	}
 ]

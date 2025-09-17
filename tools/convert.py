@@ -137,7 +137,7 @@ for val in RandomizerLocationList:
         PoptrackerList[regionsIds[val["Location"]]]["children"].append(locTemplate)
     
     extra.write(f"\t[{baseID}] ="+"{{"+f'"@{val["Location"]}/{locationName}/{itemName}"'+"}},\n")
-    utTracker.write(f'"{locationName}/{itemName}":{baseID}\n')
+    utTracker.write(f'"{locationName}/{itemName}":{baseID},\n')
     baseID += 1
 
 change = False
@@ -212,7 +212,7 @@ for k,v in RandomizerAreaList.items():
 PoptrackerList.append({
     "name": "TeleportHub",
     "access_rules": [
-      "teleporter"
+      "teleporterMode"
     ],
     "children": []
   })

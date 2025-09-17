@@ -13,7 +13,7 @@ CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
-AP_WORLD_VERSION = "0.6.1"
+AP_WORLD_VERSION = "0.6.2"
 
 -- resets an item to its initial state
 function resetItem(item_code, item_type)
@@ -107,15 +107,18 @@ function apply_slot_data(slot_data)
 		Tracker:FindObjectForCode("rabbitJump").Active = SLOT_DATA["options"]["WalljumpTrick"] >= 2
 		Tracker:FindObjectForCode("rabbitWallJump").Active = SLOT_DATA["options"]["WalljumpTrick"] >= 3
 	end
+	--deprecated
 	if SLOT_DATA["options"]["teleporter_mode"] then
-		Tracker:FindObjectForCode("teleporter").AcquiredCount = SLOT_DATA["options"]["teleporter_mode"]
+		Tracker:FindObjectForCode("teleporterMode").Active = SLOT_DATA["options"]["teleporter_mode"]
 	end
+	--deprecated
 	if SLOT_DATA["options"]["transitionShuffle"] then
-		Tracker:FindObjectForCode("teleporter").AcquiredCount = SLOT_DATA["options"]["transitionShuffle"]
+		Tracker:FindObjectForCode("transitionShuffle").Active = SLOT_DATA["options"]["transitionShuffle"]
 	end
+
 	if SLOT_DATA["options"]["traverse_mode"] then
 		if SLOT_DATA["options"]["traverse_mode"] == 2 then
-			Tracker:FindObjectForCode("teleporter").AcquiredCount = 1
+			Tracker:FindObjectForCode("teleporterMode").Active = 1
 		end
 			if SLOT_DATA["options"]["traverse_mode"] == 1 then
 		Tracker:FindObjectForCode("transitionShuffle").Active = 1
@@ -234,8 +237,6 @@ function onItem(index, item_id, item_name, player_number)
 		local teleporterID = item_id - 44966541500
 		if teleporterID >= 0 and teleporterID < 37 then
 			teleporters[teleporterID] = true
-			local obj = Tracker:FindObjectForCode("teleporter")
-			obj.AcquiredCount = obj.AcquiredCount + obj.Increment
 		elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 			print(string.format("onItem: could not find item mapping for id %s", item_id))
 		end

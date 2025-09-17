@@ -179,5 +179,11 @@
     "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/Evernight Garden.PNG"
+  },
+  {
+    "name": "Crafting",
+    "location_size":24,
+    "location_border_thickness":4,
+    "img": "images/maps/Crafting.PNG"
   }
 ]

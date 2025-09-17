@@ -314,6 +314,15 @@
                   "Evernight Garden"
                 ]
               }
+            },
+            {
+              "title": "Crafting",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Crafting"
+                ]
+              }
             }
           ]
         }

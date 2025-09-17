@@ -270,7 +270,7 @@ knownMapLocation = {
         }
     },
     99: {
-        "areaName":"Crafting Map",
+        "areaName":"Crafting",
         "StartRoom":{
             "X":0,
             "Y":0,

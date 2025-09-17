@@ -49,6 +49,9 @@
                                     [
                                         "freeAttackUp",
                                         "transitionShuffle"
+                                    ],
+                                    [
+                                        "teleporterMode"
                                     ]
                                 ]
                             }
