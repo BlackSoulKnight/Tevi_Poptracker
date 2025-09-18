@@ -237,6 +237,7 @@ function onItem(index, item_id, item_name, player_number)
 		local teleporterID = item_id - 44966541500
 		if teleporterID >= 0 and teleporterID < 37 then
 			teleporters[teleporterID] = true
+			incrementItem("rndCounter","consumable")
 		elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 			print(string.format("onItem: could not find item mapping for id %s", item_id))
 		end

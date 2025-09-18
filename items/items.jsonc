@@ -616,5 +616,11 @@
 		"type": "toggle",
 		"img": "images/items/darkElement.png",
 		"codes": "darkElement"
+	},
+	{
+		"name": "rnd Counter",
+		"type": "consumable",
+		"img": "images/items/darkElement.png",
+		"codes": "rndCounter"
 	}
 ]

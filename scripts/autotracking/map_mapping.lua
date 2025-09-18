@@ -28,5 +28,6 @@ MAP_MAPPING = {
     [26] = "Cloister",
     [27] = "Gallery of Mirrors",
     [28] = "Blushwood",
-    [29] = "Evernight Garden"
+    [29] = "Evernight Garden",
+    [99] = "Crafting"
 }

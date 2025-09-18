@@ -2,6 +2,7 @@ import json
 import os
 from python_files.knowMaps import knownMapLocation
 from python_files.logicParser import parse_expression_logic
+import zipfile
 
 Path = os.path.dirname(os.path.realpath(__file__))
 
@@ -19,7 +20,7 @@ customLocation = {}
 RandomizerLocationList = json.load(open(Path+"\\resource\\Location.json"))
 RandomizerAreaList = json.load(open(Path+"\\resource\\Area.json"))
 RandomizerLocationGroupNames = json.load(open(Path+"\\resource\\RoomGroupNames.json"))
-
+#RandomizerLocationList += json.load(open(Path+"\\resource\\UpgradeResourceLocation.json"))
 
 del RandomizerAreaList["Transitions"]
 
