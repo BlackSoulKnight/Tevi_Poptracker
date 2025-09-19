@@ -2692,7 +2692,9 @@
   {
     "name": "Forest Maze",
     "access_rules": [
-      "@Forest"
+      "@Forest",
+      "@Teleporter Forest Maze,$hasAmount|bombs|1 , $hasAmount|airJump|1",
+      "@Teleporter Forest Maze,$hasAmount|bombs|1 , $hasAmount|jetpack|1"
     ],
     "children": [
       {
@@ -2904,9 +2906,7 @@
     "access_rules": [
       "@Forest Maze boss,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
       "@Forest Maze boss,$hasAmount|bombs|1 , $hasAmount|airJump|1",
-      "@Forest Maze boss,$hasAmount|bombs|1 , $hasAmount|airDash|1",
-      "@Teleporter Forest Maze,$hasAmount|bombs|1 , $hasAmount|airJump|1",
-      "@Teleporter Forest Maze,$hasAmount|bombs|1 , $hasAmount|jetpack|1"
+      "@Forest Maze boss,$hasAmount|bombs|1 , $hasAmount|airDash|1"
     ],
     "children": [
       {
