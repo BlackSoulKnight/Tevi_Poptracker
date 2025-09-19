@@ -110,7 +110,8 @@ for val in RandomizerLocationList:
 
     
     if "EVENT" in val["Itemname"]:
-        locTemplate["map_locations"][0]["force_invisibility_rules"] = ["$True"]
+        for v in locTemplate["map_locations"]:
+            v["force_invisibility_rules"] = ["$True"]
 
 
     if len(locTemplate["access_rules"]) == 1 and locTemplate["access_rules"][0] == "$True":

@@ -2306,7 +2306,10 @@
           {
             "map": "Travoll Mines",
             "x": 792,
-            "y": 264
+            "y": 264,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
