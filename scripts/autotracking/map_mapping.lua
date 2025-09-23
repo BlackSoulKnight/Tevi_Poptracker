@@ -16,7 +16,7 @@ MAP_MAPPING = {
     [14] = "Forgotten City + Ocean",
     [15] = "Tartarus",
     [16] = "Snowveilian City + HQ",
-    [17] = "Magma + Swamp",
+    [17] = "Magma + Swamplands",
     [18] = "Dreamers Keep",
     [19] = "Valhalla's Breath (East)",
     [20] = "Valhalla",
@@ -29,5 +29,5 @@ MAP_MAPPING = {
     [27] = "Gallery of Mirrors",
     [28] = "Blushwood",
     [29] = "Evernight Garden",
-    [99] = "Crafting"
+    [30] = "Crafting"
 }
