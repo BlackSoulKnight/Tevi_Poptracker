@@ -3305,6 +3305,29 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Memine Gloamwood - Memine Race End",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EVENT_Memine0_END",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gloamwood",
+            "x": 24,
+            "y": 216,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -4465,6 +4488,29 @@
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
               "^$EVENT_Memine2 , $hasAmount|bombs|1 , $hasAmount|jetpack|3"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Copperwood",
+            "x": 504,
+            "y": 24,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "CopperWood - Memine Race End",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EVENT_Memine2_END",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
             ]
           }
         ],
@@ -7523,6 +7569,29 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Valhalla City - Memine Race End",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EVENT_Memine3_END",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla",
+            "x": 456,
+            "y": 24,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -7781,6 +7850,29 @@
             "item_count": 1,
             "access_rules": [
               "^$EVENT_Memine4"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 600,
+            "y": 120,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "EverGarden - Memine Race End",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EVENT_Memine4_END",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
             ]
           }
         ],
@@ -8240,6 +8332,7 @@
   {
     "name": "Teleporter Cloister",
     "access_rules": [
+      "@Cloister,$canChargeShot",
       "@TeleportHub,$canUseTeleporter|32"
     ],
     "children": [
@@ -8251,9 +8344,9 @@
             "name": "C. Rank Frenzy: Focus MAX",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|airJump|1",
-              "$hasAmount|airDash|1 , $hasAmount|wallJump|1",
-              "$hasAmount|jetpack|1"
+              "$hasAmount|airJump|1 , $hasAmount|slide|1",
+              "$hasAmount|airDash|1 , $hasAmount|wallJump|1 , $hasAmount|slide|1",
+              "$hasAmount|jetpack|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -8927,6 +9020,29 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Verdazure Ocean - Memine Race End",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EVENT_Memine1_END",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Forgotten City + Ocean",
+            "x": 888,
+            "y": 120,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -9398,6 +9514,29 @@
               "$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5",
               "$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5",
               "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1 , ^$EVENT_Memine5"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Forgotten City + Ocean",
+            "x": 888,
+            "y": 600,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Forgotten City - Memine Race End",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EVENT_Memine5_END",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
             ]
           }
         ],
@@ -10183,8 +10322,8 @@
   {
     "name": "Golden Hands HQ Sewer",
     "access_rules": [
-      "@Snow City,$hasAmount|slide|1 , $notTeleporter",
-      "@Snow City,$canChargeShot , $notTeleporter",
+      "@Snow City,$hasAmount|slide|1",
+      "@Snow City,$canChargeShot",
       "@Golden Hands HQ,$hasAmount|bombs|1 , $canChargeShot",
       "@Golden Hands HQ,$canBombThrow , $canChargeShot"
     ],
@@ -13661,6 +13800,14 @@
       "@Dreamless Depths,$hasAmount|slide|1 , $hasAmount|bombs|1",
       "@Dreamless Depths,$hasAmount|slide|1 , $canBombThrow",
       "@TeleportHub,$canUseTeleporter|22"
+    ],
+    "children": []
+  },
+  {
+    "name": "TeleportHub",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Illusion Palace,$CanFinish"
     ],
     "children": []
   },
