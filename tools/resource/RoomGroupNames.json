@@ -212,6 +212,13 @@
                 "access_rules": [
                     "$True , $Chapter|6"
                 ]
+            },
+            {
+                "name": "Muscle Memory",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
             }
         ]
     },
@@ -812,25 +819,6 @@
             }
         ]
     },
-    "10000": {
-        "name": "Memine Race Completion",
-        "sections": [
-            {
-                "name": "Electric Wind",
-                "item_count": 1,
-                "access_rules": [
-                    "^$EVENT_Memine"
-                ]
-            },
-            {
-                "name": "Rainbow Bunny Potion",
-                "item_count": 1,
-                "access_rules": [
-                    "^$EVENT_Memine"
-                ]
-            }
-        ]
-    },
     "152112": {
         "name": "Vena Shop",
         "sections": [
@@ -1073,6 +1061,25 @@
                 "item_count": 1,
                 "access_rules": [
                     "$True , $Chapter|5"
+                ]
+            }
+        ]
+    },
+    "10000": {
+        "name": "Memine Race Completion",
+        "sections": [
+            {
+                "name": "Electric Wind",
+                "item_count": 1,
+                "access_rules": [
+                    "^$EVENT_Memine"
+                ]
+            },
+            {
+                "name": "Rainbow Bunny Potion",
+                "item_count": 1,
+                "access_rules": [
+                    "^$EVENT_Memine"
                 ]
             }
         ]

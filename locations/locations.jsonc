@@ -265,6 +265,47 @@
             "y": 72
           }
         ]
+      },
+      {
+        "name": "Oasis - Room X: 13 Y: 12",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Oasis",
+            "x": 360,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Oasis - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Oasis",
+            "x": -264,
+            "y": -456
+          }
+        ]
       }
     ]
   },
@@ -398,7 +439,7 @@
       "@Desert Base Entrance,$hasAmount|jetpack|1",
       "@Desert Base Entrance,$hasAmount|airJump|1",
       "@Desert Base Entrance,$hasAmount|highJump|1",
-      "@Desert Base Entrance,$canBombThrow",
+      "@Desert Base Entrance,$canBombThrow , $hasAmount|bombs|1",
       "@Desert Base Entrance,$canRabbitJump",
       "@Desert Base Entrance,$canBackflip , $hasAmount|speed|1",
       "@Desert Base Entrance,$canBackflip , [$False]",
@@ -659,6 +700,27 @@
             "y": 168
           }
         ]
+      },
+      {
+        "name": "Desert Base - Room X: 15 Y: 11",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Desert Base",
+            "x": 648,
+            "y": 168
+          }
+        ]
       }
     ]
   },
@@ -857,6 +919,13 @@
             "access_rules": [
               "^$EVENT_Memine"
             ]
+          },
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
           }
         ],
         "map_locations": [
@@ -956,6 +1025,26 @@
             "map": "Thanatara Canyon + Gurun Desert",
             "x": 360,
             "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Thanatara Canyon - Room X: 13 Y: 12",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1 , $hasAmount|slide|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Thanatara Canyon + Gurun Desert",
+            "x": 600,
+            "y": 504
           }
         ]
       }
@@ -1304,6 +1393,51 @@
             "y": 312
           }
         ]
+      },
+      {
+        "name": "Solennian Ruins - Room X: 14 Y:14",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1 , $hasAmount|dagger|1 , $hasAmount|wallJump|1",
+              "$hasAmount|bombs|1 , $hasAmount|dagger|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1",
+              "$hasAmount|bombs|1 , $hasAmount|dagger|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1",
+              "$canBombThrow , $hasAmount|wallJump|1",
+              "$canBombThrow , $hasAmount|airJump|1 , $hasAmount|highJump|1",
+              "$canBombThrow , $hasAmount|airJump|1 , $hasAmount|jetpack|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Solennian Ruins",
+            "x": 72,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Solennian Ruins - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Solennian Ruins",
+            "x": -600,
+            "y": -216
+          }
+        ]
       }
     ]
   },
@@ -1432,6 +1566,31 @@
             "force_invisibility_rules": [
               "$True"
             ]
+          }
+        ]
+      },
+      {
+        "name": "Heavens Valley West - Room X: 3 Y:17",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1",
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1",
+              "$canBombThrow , $hasAmount|jetpack|1 , $hasAmount|airJump|1",
+              "$canBombThrow , $hasAmount|jetpack|1 , $hasAmount|airDash|1",
+              "$canBombThrow , $hasAmount|airJump|1 , $hasAmount|airDash|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla's Breath (West)",
+            "x": 72,
+            "y": 792
           }
         ]
       }
@@ -2073,6 +2232,27 @@
             "y": 216
           }
         ]
+      },
+      {
+        "name": "Morose City - Room X: 17 Y: 11",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Morose",
+            "x": 312,
+            "y": 120
+          }
+        ]
       }
     ]
   },
@@ -2210,6 +2390,47 @@
             "map": "Travoll Industrial Park",
             "x": 216,
             "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Travoll Industrie - Room X: 10 Y: 14",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Industrial Park",
+            "x": 168,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Travoll Industrie - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Industrial Park",
+            "x": -312,
+            "y": -552
           }
         ]
       }
@@ -2435,6 +2656,48 @@
             "map": "Travoll Mines",
             "x": 888,
             "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Travoll Mines - Room X: 11 Y: 12",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$hasAmount|bombs|1 , $hasAmount|bombRange|3",
+              "$canBombThrow , $hasAmount|slide|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 504,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Travoll Mines - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": -24,
+            "y": -264
           }
         ]
       }
@@ -2901,6 +3164,27 @@
             "y": 648
           }
         ]
+      },
+      {
+        "name": "Teleporter Forest Maze - Room X: 4 Y: 21",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdawn Forest",
+            "x": 72,
+            "y": 696
+          }
+        ]
       }
     ]
   },
@@ -3328,6 +3612,26 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Gloamwood Middle - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gloamwood",
+            "x": -72,
+            "y": -168
+          }
+        ]
       }
     ]
   },
@@ -3510,6 +3814,27 @@
             "map": "Gloamwood",
             "x": 696,
             "y": 648
+          }
+        ]
+      },
+      {
+        "name": "Gloamwood Right - Room X: 17 Y: 15",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gloamwood",
+            "x": 744,
+            "y": 552
           }
         ]
       }
@@ -3908,6 +4233,27 @@
             "y": 24
           }
         ]
+      },
+      {
+        "name": "Gloamwood Right - Room X: 13 Y: 15",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|dagger|1 , $hasAmount|bombs|1",
+              "$hasAmount|dagger|1 , $canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Plagued Forest",
+            "x": 120,
+            "y": 456
+          }
+        ]
       }
     ]
   },
@@ -4300,6 +4646,26 @@
             "y": 24
           }
         ]
+      },
+      {
+        "name": "Ulvosa - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ulvosa",
+            "x": -120,
+            "y": -312
+          }
+        ]
       }
     ]
   },
@@ -4382,6 +4748,26 @@
             "map": "Copperwood",
             "x": 840,
             "y": 264
+          }
+        ]
+      },
+      {
+        "name": "CopperWood - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Copperwood",
+            "x": -24,
+            "y": -648
           }
         ]
       }
@@ -4522,6 +4908,26 @@
             "force_invisibility_rules": [
               "$True"
             ]
+          }
+        ]
+      },
+      {
+        "name": "Copper Wood - Room X: 3 Y: 16",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Copperwood",
+            "x": 120,
+            "y": 120
           }
         ]
       }
@@ -4705,6 +5111,26 @@
             "map": "Relicts",
             "x": 456,
             "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Relicts - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Relicts",
+            "x": -24,
+            "y": -72
           }
         ]
       }
@@ -5077,6 +5503,27 @@
             "force_invisibility_rules": [
               "$True"
             ]
+          }
+        ]
+      },
+      {
+        "name": "Ana Thema - Room X: 14 Y: 11",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ana Thema",
+            "x": 120,
+            "y": 120
           }
         ]
       }
@@ -5567,6 +6014,33 @@
             "map": "Magma + Swamplands",
             "x": 1080,
             "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Swamp- Room X: 19 Y: 5",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|airDash|1",
+              "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|jetpack|1",
+              "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
+              "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|airJump|1",
+              "$canBombThrow , $hasAmount|slide|1 , $hasAmount|airDash|1",
+              "$canBombThrow , $hasAmount|slide|1 , $hasAmount|jetpack|1",
+              "$canBombThrow , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
+              "$canBombThrow , $hasAmount|slide|1 , $hasAmount|airJump|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma + Swamplands",
+            "x": 936,
+            "y": 168
           }
         ]
       }
@@ -6112,6 +6586,27 @@
             "force_invisibility_rules": [
               "$True"
             ]
+          }
+        ]
+      },
+      {
+        "name": "Tartarus - Room X: 19 Y: 11",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 408,
+            "y": 264
           }
         ]
       }
@@ -6812,6 +7307,27 @@
             "y": 120
           }
         ]
+      },
+      {
+        "name": "Outer Moat - Room X: 16 Y: 12",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdazure Sea",
+            "x": 648,
+            "y": 120
+          }
+        ]
       }
     ]
   },
@@ -6886,6 +7402,26 @@
             "map": "Verdazure Sea",
             "x": 648,
             "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Verdazure Sea West - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdazure Sea",
+            "x": -120,
+            "y": -456
           }
         ]
       }
@@ -7129,6 +7665,47 @@
             "map": "Blushwood",
             "x": 264,
             "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Blushwood - Room X: 7 Y:18",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Blushwood",
+            "x": 168,
+            "y": 648
+          }
+        ]
+      },
+      {
+        "name": "Blushwood - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Blushwood",
+            "x": -168,
+            "y": -216
           }
         ]
       }
@@ -7592,6 +8169,27 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Valhalla City - Room X: 28 Y:9",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla",
+            "x": 744,
+            "y": 120
+          }
+        ]
       }
     ]
   },
@@ -7697,6 +8295,26 @@
             "y": 360
           }
         ]
+      },
+      {
+        "name": "EverGarden - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": -264,
+            "y": -120
+          }
+        ]
       }
     ]
   },
@@ -7736,6 +8354,31 @@
           {
             "map": "Evernight Garden",
             "x": 696,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "EverGarden - Room X: 12 Y:12",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+              "$hasAmount|bombs|1 , $hasAmount|airDash|1",
+              "$canBombThrow , $hasAmount|airJump|1",
+              "$canBombThrow , $hasAmount|jetpack|1",
+              "$canBombThrow , $hasAmount|airDash|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Evernight Garden",
+            "x": 312,
             "y": 456
           }
         ]
@@ -8119,6 +8762,26 @@
             "y": 120
           }
         ]
+      },
+      {
+        "name": "Cloister - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cloister",
+            "x": -840,
+            "y": -264
+          }
+        ]
       }
     ]
   },
@@ -8326,6 +8989,31 @@
             "y": 360
           }
         ]
+      },
+      {
+        "name": "Cloister - Room X: 20 Y:12",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1 , $hasAmount|highJump|1",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$canBombThrow , $hasAmount|highJump|1",
+              "$canBombThrow , $hasAmount|jetpack|1",
+              "$canBombThrow , $hasAmount|airJump|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Cloister",
+            "x": 120,
+            "y": 312
+          }
+        ]
       }
     ]
   },
@@ -8446,6 +9134,27 @@
             "map": "Gallery of Mirrors",
             "x": 72,
             "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Gallery of Mirrors - Room X: 12 Y:7",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors",
+            "x": 168,
+            "y": 168
           }
         ]
       }
@@ -9550,6 +10259,26 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Forgotten City - Room X: 17 Y: 20",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Forgotten City + Ocean",
+            "x": 840,
+            "y": 792
+          }
+        ]
       }
     ]
   },
@@ -9577,6 +10306,27 @@
             "map": "Snowveil",
             "x": 408,
             "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Snowveil - Room X: 21 Y: 14",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil",
+            "x": 504,
+            "y": 504
           }
         ]
       }
@@ -10153,6 +10903,27 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Snowveil Above HQ - Room X: 12 Y: 7",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian City + HQ",
+            "x": 456,
+            "y": 168
+          }
+        ]
       }
     ]
   },
@@ -10285,6 +11056,26 @@
             "force_invisibility_rules": [
               "$True"
             ]
+          }
+        ]
+      },
+      {
+        "name": "Golden Hands HQ - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian City + HQ",
+            "x": -120,
+            "y": -168
           }
         ]
       }
@@ -11267,6 +12058,31 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Valhalla`s Breath East - Room X: 4 Y: 5",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1",
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1",
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1",
+              "$canBombThrow , $hasAmount|airJump|1 , $hasAmount|jetpack|1",
+              "$canBombThrow , $hasAmount|airJump|1 , $hasAmount|airDash|1",
+              "$canBombThrow , $hasAmount|airJump|1 , $hasAmount|airDash|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla's Breath (East)",
+            "x": 120,
+            "y": 120
+          }
+        ]
       }
     ]
   },
@@ -11387,6 +12203,46 @@
             "map": "Sinner's Oath",
             "x": 744,
             "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Sinner's Oath - Room X: 12 Y:3",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sinner's Oath",
+            "x": 360,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Sinner's Oath - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Sinner's Oath",
+            "x": -216,
+            "y": -24
           }
         ]
       }
@@ -13492,6 +14348,459 @@
     ]
   },
   {
+    "name": "Ulvosa to Gloamwood",
+    "access_rules": [
+      "@Exit Logic/1102",
+      "@Ulvosa,$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1",
+      "@Ulvosa,$canBombThrow , $canChargeShot , $hasAmount|slide|1"
+    ],
+    "children": [
+      {
+        "name": "Ulvosa - Room X: 5 Y: 8",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|slide|1 , $hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ulvosa",
+            "x": 120,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DreamKeeper Outside Left Snow To Snowveil",
+    "access_rules": [
+      "@DreamKeeper Outside Left,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@DreamKeeper Outside Left,$hasAmount|slide|1 , $canBombThrow",
+      "@Exit Logic/1805"
+    ],
+    "children": [
+      {
+        "name": "DreamKeeper Outside - Room X: 15 Y: 10 ",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1",
+              "$hasAmount|bombs|1 , $hasAmount|airDash|1 , $hasAmount|speed|2",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|2",
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|speed|1",
+              "$canBombThrow , $hasAmount|airDash|1 , $hasAmount|jetpack|1",
+              "$canBombThrow , $hasAmount|airDash|1 , $hasAmount|speed|2",
+              "$canBombThrow , $hasAmount|jetpack|2",
+              "$canBombThrow , $hasAmount|airJump|1",
+              "$canBombThrow , $hasAmount|jetpack|1 , $hasAmount|speed|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dreamers Keep",
+            "x": 216,
+            "y": 312
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Relicts to Gloamwood",
+    "access_rules": [
+      "@Relicts,$hasAmount|bombs|1",
+      "@Relicts,$canBombThrow",
+      "@Exit Logic/2406",
+      "@Teleporter Relicts"
+    ],
+    "children": [
+      {
+        "name": "Relicts to Gloamwood - Room X: 12 Y:7",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Relicts",
+            "x": 552,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Teleporter Catacombs",
+    "access_rules": [
+      "@TeleportHub,$canUseTeleporter|30"
+    ],
+    "children": [
+      {
+        "name": "Catacombs - Room X: 16 Y:7",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Catacombs + Lab",
+            "x": 792,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Desert Base Enemies",
+    "access_rules": [
+      "@Desert Base Main",
+      "@Desert Base Entrance"
+    ],
+    "children": [
+      {
+        "name": "Desert Base - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Desert Base",
+            "x": -72,
+            "y": -360
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Forest Enemies",
+    "access_rules": [
+      "@Forest",
+      "@Forest Maze extended"
+    ],
+    "children": [
+      {
+        "name": "Forest - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Verdawn Forest",
+            "x": -120,
+            "y": -312
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Plague Forest Enemies",
+    "access_rules": [
+      "@Plague Forest",
+      "@Teleporter Plague Forest"
+    ],
+    "children": [
+      {
+        "name": "Plague Forest - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Plagued Forest",
+            "x": -504,
+            "y": -264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Snowveil Enemies",
+    "access_rules": [
+      "@Snowveil",
+      "@Snowveil Ex"
+    ],
+    "children": [
+      {
+        "name": "Snowveil - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveil",
+            "x": -504,
+            "y": -168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Forgotten Enemies",
+    "access_rules": [
+      "@Verdazure Ocean",
+      "@Forgotten City"
+    ],
+    "children": [
+      {
+        "name": "Forgotten Ocean - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Forgotten City + Ocean",
+            "x": 24,
+            "y": -168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Magma Swamp Enemies",
+    "access_rules": [
+      "@Magma Pits",
+      "@Pre Swamp,$hasAmount|dagger|1",
+      "@Teleporter Lava Cave,$canBombThrow",
+      "@Teleporter Lava Cave,$hasAmount|bombs|1"
+    ],
+    "children": [
+      {
+        "name": "Magma Swamp - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma + Swamplands",
+            "x": 24,
+            "y": -72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dream Enemies",
+    "access_rules": [
+      "@DreamKeeper Outside Right",
+      "@DreamKeeper Outside Left",
+      "@Teleporter DreamKeeper Inside,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Teleporter DreamKeeper Inside,$hasAmount|slide|1 , $canBombThrow"
+    ],
+    "children": [
+      {
+        "name": "DreamKeeper - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dreamers Keep",
+            "x": -504,
+            "y": -168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Valley East Enemies",
+    "access_rules": [
+      "@Heavens Valley Snow Route Low"
+    ],
+    "children": [
+      {
+        "name": "Valhalla`s Breath East: Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla's Breath (East)",
+            "x": -72,
+            "y": -120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "West Breath Enemies",
+    "access_rules": [
+      "@Valhalla Breath West",
+      "@Heavens Valley West"
+    ],
+    "children": [
+      {
+        "name": "Valhalla`s Breath West: Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla's Breath (West)",
+            "x": -72,
+            "y": -24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Catalab Enemies",
+    "access_rules": [
+      "@Catacombs Main",
+      "@Lab Hub"
+    ],
+    "children": [
+      {
+        "name": "Catacombs and Labs - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Catacombs + Lab",
+            "x": 24,
+            "y": -168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gallery of Enemies",
+    "access_rules": [
+      "@Gallery of Mirrors West,$canChargeShot",
+      "@Gallery of Mirrors East"
+    ],
+    "children": [
+      {
+        "name": "Gallery - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gallery of Mirrors",
+            "x": -408,
+            "y": -168
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Teleporter Desert Base",
     "clear_as_group": false,
     "access_rules": [
@@ -13610,14 +14919,6 @@
     "access_rules": [
       "@Exit Logic/0903",
       "@Gloamwood Right"
-    ],
-    "children": []
-  },
-  {
-    "name": "Ulvosa to Gloamwood",
-    "clear_as_group": false,
-    "access_rules": [
-      "@Exit Logic/1102"
     ],
     "children": []
   },
@@ -13784,16 +15085,6 @@
     "children": []
   },
   {
-    "name": "DreamKeeper Outside Left Snow To Snowveil",
-    "clear_as_group": false,
-    "access_rules": [
-      "@DreamKeeper Outside Left,$hasAmount|slide|1 , $hasAmount|bombs|1",
-      "@DreamKeeper Outside Left,$hasAmount|slide|1 , $canBombThrow",
-      "@Exit Logic/1805"
-    ],
-    "children": []
-  },
-  {
     "name": "Teleporter Deep Dream",
     "clear_as_group": false,
     "access_rules": [
@@ -13808,17 +15099,6 @@
     "clear_as_group": false,
     "access_rules": [
       "@Illusion Palace,$CanFinish"
-    ],
-    "children": []
-  },
-  {
-    "name": "Relicts to Gloamwood",
-    "clear_as_group": false,
-    "access_rules": [
-      "@Relicts,$hasAmount|bombs|1",
-      "@Relicts,$canBombThrow",
-      "@Exit Logic/2406",
-      "@Teleporter Relicts"
     ],
     "children": []
   },
@@ -13938,14 +15218,6 @@
     "clear_as_group": false,
     "access_rules": [
       "@TeleportHub,$canUseTeleporter|29"
-    ],
-    "children": []
-  },
-  {
-    "name": "Teleporter Catacombs",
-    "clear_as_group": false,
-    "access_rules": [
-      "@TeleportHub,$canUseTeleporter|30"
     ],
     "children": []
   },

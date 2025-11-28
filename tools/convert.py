@@ -20,7 +20,7 @@ customLocation = {}
 RandomizerLocationList = json.load(open(Path+"\\resource\\Location.json"))
 RandomizerAreaList = json.load(open(Path+"\\resource\\Area.json"))
 RandomizerLocationGroupNames = json.load(open(Path+"\\resource\\RoomGroupNames.json"))
-#RandomizerLocationList += json.load(open(Path+"\\resource\\UpgradeResourceLocation.json"))
+RandomizerLocationList += json.load(open(Path+"\\resource\\UpgradeResourceLocation.json"))
 
 del RandomizerAreaList["Transitions"]
 
@@ -93,6 +93,7 @@ for val in RandomizerLocationList:
             "x": locdata["StartRoom"]["PixelX"]+((v["X"] - locdata["StartRoom"]["X"])*48)+24,
             "y": locdata["StartRoom"]["PixelY"]+((v["Y"] - locdata["StartRoom"]["Y"])*48)+24
           }]
+        
         locationCode = v["Area"]*10000+v["X"]*100+v["Y"]
         if "EVENT" in itemName:
             continue
