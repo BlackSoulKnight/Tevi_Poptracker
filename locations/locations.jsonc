@@ -4235,7 +4235,7 @@
         ]
       },
       {
-        "name": "Gloamwood Right - Room X: 13 Y: 15",
+        "name": "Plague Forest - Room X: 13 Y: 15",
         "access_rules": [],
         "sections": [
           {
@@ -15098,7 +15098,8 @@
     "name": "TeleportHub",
     "clear_as_group": false,
     "access_rules": [
-      "@Illusion Palace,$CanFinish"
+      "@Illusion Palace,$CanFinish",
+      "teleporterMode"
     ],
     "children": []
   },
@@ -15260,13 +15261,6 @@
     "clear_as_group": false,
     "access_rules": [
       "@TeleportHub,$canUseTeleporter|36"
-    ],
-    "children": []
-  },
-  {
-    "name": "TeleportHub",
-    "access_rules": [
-      "teleporterMode"
     ],
     "children": []
   }
