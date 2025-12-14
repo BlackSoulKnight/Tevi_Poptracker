@@ -12402,9 +12402,9 @@
   {
     "name": "Vena Shop",
     "access_rules": [
-      "@Ana Thema",
-      "@Tartarus",
-      "@Valhalla City"
+      "@Ana Thema,^$EVENT_MoroseVisited",
+      "@Tartarus,^$EVENT_MoroseVisited",
+      "@Valhalla City,^$EVENT_MoroseVisited"
     ],
     "children": [
       {
@@ -14795,6 +14795,241 @@
             "map": "Gallery of Mirrors",
             "x": -408,
             "y": -168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shop Bonus",
+    "access_rules": [
+      "@Morose City,$Chapter|2",
+      "@Tartarus,$Chapter|2",
+      "@Snow City,$Chapter|2",
+      "@Valhalla City,$Chapter|2"
+    ],
+    "children": [
+      {
+        "name": "Shop Bonus",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard #1",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Mananite Shard #2",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Mananite Shard #3",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Mananite Shard #4",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Mananite Shard #5",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Mananite Shard #6",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Mananite Shard #7",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Mananite Shard #8",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Mananite Shard #9",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Mananite Shard #10",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Mananite Shard #11",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Mananite Shard #12",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Mananite Shard #13",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Mananite Shard #14",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Magitite Shard #1",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Magitite Shard #2",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Magitite Shard #3",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Magitite Shard #4",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Magitite Shard #5",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Magitite Shard #6",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Magitite Shard #7",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Magitite Shard #8",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Magitite Shard #9",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Magitite Shard #10",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Magitite Shard #11",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Magitite Shard #12",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Magitite Shard #13",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          },
+          {
+            "name": "Magitite Shard #14",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Morose",
+            "x": 216,
+            "y": 72
+          },
+          {
+            "map": "Snowveilian City + HQ",
+            "x": 264,
+            "y": 216
+          },
+          {
+            "map": "Ana Thema",
+            "x": 120,
+            "y": 216
+          },
+          {
+            "map": "Tartarus",
+            "x": 264,
+            "y": 312
           }
         ]
       }

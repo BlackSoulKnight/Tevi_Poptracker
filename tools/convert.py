@@ -61,6 +61,9 @@ baseID = 44966541000
 
 locationList = {}
 locationNameList = {}
+CCShop = 1
+IanShop = 1
+
 for val in RandomizerLocationList:
     if not val["Location"] in regionsIds:
         regionTemplate = {
@@ -76,6 +79,14 @@ for val in RandomizerLocationList:
     if val["Itemname"] in ApNamesToTevi:
         itemName = ApNamesToTevi[itemName]
 
+    if "Shop Bonus" in locationName:
+        if "Mananite" in itemName:
+            itemName += f" #{CCShop}"
+            CCShop += 1
+        else:
+            itemName += f" #{IanShop}"
+            IanShop+=1
+            
     locTemplate = {
         "name": locationName,
         "access_rules": [],
@@ -85,7 +96,8 @@ for val in RandomizerLocationList:
                     "access_rules":setAccessRule(val["Requirement"])
                     }],
         "map_locations": []
-      }   
+      }
+
     for v in val["LocationRegion"]:
         locdata = knownMapLocation[v["Area"]]
         locTemplate["map_locations"]+=[{
@@ -138,6 +150,8 @@ for val in RandomizerLocationList:
                 locTemplate["access_rules"] = []
     if not found:
         PoptrackerList[regionsIds[val["Location"]]]["children"].append(locTemplate)
+
+
     
     extra.write(f"\t[{baseID}] ="+"{{"+f'"@{val["Location"]}/{locationName}/{itemName}"'+"}},\n")
     utTracker.write(f'"{locationName}/{itemName}":{baseID},\n')
@@ -205,6 +219,8 @@ for k,v in RandomizerAreaList.items():
                         "access_rules": logic,
                         "children": []
                     }
+                    if regionTemplate["name"] == "TeleportHub":
+                        regionTemplate["access_rules"] += ["teleporterMode"]
                     regionsIds[con['Exit']] = currentRegionId
                     currentRegionId +=1
                     PoptrackerList.append(regionTemplate)                    
@@ -212,13 +228,6 @@ for k,v in RandomizerAreaList.items():
 
                 else:
                     PoptrackerList[regionsIds[con["Exit"]]]["access_rules"] += logic
-PoptrackerList.append({
-    "name": "TeleportHub",
-    "access_rules": [
-      "teleporterMode"
-    ],
-    "children": []
-  })
 
 PoptrackerList[regionsIds["Thanatara Canyon"]]["access_rules"] = []
 file = open(Path+"\\..\\locations\\locations.jsonc",'w+')

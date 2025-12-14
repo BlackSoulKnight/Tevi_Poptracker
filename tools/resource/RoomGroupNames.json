@@ -1081,6 +1081,817 @@
                 "access_rules": [
                     "^$EVENT_Memine"
                 ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            }
+        ]
+    },
+    "31510": {
+        "name": "Shop Bonus",
+        "sections": [
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            }
+        ]
+    },
+    "160808": {
+        "name": "Shop Bonus",
+        "sections": [
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            }
+        ]
+    },
+    "81413": {
+        "name": "Shop Bonus",
+        "sections": [
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            }
+        ]
+    },
+    "151612": {
+        "name": "Shop Bonus",
+        "sections": [
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "ITEMNAME.I15",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
             }
         ]
     }
