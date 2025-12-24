@@ -21,6 +21,7 @@ RandomizerLocationList = json.load(open(Path+"\\resource\\Location.json"))
 RandomizerAreaList = json.load(open(Path+"\\resource\\Area.json"))
 RandomizerLocationGroupNames = json.load(open(Path+"\\resource\\RoomGroupNames.json"))
 RandomizerLocationList += json.load(open(Path+"\\resource\\UpgradeResourceLocation.json"))
+RandomizerLocationList += json.load(open(Path+"\\resource\\MoneyLocations.json"))
 
 del RandomizerAreaList["Transitions"]
 
@@ -63,7 +64,7 @@ locationList = {}
 locationNameList = {}
 CCShop = 1
 IanShop = 1
-
+MoneyCounter = {}
 for val in RandomizerLocationList:
     if not val["Location"] in regionsIds:
         regionTemplate = {
@@ -86,7 +87,15 @@ for val in RandomizerLocationList:
         else:
             itemName += f" #{IanShop}"
             IanShop+=1
-            
+    if "Money Room" in locationName:
+        locationName = locationName[:-3]
+        if locationName in MoneyCounter:
+            itemName += f" #{MoneyCounter[locationName]}"
+        else:
+            MoneyCounter[locationName] = 1
+            itemName += f" #{MoneyCounter[locationName]}"
+        MoneyCounter[locationName] +=1
+
     locTemplate = {
         "name": locationName,
         "access_rules": [],
@@ -163,7 +172,10 @@ for k,v in locationList.items():
         if str(k) not in RandomizerLocationGroupNames:
             print(locationNameList[k])
             print("\n")
-            RandomizerLocationGroupNames[str(k)] = {"name":input("Enter Groupname: "),"sections":v}
+            if "Money Room" in locationNameList[k][0]:
+                RandomizerLocationGroupNames[str(k)] = {"name":locationNameList[k][0][:-3],"sections":v}
+            else:
+                RandomizerLocationGroupNames[str(k)] = {"name":input("Enter Groupname: "),"sections":v}
             change = True
         else:
             RandomizerLocationGroupNames[str(k)]["sections"]=v
