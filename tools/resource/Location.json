@@ -1476,7 +1476,7 @@
     },
     {
         "Itemname": "EVENT_MoroseVisited",
-        "Location": "Teleporter Morose",
+        "Location": "Morose City",
         "LocationName": "Morose City - Visit",
         "slotId": 0,
         "Requirement": [
@@ -7441,7 +7441,7 @@
         "slotId": 49,
         "Requirement": [
             {
-                "Method": "",
+                "Method": "ITEM_DOUBLEJUMP || ITEM_JETPACK || ITEM_AirDash",
                 "Difficulty": 0
             }
         ],
@@ -7460,7 +7460,7 @@
         "slotId": 49,
         "Requirement": [
             {
-                "Method": "",
+                "Method": "ITEM_DOUBLEJUMP || ITEM_JETPACK || ITEM_AirDash",
                 "Difficulty": 0
             }
         ],

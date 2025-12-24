@@ -238,6 +238,20 @@
                 "access_rules": [
                     "$True"
                 ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "^$EVENT_EliteChallangeC"
+                ]
+            },
+            {
+                "name": "Magitite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "^$EVENT_EliteChallangeC"
+                ]
             }
         ]
     },
@@ -270,6 +284,33 @@
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , $Chapter|4"
+                ]
+            },
+            {
+                "name": "Money Bag #1",
+                "item_count": 1,
+                "access_rules": [
+                    "$hasAmount|bombs|1",
+                    "$canBombThrow",
+                    "$hasAmount|dagger|1"
+                ]
+            },
+            {
+                "name": "Money Bag #2",
+                "item_count": 1,
+                "access_rules": [
+                    "$hasAmount|bombs|1",
+                    "$canBombThrow",
+                    "$hasAmount|dagger|1"
+                ]
+            },
+            {
+                "name": "Money Bag #3",
+                "item_count": 1,
+                "access_rules": [
+                    "$hasAmount|bombs|1",
+                    "$canBombThrow",
+                    "$hasAmount|dagger|1"
                 ]
             }
         ]
@@ -1922,7 +1963,7 @@
         "name": "Desert Base - Money Room X: 14 Y: 11",
         "sections": [
             {
-                "name": "Money Bag #3",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -1931,7 +1972,7 @@
                 ]
             },
             {
-                "name": "Money Bag #4",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -1945,7 +1986,7 @@
         "name": "Desert Base - Money Room X: 9 Y: 16",
         "sections": [
             {
-                "name": "Money Bag #5",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -1953,7 +1994,7 @@
                 ]
             },
             {
-                "name": "Money Bag #6",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -1961,7 +2002,7 @@
                 ]
             },
             {
-                "name": "Money Bag #7",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -1974,7 +2015,7 @@
         "name": "Thanatara Canyon - Money Room X: 7 Y: 10",
         "sections": [
             {
-                "name": "Money Bag #8",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -1983,7 +2024,7 @@
                 ]
             },
             {
-                "name": "Money Bag #9",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -1997,7 +2038,7 @@
         "name": "Thanatara Canyon - Money Room X: 6 Y: 10",
         "sections": [
             {
-                "name": "Money Bag #10",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|airJump|1",
@@ -2015,7 +2056,7 @@
                 ]
             },
             {
-                "name": "Money Bag #11",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|airJump|1",
@@ -2033,7 +2074,7 @@
                 ]
             },
             {
-                "name": "Money Bag #12",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|airJump|1",
@@ -2051,7 +2092,7 @@
                 ]
             },
             {
-                "name": "Money Bag #13",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|airJump|1",
@@ -2074,7 +2115,7 @@
         "name": "Thanatara Canyon - Money Room X: 11 Y: 8",
         "sections": [
             {
-                "name": "Money Bag #14",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2083,7 +2124,7 @@
                 ]
             },
             {
-                "name": "Money Bag #15",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2092,7 +2133,7 @@
                 ]
             },
             {
-                "name": "Money Bag #16",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2101,7 +2142,7 @@
                 ]
             },
             {
-                "name": "Money Bag #17",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2115,7 +2156,7 @@
         "name": "Thanatara Canyon - Money Room X: 2 Y: 6",
         "sections": [
             {
-                "name": "Money Bag #19",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
@@ -2171,7 +2212,7 @@
                 ]
             },
             {
-                "name": "Money Bag #20",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
@@ -2227,7 +2268,7 @@
                 ]
             },
             {
-                "name": "Money Bag #21",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
@@ -2283,7 +2324,7 @@
                 ]
             },
             {
-                "name": "Money Bag #22",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
@@ -2339,7 +2380,7 @@
                 ]
             },
             {
-                "name": "Money Bag #23",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|bombs|1",
@@ -2425,7 +2466,7 @@
         "name": "Thanatara Canyon - Money Room X: 10 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #24",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -2446,7 +2487,7 @@
                 ]
             },
             {
-                "name": "Money Bag #25",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -2467,7 +2508,7 @@
                 ]
             },
             {
-                "name": "Money Bag #26",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -2493,7 +2534,7 @@
         "name": "Thanatara Canyon - Money Room X: 14 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #27",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2502,7 +2543,7 @@
                 ]
             },
             {
-                "name": "Money Bag #28",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|wallJump|1",
@@ -2517,7 +2558,7 @@
                 ]
             },
             {
-                "name": "Money Bag #29",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|wallJump|1",
@@ -2532,7 +2573,7 @@
                 ]
             },
             {
-                "name": "Money Bag #30",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|wallJump|1",
@@ -2547,7 +2588,7 @@
                 ]
             },
             {
-                "name": "Money Bag #31",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|wallJump|1",
@@ -2567,7 +2608,7 @@
         "name": "Gurun Desert - Money Room X: 19 Y: 3",
         "sections": [
             {
-                "name": "Money Bag #32",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2576,7 +2617,7 @@
                 ]
             },
             {
-                "name": "Money Bag #33",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2585,7 +2626,7 @@
                 ]
             },
             {
-                "name": "Money Bag #34",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2599,7 +2640,7 @@
         "name": "Gurun Desert - Money Room X: 25 Y: 10",
         "sections": [
             {
-                "name": "Money Bag #35",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2608,7 +2649,7 @@
                 ]
             },
             {
-                "name": "Money Bag #36",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2622,7 +2663,7 @@
         "name": "Plague Forest - Money Room X: 20 Y: 16",
         "sections": [
             {
-                "name": "Money Bag #37",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2631,7 +2672,7 @@
                 ]
             },
             {
-                "name": "Money Bag #38",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2640,7 +2681,7 @@
                 ]
             },
             {
-                "name": "Money Bag #39",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2654,7 +2695,7 @@
         "name": "Plague Forest - Money Room X: 21 Y: 14",
         "sections": [
             {
-                "name": "Money Bag #40",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|dagger|1 , $hasAmount|airJump|1",
@@ -2664,7 +2705,7 @@
                 ]
             },
             {
-                "name": "Money Bag #41",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|dagger|1 , $hasAmount|airJump|1",
@@ -2674,7 +2715,7 @@
                 ]
             },
             {
-                "name": "Money Bag #42",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|dagger|1 , $hasAmount|airJump|1",
@@ -2684,7 +2725,7 @@
                 ]
             },
             {
-                "name": "Money Bag #43",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|dagger|1 , $hasAmount|airJump|1",
@@ -2699,7 +2740,7 @@
         "name": "Plague Forest - Money Room X: 12 Y: 16",
         "sections": [
             {
-                "name": "Money Bag #44",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2707,7 +2748,7 @@
                 ]
             },
             {
-                "name": "Money Bag #45",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2715,7 +2756,7 @@
                 ]
             },
             {
-                "name": "Money Bag #46",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2728,7 +2769,7 @@
         "name": "Plague Forest - Money Room X: 11 Y: 15",
         "sections": [
             {
-                "name": "Money Bag #47",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2737,7 +2778,7 @@
                 ]
             },
             {
-                "name": "Money Bag #48",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2746,7 +2787,7 @@
                 ]
             },
             {
-                "name": "Money Bag #49",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2755,7 +2796,7 @@
                 ]
             },
             {
-                "name": "Money Bag #50",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2769,7 +2810,7 @@
         "name": "Plague Forest - Money Room X: 11 Y: 14",
         "sections": [
             {
-                "name": "Money Bag #51",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2778,7 +2819,7 @@
                 ]
             },
             {
-                "name": "Money Bag #52",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2792,7 +2833,7 @@
         "name": "Plague Forest - Money Room X: 15 Y: 15",
         "sections": [
             {
-                "name": "Money Bag #53",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2800,7 +2841,7 @@
                 ]
             },
             {
-                "name": "Money Bag #54",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2813,7 +2854,7 @@
         "name": "Plague Forest - Money Room X: 19 Y: 14",
         "sections": [
             {
-                "name": "Money Bag #55",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2821,7 +2862,7 @@
                 ]
             },
             {
-                "name": "Money Bag #56",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2834,7 +2875,7 @@
         "name": "Plague Forest - Money Room X: 13 Y: 8",
         "sections": [
             {
-                "name": "Money Bag #58",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot",
@@ -2842,7 +2883,7 @@
                 ]
             },
             {
-                "name": "Money Bag #59",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot",
@@ -2850,7 +2891,7 @@
                 ]
             },
             {
-                "name": "Money Bag #60",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot",
@@ -2858,7 +2899,7 @@
                 ]
             },
             {
-                "name": "Money Bag #61",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot",
@@ -2866,7 +2907,7 @@
                 ]
             },
             {
-                "name": "Money Bag #62",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot",
@@ -2879,21 +2920,21 @@
         "name": "Ulvosa - Money Room X: 7 Y: 8",
         "sections": [
             {
-                "name": "Money Bag #64",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1"
                 ]
             },
             {
-                "name": "Money Bag #65",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1"
                 ]
             },
             {
-                "name": "Money Bag #66",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1"
@@ -2905,7 +2946,7 @@
         "name": "Ulvosa - Money Room X: 15 Y: 11",
         "sections": [
             {
-                "name": "Money Bag #67",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2913,7 +2954,7 @@
                 ]
             },
             {
-                "name": "Money Bag #68",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -2926,35 +2967,35 @@
         "name": "Ulvosa - Money Room X: 12 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #69",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1"
                 ]
             },
             {
-                "name": "Money Bag #70",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1"
                 ]
             },
             {
-                "name": "Money Bag #71",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1"
                 ]
             },
             {
-                "name": "Money Bag #72",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1"
                 ]
             },
             {
-                "name": "Money Bag #73",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1"
@@ -2966,7 +3007,7 @@
         "name": "Ulvosa - Money Room X: 21 Y: 9",
         "sections": [
             {
-                "name": "Money Bag #74",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -2974,7 +3015,7 @@
                 ]
             },
             {
-                "name": "Money Bag #75",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -2987,7 +3028,7 @@
         "name": "Ulvosa - Money Room X: 17 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #76",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -2995,7 +3036,7 @@
                 ]
             },
             {
-                "name": "Money Bag #77",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -3008,7 +3049,7 @@
         "name": "Ulvosa - Money Room X: 8 Y: 14",
         "sections": [
             {
-                "name": "Money Bag #78",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -3016,7 +3057,7 @@
                 ]
             },
             {
-                "name": "Money Bag #79",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -3024,7 +3065,7 @@
                 ]
             },
             {
-                "name": "Money Bag #80",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -3032,7 +3073,7 @@
                 ]
             },
             {
-                "name": "Money Bag #81",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -3045,63 +3086,63 @@
         "name": "Snowveil - Money Room X: 19 Y: 6",
         "sections": [
             {
-                "name": "Money Bag #82",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow"
                 ]
             },
             {
-                "name": "Money Bag #83",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow"
                 ]
             },
             {
-                "name": "Money Bag #84",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow"
                 ]
             },
             {
-                "name": "Money Bag #85",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow"
                 ]
             },
             {
-                "name": "Money Bag #86",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow"
                 ]
             },
             {
-                "name": "Money Bag #87",
+                "name": "Money Bag #6",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow"
                 ]
             },
             {
-                "name": "Money Bag #88",
+                "name": "Money Bag #7",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow"
                 ]
             },
             {
-                "name": "Money Bag #89",
+                "name": "Money Bag #8",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow"
                 ]
             },
             {
-                "name": "Money Bag #90",
+                "name": "Money Bag #9",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow"
@@ -3113,7 +3154,7 @@
         "name": "Snowveil - Money Room X: 25 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #91",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3121,7 +3162,7 @@
                 ]
             },
             {
-                "name": "Money Bag #92",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3129,7 +3170,7 @@
                 ]
             },
             {
-                "name": "Money Bag #93",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3137,7 +3178,7 @@
                 ]
             },
             {
-                "name": "Money Bag #94",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3150,7 +3191,7 @@
         "name": "Verdazure Sea West - Money Room X: 9 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #95",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3159,7 +3200,7 @@
                 ]
             },
             {
-                "name": "Money Bag #96",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3173,7 +3214,7 @@
         "name": "Verdazure Sea West - Money Room X: 18 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #97",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3182,7 +3223,7 @@
                 ]
             },
             {
-                "name": "Money Bag #98",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3196,7 +3237,7 @@
         "name": "Verdazure Sea West - Money Room X: 5 Y: 15",
         "sections": [
             {
-                "name": "Money Bag #99",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3205,7 +3246,7 @@
                 ]
             },
             {
-                "name": "Money Bag #100",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3219,7 +3260,7 @@
         "name": "Verdazure Sea West - Money Room X: 15 Y: 14",
         "sections": [
             {
-                "name": "Money Bag #101",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|airJump|1",
@@ -3234,7 +3275,7 @@
                 ]
             },
             {
-                "name": "Money Bag #102",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|airJump|1",
@@ -3249,7 +3290,7 @@
                 ]
             },
             {
-                "name": "Money Bag #103",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|airJump|1",
@@ -3269,7 +3310,7 @@
         "name": "Verdazure Sea West - Money Room X: 17 Y: 19",
         "sections": [
             {
-                "name": "Money Bag #104",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|water|1",
@@ -3278,7 +3319,7 @@
                 ]
             },
             {
-                "name": "Money Bag #105",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|water|1",
@@ -3292,7 +3333,7 @@
         "name": "Verdazure Sea West - Money Room X: 25 Y: 15",
         "sections": [
             {
-                "name": "Money Bag #107",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot",
@@ -3300,7 +3341,7 @@
                 ]
             },
             {
-                "name": "Money Bag #108",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot",
@@ -3308,7 +3349,7 @@
                 ]
             },
             {
-                "name": "Money Bag #109",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot",
@@ -3322,7 +3363,7 @@
         "name": "Verdazure Ocean - Money Room X: 14 Y: 7",
         "sections": [
             {
-                "name": "Money Bag #110",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|wallJump|3",
@@ -3331,7 +3372,7 @@
                 ]
             },
             {
-                "name": "Money Bag #111",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|wallJump|3",
@@ -3340,7 +3381,7 @@
                 ]
             },
             {
-                "name": "Money Bag #112",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|wallJump|3",
@@ -3349,7 +3390,7 @@
                 ]
             },
             {
-                "name": "Money Bag #113",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|wallJump|3",
@@ -3358,7 +3399,7 @@
                 ]
             },
             {
-                "name": "Money Bag #114",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|wallJump|3",
@@ -3367,7 +3408,7 @@
                 ]
             },
             {
-                "name": "Money Bag #115",
+                "name": "Money Bag #6",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|wallJump|3",
@@ -3381,28 +3422,28 @@
         "name": "Verdazure Ocean - Money Room X: 18 Y: 9",
         "sections": [
             {
-                "name": "Money Bag #116",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
                 ]
             },
             {
-                "name": "Money Bag #117",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
                 ]
             },
             {
-                "name": "Money Bag #118",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
                 ]
             },
             {
-                "name": "Money Bag #119",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
@@ -3414,7 +3455,7 @@
         "name": "Verdazure Ocean - Money Room X: 24 Y: 5",
         "sections": [
             {
-                "name": "Money Bag #120",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -3423,7 +3464,7 @@
                 ]
             },
             {
-                "name": "Money Bag #121",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -3432,7 +3473,7 @@
                 ]
             },
             {
-                "name": "Money Bag #122",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -3441,7 +3482,7 @@
                 ]
             },
             {
-                "name": "Money Bag #123",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -3450,7 +3491,7 @@
                 ]
             },
             {
-                "name": "Money Bag #124",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -3464,7 +3505,7 @@
         "name": "Verdazure Ocean - Money Room X: 29 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #125",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , ceilingKick",
@@ -3479,7 +3520,7 @@
                 ]
             },
             {
-                "name": "Money Bag #126",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , ceilingKick",
@@ -3494,7 +3535,7 @@
                 ]
             },
             {
-                "name": "Money Bag #127",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1 , ceilingKick",
@@ -3514,7 +3555,7 @@
         "name": "Verdazure Ocean - Money Room X: 14 Y: 13",
         "sections": [
             {
-                "name": "Money Bag #129",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canChargeShot , $hasAmount|bombs|1 , $hasAmount|bombRange|3",
@@ -3524,7 +3565,7 @@
                 ]
             },
             {
-                "name": "Money Bag #130",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canChargeShot , $hasAmount|bombs|1 , $hasAmount|bombRange|3",
@@ -3534,7 +3575,7 @@
                 ]
             },
             {
-                "name": "Money Bag #131",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$canChargeShot , $hasAmount|bombs|1 , $hasAmount|bombRange|3",
@@ -3544,7 +3585,7 @@
                 ]
             },
             {
-                "name": "Money Bag #132",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$canChargeShot , $hasAmount|bombs|1 , $hasAmount|bombRange|3",
@@ -3559,7 +3600,7 @@
         "name": "Verdazure Ocean - Money Room X: 14 Y: 11",
         "sections": [
             {
-                "name": "Money Bag #133",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|water|1",
@@ -3568,7 +3609,7 @@
                 ]
             },
             {
-                "name": "Money Bag #134",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|water|1",
@@ -3577,7 +3618,7 @@
                 ]
             },
             {
-                "name": "Money Bag #135",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|water|1",
@@ -3586,7 +3627,7 @@
                 ]
             },
             {
-                "name": "Money Bag #136",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|water|1",
@@ -3600,7 +3641,7 @@
         "name": "Verdazure Ocean - Money Room X: 10 Y: 17",
         "sections": [
             {
-                "name": "Money Bag #138",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3608,7 +3649,7 @@
                 ]
             },
             {
-                "name": "Money Bag #139",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3621,7 +3662,7 @@
         "name": "Verdazure Ocean - Money Room X: 15 Y: 18",
         "sections": [
             {
-                "name": "Money Bag #140",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3630,7 +3671,7 @@
                 ]
             },
             {
-                "name": "Money Bag #141",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3644,7 +3685,7 @@
         "name": "Verdazure Ocean - Money Room X: 10 Y: 20",
         "sections": [
             {
-                "name": "Money Bag #142",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3653,7 +3694,7 @@
                 ]
             },
             {
-                "name": "Money Bag #143",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3667,7 +3708,7 @@
         "name": "Verdazure Ocean - Money Room X: 19 Y: 16",
         "sections": [
             {
-                "name": "Money Bag #145",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot",
@@ -3676,7 +3717,7 @@
                 ]
             },
             {
-                "name": "Money Bag #146",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot",
@@ -3685,7 +3726,7 @@
                 ]
             },
             {
-                "name": "Money Bag #147",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot",
@@ -3694,7 +3735,7 @@
                 ]
             },
             {
-                "name": "Money Bag #148",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot",
@@ -3703,7 +3744,7 @@
                 ]
             },
             {
-                "name": "Money Bag #149",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot",
@@ -3717,7 +3758,7 @@
         "name": "Tartarus - Money Room X: 20 Y: 13",
         "sections": [
             {
-                "name": "Money Bag #150",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3726,7 +3767,7 @@
                 ]
             },
             {
-                "name": "Money Bag #151",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3735,7 +3776,7 @@
                 ]
             },
             {
-                "name": "Money Bag #152",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3744,7 +3785,7 @@
                 ]
             },
             {
-                "name": "Money Bag #153",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3758,7 +3799,7 @@
         "name": "Tartarus - Money Room X: 16 Y: 10",
         "sections": [
             {
-                "name": "Money Bag #154",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -3767,7 +3808,7 @@
                 ]
             },
             {
-                "name": "Money Bag #155",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -3776,7 +3817,7 @@
                 ]
             },
             {
-                "name": "Money Bag #156",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -3790,7 +3831,7 @@
         "name": "Snow City - Money Room X: 11 Y: 11",
         "sections": [
             {
-                "name": "Money Bag #157",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3799,7 +3840,7 @@
                 ]
             },
             {
-                "name": "Money Bag #158",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3808,7 +3849,7 @@
                 ]
             },
             {
-                "name": "Money Bag #159",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3822,7 +3863,7 @@
         "name": "Snow City - Money Room X: 12 Y: 9",
         "sections": [
             {
-                "name": "Money Bag #160",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3830,7 +3871,7 @@
                 ]
             },
             {
-                "name": "Money Bag #161",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3843,7 +3884,7 @@
         "name": "Snow City - Money Room X: 14 Y: 6",
         "sections": [
             {
-                "name": "Money Bag #162",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -3851,7 +3892,7 @@
                 ]
             },
             {
-                "name": "Money Bag #163",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -3859,7 +3900,7 @@
                 ]
             },
             {
-                "name": "Money Bag #164",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -3867,7 +3908,7 @@
                 ]
             },
             {
-                "name": "Money Bag #165",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -3875,7 +3916,7 @@
                 ]
             },
             {
-                "name": "Money Bag #166",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -3888,7 +3929,7 @@
         "name": "Snow City - Money Room X: 12 Y: 5",
         "sections": [
             {
-                "name": "Money Bag #167",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3896,7 +3937,7 @@
                 ]
             },
             {
-                "name": "Money Bag #168",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3904,7 +3945,7 @@
                 ]
             },
             {
-                "name": "Money Bag #169",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3917,7 +3958,7 @@
         "name": "Snow City - Money Room X: 22 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #171",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -3926,7 +3967,7 @@
                 ]
             },
             {
-                "name": "Money Bag #172",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -3935,7 +3976,7 @@
                 ]
             },
             {
-                "name": "Money Bag #173",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -3944,7 +3985,7 @@
                 ]
             },
             {
-                "name": "Money Bag #174",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -3958,7 +3999,7 @@
         "name": "Snow City - Money Room X: 16 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #175",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3967,7 +4008,7 @@
                 ]
             },
             {
-                "name": "Money Bag #176",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3976,7 +4017,7 @@
                 ]
             },
             {
-                "name": "Money Bag #177",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3985,7 +4026,7 @@
                 ]
             },
             {
-                "name": "Money Bag #178",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -3999,7 +4040,7 @@
         "name": "Snow City - Money Room X: 25 Y: 13",
         "sections": [
             {
-                "name": "Money Bag #179",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|bombRange|1,$hasAmount|bombs|1",
@@ -4008,7 +4049,7 @@
                 ]
             },
             {
-                "name": "Money Bag #180",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|bombRange|1,$hasAmount|bombs|1",
@@ -4017,7 +4058,7 @@
                 ]
             },
             {
-                "name": "Money Bag #181",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|bombRange|1,$hasAmount|bombs|1",
@@ -4031,7 +4072,7 @@
         "name": "Snow City - Money Room X: 23 Y: 16",
         "sections": [
             {
-                "name": "Money Bag #182",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|dagger|1",
@@ -4039,7 +4080,7 @@
                 ]
             },
             {
-                "name": "Money Bag #183",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|dagger|1",
@@ -4047,7 +4088,7 @@
                 ]
             },
             {
-                "name": "Money Bag #184",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|dagger|1",
@@ -4055,7 +4096,7 @@
                 ]
             },
             {
-                "name": "Money Bag #185",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|dagger|1",
@@ -4068,7 +4109,7 @@
         "name": "Snow City - Money Room X: 21 Y: 17",
         "sections": [
             {
-                "name": "Money Bag #186",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -4076,7 +4117,7 @@
                 ]
             },
             {
-                "name": "Money Bag #187",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -4089,7 +4130,7 @@
         "name": "Magma Pits - Money Room X: 13 Y: 5",
         "sections": [
             {
-                "name": "Money Bag #188",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4098,7 +4139,7 @@
                 ]
             },
             {
-                "name": "Money Bag #189",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4107,7 +4148,7 @@
                 ]
             },
             {
-                "name": "Money Bag #190",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4121,7 +4162,7 @@
         "name": "Magma Pits - Money Room X: 6 Y: 8",
         "sections": [
             {
-                "name": "Money Bag #191",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4130,7 +4171,7 @@
                 ]
             },
             {
-                "name": "Money Bag #192",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4139,7 +4180,7 @@
                 ]
             },
             {
-                "name": "Money Bag #193",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4148,7 +4189,7 @@
                 ]
             },
             {
-                "name": "Money Bag #194",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4157,7 +4198,7 @@
                 ]
             },
             {
-                "name": "Money Bag #195",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4171,7 +4212,7 @@
         "name": "Magma Pits - Money Room X: 0 Y: 9",
         "sections": [
             {
-                "name": "Money Bag #196",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4180,7 +4221,7 @@
                 ]
             },
             {
-                "name": "Money Bag #197",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4189,7 +4230,7 @@
                 ]
             },
             {
-                "name": "Money Bag #198",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4203,7 +4244,7 @@
         "name": "Magma Pits - Money Room X: 11 Y: 9",
         "sections": [
             {
-                "name": "Money Bag #199",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -4212,7 +4253,7 @@
                 ]
             },
             {
-                "name": "Money Bag #200",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -4221,7 +4262,7 @@
                 ]
             },
             {
-                "name": "Money Bag #201",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -4230,7 +4271,7 @@
                 ]
             },
             {
-                "name": "Money Bag #202",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -4244,28 +4285,28 @@
         "name": "Swamp - Money Room X: 14 Y: 4",
         "sections": [
             {
-                "name": "Money Bag #203",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow , $hasAmount|slide|1"
                 ]
             },
             {
-                "name": "Money Bag #204",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow , $hasAmount|slide|1"
                 ]
             },
             {
-                "name": "Money Bag #205",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow , $hasAmount|slide|1"
                 ]
             },
             {
-                "name": "Money Bag #206",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow , $hasAmount|slide|1"
@@ -4277,7 +4318,7 @@
         "name": "Swamp - Money Room X: 15 Y: 6",
         "sections": [
             {
-                "name": "Money Bag #207",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1",
@@ -4292,7 +4333,7 @@
                 ]
             },
             {
-                "name": "Money Bag #208",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1",
@@ -4307,7 +4348,7 @@
                 ]
             },
             {
-                "name": "Money Bag #209",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1",
@@ -4322,7 +4363,7 @@
                 ]
             },
             {
-                "name": "Money Bag #210",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1",
@@ -4337,7 +4378,7 @@
                 ]
             },
             {
-                "name": "Money Bag #211",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1",
@@ -4352,7 +4393,7 @@
                 ]
             },
             {
-                "name": "Money Bag #212",
+                "name": "Money Bag #6",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1",
@@ -4372,7 +4413,7 @@
         "name": "Swamp - Money Room X: 19 Y: 7",
         "sections": [
             {
-                "name": "Money Bag #213",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -4381,7 +4422,7 @@
                 ]
             },
             {
-                "name": "Money Bag #214",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -4390,7 +4431,7 @@
                 ]
             },
             {
-                "name": "Money Bag #215",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -4404,7 +4445,7 @@
         "name": "Swamp - Money Room X: 21 Y: 8",
         "sections": [
             {
-                "name": "Money Bag #216",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4413,7 +4454,7 @@
                 ]
             },
             {
-                "name": "Money Bag #217",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4427,7 +4468,7 @@
         "name": "Swamp - Money Room X: 21 Y: 9",
         "sections": [
             {
-                "name": "Money Bag #218",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4436,7 +4477,7 @@
                 ]
             },
             {
-                "name": "Money Bag #219",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4445,7 +4486,7 @@
                 ]
             },
             {
-                "name": "Money Bag #220",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4459,7 +4500,7 @@
         "name": "Magma Depths - Money Room X: 13 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #221",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4468,7 +4509,7 @@
                 ]
             },
             {
-                "name": "Money Bag #222",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4477,7 +4518,7 @@
                 ]
             },
             {
-                "name": "Money Bag #223",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4491,7 +4532,7 @@
         "name": "Magma Depths - Money Room X: 9 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #224",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -4500,7 +4541,7 @@
                 ]
             },
             {
-                "name": "Money Bag #225",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -4509,7 +4550,7 @@
                 ]
             },
             {
-                "name": "Money Bag #226",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -4518,7 +4559,7 @@
                 ]
             },
             {
-                "name": "Money Bag #227",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -4532,7 +4573,7 @@
         "name": "DreamKeeper - Money Room X: 16 Y: 13",
         "sections": [
             {
-                "name": "Money Bag #228",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|3 , $hasAmount|slide|1",
@@ -4540,7 +4581,7 @@
                 ]
             },
             {
-                "name": "Money Bag #229",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|3 , $hasAmount|slide|1",
@@ -4548,7 +4589,7 @@
                 ]
             },
             {
-                "name": "Money Bag #230",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|3 , $hasAmount|slide|1",
@@ -4561,7 +4602,7 @@
         "name": "DreamKeeper - Money Room X: 17 Y: 8",
         "sections": [
             {
-                "name": "Money Bag #231",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -4570,7 +4611,7 @@
                 ]
             },
             {
-                "name": "Money Bag #232",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -4579,7 +4620,7 @@
                 ]
             },
             {
-                "name": "Money Bag #233",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -4593,7 +4634,7 @@
         "name": "DreamKeeper - Money Room X: 25 Y: 13",
         "sections": [
             {
-                "name": "Money Bag #235",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -4601,7 +4642,7 @@
                 ]
             },
             {
-                "name": "Money Bag #236",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -4614,21 +4655,21 @@
         "name": "DreamKeeper - Money Room X: 25 Y: 11",
         "sections": [
             {
-                "name": "Money Bag #237",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow"
                 ]
             },
             {
-                "name": "Money Bag #238",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow"
                 ]
             },
             {
-                "name": "Money Bag #239",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow"
@@ -4640,7 +4681,7 @@
         "name": "DreamKeeper - Money Room X: 24 Y: 8",
         "sections": [
             {
-                "name": "Money Bag #240",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1 , $canChargeShot",
@@ -4649,7 +4690,7 @@
                 ]
             },
             {
-                "name": "Money Bag #241",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1 , $canChargeShot",
@@ -4658,7 +4699,7 @@
                 ]
             },
             {
-                "name": "Money Bag #242",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1 , $canChargeShot",
@@ -4672,7 +4713,7 @@
         "name": "DreamKeeper - Money Room X: 24 Y: 6",
         "sections": [
             {
-                "name": "Money Bag #243",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1 , $canChargeShot",
@@ -4681,7 +4722,7 @@
                 ]
             },
             {
-                "name": "Money Bag #244",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1 , $canChargeShot",
@@ -4690,7 +4731,7 @@
                 ]
             },
             {
-                "name": "Money Bag #245",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1 , $canChargeShot",
@@ -4704,7 +4745,7 @@
         "name": "DreamKeeper - Money Room X: 24 Y: 11",
         "sections": [
             {
-                "name": "Money Bag #246",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -4713,7 +4754,7 @@
                 ]
             },
             {
-                "name": "Money Bag #247",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -4722,7 +4763,7 @@
                 ]
             },
             {
-                "name": "Money Bag #248",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -4731,7 +4772,7 @@
                 ]
             },
             {
-                "name": "Money Bag #249",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -4740,7 +4781,7 @@
                 ]
             },
             {
-                "name": "Money Bag #250",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -4754,21 +4795,21 @@
         "name": "DreamKeeper - Money Room X: 21 Y: 14",
         "sections": [
             {
-                "name": "Money Bag #251",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|slide|1"
                 ]
             },
             {
-                "name": "Money Bag #252",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|slide|1"
                 ]
             },
             {
-                "name": "Money Bag #253",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|slide|1"
@@ -4780,7 +4821,7 @@
         "name": "DreamKeeper - Money Room X: 24 Y: 21",
         "sections": [
             {
-                "name": "Money Bag #255",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
@@ -4789,7 +4830,7 @@
                 ]
             },
             {
-                "name": "Money Bag #256",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
@@ -4798,7 +4839,7 @@
                 ]
             },
             {
-                "name": "Money Bag #257",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
@@ -4807,7 +4848,7 @@
                 ]
             },
             {
-                "name": "Money Bag #258",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
@@ -4816,7 +4857,7 @@
                 ]
             },
             {
-                "name": "Money Bag #259",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
@@ -4830,28 +4871,28 @@
         "name": "DreamKeeper - Money Room X: 19 Y: 21",
         "sections": [
             {
-                "name": "Money Bag #260",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|dagger|1 , $hasAmount|slide|1"
                 ]
             },
             {
-                "name": "Money Bag #261",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|dagger|1 , $hasAmount|slide|1"
                 ]
             },
             {
-                "name": "Money Bag #262",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|dagger|1 , $hasAmount|slide|1"
                 ]
             },
             {
-                "name": "Money Bag #263",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|dagger|1 , $hasAmount|slide|1"
@@ -4863,7 +4904,7 @@
         "name": "Heavens Valley East - Money Room X: 12 Y: 16",
         "sections": [
             {
-                "name": "Money Bag #264",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canBombThrow , $hasAmount|bombRange|1,$hasAmount|bombs|1",
@@ -4871,7 +4912,7 @@
                 ]
             },
             {
-                "name": "Money Bag #265",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canBombThrow , $hasAmount|bombRange|1,$hasAmount|bombs|1",
@@ -4879,7 +4920,7 @@
                 ]
             },
             {
-                "name": "Money Bag #266",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canBombThrow , $hasAmount|bombRange|1,$hasAmount|bombs|1",
@@ -4892,7 +4933,7 @@
         "name": "Heavens Valley East - Money Room X: 12 Y: 13",
         "sections": [
             {
-                "name": "Money Bag #267",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot",
@@ -4901,7 +4942,7 @@
                 ]
             },
             {
-                "name": "Money Bag #268",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot",
@@ -4910,7 +4951,7 @@
                 ]
             },
             {
-                "name": "Money Bag #269",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot",
@@ -4924,7 +4965,7 @@
         "name": "Heavens Valley East - Money Room X: 11 Y: 11",
         "sections": [
             {
-                "name": "Money Bag #270",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4933,7 +4974,7 @@
                 ]
             },
             {
-                "name": "Money Bag #271",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4942,7 +4983,7 @@
                 ]
             },
             {
-                "name": "Money Bag #272",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -4956,7 +4997,7 @@
         "name": "Heavens Valley East - Money Room X: 13 Y: 7",
         "sections": [
             {
-                "name": "Money Bag #273",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|3",
@@ -4965,7 +5006,7 @@
                 ]
             },
             {
-                "name": "Money Bag #274",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|3",
@@ -4974,7 +5015,7 @@
                 ]
             },
             {
-                "name": "Money Bag #275",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|3",
@@ -4983,7 +5024,7 @@
                 ]
             },
             {
-                "name": "Money Bag #276",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|3",
@@ -4997,7 +5038,7 @@
         "name": "Heavens Valley East - Money Room X: 9 Y: 7",
         "sections": [
             {
-                "name": "Money Bag #277",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5006,7 +5047,7 @@
                 ]
             },
             {
-                "name": "Money Bag #278",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5015,7 +5056,7 @@
                 ]
             },
             {
-                "name": "Money Bag #279",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5024,7 +5065,7 @@
                 ]
             },
             {
-                "name": "Money Bag #280",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5038,7 +5079,7 @@
         "name": "Heavens Valley East - Money Room X: 8 Y: 3",
         "sections": [
             {
-                "name": "Money Bag #281",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5047,7 +5088,7 @@
                 ]
             },
             {
-                "name": "Money Bag #282",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5061,7 +5102,7 @@
         "name": "Oasis - Money Room X: 13 Y: 13",
         "sections": [
             {
-                "name": "Money Bag #283",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5070,7 +5111,7 @@
                 ]
             },
             {
-                "name": "Money Bag #284",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5079,7 +5120,7 @@
                 ]
             },
             {
-                "name": "Money Bag #285",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5088,7 +5129,7 @@
                 ]
             },
             {
-                "name": "Money Bag #286",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5097,7 +5138,7 @@
                 ]
             },
             {
-                "name": "Money Bag #287",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5111,7 +5152,7 @@
         "name": "Oasis - Money Room X: 18 Y: 13",
         "sections": [
             {
-                "name": "Money Bag #288",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot",
@@ -5120,7 +5161,7 @@
                 ]
             },
             {
-                "name": "Money Bag #289",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot",
@@ -5129,7 +5170,7 @@
                 ]
             },
             {
-                "name": "Money Bag #290",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot",
@@ -5143,7 +5184,7 @@
         "name": "Oasis - Money Room X: 19 Y: 14",
         "sections": [
             {
-                "name": "Money Bag #291",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|orbS3|1,$hasAmount|ranged|2,$hasAmount|sable|1",
@@ -5158,7 +5199,7 @@
                 ]
             },
             {
-                "name": "Money Bag #292",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|orbS3|1,$hasAmount|ranged|2,$hasAmount|sable|1",
@@ -5173,7 +5214,7 @@
                 ]
             },
             {
-                "name": "Money Bag #293",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|orbS3|1,$hasAmount|ranged|2,$hasAmount|sable|1",
@@ -5188,7 +5229,7 @@
                 ]
             },
             {
-                "name": "Money Bag #294",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|orbS3|1,$hasAmount|ranged|2,$hasAmount|sable|1",
@@ -5203,7 +5244,7 @@
                 ]
             },
             {
-                "name": "Money Bag #295",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $canChargeShot , $hasAmount|orbS3|1,$hasAmount|ranged|2,$hasAmount|sable|1",
@@ -5223,7 +5264,7 @@
         "name": "Valhalla City - Money Room X: 25 Y: 9",
         "sections": [
             {
-                "name": "Money Bag #297",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|3",
@@ -5232,7 +5273,7 @@
                 ]
             },
             {
-                "name": "Money Bag #298",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|3",
@@ -5246,7 +5287,7 @@
         "name": "Heavens Valley West - Money Room X: 10 Y: 15",
         "sections": [
             {
-                "name": "Money Bag #300",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5254,7 +5295,7 @@
                 ]
             },
             {
-                "name": "Money Bag #301",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5262,7 +5303,7 @@
                 ]
             },
             {
-                "name": "Money Bag #302",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5275,7 +5316,7 @@
         "name": "Heavens Valley West - Money Room X: 9 Y: 13",
         "sections": [
             {
-                "name": "Money Bag #303",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5284,7 +5325,7 @@
                 ]
             },
             {
-                "name": "Money Bag #304",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5298,14 +5339,14 @@
         "name": "Heavens Valley West - Money Room X: 10 Y: 11",
         "sections": [
             {
-                "name": "Money Bag #305",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1"
                 ]
             },
             {
-                "name": "Money Bag #306",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1"
@@ -5317,7 +5358,7 @@
         "name": "Heavens Valley West - Money Room X: 7 Y: 17",
         "sections": [
             {
-                "name": "Money Bag #307",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5326,7 +5367,7 @@
                 ]
             },
             {
-                "name": "Money Bag #308",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5335,7 +5376,7 @@
                 ]
             },
             {
-                "name": "Money Bag #309",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5344,7 +5385,7 @@
                 ]
             },
             {
-                "name": "Money Bag #310",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5358,7 +5399,7 @@
         "name": "Valhalla Breath West - Money Room X: 19 Y: 4",
         "sections": [
             {
-                "name": "Money Bag #311",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5367,7 +5408,7 @@
                 ]
             },
             {
-                "name": "Money Bag #312",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5376,7 +5417,7 @@
                 ]
             },
             {
-                "name": "Money Bag #313",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5385,7 +5426,7 @@
                 ]
             },
             {
-                "name": "Money Bag #314",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5399,7 +5440,7 @@
         "name": "Valhalla Breath West - Money Room X: 24 Y: 8",
         "sections": [
             {
-                "name": "Money Bag #315",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5408,7 +5449,7 @@
                 ]
             },
             {
-                "name": "Money Bag #316",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5422,7 +5463,7 @@
         "name": "Valhalla Breath West - Money Room X: 26 Y: 7",
         "sections": [
             {
-                "name": "Money Bag #317",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5431,7 +5472,7 @@
                 ]
             },
             {
-                "name": "Money Bag #318",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5445,7 +5486,7 @@
         "name": "Valhalla Breath West - Money Room X: 22 Y: 1",
         "sections": [
             {
-                "name": "Money Bag #319",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5454,7 +5495,7 @@
                 ]
             },
             {
-                "name": "Money Bag #320",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5468,7 +5509,7 @@
         "name": "Valhalla Breath West - Money Room X: 14 Y: 1",
         "sections": [
             {
-                "name": "Money Bag #321",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1",
@@ -5477,7 +5518,7 @@
                 ]
             },
             {
-                "name": "Money Bag #322",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1",
@@ -5486,7 +5527,7 @@
                 ]
             },
             {
-                "name": "Money Bag #323",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1",
@@ -5500,7 +5541,7 @@
         "name": "Valhalla Breath West - Money Room X: 9 Y: 1",
         "sections": [
             {
-                "name": "Money Bag #324",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1",
@@ -5508,7 +5549,7 @@
                 ]
             },
             {
-                "name": "Money Bag #325",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1",
@@ -5516,7 +5557,7 @@
                 ]
             },
             {
-                "name": "Money Bag #326",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1",
@@ -5524,7 +5565,7 @@
                 ]
             },
             {
-                "name": "Money Bag #327",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1",
@@ -5537,7 +5578,7 @@
         "name": "Solennian Ruins - Money Room X: 23 Y: 7",
         "sections": [
             {
-                "name": "Money Bag #328",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5546,7 +5587,7 @@
                 ]
             },
             {
-                "name": "Money Bag #329",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5555,7 +5596,7 @@
                 ]
             },
             {
-                "name": "Money Bag #330",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5569,7 +5610,7 @@
         "name": "Solennian Ruins - Money Room X: 24 Y: 10",
         "sections": [
             {
-                "name": "Money Bag #331",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5577,7 +5618,7 @@
                 ]
             },
             {
-                "name": "Money Bag #332",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5590,7 +5631,7 @@
         "name": "Solennian Ruins - Money Room X: 14 Y: 8",
         "sections": [
             {
-                "name": "Money Bag #333",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5599,7 +5640,7 @@
                 ]
             },
             {
-                "name": "Money Bag #334",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5608,7 +5649,7 @@
                 ]
             },
             {
-                "name": "Money Bag #335",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5622,7 +5663,7 @@
         "name": "Solennian Ruins - Money Room X: 18 Y: 15",
         "sections": [
             {
-                "name": "Money Bag #336",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5631,7 +5672,7 @@
                 ]
             },
             {
-                "name": "Money Bag #337",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5640,7 +5681,7 @@
                 ]
             },
             {
-                "name": "Money Bag #338",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5649,7 +5690,7 @@
                 ]
             },
             {
-                "name": "Money Bag #339",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5663,7 +5704,7 @@
         "name": "Solennian Ruins - Money Room X: 20 Y: 13",
         "sections": [
             {
-                "name": "Money Bag #340",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5672,7 +5713,7 @@
                 ]
             },
             {
-                "name": "Money Bag #341",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5681,7 +5722,7 @@
                 ]
             },
             {
-                "name": "Money Bag #342",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5690,7 +5731,7 @@
                 ]
             },
             {
-                "name": "Money Bag #343",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5704,7 +5745,7 @@
         "name": "Sinner's Oath - Money Room X: 6 Y: 4",
         "sections": [
             {
-                "name": "Money Bag #344",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow , $hasAmount|bombs|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|airJump|1 , [$False]",
@@ -5714,7 +5755,7 @@
                 ]
             },
             {
-                "name": "Money Bag #345",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow , $hasAmount|bombs|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|airJump|1 , [$False]",
@@ -5729,7 +5770,7 @@
         "name": "Relicts - Money Room X: 9 Y: 8",
         "sections": [
             {
-                "name": "Money Bag #347",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -5738,7 +5779,7 @@
                 ]
             },
             {
-                "name": "Money Bag #348",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -5752,7 +5793,7 @@
         "name": "Relicts - Money Room X: 12 Y: 8",
         "sections": [
             {
-                "name": "Money Bag #349",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -5760,7 +5801,7 @@
                 ]
             },
             {
-                "name": "Money Bag #350",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -5773,7 +5814,7 @@
         "name": "Catacombs - Money Room X: 4 Y: 7",
         "sections": [
             {
-                "name": "Money Bag #355",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
@@ -5788,7 +5829,7 @@
                 ]
             },
             {
-                "name": "Money Bag #356",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
@@ -5808,7 +5849,7 @@
         "name": "Catacombs - Money Room X: 8 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #357",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5816,7 +5857,7 @@
                 ]
             },
             {
-                "name": "Money Bag #358",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5829,14 +5870,14 @@
         "name": "Catacombs - Money Room X: 8 Y: 10",
         "sections": [
             {
-                "name": "Money Bag #359",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1"
                 ]
             },
             {
-                "name": "Money Bag #360",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1"
@@ -5848,7 +5889,7 @@
         "name": "Catacombs - Money Room X: 4 Y: 10",
         "sections": [
             {
-                "name": "Money Bag #361",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5856,7 +5897,7 @@
                 ]
             },
             {
-                "name": "Money Bag #362",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5864,21 +5905,21 @@
                 ]
             },
             {
-                "name": "Money Bag #363",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
                 ]
             },
             {
-                "name": "Money Bag #364",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
                 ]
             },
             {
-                "name": "Money Bag #365",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
@@ -5890,35 +5931,35 @@
         "name": "Catacombs - Money Room X: 1 Y: 14",
         "sections": [
             {
-                "name": "Money Bag #366",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|dagger|1"
                 ]
             },
             {
-                "name": "Money Bag #367",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|dagger|1"
                 ]
             },
             {
-                "name": "Money Bag #368",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|dagger|1"
                 ]
             },
             {
-                "name": "Money Bag #369",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|dagger|1"
                 ]
             },
             {
-                "name": "Money Bag #370",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|dagger|1"
@@ -5930,7 +5971,7 @@
         "name": "Catacombs - Money Room X: 8 Y: 7",
         "sections": [
             {
-                "name": "Money Bag #371",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5938,7 +5979,7 @@
                 ]
             },
             {
-                "name": "Money Bag #372",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5946,7 +5987,7 @@
                 ]
             },
             {
-                "name": "Money Bag #373",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5954,7 +5995,7 @@
                 ]
             },
             {
-                "name": "Money Bag #374",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -5967,7 +6008,7 @@
         "name": "Catacombs - Money Room X: 14 Y: 18",
         "sections": [
             {
-                "name": "Money Bag #375",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
@@ -5980,7 +6021,7 @@
                 ]
             },
             {
-                "name": "Money Bag #376",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
@@ -5993,7 +6034,7 @@
                 ]
             },
             {
-                "name": "Money Bag #377",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
@@ -6011,7 +6052,7 @@
         "name": "Catacombs - Money Room X: 16 Y: 9",
         "sections": [
             {
-                "name": "Money Bag #378",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
@@ -6023,7 +6064,7 @@
                 ]
             },
             {
-                "name": "Money Bag #379",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
@@ -6035,7 +6076,7 @@
                 ]
             },
             {
-                "name": "Money Bag #380",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
@@ -6047,7 +6088,7 @@
                 ]
             },
             {
-                "name": "Money Bag #381",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
@@ -6064,7 +6105,7 @@
         "name": "Lab - Money Room X: 13 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #382",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6073,7 +6114,7 @@
                 ]
             },
             {
-                "name": "Money Bag #383",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6082,7 +6123,7 @@
                 ]
             },
             {
-                "name": "Money Bag #384",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6091,7 +6132,7 @@
                 ]
             },
             {
-                "name": "Money Bag #385",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6105,7 +6146,7 @@
         "name": "Lab - Money Room X: 15 Y: 14",
         "sections": [
             {
-                "name": "Money Bag #386",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6114,7 +6155,7 @@
                 ]
             },
             {
-                "name": "Money Bag #387",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6123,7 +6164,7 @@
                 ]
             },
             {
-                "name": "Money Bag #388",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6137,7 +6178,7 @@
         "name": "Lab - Money Room X: 17 Y: 13",
         "sections": [
             {
-                "name": "Money Bag #389",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6145,7 +6186,7 @@
                 ]
             },
             {
-                "name": "Money Bag #390",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6153,7 +6194,7 @@
                 ]
             },
             {
-                "name": "Money Bag #391",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6161,7 +6202,7 @@
                 ]
             },
             {
-                "name": "Money Bag #392",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6174,7 +6215,7 @@
         "name": "Lab - Money Room X: 18 Y: 10",
         "sections": [
             {
-                "name": "Money Bag #393",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6183,7 +6224,7 @@
                 ]
             },
             {
-                "name": "Money Bag #394",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6197,7 +6238,7 @@
         "name": "Lab - Money Room X: 25 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #395",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6206,7 +6247,7 @@
                 ]
             },
             {
-                "name": "Money Bag #396",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6215,7 +6256,7 @@
                 ]
             },
             {
-                "name": "Money Bag #397",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6224,7 +6265,7 @@
                 ]
             },
             {
-                "name": "Money Bag #398",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6233,7 +6274,7 @@
                 ]
             },
             {
-                "name": "Money Bag #399",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6242,7 +6283,7 @@
                 ]
             },
             {
-                "name": "Money Bag #400",
+                "name": "Money Bag #6",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6256,7 +6297,7 @@
         "name": "Cloister - Money Room X: 19 Y: 10",
         "sections": [
             {
-                "name": "Money Bag #401",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6265,7 +6306,7 @@
                 ]
             },
             {
-                "name": "Money Bag #402",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6274,7 +6315,7 @@
                 ]
             },
             {
-                "name": "Money Bag #403",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6288,7 +6329,7 @@
         "name": "Cloister - Money Room X: 30 Y: 10",
         "sections": [
             {
-                "name": "Money Bag #404",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|airJump|1",
@@ -6300,7 +6341,7 @@
                 ]
             },
             {
-                "name": "Money Bag #405",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|airJump|1",
@@ -6317,7 +6358,7 @@
         "name": "Cloister - Money Room X: 27 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #406",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6326,7 +6367,7 @@
                 ]
             },
             {
-                "name": "Money Bag #407",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6335,7 +6376,7 @@
                 ]
             },
             {
-                "name": "Money Bag #408",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6344,7 +6385,7 @@
                 ]
             },
             {
-                "name": "Money Bag #409",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6358,7 +6399,7 @@
         "name": "Cloister - Money Room X: 31 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #410",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6366,7 +6407,7 @@
                 ]
             },
             {
-                "name": "Money Bag #411",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6374,7 +6415,7 @@
                 ]
             },
             {
-                "name": "Money Bag #412",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6382,7 +6423,7 @@
                 ]
             },
             {
-                "name": "Money Bag #413",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6390,7 +6431,7 @@
                 ]
             },
             {
-                "name": "Money Bag #414",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6398,7 +6439,7 @@
                 ]
             },
             {
-                "name": "Money Bag #415",
+                "name": "Money Bag #6",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6411,42 +6452,42 @@
         "name": "Cloister - Money Room X: 20 Y: 13",
         "sections": [
             {
-                "name": "Money Bag #416",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
                 ]
             },
             {
-                "name": "Money Bag #417",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
                 ]
             },
             {
-                "name": "Money Bag #418",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
                 ]
             },
             {
-                "name": "Money Bag #419",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
                 ]
             },
             {
-                "name": "Money Bag #420",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
                 ]
             },
             {
-                "name": "Money Bag #421",
+                "name": "Money Bag #6",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
@@ -6458,7 +6499,7 @@
         "name": "Gallery of Mirrors - Money Room X: 18 Y: 8",
         "sections": [
             {
-                "name": "Money Bag #422",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6467,7 +6508,7 @@
                 ]
             },
             {
-                "name": "Money Bag #423",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6476,7 +6517,7 @@
                 ]
             },
             {
-                "name": "Money Bag #424",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6485,7 +6526,7 @@
                 ]
             },
             {
-                "name": "Money Bag #425",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6494,7 +6535,7 @@
                 ]
             },
             {
-                "name": "Money Bag #426",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6508,7 +6549,7 @@
         "name": "Gallery of Mirrors - Money Room X: 25 Y: 7",
         "sections": [
             {
-                "name": "Money Bag #428",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6517,7 +6558,7 @@
                 ]
             },
             {
-                "name": "Money Bag #429",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6526,7 +6567,7 @@
                 ]
             },
             {
-                "name": "Money Bag #430",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6535,7 +6576,7 @@
                 ]
             },
             {
-                "name": "Money Bag #431",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6544,7 +6585,7 @@
                 ]
             },
             {
-                "name": "Money Bag #432",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6558,7 +6599,7 @@
         "name": "Gallery of Mirrors - Money Room X: 28 Y: 9",
         "sections": [
             {
-                "name": "Money Bag #433",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6567,7 +6608,7 @@
                 ]
             },
             {
-                "name": "Money Bag #434",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6576,7 +6617,7 @@
                 ]
             },
             {
-                "name": "Money Bag #435",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6590,21 +6631,21 @@
         "name": "Gallery of Souls - Money Room X: 31 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #436",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1"
                 ]
             },
             {
-                "name": "Money Bag #437",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1"
                 ]
             },
             {
-                "name": "Money Bag #438",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1"
@@ -6616,7 +6657,7 @@
         "name": "Gallery of Souls - Money Room X: 23 Y: 11",
         "sections": [
             {
-                "name": "Money Bag #439",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6625,7 +6666,7 @@
                 ]
             },
             {
-                "name": "Money Bag #440",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6634,7 +6675,7 @@
                 ]
             },
             {
-                "name": "Money Bag #441",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6643,7 +6684,7 @@
                 ]
             },
             {
-                "name": "Money Bag #442",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6657,7 +6698,7 @@
         "name": "Gallery of Souls - Money Room X: 22 Y: 13",
         "sections": [
             {
-                "name": "Money Bag #443",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6666,7 +6707,7 @@
                 ]
             },
             {
-                "name": "Money Bag #444",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6675,7 +6716,7 @@
                 ]
             },
             {
-                "name": "Money Bag #445",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6684,7 +6725,7 @@
                 ]
             },
             {
-                "name": "Money Bag #446",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6698,7 +6739,7 @@
         "name": "Gallery of Souls - Money Room X: 21 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #447",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6707,7 +6748,7 @@
                 ]
             },
             {
-                "name": "Money Bag #448",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6716,7 +6757,7 @@
                 ]
             },
             {
-                "name": "Money Bag #449",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6725,7 +6766,7 @@
                 ]
             },
             {
-                "name": "Money Bag #450",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6739,7 +6780,7 @@
         "name": "Gallery of Souls - Money Room X: 16 Y: 13",
         "sections": [
             {
-                "name": "Money Bag #451",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6748,7 +6789,7 @@
                 ]
             },
             {
-                "name": "Money Bag #452",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6762,7 +6803,7 @@
         "name": "Blushwood - Money Room X: 10 Y: 13",
         "sections": [
             {
-                "name": "Money Bag #453",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6770,7 +6811,7 @@
                 ]
             },
             {
-                "name": "Money Bag #454",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6778,7 +6819,7 @@
                 ]
             },
             {
-                "name": "Money Bag #455",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6791,7 +6832,7 @@
         "name": "Blushwood - Money Room X: 7 Y: 15",
         "sections": [
             {
-                "name": "Money Bag #456",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6800,7 +6841,7 @@
                 ]
             },
             {
-                "name": "Money Bag #457",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6809,7 +6850,7 @@
                 ]
             },
             {
-                "name": "Money Bag #458",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6818,7 +6859,7 @@
                 ]
             },
             {
-                "name": "Money Bag #459",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6832,7 +6873,7 @@
         "name": "Blushwood - Money Room X: 12 Y: 9",
         "sections": [
             {
-                "name": "Money Bag #460",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6841,7 +6882,7 @@
                 ]
             },
             {
-                "name": "Money Bag #461",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6850,7 +6891,7 @@
                 ]
             },
             {
-                "name": "Money Bag #462",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6864,7 +6905,7 @@
         "name": "Evernight Garden - Money Room X: 17 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #463",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6873,7 +6914,7 @@
                 ]
             },
             {
-                "name": "Money Bag #464",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6882,7 +6923,7 @@
                 ]
             },
             {
-                "name": "Money Bag #465",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6891,7 +6932,7 @@
                 ]
             },
             {
-                "name": "Money Bag #466",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6905,7 +6946,7 @@
         "name": "Evernight Garden - Money Room X: 25 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #467",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6914,7 +6955,7 @@
                 ]
             },
             {
-                "name": "Money Bag #468",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6923,7 +6964,7 @@
                 ]
             },
             {
-                "name": "Money Bag #469",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6932,7 +6973,7 @@
                 ]
             },
             {
-                "name": "Money Bag #470",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6946,7 +6987,7 @@
         "name": "Evernight Garden - Money Room X: 21 Y: 6",
         "sections": [
             {
-                "name": "Money Bag #471",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6955,7 +6996,7 @@
                 ]
             },
             {
-                "name": "Money Bag #472",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6964,7 +7005,7 @@
                 ]
             },
             {
-                "name": "Money Bag #473",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6978,7 +7019,7 @@
         "name": "Evernight Garden - Money Room X: 16 Y: 5",
         "sections": [
             {
-                "name": "Money Bag #474",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6987,7 +7028,7 @@
                 ]
             },
             {
-                "name": "Money Bag #475",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -6996,7 +7037,7 @@
                 ]
             },
             {
-                "name": "Money Bag #476",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7010,7 +7051,7 @@
         "name": "Evernight Garden - Money Room X: 14 Y: 7",
         "sections": [
             {
-                "name": "Money Bag #477",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7019,7 +7060,7 @@
                 ]
             },
             {
-                "name": "Money Bag #478",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7028,7 +7069,7 @@
                 ]
             },
             {
-                "name": "Money Bag #479",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7042,7 +7083,7 @@
         "name": "Evernight Garden - Money Room X: 12 Y: 10",
         "sections": [
             {
-                "name": "Money Bag #480",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7051,7 +7092,7 @@
                 ]
             },
             {
-                "name": "Money Bag #481",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7060,7 +7101,7 @@
                 ]
             },
             {
-                "name": "Money Bag #482",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7074,7 +7115,7 @@
         "name": "Morose - Money Room X: 11 Y: 11",
         "sections": [
             {
-                "name": "Money Bag #483",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7083,7 +7124,7 @@
                 ]
             },
             {
-                "name": "Money Bag #484",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7092,7 +7133,7 @@
                 ]
             },
             {
-                "name": "Money Bag #485",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7106,7 +7147,7 @@
         "name": "Morose - Money Room X: 13 Y: 10",
         "sections": [
             {
-                "name": "Money Bag #486",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7115,7 +7156,7 @@
                 ]
             },
             {
-                "name": "Money Bag #487",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7129,7 +7170,7 @@
         "name": "Forest - Money Room X: 9 Y: 13",
         "sections": [
             {
-                "name": "Money Bag #488",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7138,7 +7179,7 @@
                 ]
             },
             {
-                "name": "Money Bag #489",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7152,7 +7193,7 @@
         "name": "Forest - Money Room X: 9 Y: 10",
         "sections": [
             {
-                "name": "Money Bag #490",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7161,7 +7202,7 @@
                 ]
             },
             {
-                "name": "Money Bag #491",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7170,7 +7211,7 @@
                 ]
             },
             {
-                "name": "Money Bag #492",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7179,7 +7220,7 @@
                 ]
             },
             {
-                "name": "Money Bag #493",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7193,7 +7234,7 @@
         "name": "Forest - Money Room X: 9 Y: 8",
         "sections": [
             {
-                "name": "Money Bag #494",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7202,7 +7243,7 @@
                 ]
             },
             {
-                "name": "Money Bag #495",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7216,7 +7257,7 @@
         "name": "Forest - Money Room X: 22 Y: 14",
         "sections": [
             {
-                "name": "Money Bag #496",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7225,7 +7266,7 @@
                 ]
             },
             {
-                "name": "Money Bag #497",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7239,7 +7280,7 @@
         "name": "Forest Maze - Money Room X: 11 Y: 28",
         "sections": [
             {
-                "name": "Money Bag #498",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7248,7 +7289,7 @@
                 ]
             },
             {
-                "name": "Money Bag #499",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7262,7 +7303,7 @@
         "name": "Forest Maze - Money Room X: 13 Y: 16",
         "sections": [
             {
-                "name": "Money Bag #500",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7271,7 +7312,7 @@
                 ]
             },
             {
-                "name": "Money Bag #501",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7280,7 +7321,7 @@
                 ]
             },
             {
-                "name": "Money Bag #502",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7294,7 +7335,7 @@
         "name": "Forest Maze - Money Room X: 10 Y: 21",
         "sections": [
             {
-                "name": "Money Bag #503",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7302,7 +7343,7 @@
                 ]
             },
             {
-                "name": "Money Bag #504",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7310,7 +7351,7 @@
                 ]
             },
             {
-                "name": "Money Bag #505",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7323,7 +7364,7 @@
         "name": "Forest Maze - Money Room X: 8 Y: 19",
         "sections": [
             {
-                "name": "Money Bag #506",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7332,7 +7373,7 @@
                 ]
             },
             {
-                "name": "Money Bag #507",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7341,7 +7382,7 @@
                 ]
             },
             {
-                "name": "Money Bag #508",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7355,7 +7396,7 @@
         "name": "Forest Maze - Money Room X: 8 Y: 16",
         "sections": [
             {
-                "name": "Money Bag #509",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7364,7 +7405,7 @@
                 ]
             },
             {
-                "name": "Money Bag #510",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7378,7 +7419,7 @@
         "name": "Forest Maze - Money Room X: 12 Y: 17",
         "sections": [
             {
-                "name": "Money Bag #511",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7387,7 +7428,7 @@
                 ]
             },
             {
-                "name": "Money Bag #512",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7396,7 +7437,7 @@
                 ]
             },
             {
-                "name": "Money Bag #513",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7410,7 +7451,7 @@
         "name": "Travoll Mines - Money Room X: 10 Y: 6",
         "sections": [
             {
-                "name": "Money Bag #514",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow , $canChargeShot",
@@ -7418,7 +7459,7 @@
                 ]
             },
             {
-                "name": "Money Bag #515",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow , $canChargeShot",
@@ -7426,7 +7467,7 @@
                 ]
             },
             {
-                "name": "Money Bag #516",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow , $canChargeShot",
@@ -7434,7 +7475,7 @@
                 ]
             },
             {
-                "name": "Money Bag #517",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow , $canChargeShot",
@@ -7442,7 +7483,7 @@
                 ]
             },
             {
-                "name": "Money Bag #518",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow , $canChargeShot",
@@ -7455,7 +7496,7 @@
         "name": "Travoll Mines - Money Room X: 8 Y: 8",
         "sections": [
             {
-                "name": "Money Bag #519",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7464,7 +7505,7 @@
                 ]
             },
             {
-                "name": "Money Bag #520",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7478,7 +7519,7 @@
         "name": "Travoll Mines - Money Room X: 6 Y: 9",
         "sections": [
             {
-                "name": "Money Bag #521",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7487,7 +7528,7 @@
                 ]
             },
             {
-                "name": "Money Bag #522",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7501,7 +7542,7 @@
         "name": "Travoll Mines - Money Room X: 9 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #523",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7510,7 +7551,7 @@
                 ]
             },
             {
-                "name": "Money Bag #524",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7519,7 +7560,7 @@
                 ]
             },
             {
-                "name": "Money Bag #525",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7533,7 +7574,7 @@
         "name": "Travoll Mines - Money Room X: 1 Y: 14",
         "sections": [
             {
-                "name": "Money Bag #527",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow , $canChargeShot , $canBombFuel",
@@ -7542,7 +7583,7 @@
                 ]
             },
             {
-                "name": "Money Bag #528",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow , $canChargeShot , $canBombFuel",
@@ -7551,7 +7592,7 @@
                 ]
             },
             {
-                "name": "Money Bag #529",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow , $canChargeShot , $canBombFuel",
@@ -7565,7 +7606,7 @@
         "name": "Travoll Mines - Money Room X: 11 Y: 13",
         "sections": [
             {
-                "name": "Money Bag #530",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|dagger|1",
@@ -7574,7 +7615,7 @@
                 ]
             },
             {
-                "name": "Money Bag #531",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|dagger|1",
@@ -7588,7 +7629,7 @@
         "name": "Travoll Mines - Money Room X: 17 Y: 11",
         "sections": [
             {
-                "name": "Money Bag #532",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7597,7 +7638,7 @@
                 ]
             },
             {
-                "name": "Money Bag #533",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7606,7 +7647,7 @@
                 ]
             },
             {
-                "name": "Money Bag #534",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7615,7 +7656,7 @@
                 ]
             },
             {
-                "name": "Money Bag #535",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7624,7 +7665,7 @@
                 ]
             },
             {
-                "name": "Money Bag #536",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7638,21 +7679,21 @@
         "name": "Travoll Mines - Money Room X: 18 Y: 8",
         "sections": [
             {
-                "name": "Money Bag #537",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|dagger|1"
                 ]
             },
             {
-                "name": "Money Bag #538",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|dagger|1"
                 ]
             },
             {
-                "name": "Money Bag #539",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|dagger|1"
@@ -7664,14 +7705,14 @@
         "name": "Travoll Industrie - Money Room X: 15 Y: 14",
         "sections": [
             {
-                "name": "Money Bag #540",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1"
                 ]
             },
             {
-                "name": "Money Bag #541",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1"
@@ -7683,7 +7724,7 @@
         "name": "Travoll Industrie - Money Room X: 14 Y: 19",
         "sections": [
             {
-                "name": "Money Bag #542",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7692,7 +7733,7 @@
                 ]
             },
             {
-                "name": "Money Bag #543",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7706,7 +7747,7 @@
         "name": "Copper Wood - Money Room X: 14 Y: 20",
         "sections": [
             {
-                "name": "Money Bag #544",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7715,7 +7756,7 @@
                 ]
             },
             {
-                "name": "Money Bag #545",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7724,7 +7765,7 @@
                 ]
             },
             {
-                "name": "Money Bag #546",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7738,7 +7779,7 @@
         "name": "Copper Wood - Money Room X: 11 Y: 20",
         "sections": [
             {
-                "name": "Money Bag #547",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7746,7 +7787,7 @@
                 ]
             },
             {
-                "name": "Money Bag #548",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow",
@@ -7759,7 +7800,7 @@
         "name": "Copper Wood - Money Room X: 6 Y: 17",
         "sections": [
             {
-                "name": "Money Bag #549",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
@@ -7768,7 +7809,7 @@
                 ]
             },
             {
-                "name": "Money Bag #550",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
@@ -7777,7 +7818,7 @@
                 ]
             },
             {
-                "name": "Money Bag #551",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
@@ -7786,7 +7827,7 @@
                 ]
             },
             {
-                "name": "Money Bag #552",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
@@ -7795,7 +7836,7 @@
                 ]
             },
             {
-                "name": "Money Bag #553",
+                "name": "Money Bag #5",
                 "item_count": 1,
                 "access_rules": [
                     "$canBombThrow , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
@@ -7809,7 +7850,7 @@
         "name": "Ana Thema - Money Room X: 17 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #554",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7818,7 +7859,7 @@
                 ]
             },
             {
-                "name": "Money Bag #555",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7827,7 +7868,7 @@
                 ]
             },
             {
-                "name": "Money Bag #556",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7836,7 +7877,7 @@
                 ]
             },
             {
-                "name": "Money Bag #557",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7850,7 +7891,7 @@
         "name": "Ana Thema - Money Room X: 14 Y: 14",
         "sections": [
             {
-                "name": "Money Bag #561",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7859,7 +7900,7 @@
                 ]
             },
             {
-                "name": "Money Bag #562",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7868,7 +7909,7 @@
                 ]
             },
             {
-                "name": "Money Bag #563",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7882,7 +7923,7 @@
         "name": "Gloamwood - Money Room X: 15 Y: 16",
         "sections": [
             {
-                "name": "Money Bag #564",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
@@ -7900,7 +7941,7 @@
                 ]
             },
             {
-                "name": "Money Bag #565",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
@@ -7918,7 +7959,7 @@
                 ]
             },
             {
-                "name": "Money Bag #566",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
@@ -7936,7 +7977,7 @@
                 ]
             },
             {
-                "name": "Money Bag #567",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
@@ -7959,7 +8000,7 @@
         "name": "Gloamwood - Money Room X: 23 Y: 15",
         "sections": [
             {
-                "name": "Money Bag #568",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7968,7 +8009,7 @@
                 ]
             },
             {
-                "name": "Money Bag #569",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7982,7 +8023,7 @@
         "name": "Gloamwood - Money Room X: 26 Y: 13",
         "sections": [
             {
-                "name": "Money Bag #570",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -7991,7 +8032,7 @@
                 ]
             },
             {
-                "name": "Money Bag #571",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -8000,7 +8041,7 @@
                 ]
             },
             {
-                "name": "Money Bag #572",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -8014,7 +8055,7 @@
         "name": "Gloamwood - Money Room X: 6 Y: 16",
         "sections": [
             {
-                "name": "Money Bag #574",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -8023,7 +8064,7 @@
                 ]
             },
             {
-                "name": "Money Bag #575",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -8032,7 +8073,7 @@
                 ]
             },
             {
-                "name": "Money Bag #576",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -8046,7 +8087,7 @@
         "name": "Gloamwood - Money Room X: 6 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #577",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -8054,7 +8095,7 @@
                 ]
             },
             {
-                "name": "Money Bag #578",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -8067,7 +8108,7 @@
         "name": "Gloamwood - Money Room X: 9 Y: 12",
         "sections": [
             {
-                "name": "Money Bag #579",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -8076,7 +8117,7 @@
                 ]
             },
             {
-                "name": "Money Bag #580",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -8090,7 +8131,7 @@
         "name": "Gloamwood - Money Room X: 3 Y: 10",
         "sections": [
             {
-                "name": "Money Bag #581",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -8099,7 +8140,7 @@
                 ]
             },
             {
-                "name": "Money Bag #582",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -8108,7 +8149,7 @@
                 ]
             },
             {
-                "name": "Money Bag #583",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -8122,7 +8163,7 @@
         "name": "Gloamwood - Money Room X: 5 Y: 5",
         "sections": [
             {
-                "name": "Money Bag #584",
+                "name": "Money Bag #1",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -8130,7 +8171,7 @@
                 ]
             },
             {
-                "name": "Money Bag #585",
+                "name": "Money Bag #2",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -8138,7 +8179,7 @@
                 ]
             },
             {
-                "name": "Money Bag #586",
+                "name": "Money Bag #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
@@ -8146,11 +8187,203 @@
                 ]
             },
             {
-                "name": "Money Bag #587",
+                "name": "Money Bag #4",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1",
                     "$hasAmount|dagger|1"
+                ]
+            }
+        ]
+    },
+    "11911": {
+        "name": "Elite Challenge A",
+        "sections": [
+            {
+                "name": "Crystallize",
+                "item_count": 1,
+                "access_rules": [
+                    "^$EVENT_EliteChallangeA"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "^$EVENT_EliteChallangeA"
+                ]
+            },
+            {
+                "name": "Magitite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "^$EVENT_EliteChallangeA"
+                ]
+            }
+        ]
+    },
+    "222711": {
+        "name": "Elite Challenge B",
+        "sections": [
+            {
+                "name": "Core Expansion: Radiant",
+                "item_count": 1,
+                "access_rules": [
+                    "^$EVENT_EliteChallangeB"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "^$EVENT_EliteChallangeB"
+                ]
+            },
+            {
+                "name": "Magitite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "^$EVENT_EliteChallangeB"
+                ]
+            }
+        ]
+    },
+    "111107": {
+        "name": "Elite Challenge D",
+        "sections": [
+            {
+                "name": "Overdrive",
+                "item_count": 1,
+                "access_rules": [
+                    "^$EVENT_EliteChallangeD"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "^$EVENT_EliteChallangeD"
+                ]
+            },
+            {
+                "name": "Magitite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "^$EVENT_EliteChallangeD"
+                ]
+            }
+        ]
+    },
+    "170707": {
+        "name": "Elite Challenge E",
+        "sections": [
+            {
+                "name": "Supersonic",
+                "item_count": 1,
+                "access_rules": [
+                    "^$EVENT_EliteChallangeE , $hasAmount|slide|1"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "^$EVENT_EliteChallangeE , $hasAmount|slide|1"
+                ]
+            },
+            {
+                "name": "Magitite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "^$EVENT_EliteChallangeE , $hasAmount|slide|1"
+                ]
+            }
+        ]
+    },
+    "250312": {
+        "name": "Vassago fight",
+        "sections": [
+            {
+                "name": "Astral Gear",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$hasAmount|airJump|1",
+                    "$hasAmount|jetpack|1",
+                    "$hasAmount|airDash|1"
+                ]
+            },
+            {
+                "name": "Magitite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$hasAmount|airJump|1",
+                    "$hasAmount|jetpack|1",
+                    "$hasAmount|airDash|1"
+                ]
+            }
+        ]
+    },
+    "291108": {
+        "name": "Amaryllis fight",
+        "sections": [
+            {
+                "name": "Astral Gear",
+                "item_count": 1,
+                "access_rules": [
+                    "$hasAmount|airJump|1",
+                    "$hasAmount|jetpack|1",
+                    "$hasAmount|airDash|1"
+                ]
+            },
+            {
+                "name": "Magitite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$hasAmount|airJump|1",
+                    "$hasAmount|jetpack|1",
+                    "$hasAmount|airDash|1"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "$hasAmount|airJump|1",
+                    "$hasAmount|jetpack|1",
+                    "$hasAmount|airDash|1"
+                ]
+            }
+        ]
+    },
+    "262111": {
+        "name": "Elite Challenge F",
+        "sections": [
+            {
+                "name": "Core Expansion: Combo",
+                "item_count": 1,
+                "access_rules": [
+                    "^$EVENT_EliteChallangeF"
+                ]
+            },
+            {
+                "name": "Mananite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "^$EVENT_EliteChallangeF"
+                ]
+            },
+            {
+                "name": "Magitite Shard",
+                "item_count": 1,
+                "access_rules": [
+                    "^$EVENT_EliteChallangeF"
                 ]
             }
         ]

@@ -1935,28 +1935,6 @@
             "y": 504
           }
         ]
-      },
-      {
-        "name": "Thanatara Canyon - Money Room X: 14 Y: 12",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Money Bag #1",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Thanatara Canyon + Gurun Desert",
-            "x": 648,
-            "y": 504
-          }
-        ]
       }
     ]
   },
@@ -2030,11 +2008,25 @@
         ]
       },
       {
-        "name": "Gurun Desert - Crystallize",
+        "name": "Elite Challenge A",
         "access_rules": [],
         "sections": [
           {
             "name": "Crystallize",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_EliteChallangeA"
+            ]
+          },
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_EliteChallangeA"
+            ]
+          },
+          {
+            "name": "Magitite Shard",
             "item_count": 1,
             "access_rules": [
               "^$EVENT_EliteChallangeA"
@@ -2429,11 +2421,25 @@
         ]
       },
       {
-        "name": "Solennian Ruins - Core Expansion: Radiant",
+        "name": "Elite Challenge B",
         "access_rules": [],
         "sections": [
           {
             "name": "Core Expansion: Radiant",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_EliteChallangeB"
+            ]
+          },
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_EliteChallangeB"
+            ]
+          },
+          {
+            "name": "Magitite Shard",
             "item_count": 1,
             "access_rules": [
               "^$EVENT_EliteChallangeB"
@@ -3511,12 +3517,15 @@
     ]
   },
   {
-    "name": "Teleporter Morose",
+    "name": "Morose City",
     "access_rules": [
-      "@Thanatara Canyon",
-      "@Morose City,$hasAmount|bombs|1",
-      "@Morose City,$canBombThrow",
-      "@TeleportHub,$canUseTeleporter|3"
+      "@Exit Logic/0302",
+      "@Exit Logic/0303",
+      "@Exit Logic/0301",
+      "@Exit Logic/0300",
+      "@Teleporter Morose,$hasAmount|bombs|1",
+      "@Teleporter Morose,$canBombThrow",
+      "@Teleporter Morose,openMorose"
     ],
     "children": [
       {
@@ -3541,21 +3550,7 @@
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "Morose City",
-    "access_rules": [
-      "@Exit Logic/0302",
-      "@Exit Logic/0303",
-      "@Exit Logic/0301",
-      "@Exit Logic/0300",
-      "@Teleporter Morose,$hasAmount|bombs|1",
-      "@Teleporter Morose,$canBombThrow",
-      "@Teleporter Morose,openMorose"
-    ],
-    "children": [
+      },
       {
         "name": "Morose City - Elite Challenge A",
         "access_rules": [],
@@ -7584,11 +7579,25 @@
         ]
       },
       {
-        "name": "Ulvosa - Overdrive",
+        "name": "Elite Challenge D",
         "access_rules": [],
         "sections": [
           {
             "name": "Overdrive",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_EliteChallangeD"
+            ]
+          },
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_EliteChallangeD"
+            ]
+          },
+          {
+            "name": "Magitite Shard",
             "item_count": 1,
             "access_rules": [
               "^$EVENT_EliteChallangeD"
@@ -8086,6 +8095,20 @@
             "item_count": 1,
             "access_rules": [
               "$True"
+            ]
+          },
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_EliteChallangeC"
+            ]
+          },
+          {
+            "name": "Magitite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_EliteChallangeC"
             ]
           }
         ],
@@ -9347,11 +9370,25 @@
         ]
       },
       {
-        "name": "Magma Pits - Supersonic",
+        "name": "Elite Challenge E",
         "access_rules": [],
         "sections": [
           {
             "name": "Supersonic",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_EliteChallangeE , $hasAmount|slide|1"
+            ]
+          },
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_EliteChallangeE , $hasAmount|slide|1"
+            ]
+          },
+          {
+            "name": "Magitite Shard",
             "item_count": 1,
             "access_rules": [
               "^$EVENT_EliteChallangeE , $hasAmount|slide|1"
@@ -11260,7 +11297,7 @@
         ]
       },
       {
-        "name": "Catacombs Inner - Vassago fight",
+        "name": "Vassago fight",
         "access_rules": [],
         "sections": [
           {
@@ -11268,6 +11305,24 @@
             "item_count": 1,
             "access_rules": [
               "$True"
+            ]
+          },
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|airJump|1",
+              "$hasAmount|jetpack|1",
+              "$hasAmount|airDash|1"
+            ]
+          },
+          {
+            "name": "Magitite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|airJump|1",
+              "$hasAmount|jetpack|1",
+              "$hasAmount|airDash|1"
             ]
           }
         ],
@@ -13800,14 +13855,34 @@
     ],
     "children": [
       {
-        "name": "EverGarden Boss Area - Amaryllis fight",
+        "name": "Amaryllis fight",
         "access_rules": [],
         "sections": [
           {
             "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "$True"
+              "$hasAmount|airJump|1",
+              "$hasAmount|jetpack|1",
+              "$hasAmount|airDash|1"
+            ]
+          },
+          {
+            "name": "Magitite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|airJump|1",
+              "$hasAmount|jetpack|1",
+              "$hasAmount|airDash|1"
+            ]
+          },
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|airJump|1",
+              "$hasAmount|jetpack|1",
+              "$hasAmount|airDash|1"
             ]
           }
         ],
@@ -13827,7 +13902,9 @@
             "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
-              "$True"
+              "$hasAmount|airJump|1",
+              "$hasAmount|jetpack|1",
+              "$hasAmount|airDash|1"
             ]
           }
         ],
@@ -14000,11 +14077,25 @@
     ],
     "children": [
       {
-        "name": "Cloister Elite - Core Expansion: Combo",
+        "name": "Elite Challenge F",
         "access_rules": [],
         "sections": [
           {
             "name": "Core Expansion: Combo",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_EliteChallangeF"
+            ]
+          },
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "^$EVENT_EliteChallangeF"
+            ]
+          },
+          {
+            "name": "Magitite Shard",
             "item_count": 1,
             "access_rules": [
               "^$EVENT_EliteChallangeF"
@@ -14517,14 +14608,6 @@
           },
           {
             "name": "Money Bag #5",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow"
-            ]
-          },
-          {
-            "name": "Money Bag #6",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1",
@@ -16199,9 +16282,9 @@
     "access_rules": [
       "@Verdazure Ocean,$hasAmount|water|1 , $hasAmount|orbS3|1,$hasAmount|ranged|2,$hasAmount|sable|1 , sable , $canChargeShot , $hasAmount|ranged|3",
       "@Forgotten City,$canChargeShot , $hasAmount|bombs|1",
-      "@Forgotten City,$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
-      "@Forgotten City,$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
-      "@Forgotten City,$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1"
+      "@Forgotten City,$hasAmount|airJump|1 , $hasAmount|bombs|1",
+      "@Forgotten City,$hasAmount|wallJump|1 , $hasAmount|bombs|1",
+      "@Forgotten City,$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -22215,6 +22298,8 @@
   {
     "name": "Teleporter Catacombs",
     "access_rules": [
+      "@Catacombs Main,$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|airJump|1",
+      "@Catacombs Main,$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|jetpack|1",
       "@TeleportHub,$canUseTeleporter|30"
     ],
     "children": [
@@ -23312,6 +23397,17 @@
       "@Thanatara Canyon,$hasAmount|bombs|1",
       "@Thanatara Canyon,$canBombThrow",
       "@Exit Logic/0105"
+    ],
+    "children": []
+  },
+  {
+    "name": "Teleporter Morose",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Thanatara Canyon,openMorose",
+      "@Morose City,$hasAmount|bombs|1",
+      "@Morose City,$canBombThrow",
+      "@TeleportHub,$canUseTeleporter|3"
     ],
     "children": []
   },
