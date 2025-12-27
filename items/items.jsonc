@@ -357,6 +357,27 @@
 	},
 
 	{
+		"name": "Flute",
+		"type": "toggle",
+		"img": "",
+		"codes": "flute"
+	},
+
+	{
+		"name": "Memory Box",
+		"type": "toggle",
+		"img": "",
+		"codes": "memory"
+	},
+
+	{
+		"name": "Frozen fate",
+		"type": "toggle",
+		"img": "",
+		"codes": "fate"
+	},
+
+	{
 		"name": "Gilded Left Hand",
 		"type": "toggle",
 		"img": "images/items/hand_Left.png",

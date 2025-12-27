@@ -2665,36 +2665,28 @@
             "name": "500 Zennie Pack #1",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
+              "$hasAmount|bombs|1"
             ]
           },
           {
             "name": "500 Zennie Pack #2",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
+              "$hasAmount|bombs|1"
             ]
           },
           {
             "name": "500 Zennie Pack #3",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
+              "$hasAmount|bombs|1"
             ]
           },
           {
             "name": "500 Zennie Pack #4",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
+              "$hasAmount|bombs|1"
             ]
           }
         ],
@@ -3833,9 +3825,32 @@
   {
     "name": "Morose City Shop",
     "access_rules": [
-      "@Morose City,QUEST_Memory"
+      "@Morose City,$hasAmount|memory|1"
     ],
     "children": [
+      {
+        "name": "Morose City Shop - SHOPSHOP",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EVENT_MoroseSHOP",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Morose",
+            "x": 216,
+            "y": 120,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
       {
         "name": "Morose Shop",
         "access_rules": [],
@@ -4163,7 +4178,7 @@
         ]
       },
       {
-        "name": "Travoll Industrie - Money Room X: 15 Y: 14",
+        "name": "Travoll Industrie - Money Room X: 14 Y: 14",
         "access_rules": [],
         "sections": [
           {
@@ -4184,7 +4199,7 @@
         "map_locations": [
           {
             "map": "Travoll Industrial Park",
-            "x": 408,
+            "x": 360,
             "y": 120
           }
         ]
@@ -4528,7 +4543,7 @@
         ]
       },
       {
-        "name": "Travoll Mines - Money Room X: 8 Y: 11",
+        "name": "Travoll Mines - Money Room X: 9 Y: 11",
         "access_rules": [],
         "sections": [
           {
@@ -4550,7 +4565,7 @@
         "map_locations": [
           {
             "map": "Travoll Mines",
-            "x": 360,
+            "x": 408,
             "y": 264
           }
         ]
@@ -4681,40 +4696,6 @@
             "map": "Travoll Mines",
             "x": 792,
             "y": 264
-          }
-        ]
-      },
-      {
-        "name": "Travoll Mines - Money Room X: 18 Y: 8",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "500 Zennie Pack #1",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|dagger|1"
-            ]
-          },
-          {
-            "name": "500 Zennie Pack #2",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|dagger|1"
-            ]
-          },
-          {
-            "name": "500 Zennie Pack #3",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|dagger|1"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Travoll Mines",
-            "x": 840,
-            "y": 120
           }
         ]
       }
@@ -4861,28 +4842,6 @@
             "y": 120
           }
         ]
-      },
-      {
-        "name": "Travoll Mines - Money Room X: 6 Y: 9",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "500 Zennie Pack #2",
-            "item_count": 1,
-            "access_rules": [
-              "$canBombThrow",
-              "$hasAmount|bombs|1",
-              "$hasAmount|dagger|1"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Travoll Mines",
-            "x": 264,
-            "y": 168
-          }
-        ]
       }
     ]
   },
@@ -4911,6 +4870,40 @@
             "map": "Travoll Mines",
             "x": 792,
             "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Travoll Mines - Money Room X: 18 Y: 8",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "500 Zennie Pack #1",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #2",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #3",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|dagger|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Travoll Mines",
+            "x": 840,
+            "y": 120
           }
         ]
       }
@@ -5077,7 +5070,7 @@
         ]
       },
       {
-        "name": "Forest - Money Room X: 9 Y: 13",
+        "name": "Forest - Money Room X: 8 Y: 13",
         "access_rules": [],
         "sections": [
           {
@@ -5102,7 +5095,7 @@
         "map_locations": [
           {
             "map": "Verdawn Forest",
-            "x": 312,
+            "x": 264,
             "y": 312
           }
         ]
@@ -5290,7 +5283,7 @@
         ]
       },
       {
-        "name": "Forest Maze - Money Room X: 11 Y: 28",
+        "name": "Forest Maze - Money Room X: 11 Y: 17",
         "access_rules": [],
         "sections": [
           {
@@ -5316,7 +5309,7 @@
           {
             "map": "Verdawn Forest",
             "x": 408,
-            "y": 1032
+            "y": 504
           }
         ]
       },
@@ -7404,7 +7397,7 @@
         ]
       },
       {
-        "name": "Plague Forest - Money Room X: 13 Y: 8",
+        "name": "Plague Forest - Money Room X: 13 Y: 7",
         "access_rules": [],
         "sections": [
           {
@@ -7452,7 +7445,7 @@
           {
             "map": "Plagued Forest",
             "x": 120,
-            "y": 120
+            "y": 72
           }
         ]
       }
@@ -9157,9 +9150,32 @@
   {
     "name": "Ana Thema Shop",
     "access_rules": [
-      "@Ana Thema,QUEST_Flute"
+      "@Ana Thema,$hasAmount|flute|1"
     ],
     "children": [
+      {
+        "name": "Ana Thema Shop - SHOPHSPOP",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EVENT_AnathemaSHOP",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ana Thema",
+            "x": 168,
+            "y": 168,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
       {
         "name": "Ana Thema Shop",
         "access_rules": [],
@@ -10375,7 +10391,7 @@
         ]
       },
       {
-        "name": "Swamp - Money Room X: 15 Y: 6",
+        "name": "Swamp - Money Room X: 16 Y: 6",
         "access_rules": [],
         "sections": [
           {
@@ -10472,7 +10488,7 @@
         "map_locations": [
           {
             "map": "Magma + Swamplands",
-            "x": 744,
+            "x": 792,
             "y": 216
           }
         ]
@@ -10809,6 +10825,29 @@
       "@Tartarus,$hasAmount|ticketHell|1"
     ],
     "children": [
+      {
+        "name": "Tartarus Shop - Tartarus SHOP",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EVENT_TartarusSHOP",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 312,
+            "y": 312,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
       {
         "name": "Tartarus Shop",
         "access_rules": [],
@@ -11389,25 +11428,25 @@
         ]
       },
       {
-        "name": "Catacombs - Money Room X: 4 Y: 10",
+        "name": "Catacombs - Money Room X: 4 Y: 12",
         "access_rules": [],
         "sections": [
           {
+            "name": "500 Zennie Pack #1",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #2",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
+            ]
+          },
+          {
             "name": "500 Zennie Pack #3",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
-            ]
-          },
-          {
-            "name": "500 Zennie Pack #4",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
-            ]
-          },
-          {
-            "name": "500 Zennie Pack #5",
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
@@ -11418,7 +11457,7 @@
           {
             "map": "Catacombs + Lab",
             "x": 216,
-            "y": 312
+            "y": 408
           }
         ]
       },
@@ -11854,6 +11893,73 @@
             "map": "Catacombs + Lab",
             "x": 1224,
             "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Lab - Money Room X: 25 Y: 10",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "500 Zennie Pack #1",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow",
+              "$hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #2",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow",
+              "$hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #3",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow",
+              "$hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #4",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow",
+              "$hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #5",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow",
+              "$hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #6",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow",
+              "$hasAmount|dagger|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Catacombs + Lab",
+            "x": 1080,
+            "y": 312
           }
         ]
       }
@@ -13226,6 +13332,29 @@
       "@Valhalla City,$hasAmount|ticketHeaven|1"
     ],
     "children": [
+      {
+        "name": "Valhalla City Shop - Shop visit",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EVENT_ValhallaSHOP",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla",
+            "x": 504,
+            "y": 216,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
       {
         "name": "Valhalla Shop",
         "access_rules": [],
@@ -17429,9 +17558,32 @@
   {
     "name": "Snow City Shop",
     "access_rules": [
-      "@Snow City,QUEST_Compass"
+      "@Snow City,$hasAmount|fate|1"
     ],
     "children": [
+      {
+        "name": "Snow City Shop - SHOPSHOP",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EVENT_SnowSHOP",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Snowveilian City + HQ",
+            "x": 264,
+            "y": 312,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
       {
         "name": "Snowveil Shop",
         "access_rules": [],
@@ -19257,7 +19409,7 @@
         ]
       },
       {
-        "name": "DreamKeeper - Money Room X: 19 Y: 21",
+        "name": "DreamKeeper - Money Room X: 19 Y: 20",
         "access_rules": [],
         "sections": [
           {
@@ -19293,7 +19445,7 @@
           {
             "map": "Dreamers Keep",
             "x": 408,
-            "y": 840
+            "y": 792
           }
         ]
       }
@@ -19735,7 +19887,7 @@
         ]
       },
       {
-        "name": "Heavens Valley East - Money Room X: 13 Y: 7",
+        "name": "Heavens Valley East - Money Room X: 13 Y: 6",
         "access_rules": [],
         "sections": [
           {
@@ -19779,7 +19931,7 @@
           {
             "map": "Valhalla's Breath (East)",
             "x": 552,
-            "y": 216
+            "y": 168
           }
         ]
       },
@@ -22824,7 +22976,7 @@
           {
             "map": "Catacombs + Lab",
             "x": 696,
-            "y": 696
+            "y": 216
           }
         ]
       },
@@ -22836,48 +22988,32 @@
             "name": "500 Zennie Pack #1",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
-              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
               "$canBombThrow , $hasAmount|jetpack|1",
-              "$canBombThrow , $hasAmount|airJump|1",
-              "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
-              "$hasAmount|dagger|1 , $hasAmount|airJump|1"
+              "$canBombThrow , $hasAmount|airJump|1"
             ]
           },
           {
             "name": "500 Zennie Pack #2",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
-              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
               "$canBombThrow , $hasAmount|jetpack|1",
-              "$canBombThrow , $hasAmount|airJump|1",
-              "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
-              "$hasAmount|dagger|1 , $hasAmount|airJump|1"
+              "$canBombThrow , $hasAmount|airJump|1"
             ]
           },
           {
             "name": "500 Zennie Pack #3",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
-              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
               "$canBombThrow , $hasAmount|jetpack|1",
-              "$canBombThrow , $hasAmount|airJump|1",
-              "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
-              "$hasAmount|dagger|1 , $hasAmount|airJump|1"
+              "$canBombThrow , $hasAmount|airJump|1"
             ]
           },
           {
             "name": "500 Zennie Pack #4",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
-              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
               "$canBombThrow , $hasAmount|jetpack|1",
-              "$canBombThrow , $hasAmount|airJump|1",
-              "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
-              "$hasAmount|dagger|1 , $hasAmount|airJump|1"
+              "$canBombThrow , $hasAmount|airJump|1"
             ]
           }
         ],
@@ -23216,10 +23352,11 @@
   {
     "name": "Shop Bonus",
     "access_rules": [
-      "@Morose City,$Chapter|2",
-      "@Tartarus,$Chapter|2",
-      "@Snow City,$Chapter|2",
-      "@Valhalla City,$Chapter|2"
+      "@Morose City Shop,$Chapter|2 , ^$EVENT_SnowSHOP , ^$EVENT_ValhallaSHOP , ^$EVENT_TartarusSHOP , ^$EVENT_AnathemaSHOP , ^$EVENT_MoroseSHOP",
+      "@Ana Thema Shop,$Chapter|2 , ^$EVENT_SnowSHOP , ^$EVENT_ValhallaSHOP , ^$EVENT_TartarusSHOP , ^$EVENT_AnathemaSHOP , ^$EVENT_MoroseSHOP",
+      "@Tartarus Shop,$Chapter|2 , ^$EVENT_SnowSHOP , ^$EVENT_ValhallaSHOP , ^$EVENT_TartarusSHOP , ^$EVENT_AnathemaSHOP , ^$EVENT_MoroseSHOP",
+      "@Snow City Shop,$Chapter|2 , ^$EVENT_SnowSHOP , ^$EVENT_ValhallaSHOP , ^$EVENT_TartarusSHOP , ^$EVENT_AnathemaSHOP , ^$EVENT_MoroseSHOP",
+      "@Valhalla City Shop,$Chapter|2 , ^$EVENT_SnowSHOP , ^$EVENT_ValhallaSHOP , ^$EVENT_TartarusSHOP , ^$EVENT_AnathemaSHOP , ^$EVENT_MoroseSHOP"
     ],
     "children": [
       {
@@ -23325,6 +23462,34 @@
             ]
           },
           {
+            "name": "Mananite Shard #15",
+            "item_count": 1,
+            "access_rules": [
+              "$Chapter|2"
+            ]
+          },
+          {
+            "name": "Mananite Shard #16",
+            "item_count": 1,
+            "access_rules": [
+              "$Chapter|2"
+            ]
+          },
+          {
+            "name": "Mananite Shard #17",
+            "item_count": 1,
+            "access_rules": [
+              "$Chapter|6"
+            ]
+          },
+          {
+            "name": "Mananite Shard #18",
+            "item_count": 1,
+            "access_rules": [
+              "$Chapter|6"
+            ]
+          },
+          {
             "name": "Magitite Shard #1",
             "item_count": 1,
             "access_rules": [
@@ -23420,6 +23585,34 @@
             "item_count": 1,
             "access_rules": [
               "$Chapter|2"
+            ]
+          },
+          {
+            "name": "Magitite Shard #15",
+            "item_count": 1,
+            "access_rules": [
+              "$Chapter|2 , ^$EVENT_Memloch"
+            ]
+          },
+          {
+            "name": "Magitite Shard #16",
+            "item_count": 1,
+            "access_rules": [
+              "$Chapter|2 , ^$EVENT_Memloch"
+            ]
+          },
+          {
+            "name": "Magitite Shard #17",
+            "item_count": 1,
+            "access_rules": [
+              "$Chapter|2 , ^$EVENT_Demonfray"
+            ]
+          },
+          {
+            "name": "Magitite Shard #18",
+            "item_count": 1,
+            "access_rules": [
+              "$Chapter|2 , ^$EVENT_Demonfray"
             ]
           }
         ],
@@ -24674,6 +24867,15 @@
         "sections": [
           {
             "name": "500 Zennie Pack #1",
+            "item_count": 1,
+            "access_rules": [
+              "$canBombThrow",
+              "$hasAmount|bombs|1",
+              "$hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #2",
             "item_count": 1,
             "access_rules": [
               "$canBombThrow",

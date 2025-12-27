@@ -173,7 +173,7 @@ for k,v in locationList.items():
             print(locationNameList[k])
             print("\n")
             if "Money Room" in locationNameList[k][0]:
-                RandomizerLocationGroupNames[str(k)] = {"name":locationNameList[k][0][:-3],"sections":v}
+                RandomizerLocationGroupNames[str(k)] = {"name":locationNameList[k][0][:],"sections":v}
             else:
                 RandomizerLocationGroupNames[str(k)] = {"name":input("Enter Groupname: "),"sections":v}
             change = True
