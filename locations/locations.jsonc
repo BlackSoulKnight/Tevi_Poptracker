@@ -1368,7 +1368,6 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1",
-              "$canBombThrow",
               "$hasAmount|dagger|1"
             ]
           },
@@ -1377,7 +1376,6 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1",
-              "$canBombThrow",
               "$hasAmount|dagger|1"
             ]
           },
@@ -1386,7 +1384,6 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1",
-              "$canBombThrow",
               "$hasAmount|dagger|1"
             ]
           },
@@ -1395,7 +1392,6 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1",
-              "$canBombThrow",
               "$hasAmount|dagger|1"
             ]
           }
@@ -2665,21 +2661,24 @@
             "name": "500 Zennie Pack #1",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|dagger|1"
             ]
           },
           {
             "name": "500 Zennie Pack #2",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|dagger|1"
             ]
           },
           {
             "name": "500 Zennie Pack #3",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1"
+              "$hasAmount|bombs|1",
+              "$hasAmount|dagger|1"
             ]
           },
           {
@@ -4021,7 +4020,8 @@
               "$hasAmount|slide|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
               "$hasAmount|slide|1 , $hasAmount|wallJump|1 , $hasAmount|jetpack|1",
               "$hasAmount|slide|1 , $hasAmount|wallJump|1 , $hasAmount|airJump|1",
-              "$hasAmount|slide|1 , $hasAmount|airJump|1,[$False]"
+              "$hasAmount|slide|1 , $hasAmount|airJump|1,[$False]",
+              "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1"
             ]
           }
         ],
@@ -18766,6 +18766,27 @@
         ]
       },
       {
+        "name": "DreamKeeper - Dominator",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Dominator",
+            "item_count": 1,
+            "access_rules": [
+              "$canBombThrow , $hasAmount|slide|1 , [$False]",
+              "$canBombThrow , $hasAmount|vortex|1,[$hasAmount|dagger|1] , $hasAmount|slide|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dreamers Keep",
+            "x": 504,
+            "y": 168
+          }
+        ]
+      },
+      {
         "name": "DreamKeeper - Money Room X: 17 Y: 8",
         "access_rules": [],
         "sections": [
@@ -19006,27 +19027,6 @@
             "map": "Dreamers Keep",
             "x": 552,
             "y": 312
-          }
-        ]
-      },
-      {
-        "name": "DreamKeeper - Dominator",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Dominator",
-            "item_count": 1,
-            "access_rules": [
-              "$canBombThrow , $hasAmount|slide|1 , [$False]",
-              "$canBombThrow , $hasAmount|vortex|1,[$hasAmount|dagger|1]"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Dreamers Keep",
-            "x": 504,
-            "y": 168
           }
         ]
       },
@@ -22567,7 +22567,7 @@
             "name": "Blue Module Type-B",
             "item_count": 1,
             "access_rules": [
-              "$True , $hasAmount|ranged|3 , $canUpgradeCore"
+              "$True , $hasAmount|ranged|3 , $canUpgradeItems"
             ]
           }
         ],
