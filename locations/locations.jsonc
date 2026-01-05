@@ -1143,7 +1143,7 @@
         ]
       },
       {
-        "name": "Thanatara Canyon - Elite Challenge B",
+        "name": "Elite Challenge B - Thanatara Canyon X:11 Y:9 ",
         "access_rules": [],
         "sections": [
           {
@@ -3543,7 +3543,7 @@
         ]
       },
       {
-        "name": "Morose City - Elite Challenge A",
+        "name": "Elite Challenge A - Morose City X:19 Y:9",
         "access_rules": [],
         "sections": [
           {
@@ -5044,7 +5044,7 @@
         ]
       },
       {
-        "name": "Forest - Memine Race",
+        "name": "Memine Race Forest - Start X:14 Y:7",
         "access_rules": [],
         "sections": [
           {
@@ -5807,7 +5807,7 @@
         ]
       },
       {
-        "name": "Gloamwood - Memine Race",
+        "name": "Memine Race Gloamwood - X:11 Y:20",
         "access_rules": [],
         "sections": [
           {
@@ -6075,7 +6075,7 @@
             "name": "EVENT_Memine0_END",
             "item_count": 1,
             "access_rules": [
-              "$True"
+              "^$EVENT_Memine0"
             ]
           }
         ],
@@ -6280,7 +6280,7 @@
     ],
     "children": [
       {
-        "name": "Gloamwood Upper - Elite Challenge C",
+        "name": "Elite Challenge C - Gloamwood Upper X:7 Y:8",
         "access_rules": [],
         "sections": [
           {
@@ -8335,7 +8335,7 @@
             "name": "EVENT_Memine2_END",
             "item_count": 1,
             "access_rules": [
-              "$True"
+              "^$EVENT_Memine2"
             ]
           }
         ],
@@ -8861,27 +8861,27 @@
             "name": "500 Zennie Pack #1",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
+              "$hasAmount|bombs|1 , $hasAmount|key|1",
+              "$canBombThrow , $hasAmount|key|1",
+              "$hasAmount|dagger|1 , $hasAmount|key|1"
             ]
           },
           {
             "name": "500 Zennie Pack #2",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
+              "$hasAmount|bombs|1 , $hasAmount|key|1",
+              "$canBombThrow , $hasAmount|key|1",
+              "$hasAmount|dagger|1 , $hasAmount|key|1"
             ]
           },
           {
             "name": "500 Zennie Pack #3",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
+              "$hasAmount|bombs|1 , $hasAmount|key|1",
+              "$canBombThrow , $hasAmount|key|1",
+              "$hasAmount|dagger|1 , $hasAmount|key|1"
             ]
           }
         ],
@@ -8894,7 +8894,7 @@
         ]
       },
       {
-        "name": "Ana Thema - Elite Challenge D",
+        "name": "Elite Challenge D - Ana Thema X:17 Y:14",
         "access_rules": [],
         "sections": [
           {
@@ -8982,7 +8982,7 @@
         ]
       },
       {
-        "name": "Ana Thema - Memine Race",
+        "name": "Memine Race Ana Thema - Start X:14 Y:12",
         "access_rules": [],
         "sections": [
           {
@@ -9082,27 +9082,27 @@
             "name": "500 Zennie Pack #1",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
+              "$hasAmount|bombs|1 , $hasAmount|key|1",
+              "$canBombThrow , $hasAmount|key|1",
+              "$hasAmount|dagger|1 , $hasAmount|key|1"
             ]
           },
           {
             "name": "500 Zennie Pack #2",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
+              "$hasAmount|bombs|1 , $hasAmount|key|1",
+              "$canBombThrow , $hasAmount|key|1",
+              "$hasAmount|dagger|1 , $hasAmount|key|1"
             ]
           },
           {
             "name": "500 Zennie Pack #3",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
+              "$hasAmount|bombs|1 , $hasAmount|key|1",
+              "$canBombThrow , $hasAmount|key|1",
+              "$hasAmount|dagger|1 , $hasAmount|key|1"
             ]
           }
         ],
@@ -10515,7 +10515,11 @@
             "name": "Swift Shots",
             "item_count": 1,
             "access_rules": [
-              "$canChargeShot"
+              "$canChargeShot , $hasAmount|dagger|1",
+              "$canChargeShot , $hasAmount|airJump|1",
+              "$canChargeShot , $hasAmount|jetpack|1",
+              "$canChargeShot , $hasAmount|highJump|1",
+              "$canChargeShot , celia"
             ]
           }
         ],
@@ -10528,7 +10532,7 @@
         ]
       },
       {
-        "name": "Tartarus - Elite Challenge E",
+        "name": "Elite Challenge E - Tartarus X:20 Y:13",
         "access_rules": [],
         "sections": [
           {
@@ -10685,7 +10689,7 @@
         ]
       },
       {
-        "name": "Tartarus - Memine Race",
+        "name": "Memine Race Tartarus - Start X:11 Y:10",
         "access_rules": [],
         "sections": [
           {
@@ -12971,7 +12975,7 @@
         ]
       },
       {
-        "name": "Blushwood Sliding - Memine Race",
+        "name": "Memine Race Blushwood - Start X:13 Y:8",
         "access_rules": [],
         "sections": [
           {
@@ -13071,7 +13075,7 @@
         ]
       },
       {
-        "name": "Valhalla City - Elite Challenge F",
+        "name": "Elite Challenge F - Valhalla City X:20 Y:12",
         "access_rules": [],
         "sections": [
           {
@@ -13257,7 +13261,7 @@
             "name": "EVENT_Memine3_END",
             "item_count": 1,
             "access_rules": [
-              "$True"
+              "^$EVENT_Memine3"
             ]
           }
         ],
@@ -13916,7 +13920,7 @@
             "name": "EVENT_Memine4_END",
             "item_count": 1,
             "access_rules": [
-              "$True"
+              "^$EVENT_Memine4"
             ]
           }
         ],
@@ -15959,7 +15963,7 @@
             "name": "EVENT_Memine1_END",
             "item_count": 1,
             "access_rules": [
-              "$True"
+              "^$EVENT_Memine1"
             ]
           }
         ],
@@ -16763,7 +16767,7 @@
             "name": "EVENT_Memine5_END",
             "item_count": 1,
             "access_rules": [
-              "$True"
+              "^$EVENT_Memine5"
             ]
           }
         ],
@@ -19756,7 +19760,7 @@
         ]
       },
       {
-        "name": "Heavens Valley Snow Route Middle - Memine Race",
+        "name": "Memine Race Heavens Valley East - Start X:3 Y:6",
         "access_rules": [],
         "sections": [
           {

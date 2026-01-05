@@ -13,7 +13,7 @@ CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
-AP_WORLD_VERSION = "0.6.4"
+AP_WORLD_VERSION = "0.6.5"
 
 -- resets an item to its initial state
 function resetItem(item_code, item_type)
