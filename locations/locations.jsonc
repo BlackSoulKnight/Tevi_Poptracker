@@ -6075,7 +6075,7 @@
             "name": "EVENT_Memine0_END",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_Memine0"
+              "$True"
             ]
           }
         ],
@@ -8335,7 +8335,7 @@
             "name": "EVENT_Memine2_END",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_Memine2"
+              "$True"
             ]
           }
         ],
@@ -13261,7 +13261,7 @@
             "name": "EVENT_Memine3_END",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_Memine3"
+              "$True"
             ]
           }
         ],
@@ -13920,7 +13920,7 @@
             "name": "EVENT_Memine4_END",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_Memine4"
+              "$True"
             ]
           }
         ],
@@ -15963,7 +15963,7 @@
             "name": "EVENT_Memine1_END",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_Memine1"
+              "$True"
             ]
           }
         ],
@@ -16767,7 +16767,7 @@
             "name": "EVENT_Memine5_END",
             "item_count": 1,
             "access_rules": [
-              "^$EVENT_Memine5"
+              "$True"
             ]
           }
         ],
@@ -23356,11 +23356,11 @@
   {
     "name": "Shop Bonus",
     "access_rules": [
-      "@Morose City Shop,$Chapter|2 , ^$EVENT_SnowSHOP , ^$EVENT_ValhallaSHOP , ^$EVENT_TartarusSHOP , ^$EVENT_AnathemaSHOP , ^$EVENT_MoroseSHOP",
-      "@Ana Thema Shop,$Chapter|2 , ^$EVENT_SnowSHOP , ^$EVENT_ValhallaSHOP , ^$EVENT_TartarusSHOP , ^$EVENT_AnathemaSHOP , ^$EVENT_MoroseSHOP",
-      "@Tartarus Shop,$Chapter|2 , ^$EVENT_SnowSHOP , ^$EVENT_ValhallaSHOP , ^$EVENT_TartarusSHOP , ^$EVENT_AnathemaSHOP , ^$EVENT_MoroseSHOP",
-      "@Snow City Shop,$Chapter|2 , ^$EVENT_SnowSHOP , ^$EVENT_ValhallaSHOP , ^$EVENT_TartarusSHOP , ^$EVENT_AnathemaSHOP , ^$EVENT_MoroseSHOP",
-      "@Valhalla City Shop,$Chapter|2 , ^$EVENT_SnowSHOP , ^$EVENT_ValhallaSHOP , ^$EVENT_TartarusSHOP , ^$EVENT_AnathemaSHOP , ^$EVENT_MoroseSHOP"
+      "@Morose City Shop,$Chapter|2 , fate , ticketHeaven , ticketHell , flute , memory",
+      "@Ana Thema Shop,$Chapter|2 , fate , ticketHeaven , ticketHell , flute , memory",
+      "@Tartarus Shop,$Chapter|2 , fate , ticketHeaven , ticketHell , flute , memory",
+      "@Snow City Shop,$Chapter|2 , fate , ticketHeaven , ticketHell , flute , memory",
+      "@Valhalla City Shop,$Chapter|2 , fate , ticketHeaven , ticketHell , flute , memory"
     ],
     "children": [
       {
