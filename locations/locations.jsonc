@@ -6468,8 +6468,16 @@
             "name": "Mananite Shard",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow"
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$hasAmount|bombs|1 , $hasAmount|airDash|1",
+              "$hasAmount|bombs|1 , $canChargeShot",
+              "$hasAmount|bombs|1 , [hiddenPaths]",
+              "$canBombThrow , $hasAmount|jetpack|1",
+              "$canBombThrow , $hasAmount|airJump|1",
+              "$canBombThrow , $hasAmount|airDash|1",
+              "$canBombThrow , $canChargeShot",
+              "$canBombThrow , [hiddenPaths]"
             ]
           }
         ],
@@ -6493,14 +6501,17 @@
               "$hasAmount|bombs|1 , $hasAmount|airJump|1",
               "$hasAmount|bombs|1 , $hasAmount|airDash|1",
               "$hasAmount|bombs|1 , $canChargeShot",
+              "$hasAmount|bombs|1 , [hiddenPaths]",
               "$canBombThrow , $hasAmount|jetpack|1",
               "$canBombThrow , $hasAmount|airJump|1",
               "$canBombThrow , $hasAmount|airDash|1",
               "$canBombThrow , $canChargeShot",
+              "$canBombThrow , [hiddenPaths]",
               "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
               "$hasAmount|dagger|1 , $hasAmount|airJump|1",
               "$hasAmount|dagger|1 , $hasAmount|airDash|1",
-              "$hasAmount|dagger|1 , $canChargeShot"
+              "$hasAmount|dagger|1 , $canChargeShot",
+              "$hasAmount|dagger|1 , [hiddenPaths]"
             ]
           },
           {
@@ -6511,14 +6522,17 @@
               "$hasAmount|bombs|1 , $hasAmount|airJump|1",
               "$hasAmount|bombs|1 , $hasAmount|airDash|1",
               "$hasAmount|bombs|1 , $canChargeShot",
+              "$hasAmount|bombs|1 , [hiddenPaths]",
               "$canBombThrow , $hasAmount|jetpack|1",
               "$canBombThrow , $hasAmount|airJump|1",
               "$canBombThrow , $hasAmount|airDash|1",
               "$canBombThrow , $canChargeShot",
+              "$canBombThrow , [hiddenPaths]",
               "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
               "$hasAmount|dagger|1 , $hasAmount|airJump|1",
               "$hasAmount|dagger|1 , $hasAmount|airDash|1",
-              "$hasAmount|dagger|1 , $canChargeShot"
+              "$hasAmount|dagger|1 , $canChargeShot",
+              "$hasAmount|dagger|1 , [hiddenPaths]"
             ]
           },
           {
@@ -6529,14 +6543,17 @@
               "$hasAmount|bombs|1 , $hasAmount|airJump|1",
               "$hasAmount|bombs|1 , $hasAmount|airDash|1",
               "$hasAmount|bombs|1 , $canChargeShot",
+              "$hasAmount|bombs|1 , [hiddenPaths]",
               "$canBombThrow , $hasAmount|jetpack|1",
               "$canBombThrow , $hasAmount|airJump|1",
               "$canBombThrow , $hasAmount|airDash|1",
               "$canBombThrow , $canChargeShot",
+              "$canBombThrow , [hiddenPaths]",
               "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
               "$hasAmount|dagger|1 , $hasAmount|airJump|1",
               "$hasAmount|dagger|1 , $hasAmount|airDash|1",
-              "$hasAmount|dagger|1 , $canChargeShot"
+              "$hasAmount|dagger|1 , $canChargeShot",
+              "$hasAmount|dagger|1 , [hiddenPaths]"
             ]
           },
           {
@@ -6547,14 +6564,17 @@
               "$hasAmount|bombs|1 , $hasAmount|airJump|1",
               "$hasAmount|bombs|1 , $hasAmount|airDash|1",
               "$hasAmount|bombs|1 , $canChargeShot",
+              "$hasAmount|bombs|1 , [hiddenPaths]",
               "$canBombThrow , $hasAmount|jetpack|1",
               "$canBombThrow , $hasAmount|airJump|1",
               "$canBombThrow , $hasAmount|airDash|1",
               "$canBombThrow , $canChargeShot",
+              "$canBombThrow , [hiddenPaths]",
               "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
               "$hasAmount|dagger|1 , $hasAmount|airJump|1",
               "$hasAmount|dagger|1 , $hasAmount|airDash|1",
-              "$hasAmount|dagger|1 , $canChargeShot"
+              "$hasAmount|dagger|1 , $canChargeShot",
+              "$hasAmount|dagger|1 , [hiddenPaths]"
             ]
           }
         ],
@@ -6571,7 +6591,11 @@
   {
     "name": "Ulskan Village Area",
     "access_rules": [
-      "@Gloamwood Right",
+      "@Gloamwood Right,$hasAmount|jetpack|1",
+      "@Gloamwood Right,$hasAmount|airJump|1",
+      "@Gloamwood Right,$hasAmount|airDash|1",
+      "@Gloamwood Right,$canChargeShot",
+      "@Gloamwood Right,[hiddenPaths]",
       "@Exit Logic/0901",
       "@Ulskan To Plague Forest,$hasAmount|slide|1 , $hasAmount|bombs|1",
       "@Ulskan To Plague Forest,$hasAmount|slide|1 , $canBombThrow"
@@ -6649,18 +6673,42 @@
             "name": "500 Zennie Pack #1",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$hasAmount|bombs|1 , $hasAmount|airDash|1",
+              "$hasAmount|bombs|1 , $canChargeShot",
+              "$hasAmount|bombs|1 , [hiddenPaths]",
+              "$canBombThrow , $hasAmount|jetpack|1",
+              "$canBombThrow , $hasAmount|airJump|1",
+              "$canBombThrow , $hasAmount|airDash|1",
+              "$canBombThrow , $canChargeShot",
+              "$canBombThrow , [hiddenPaths]",
+              "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
+              "$hasAmount|dagger|1 , $hasAmount|airJump|1",
+              "$hasAmount|dagger|1 , $hasAmount|airDash|1",
+              "$hasAmount|dagger|1 , $canChargeShot",
+              "$hasAmount|dagger|1 , [hiddenPaths]"
             ]
           },
           {
             "name": "500 Zennie Pack #2",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$hasAmount|bombs|1 , $hasAmount|airDash|1",
+              "$hasAmount|bombs|1 , $canChargeShot",
+              "$hasAmount|bombs|1 , [hiddenPaths]",
+              "$canBombThrow , $hasAmount|jetpack|1",
+              "$canBombThrow , $hasAmount|airJump|1",
+              "$canBombThrow , $hasAmount|airDash|1",
+              "$canBombThrow , $canChargeShot",
+              "$canBombThrow , [hiddenPaths]",
+              "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
+              "$hasAmount|dagger|1 , $hasAmount|airJump|1",
+              "$hasAmount|dagger|1 , $hasAmount|airDash|1",
+              "$hasAmount|dagger|1 , $canChargeShot",
+              "$hasAmount|dagger|1 , [hiddenPaths]"
             ]
           }
         ],
@@ -12307,45 +12355,45 @@
             "name": "500 Zennie Pack #1",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
-              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
-              "$hasAmount|bombs|1 , $hasAmount|wallJump|1",
-              "$canBombThrow , $hasAmount|airJump|1",
-              "$canBombThrow , $hasAmount|jetpack|1",
-              "$canBombThrow , $hasAmount|wallJump|1",
-              "$hasAmount|dagger|1 , $hasAmount|airJump|1",
-              "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
-              "$hasAmount|dagger|1 , $hasAmount|wallJump|1"
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|slide|1",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|slide|1",
+              "$hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|slide|1",
+              "$canBombThrow , $hasAmount|airJump|1 , $hasAmount|slide|1",
+              "$canBombThrow , $hasAmount|jetpack|1 , $hasAmount|slide|1",
+              "$canBombThrow , $hasAmount|wallJump|1 , $hasAmount|slide|1",
+              "$hasAmount|dagger|1 , $hasAmount|airJump|1 , $hasAmount|slide|1",
+              "$hasAmount|dagger|1 , $hasAmount|jetpack|1 , $hasAmount|slide|1",
+              "$hasAmount|dagger|1 , $hasAmount|wallJump|1 , $hasAmount|slide|1"
             ]
           },
           {
             "name": "500 Zennie Pack #2",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
-              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
-              "$hasAmount|bombs|1 , $hasAmount|wallJump|1",
-              "$canBombThrow , $hasAmount|airJump|1",
-              "$canBombThrow , $hasAmount|jetpack|1",
-              "$canBombThrow , $hasAmount|wallJump|1",
-              "$hasAmount|dagger|1 , $hasAmount|airJump|1",
-              "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
-              "$hasAmount|dagger|1 , $hasAmount|wallJump|1"
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|slide|1",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|slide|1",
+              "$hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|slide|1",
+              "$canBombThrow , $hasAmount|airJump|1 , $hasAmount|slide|1",
+              "$canBombThrow , $hasAmount|jetpack|1 , $hasAmount|slide|1",
+              "$canBombThrow , $hasAmount|wallJump|1 , $hasAmount|slide|1",
+              "$hasAmount|dagger|1 , $hasAmount|airJump|1 , $hasAmount|slide|1",
+              "$hasAmount|dagger|1 , $hasAmount|jetpack|1 , $hasAmount|slide|1",
+              "$hasAmount|dagger|1 , $hasAmount|wallJump|1 , $hasAmount|slide|1"
             ]
           },
           {
             "name": "500 Zennie Pack #3",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
-              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
-              "$hasAmount|bombs|1 , $hasAmount|wallJump|1",
-              "$canBombThrow , $hasAmount|airJump|1",
-              "$canBombThrow , $hasAmount|jetpack|1",
-              "$canBombThrow , $hasAmount|wallJump|1",
-              "$hasAmount|dagger|1 , $hasAmount|airJump|1",
-              "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
-              "$hasAmount|dagger|1 , $hasAmount|wallJump|1"
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1 , $hasAmount|slide|1",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1 , $hasAmount|slide|1",
+              "$hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|slide|1",
+              "$canBombThrow , $hasAmount|airJump|1 , $hasAmount|slide|1",
+              "$canBombThrow , $hasAmount|jetpack|1 , $hasAmount|slide|1",
+              "$canBombThrow , $hasAmount|wallJump|1 , $hasAmount|slide|1",
+              "$hasAmount|dagger|1 , $hasAmount|airJump|1 , $hasAmount|slide|1",
+              "$hasAmount|dagger|1 , $hasAmount|jetpack|1 , $hasAmount|slide|1",
+              "$hasAmount|dagger|1 , $hasAmount|wallJump|1 , $hasAmount|slide|1"
             ]
           }
         ],
