@@ -3174,6 +3174,8 @@
   {
     "name": "Valhalla Breath West 1",
     "access_rules": [
+      "@Valhalla Breath West 2,$hasAmount|bombs|1",
+      "@Valhalla Breath West 2,$canBombThrow",
       "@Heavens Valley West,$hasAmount|jetpack|1 , $canBombThrow",
       "@Heavens Valley West,$hasAmount|jetpack|1 , [hiddenPaths]",
       "@Heavens Valley West,$hasAmount|airDash|1 , $canBombThrow",
@@ -25226,15 +25228,6 @@
       "@Dreamless Depths,$hasAmount|slide|1 , $hasAmount|bombs|1",
       "@Dreamless Depths,$hasAmount|slide|1 , $canBombThrow",
       "@TeleportHub,$canUseTeleporter|22"
-    ],
-    "children": []
-  },
-  {
-    "name": "Heavens Valley West 1",
-    "clear_as_group": false,
-    "access_rules": [
-      "@Valhalla Breath West 2,$hasAmount|bombs|1",
-      "@Valhalla Breath West 2,$canBombThrow"
     ],
     "children": []
   },
