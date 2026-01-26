@@ -2702,18 +2702,18 @@
   {
     "name": "Heavens Valley West",
     "access_rules": [
-      "@Valhalla Breath West,$hasAmount|bombs|1 , ceilingKick",
-      "@Valhalla Breath West,$hasAmount|bombs|1 , $hasAmount|airJump|1",
-      "@Valhalla Breath West,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
-      "@Valhalla Breath West,$hasAmount|bombs|1 , $hasAmount|airDash|1",
-      "@Valhalla Breath West,$canBombThrow , ceilingKick",
-      "@Valhalla Breath West,$canBombThrow , $hasAmount|airJump|1",
-      "@Valhalla Breath West,$canBombThrow , $hasAmount|jetpack|1",
-      "@Valhalla Breath West,$canBombThrow , $hasAmount|airDash|1",
-      "@Valhalla Breath West,[hiddenPaths] , ceilingKick",
-      "@Valhalla Breath West,[hiddenPaths] , $hasAmount|airJump|1",
-      "@Valhalla Breath West,[hiddenPaths] , $hasAmount|jetpack|1",
-      "@Valhalla Breath West,[hiddenPaths] , $hasAmount|airDash|1",
+      "@Valhalla Breath West 1,$hasAmount|bombs|1 , ceilingKick",
+      "@Valhalla Breath West 1,$hasAmount|bombs|1 , $hasAmount|airJump|1",
+      "@Valhalla Breath West 1,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+      "@Valhalla Breath West 1,$hasAmount|bombs|1 , $hasAmount|airDash|1",
+      "@Valhalla Breath West 1,$canBombThrow , ceilingKick",
+      "@Valhalla Breath West 1,$canBombThrow , $hasAmount|airJump|1",
+      "@Valhalla Breath West 1,$canBombThrow , $hasAmount|jetpack|1",
+      "@Valhalla Breath West 1,$canBombThrow , $hasAmount|airDash|1",
+      "@Valhalla Breath West 1,[hiddenPaths] , ceilingKick",
+      "@Valhalla Breath West 1,[hiddenPaths] , $hasAmount|airJump|1",
+      "@Valhalla Breath West 1,[hiddenPaths] , $hasAmount|jetpack|1",
+      "@Valhalla Breath West 1,[hiddenPaths] , $hasAmount|airDash|1",
       "@Exit Logic/2105",
       "@Exit Logic/2100",
       "@Teleporter Heaven Valley West"
@@ -3021,19 +3021,10 @@
     ]
   },
   {
-    "name": "Valhalla Breath West",
+    "name": "Valhalla Breath West 2",
     "access_rules": [
       "@Exit Logic/2101",
-      "@Heavens Valley West,$hasAmount|jetpack|1 , $canBombThrow",
-      "@Heavens Valley West,$hasAmount|jetpack|1 , [hiddenPaths]",
-      "@Heavens Valley West,$hasAmount|airDash|1 , $canBombThrow",
-      "@Heavens Valley West,$hasAmount|airDash|1 , [hiddenPaths]",
-      "@Heavens Valley West,$hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $canBombThrow",
-      "@Heavens Valley West,$hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1 , [hiddenPaths]",
-      "@Heavens Valley West,$hasAmount|airJump|1 , $canBombThrow",
-      "@Heavens Valley West,$hasAmount|airJump|1 , [hiddenPaths]",
-      "@Heavens Valley West,$canChargeShot , $canBombThrow",
-      "@Heavens Valley West,$canChargeShot , [hiddenPaths]",
+      "@Valhalla Breath West 1",
       "@Teleporter Valhalla Breath West"
     ],
     "children": [
@@ -3054,50 +3045,6 @@
             "map": "Valhalla's Breath (West)",
             "x": 1128,
             "y": 168
-          }
-        ]
-      },
-      {
-        "name": "Valhalla Breath West - Light",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "EVENT_Light",
-            "item_count": 1,
-            "access_rules": [
-              "$True"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Valhalla's Breath (West)",
-            "x": 600,
-            "y": 216,
-            "force_invisibility_rules": [
-              "$True"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Valhalla Breath West - Orbital Slash",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Orbital Slash",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Valhalla's Breath (West)",
-            "x": 648,
-            "y": 216
           }
         ]
       },
@@ -3139,50 +3086,6 @@
             "map": "Valhalla's Breath (West)",
             "x": 888,
             "y": 24
-          }
-        ]
-      },
-      {
-        "name": "Valhalla Breath West - Combo Momentum: Fever",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Combo Momentum: Fever",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Valhalla's Breath (West)",
-            "x": 1176,
-            "y": 216
-          }
-        ]
-      },
-      {
-        "name": "Valhalla Breath West - Cherry Bunny Potion",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Cherry Bunny Potion",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|airJump|1",
-              "$hasAmount|slide|1 , $hasAmount|jetpack|1",
-              "$hasAmount|slide|1 , $hasAmount|airDash|1",
-              "$hasAmount|slide|1"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Valhalla's Breath (West)",
-            "x": 648,
-            "y": 312
           }
         ]
       },
@@ -3232,6 +3135,142 @@
             "map": "Valhalla's Breath (West)",
             "x": 840,
             "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Valhalla Breath West - Money Room X: 22 Y: 1",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "500 Zennie Pack #1",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow",
+              "$hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #2",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow",
+              "$hasAmount|dagger|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla's Breath (West)",
+            "x": 984,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Valhalla Breath West 1",
+    "access_rules": [
+      "@Heavens Valley West,$hasAmount|jetpack|1 , $canBombThrow",
+      "@Heavens Valley West,$hasAmount|jetpack|1 , [hiddenPaths]",
+      "@Heavens Valley West,$hasAmount|airDash|1 , $canBombThrow",
+      "@Heavens Valley West,$hasAmount|airDash|1 , [hiddenPaths]",
+      "@Heavens Valley West,$hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1 , $canBombThrow",
+      "@Heavens Valley West,$hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1 , [hiddenPaths]",
+      "@Heavens Valley West,$hasAmount|airJump|1 , $canBombThrow",
+      "@Heavens Valley West,$hasAmount|airJump|1 , [hiddenPaths]",
+      "@Heavens Valley West,$canChargeShot , $canBombThrow",
+      "@Heavens Valley West,$canChargeShot , [hiddenPaths]"
+    ],
+    "children": [
+      {
+        "name": "Valhalla Breath West - Light",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EVENT_Light",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla's Breath (West)",
+            "x": 600,
+            "y": 216,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Valhalla Breath West - Orbital Slash",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Orbital Slash",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla's Breath (West)",
+            "x": 648,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Valhalla Breath West - Combo Momentum: Fever",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Combo Momentum: Fever",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla's Breath (West)",
+            "x": 1176,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Valhalla Breath West - Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|slide|1 , $hasAmount|airJump|1",
+              "$hasAmount|slide|1 , $hasAmount|jetpack|1",
+              "$hasAmount|slide|1 , $hasAmount|airDash|1",
+              "$hasAmount|slide|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Valhalla's Breath (West)",
+            "x": 648,
+            "y": 312
           }
         ]
       },
@@ -3296,46 +3335,15 @@
             "y": 312
           }
         ]
-      },
-      {
-        "name": "Valhalla Breath West - Money Room X: 22 Y: 1",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "500 Zennie Pack #1",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
-            ]
-          },
-          {
-            "name": "500 Zennie Pack #2",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Valhalla's Breath (West)",
-            "x": 984,
-            "y": 24
-          }
-        ]
       }
     ]
   },
   {
     "name": "Valhalla Breath West Extended",
     "access_rules": [
-      "@Valhalla Breath West,$hasAmount|airDash|1",
-      "@Valhalla Breath West,$hasAmount|airJump|1",
-      "@Valhalla Breath West,$hasAmount|jetpack|1"
+      "@Valhalla Breath West 2,$hasAmount|airDash|1",
+      "@Valhalla Breath West 2,$hasAmount|airJump|1",
+      "@Valhalla Breath West 2,$hasAmount|jetpack|1"
     ],
     "children": [
       {
@@ -23317,7 +23325,8 @@
   {
     "name": "West Breath Enemies",
     "access_rules": [
-      "@Valhalla Breath West",
+      "@Valhalla Breath West 2",
+      "@Valhalla Breath West 1",
       "@Heavens Valley West"
     ],
     "children": [
@@ -25217,6 +25226,15 @@
       "@Dreamless Depths,$hasAmount|slide|1 , $hasAmount|bombs|1",
       "@Dreamless Depths,$hasAmount|slide|1 , $canBombThrow",
       "@TeleportHub,$canUseTeleporter|22"
+    ],
+    "children": []
+  },
+  {
+    "name": "Heavens Valley West 1",
+    "clear_as_group": false,
+    "access_rules": [
+      "@Valhalla Breath West 2,$hasAmount|bombs|1",
+      "@Valhalla Breath West 2,$canBombThrow"
     ],
     "children": []
   },
