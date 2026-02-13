@@ -277,5 +277,14 @@ knownMapLocation = {
             "PixelX":48*0,
             "PixelY":48*0,
         }
+    },
+    98: {
+        "areaName":"Bosses",
+        "StartRoom":{
+            "X":0,
+            "Y":0,
+            "PixelX":48*0,
+            "PixelY":48*0,
+        }
     }
 }

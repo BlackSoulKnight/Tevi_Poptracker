@@ -185,5 +185,11 @@
     "location_size":24,
     "location_border_thickness":4,
     "img": "images/maps/Crafting.PNG"
+  },
+  {
+    "name": "Bosses",
+    "location_size": 24,
+    "location_border_thickness": 4,
+    "img": "images/maps/Bosses.PNG"
   }
 ]
