@@ -9137,5 +9137,24 @@
                 ]
             }
         ]
+    },
+    "981502": {
+        "name": "Oasis - Lily Fight",
+        "sections": [
+            {
+                "name": "PK Recon Badge",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            },
+            {
+                "name": "Astral Gear",
+                "item_count": 1,
+                "access_rules": [
+                    "$True"
+                ]
+            }
+        ]
     }
 }
