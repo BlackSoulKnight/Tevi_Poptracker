@@ -86,16 +86,28 @@ function apply_slot_data(slot_data)
 	local SLOT_DATA = slot_data
 
 	--Tracker:FindObjectForCode("gearTotal").AcquiredCount = SLOT_DATA["GoalCount"]
-	Tracker:FindObjectForCode("freeAttackUp").AcquiredCount = SLOT_DATA["options"]["free_attack_up"]
+	if SLOT_DATA["options"]["free_attack_up"] then
+		Tracker:FindObjectForCode("freeAttackUp").AcquiredCount = SLOT_DATA["options"]["free_attack_up"]
+	end
 
-
-
+	if SLOT_DATA["options"]["open_morose"] then
 	Tracker:FindObjectForCode("openMorose").Active = SLOT_DATA["options"]["open_morose"] > 0
+	end
+	if SLOT_DATA["options"]["randomize_knife"] then
 	Tracker:FindObjectForCode("randomizeKnife").Active = SLOT_DATA["options"]["randomize_knife"] > 0
+	end
+	if SLOT_DATA["options"]["randomize_orb"] then
 	Tracker:FindObjectForCode("randomizeOrb").Active = SLOT_DATA["options"]["randomize_orb"] > 0
+	end
+	if SLOT_DATA["options"]["randomize_item_upgrade"] then
 	Tracker:FindObjectForCode("randomizeItemUpgrades").Active = SLOT_DATA["options"]["randomize_item_upgrade"]
+	end
+	if SLOT_DATA["options"]["chaos_mode"] then
 	Tracker:FindObjectForCode("chaosMode").Active = SLOT_DATA["options"]["chaos_mode"] > 0
-	Tracker:FindObjectForCode("startWithCelia/Sable").Active = SLOT_DATA["options"]["celia_sable"] > 0 
+	end
+	if SLOT_DATA["options"]["celia_sable"] then
+	Tracker:FindObjectForCode("startWithCelia/Sable").Active = SLOT_DATA["options"]["celia_sable"] > 0
+	end
 	
 	if SLOT_DATA["options"]["RJump"] then
 		Tracker:FindObjectForCode("rabbitJump").Active = SLOT_DATA["options"]["RJump"] > 0
