@@ -31,7 +31,7 @@ function notTeleporter()
     return Tracker:FindObjectForCode("teleporterMode").Active  == 0
 end
 
-function canFinish()
+function CanFinish()
     if SLOT_DATA ~= nil then
         return goal_count <= Tracker:FindObjectForCode("gear")
     end

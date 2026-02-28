@@ -9,9 +9,9 @@
   // enables SNES memory autotracking interface - remove/change if not needed
   "platform": "PC",
   "author": "Swagalicous",
-  "min_poptracker_version": "0.25.9",
+  "min_poptracker_version": "0.34.0",
   // put the version you tested against here!
-  "target_poptracker_version": "0.30.0",
+  "target_poptracker_version": "0.34.0",
   "variants": {
     "standard": {
       "display_name": "Map Tracker",
