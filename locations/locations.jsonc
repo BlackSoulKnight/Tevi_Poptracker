@@ -1301,17 +1301,17 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|airJump|1",
-              "$hasAmount|bombs|1 , $hasAmount|highJump|1",
               "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
               "$hasAmount|bombs|1 , $hasAmount|airDash|1",
               "$canBombThrow , $hasAmount|airJump|1",
-              "$canBombThrow , $hasAmount|highJump|1",
               "$canBombThrow , $hasAmount|jetpack|1",
               "$canBombThrow , $hasAmount|airDash|1",
               "$hasAmount|dagger|1 , $hasAmount|airJump|1",
-              "$hasAmount|dagger|1 , $hasAmount|highJump|1",
               "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
-              "$hasAmount|dagger|1 , $hasAmount|airDash|1"
+              "$hasAmount|dagger|1 , $hasAmount|airDash|1",
+              "$hasAmount|bombs|1 , $hasAmount|highJump|1",
+              "$canBombThrow , $hasAmount|highJump|1",
+              "$hasAmount|dagger|1 , $hasAmount|highJump|1"
             ]
           },
           {
@@ -1319,17 +1319,17 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|airJump|1",
-              "$hasAmount|bombs|1 , $hasAmount|highJump|1",
               "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
               "$hasAmount|bombs|1 , $hasAmount|airDash|1",
               "$canBombThrow , $hasAmount|airJump|1",
-              "$canBombThrow , $hasAmount|highJump|1",
               "$canBombThrow , $hasAmount|jetpack|1",
               "$canBombThrow , $hasAmount|airDash|1",
               "$hasAmount|dagger|1 , $hasAmount|airJump|1",
-              "$hasAmount|dagger|1 , $hasAmount|highJump|1",
               "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
-              "$hasAmount|dagger|1 , $hasAmount|airDash|1"
+              "$hasAmount|dagger|1 , $hasAmount|airDash|1",
+              "$hasAmount|bombs|1 , $hasAmount|highJump|1",
+              "$canBombThrow , $hasAmount|highJump|1",
+              "$hasAmount|dagger|1 , $hasAmount|highJump|1"
             ]
           },
           {
@@ -1337,17 +1337,17 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|airJump|1",
-              "$hasAmount|bombs|1 , $hasAmount|highJump|1",
               "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
               "$hasAmount|bombs|1 , $hasAmount|airDash|1",
               "$canBombThrow , $hasAmount|airJump|1",
-              "$canBombThrow , $hasAmount|highJump|1",
               "$canBombThrow , $hasAmount|jetpack|1",
               "$canBombThrow , $hasAmount|airDash|1",
               "$hasAmount|dagger|1 , $hasAmount|airJump|1",
-              "$hasAmount|dagger|1 , $hasAmount|highJump|1",
               "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
-              "$hasAmount|dagger|1 , $hasAmount|airDash|1"
+              "$hasAmount|dagger|1 , $hasAmount|airDash|1",
+              "$hasAmount|bombs|1 , $hasAmount|highJump|1",
+              "$canBombThrow , $hasAmount|highJump|1",
+              "$hasAmount|dagger|1 , $hasAmount|highJump|1"
             ]
           },
           {
@@ -1355,17 +1355,17 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|airJump|1",
-              "$hasAmount|bombs|1 , $hasAmount|highJump|1",
               "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
               "$hasAmount|bombs|1 , $hasAmount|airDash|1",
               "$canBombThrow , $hasAmount|airJump|1",
-              "$canBombThrow , $hasAmount|highJump|1",
               "$canBombThrow , $hasAmount|jetpack|1",
               "$canBombThrow , $hasAmount|airDash|1",
               "$hasAmount|dagger|1 , $hasAmount|airJump|1",
-              "$hasAmount|dagger|1 , $hasAmount|highJump|1",
               "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
-              "$hasAmount|dagger|1 , $hasAmount|airDash|1"
+              "$hasAmount|dagger|1 , $hasAmount|airDash|1",
+              "$hasAmount|bombs|1 , $hasAmount|highJump|1",
+              "$canBombThrow , $hasAmount|highJump|1",
+              "$hasAmount|dagger|1 , $hasAmount|highJump|1"
             ]
           }
         ],
@@ -17365,7 +17365,8 @@
             "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
-              "$True"
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
             ]
           }
         ],
@@ -19063,29 +19064,6 @@
         ]
       },
       {
-        "name": "DreamKeeper - Boss Alius",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "EVENT_BOSS",
-            "item_count": 1,
-            "access_rules": [
-              "$True"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Dreamers Keep",
-            "x": 552,
-            "y": 552,
-            "force_invisibility_rules": [
-              "$True"
-            ]
-          }
-        ]
-      },
-      {
         "name": "DreamKeeper - Refractor",
         "access_rules": [],
         "sections": [
@@ -19321,6 +19299,30 @@
             "map": "Bosses",
             "x": 600,
             "y": 408
+          }
+        ]
+      },
+      {
+        "name": "DreamKeeper - Boss Alius",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EVENT_BOSS",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dreamers Keep",
+            "x": 552,
+            "y": 552,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
