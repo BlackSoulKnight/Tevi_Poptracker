@@ -23649,18 +23649,11 @@
             "name": "Mananite Shard #16",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
-            ]
-          },
-          {
-            "name": "Mananite Shard #17",
-            "item_count": 1,
-            "access_rules": [
               "$Chapter|6"
             ]
           },
           {
-            "name": "Mananite Shard #18",
+            "name": "Mananite Shard #17",
             "item_count": 1,
             "access_rules": [
               "$Chapter|6"
