@@ -6774,10 +6774,10 @@
   {
     "name": "Ulskan To Plague Forest",
     "access_rules": [
-      "@Ulskan Village Area,$canBombThrow , $hasAmount|jetpack|1 , $canUseVenaBomb",
-      "@Ulskan Village Area,$canBombThrow , $hasAmount|airJump|1 , $canUseVenaBomb",
-      "@Ulskan Village Area,$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|jetpack|1 , $canUseVenaBomb",
-      "@Ulskan Village Area,$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|airJump|1 , $canUseVenaBomb",
+      "@Ulskan Village Area,$canBombThrow , $hasAmount|jetpack|1 , $canUseVenaBomb , $hasAmount|slide|1",
+      "@Ulskan Village Area,$canBombThrow , $hasAmount|airJump|1 , $canUseVenaBomb , $hasAmount|slide|1",
+      "@Ulskan Village Area,$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|jetpack|1 , $canUseVenaBomb , $hasAmount|slide|1",
+      "@Ulskan Village Area,$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|airJump|1 , $canUseVenaBomb , $hasAmount|slide|1",
       "@Exit Logic/0904"
     ],
     "children": [
