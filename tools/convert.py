@@ -5,10 +5,9 @@ from python_files.logicParser import parse_expression_logic
 import zipfile
 
 Path = os.path.dirname(os.path.realpath(__file__))
-
-TeviToApNames = json.load(open(Path+"\\resource\\ItemToReal.json"))
-ApNamesToTevi = {name: data for name, data in TeviToApNames.items()}
-ApNames = [name for name in TeviToApNames.values()]
+TeviToApNames = json.load(open(Path+"\\resource\\Items.json"))
+ApNamesToTevi = {data["Name"]: data["DisplayName"] for data in TeviToApNames}
+ApNames = [name["DisplayName"] for name in TeviToApNames]
 
 regionsIds = {}
 regionLocations = {}
@@ -52,12 +51,11 @@ for v in PoptrackerList:
 
 extra = open(Path+"\\..\\scripts\\autotracking\\location_mapping.lua",'w+')
 ## start stuff
-extra.write("BASE_LOCATION_ID = 44966541000\n LOCATION_MAPPING = {\n")
+extra.write("BASE_LOCATION_ID = 0\n LOCATION_MAPPING = {\n")
 
 
 utTracker = open(Path+"\\UT_Tracker_Mapping.txt",'w+')
 
-baseID = 44966541000
 
 
 locationList = {}
@@ -162,9 +160,8 @@ for val in RandomizerLocationList:
 
 
     
-    extra.write(f"\t[{baseID}] ="+"{{"+f'"@{val["Location"]}/{locationName}/{itemName}"'+"}},\n")
-    utTracker.write(f'"{locationName}/{itemName}":{baseID},\n')
-    baseID += 1
+    extra.write(f"\t[{val["LocationID"]}] ="+"{{"+f'"@{val["Location"]}/{locationName}/{itemName}"'+"}},\n")
+    utTracker.write(f'"{locationName}/{itemName}":{val["LocationID"]},\n')
 
 change = False
 for k,v in locationList.items():
