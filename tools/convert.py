@@ -159,8 +159,8 @@ for val in RandomizerLocationList:
         PoptrackerList[regionsIds[val["Location"]]]["children"].append(locTemplate)
 
 
-    
-    extra.write(f"\t[{val["LocationID"]}] ="+"{{"+f'"@{val["Location"]}/{locationName}/{itemName}"'+"}},\n")
+    if val["LocationID"] != 0:
+        extra.write(f"\t[{val["LocationID"]}] ="+"{{"+f'"@{val["Location"]}/{locationName}/{itemName}"'+"}},\n")
     utTracker.write(f'"{locationName}/{itemName}":{val["LocationID"]},\n')
 
 change = False
