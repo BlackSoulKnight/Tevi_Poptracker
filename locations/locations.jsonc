@@ -19516,11 +19516,7 @@
               "$canBombThrow , $hasAmount|highJump|1 , $hasAmount|slide|1",
               "$canBombThrow , $hasAmount|jetpack|1 , $hasAmount|slide|1",
               "$canBombThrow , $hasAmount|airJump|1 , $hasAmount|slide|1",
-              "$canBombThrow , $hasAmount|wallJump|1 , $hasAmount|slide|1",
-              "$hasAmount|dagger|1 , $hasAmount|highJump|1 , $hasAmount|slide|1",
-              "$hasAmount|dagger|1 , $hasAmount|jetpack|1 , $hasAmount|slide|1",
-              "$hasAmount|dagger|1 , $hasAmount|airJump|1 , $hasAmount|slide|1",
-              "$hasAmount|dagger|1 , $hasAmount|wallJump|1 , $hasAmount|slide|1"
+              "$canBombThrow , $hasAmount|wallJump|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -20608,8 +20604,7 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|bombRange|3",
-              "$canBombThrow , $hasAmount|bombRange|3",
-              "$hasAmount|dagger|1 , $hasAmount|bombRange|3"
+              "$hasAmount|dagger|1"
             ]
           },
           {
@@ -20617,8 +20612,7 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|bombRange|3",
-              "$canBombThrow , $hasAmount|bombRange|3",
-              "$hasAmount|dagger|1 , $hasAmount|bombRange|3"
+              "$hasAmount|dagger|1"
             ]
           },
           {
@@ -20626,8 +20620,7 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|bombRange|3",
-              "$canBombThrow , $hasAmount|bombRange|3",
-              "$hasAmount|dagger|1 , $hasAmount|bombRange|3"
+              "$hasAmount|dagger|1"
             ]
           },
           {
@@ -20635,8 +20628,7 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|bombRange|3",
-              "$canBombThrow , $hasAmount|bombRange|3",
-              "$hasAmount|dagger|1 , $hasAmount|bombRange|3"
+              "$hasAmount|dagger|1"
             ]
           }
         ],
@@ -25338,6 +25330,81 @@
             "map": "Sinner's Oath",
             "x": 600,
             "y": 408
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pestilence",
+    "access_rules": [
+      "@Plague Forest,$hasAmount|bombs|1",
+      "@Plague Forest,$canBombThrow",
+      "@Outer Moat",
+      "@Verdazure Ocean"
+    ],
+    "children": [
+      {
+        "name": "Unique Enemy Mananite - Pestilence",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Plagued Forest",
+            "x": 120,
+            "y": 264
+          },
+          {
+            "map": "Verdazure Sea",
+            "x": 696,
+            "y": 120
+          },
+          {
+            "map": "Forgotten City + Ocean",
+            "x": 1224,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pestilence_Range",
+    "access_rules": [
+      "@Ulvosa",
+      "@Verdazure Ocean"
+    ],
+    "children": [
+      {
+        "name": "Unique Enemy Mananite - Pestilence_Range",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ulvosa",
+            "x": 600,
+            "y": 24
+          },
+          {
+            "map": "Forgotten City + Ocean",
+            "x": 984,
+            "y": 168
           }
         ]
       }
