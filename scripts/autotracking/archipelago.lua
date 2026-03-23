@@ -252,7 +252,7 @@ function onItem(index, item_id, item_name, player_number)
 	CUR_INDEX = index;
 	local mapping_entry = ITEM_MAPPING[item_id]
 	if not mapping_entry then
-		local teleporterID = item_id - 44966541500
+		local teleporterID = item_id - 1000
 		if teleporterID >= 0 and teleporterID < 37 then
 			teleporters[teleporterID] = true
 			incrementItem("rndCounter","consumable")
