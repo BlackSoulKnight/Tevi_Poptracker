@@ -14,7 +14,7 @@ SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 AP_WORLD_VERSION = "0.6.12"
-
+TELEPORTE_START_ID = 1000
 -- resets an item to its initial state
 function resetItem(item_code, item_type)
 	local obj = Tracker:FindObjectForCode(item_code)
@@ -96,6 +96,10 @@ function apply_slot_data(slot_data)
 	if SLOT_DATA["options"]["randomize_knife"] then
 	Tracker:FindObjectForCode("randomizeKnife").Active = SLOT_DATA["options"]["randomize_knife"] > 0
 	end
+	end
+	if SLOT_DATA["StartIDTeleporter"] then
+		TELEPORTE_START_ID = SLOT_DATA["StartIDTeleporter"]
+	end
 	if SLOT_DATA["options"]["randomize_orb"] then
 	Tracker:FindObjectForCode("randomizeOrb").Active = SLOT_DATA["options"]["randomize_orb"] > 0
 	end
@@ -103,7 +107,7 @@ function apply_slot_data(slot_data)
 	if SLOT_DATA["options"]["randomize_money"] then
 		Tracker:FindObjectForCode("randomizeMoney").Active = SLOT_DATA["options"]["randomize_money"]
 	end
-	
+
 	end
 	if SLOT_DATA["options"]["randomize_item_upgrade"] then
 	Tracker:FindObjectForCode("randomizeItemUpgrades").Active = SLOT_DATA["options"]["randomize_item_upgrade"]
@@ -252,7 +256,7 @@ function onItem(index, item_id, item_name, player_number)
 	CUR_INDEX = index;
 	local mapping_entry = ITEM_MAPPING[item_id]
 	if not mapping_entry then
-		local teleporterID = item_id - 1000
+		local teleporterID = item_id - TELEPORTE_START_ID
 		if teleporterID >= 0 and teleporterID < 37 then
 			teleporters[teleporterID] = true
 			incrementItem("rndCounter","consumable")
