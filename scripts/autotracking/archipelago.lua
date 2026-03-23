@@ -96,7 +96,7 @@ function apply_slot_data(slot_data)
 	if SLOT_DATA["options"]["randomize_knife"] then
 	Tracker:FindObjectForCode("randomizeKnife").Active = SLOT_DATA["options"]["randomize_knife"] > 0
 	end
-	end
+
 	if SLOT_DATA["StartIDTeleporter"] then
 		TELEPORTE_START_ID = SLOT_DATA["StartIDTeleporter"]
 	end
@@ -105,10 +105,9 @@ function apply_slot_data(slot_data)
 	end
 
 	if SLOT_DATA["options"]["randomize_money"] then
-		Tracker:FindObjectForCode("randomizeMoney").Active = SLOT_DATA["options"]["randomize_money"]
+		Tracker:FindObjectForCode("randomizeMoney").Active = SLOT_DATA["options"]["randomize_money"] == 1
 	end
 
-	end
 	if SLOT_DATA["options"]["randomize_item_upgrade"] then
 	Tracker:FindObjectForCode("randomizeItemUpgrades").Active = SLOT_DATA["options"]["randomize_item_upgrade"]
 	end

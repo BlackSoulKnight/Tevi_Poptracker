@@ -74,7 +74,7 @@ function Chapter (count)
     bossCounter = bossCounter + math.min(Tracker:FindObjectForCode("@Forgotten City/Forgotten City - Boss/EVENT_BOSS").AccessibilityLevel,1) 
     bossCounter = bossCounter + math.min(Tracker:FindObjectForCode("@Snowveil Ex/Snowveil - Boss/EVENT_BOSS").AccessibilityLevel,1) 
     bossCounter = bossCounter + math.min(Tracker:FindObjectForCode("@Golden Hands HQ Sewer/Golden Hands HQ Sewer - Boss/EVENT_BOSS").AccessibilityLevel,1) 
-    bossCounter = bossCounter + math.min(Tracker:FindObjectForCode("@DreamKeeper/DreamKeeper - Boss Alius/EVENT_BOSS").AccessibilityLevel,1) 
+    bossCounter = bossCounter + math.min(Tracker:FindObjectForCode("@Teleporter DreamKeeper Inside/DreamKeeper - Boss Alius/EVENT_BOSS").AccessibilityLevel,1) 
     bossCounter = bossCounter + math.min(Tracker:FindObjectForCode("@DreamKeeper/DreamKeeper - Boss Charon/EVENT_BOSS").AccessibilityLevel,1) 
     bossCounter = bossCounter + math.min(Tracker:FindObjectForCode("@Illusion Palace Entrance/Illusion Palace Entrance - Boss/EVENT_BOSS").AccessibilityLevel,1)
     if (bossCounter >= 1) then
