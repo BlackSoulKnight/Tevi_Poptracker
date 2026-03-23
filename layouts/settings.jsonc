@@ -51,7 +51,8 @@
                                         "transitionShuffle"
                                     ],
                                     [
-                                        "teleporterMode"
+                                        "teleporterMode",
+                                        "randomizeMoney"
                                     ]
                                 ]
                             }

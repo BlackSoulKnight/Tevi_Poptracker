@@ -27,6 +27,11 @@ function canAccessExit(exit_name)
     return loc.AccessibilityLevel
 end
 
+
+function ShowMoney()
+    return not Tracker:FindObjectForCode("randomizeMoney").Active
+end
+
 function notTeleporter()
     return Tracker:FindObjectForCode("teleporterMode").Active  == 0
 end

@@ -499,6 +499,12 @@
 		"codes": "randomizeItemUpgrades"
 	},
 	{
+		"name": "Randomize Money",
+		"type": "toggle",
+		"img": "images/items/randomizeMoney.png",
+		"codes": "randomizeMoney"
+	},
+	{
 		"name": "Chaos Mode",
 		"type": "toggle",
 		"img": "images/items/chaosMode.png",

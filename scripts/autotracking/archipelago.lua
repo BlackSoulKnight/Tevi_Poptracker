@@ -99,6 +99,12 @@ function apply_slot_data(slot_data)
 	if SLOT_DATA["options"]["randomize_orb"] then
 	Tracker:FindObjectForCode("randomizeOrb").Active = SLOT_DATA["options"]["randomize_orb"] > 0
 	end
+
+	if SLOT_DATA["options"]["randomize_money"] then
+		Tracker:FindObjectForCode("randomizeMoney").Active = SLOT_DATA["options"]["randomize_money"]
+	end
+	
+	end
 	if SLOT_DATA["options"]["randomize_item_upgrade"] then
 	Tracker:FindObjectForCode("randomizeItemUpgrades").Active = SLOT_DATA["options"]["randomize_item_upgrade"]
 	end
