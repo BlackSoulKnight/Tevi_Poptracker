@@ -3600,32 +3600,32 @@
             "name": "500 Zennie Pack #1",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1",
-              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|dagger|1"
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
             ]
           },
           {
             "name": "500 Zennie Pack #2",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1",
-              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|dagger|1"
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
             ]
           },
           {
             "name": "500 Zennie Pack #3",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1",
-              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|dagger|1"
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
             ]
           },
           {
             "name": "500 Zennie Pack #4",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1",
-              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|dagger|1"
+              "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1",
+              "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
             ]
           }
         ],
@@ -7268,7 +7268,7 @@
         ]
       },
       {
-        "name": "Plague Forest - Grape Bunny Potion",
+        "name": "Item Room",
         "access_rules": [],
         "sections": [
           {
@@ -25345,7 +25345,7 @@
     ],
     "children": [
       {
-        "name": "Unique Enemy Mananite - Pestilence",
+        "name": "Item Room",
         "access_rules": [],
         "sections": [
           {
