@@ -20053,7 +20053,6 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
-              "$canBombThrow , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
               "$hasAmount|dagger|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1"
             ]
           },
@@ -20062,7 +20061,6 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
-              "$canBombThrow , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
               "$hasAmount|dagger|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1"
             ]
           },
@@ -20071,7 +20069,6 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
-              "$canBombThrow , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
               "$hasAmount|dagger|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1"
             ]
           },
@@ -20080,7 +20077,6 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
-              "$canBombThrow , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
               "$hasAmount|dagger|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1"
             ]
           },
@@ -20089,7 +20085,6 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
-              "$canBombThrow , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
               "$hasAmount|dagger|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1"
             ]
           }
