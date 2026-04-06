@@ -11954,15 +11954,12 @@
     ]
   },
   {
-    "name": "Lab",
+    "name": "Lab Left",
     "access_rules": [
-      "@Lab Left,$hasAmount|bombs|1 , $hasAmount|airJump|1",
-      "@Lab Left,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
-      "@Lab Left,$hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
-      "@Lab Left,$hasAmount|bombs|1 , $canRabbitWallJump",
-      "@Lab to Verdazure Swamp Connection,$hasAmount|bombRange|3 , $hasAmount|bombs|1",
-      "@Teleporter Lab,$hasAmount|bombs|1 , $hasAmount|slide|1",
-      "@Teleporter Lab,$canBombThrow , $hasAmount|slide|1"
+      "@Lab Hub,$hasAmount|airJump|1 , $hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Lab Hub,$hasAmount|airDash|1 , $hasAmount|wallJump|1 , $hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Lab Hub,$hasAmount|jetpack|1 , $hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Lab Hub,$canRabbitWallJump , $hasAmount|slide|1 , $hasAmount|bombs|1"
     ],
     "children": [
       {
@@ -11986,6 +11983,135 @@
           }
         ]
       },
+      {
+        "name": "Lab - EP Booster: Dodge",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EP Booster: Dodge",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Catacombs + Lab",
+            "x": 600,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Lab - Money Room X: 13 Y: 12",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "500 Zennie Pack #1",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow",
+              "$hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #2",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow",
+              "$hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #3",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow",
+              "$hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #4",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow",
+              "$hasAmount|dagger|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Catacombs + Lab",
+            "x": 648,
+            "y": 408,
+            "force_invisibility_rules": [
+              "$ShowMoney"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lab - Money Room X: 15 Y: 14",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "500 Zennie Pack #1",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow",
+              "$hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #2",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow",
+              "$hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #3",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow",
+              "$hasAmount|dagger|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Catacombs + Lab",
+            "x": 744,
+            "y": 504,
+            "force_invisibility_rules": [
+              "$ShowMoney"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lab",
+    "access_rules": [
+      "@Lab Left,$hasAmount|bombs|1 , $hasAmount|airJump|1",
+      "@Lab Left,$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+      "@Lab Left,$hasAmount|bombs|1 , $hasAmount|wallJump|1 , $hasAmount|airDash|1",
+      "@Lab Left,$hasAmount|bombs|1 , $canRabbitWallJump",
+      "@Lab to Verdazure Swamp Connection,$hasAmount|bombRange|3 , $hasAmount|bombs|1",
+      "@Teleporter Lab,$hasAmount|bombs|1 , $hasAmount|slide|1",
+      "@Teleporter Lab,$canBombThrow , $hasAmount|slide|1"
+    ],
+    "children": [
       {
         "name": "Lab - Grape Bunny Potion",
         "access_rules": [],
@@ -12015,7 +12141,9 @@
             "name": "Dodge Enhancer: Spiral",
             "item_count": 1,
             "access_rules": [
-              "$True"
+              "$hasAmount|airDash|1",
+              "$hasAmount|jetpack|1",
+              "$hasAmount|airJump|1"
             ]
           }
         ],
@@ -12075,8 +12203,12 @@
             "name": "Lemon Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow"
+              "$hasAmount|bombs|1 , $hasAmount|airDash|1",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$canBombThrow , $hasAmount|airDash|1",
+              "$canBombThrow , $hasAmount|jetpack|1",
+              "$canBombThrow , $hasAmount|airJump|1"
             ]
           }
         ],
@@ -12167,8 +12299,12 @@
             "name": "C. Rank Frenzy: Focus A",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow"
+              "$hasAmount|bombs|1 , $hasAmount|airDash|1",
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$canBombThrow , $hasAmount|airDash|1",
+              "$canBombThrow , $hasAmount|jetpack|1",
+              "$canBombThrow , $hasAmount|airJump|1"
             ]
           }
         ],
@@ -12290,54 +12426,90 @@
             "name": "500 Zennie Pack #1",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+              "$hasAmount|bombs|1 , $hasAmount|airDash|1",
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$canBombThrow , $hasAmount|jetpack|1",
+              "$canBombThrow , $hasAmount|airDash|1",
+              "$canBombThrow , $hasAmount|airJump|1",
+              "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
+              "$hasAmount|dagger|1 , $hasAmount|airDash|1",
+              "$hasAmount|dagger|1 , $hasAmount|airJump|1"
             ]
           },
           {
             "name": "500 Zennie Pack #2",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+              "$hasAmount|bombs|1 , $hasAmount|airDash|1",
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$canBombThrow , $hasAmount|jetpack|1",
+              "$canBombThrow , $hasAmount|airDash|1",
+              "$canBombThrow , $hasAmount|airJump|1",
+              "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
+              "$hasAmount|dagger|1 , $hasAmount|airDash|1",
+              "$hasAmount|dagger|1 , $hasAmount|airJump|1"
             ]
           },
           {
             "name": "500 Zennie Pack #3",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+              "$hasAmount|bombs|1 , $hasAmount|airDash|1",
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$canBombThrow , $hasAmount|jetpack|1",
+              "$canBombThrow , $hasAmount|airDash|1",
+              "$canBombThrow , $hasAmount|airJump|1",
+              "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
+              "$hasAmount|dagger|1 , $hasAmount|airDash|1",
+              "$hasAmount|dagger|1 , $hasAmount|airJump|1"
             ]
           },
           {
             "name": "500 Zennie Pack #4",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+              "$hasAmount|bombs|1 , $hasAmount|airDash|1",
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$canBombThrow , $hasAmount|jetpack|1",
+              "$canBombThrow , $hasAmount|airDash|1",
+              "$canBombThrow , $hasAmount|airJump|1",
+              "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
+              "$hasAmount|dagger|1 , $hasAmount|airDash|1",
+              "$hasAmount|dagger|1 , $hasAmount|airJump|1"
             ]
           },
           {
             "name": "500 Zennie Pack #5",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+              "$hasAmount|bombs|1 , $hasAmount|airDash|1",
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$canBombThrow , $hasAmount|jetpack|1",
+              "$canBombThrow , $hasAmount|airDash|1",
+              "$canBombThrow , $hasAmount|airJump|1",
+              "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
+              "$hasAmount|dagger|1 , $hasAmount|airDash|1",
+              "$hasAmount|dagger|1 , $hasAmount|airJump|1"
             ]
           },
           {
             "name": "500 Zennie Pack #6",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
+              "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+              "$hasAmount|bombs|1 , $hasAmount|airDash|1",
+              "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$canBombThrow , $hasAmount|jetpack|1",
+              "$canBombThrow , $hasAmount|airDash|1",
+              "$canBombThrow , $hasAmount|airJump|1",
+              "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
+              "$hasAmount|dagger|1 , $hasAmount|airDash|1",
+              "$hasAmount|dagger|1 , $hasAmount|airJump|1"
             ]
           }
         ],
@@ -12425,135 +12597,11 @@
     ]
   },
   {
-    "name": "Lab Left",
-    "access_rules": [
-      "@Lab Hub,$hasAmount|airJump|1 , $hasAmount|slide|1 , $hasAmount|bombs|1",
-      "@Lab Hub,$hasAmount|airDash|1 , $hasAmount|wallJump|1 , $hasAmount|slide|1 , $hasAmount|bombs|1",
-      "@Lab Hub,$hasAmount|jetpack|1 , $hasAmount|slide|1 , $hasAmount|bombs|1",
-      "@Lab Hub,$canRabbitWallJump , $hasAmount|slide|1 , $hasAmount|bombs|1"
-    ],
-    "children": [
-      {
-        "name": "Lab - EP Booster: Dodge",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "EP Booster: Dodge",
-            "item_count": 1,
-            "access_rules": [
-              "$True"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Catacombs + Lab",
-            "x": 600,
-            "y": 456
-          }
-        ]
-      },
-      {
-        "name": "Lab - Money Room X: 13 Y: 12",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "500 Zennie Pack #1",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
-            ]
-          },
-          {
-            "name": "500 Zennie Pack #2",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
-            ]
-          },
-          {
-            "name": "500 Zennie Pack #3",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
-            ]
-          },
-          {
-            "name": "500 Zennie Pack #4",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Catacombs + Lab",
-            "x": 648,
-            "y": 408,
-            "force_invisibility_rules": [
-              "$ShowMoney"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Lab - Money Room X: 15 Y: 14",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "500 Zennie Pack #1",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
-            ]
-          },
-          {
-            "name": "500 Zennie Pack #2",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
-            ]
-          },
-          {
-            "name": "500 Zennie Pack #3",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow",
-              "$hasAmount|dagger|1"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Catacombs + Lab",
-            "x": 744,
-            "y": 504,
-            "force_invisibility_rules": [
-              "$ShowMoney"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "Lab to Verdazure Swamp Connection",
     "access_rules": [
-      "@Lab,$hasAmount|bombRange|3 , $hasAmount|bombs|1",
+      "@Lab,$hasAmount|bombRange|3 , $hasAmount|bombs|1 , $hasAmount|airJump|1",
+      "@Lab,$hasAmount|bombRange|3 , $hasAmount|bombs|1 , $hasAmount|jetpack|1",
+      "@Lab,$hasAmount|bombRange|3 , $hasAmount|bombs|1 , $hasAmount|airDash|1",
       "@Exit Logic/2510"
     ],
     "children": [
