@@ -146,10 +146,11 @@ function hasFire()
     Tracker:FindObjectForCode("@Travoll Mines/Travoll Mines - Fire/EVENT_Fire").AccessibilityLevel
     )
     
+    local obj = Tracker:FindObjectForCode("fireElement")
     if accessibilityLevel >= AccessibilityLevel.Normal then
-        local obj = Tracker:FindObjectForCode("fireElement")
         obj.Active = true
     end
+    return obj.Active
 end
 function hasWater()
 	
@@ -158,10 +159,11 @@ function hasWater()
     Tracker:FindObjectForCode("@Verdazure Sea East/Verdazure Sea - Water/EVENT_Water").AccessibilityLevel
     )
     
+    local obj = Tracker:FindObjectForCode("waterElement")
     if accessibilityLevel >= AccessibilityLevel.Normal then
-        local obj = Tracker:FindObjectForCode("waterElement")
         obj.Active = true
     end
+    return obj.Active
 end
 function hasEarth()
 	
@@ -169,11 +171,11 @@ function hasEarth()
     Tracker:FindObjectForCode("@Gloamwood Middle/Gloamwood Upper - Earth/EVENT_Earth").AccessibilityLevel,
     Tracker:FindObjectForCode("@Gloamwood Right/Ulskan Village Area - Earth/EVENT_Earth").AccessibilityLevel
     )
-    
+    local obj = Tracker:FindObjectForCode("earthElement")
     if accessibilityLevel >= AccessibilityLevel.Normal then
-        local obj = Tracker:FindObjectForCode("earthElement")
         obj.Active = true
     end
+    return obj.Active
 end
 function hasAir()
 	
@@ -182,10 +184,11 @@ function hasAir()
     Tracker:FindObjectForCode("@Snowveil Above HQ/Snowveil Above HQ - Air/EVENT_Air").AccessibilityLevel,
     Tracker:FindObjectForCode("@Heavens Valley Snow Route Low/Heavens Valley Snow Route Low - Air/EVENT_Air").AccessibilityLevel
     )
+    local obj = Tracker:FindObjectForCode("airElement")
     if accessibilityLevel >= AccessibilityLevel.Normal then
-        local obj = Tracker:FindObjectForCode("airElement")
         obj.Active = true
     end
+    return obj.Active
 end
 function hasWater()
 	
@@ -193,10 +196,11 @@ function hasWater()
     Tracker:FindObjectForCode("@Verdazure Sea West/Verdazure Sea - Water West/EVENT_Water").AccessibilityLevel,
     Tracker:FindObjectForCode("@Verdazure Sea East/Verdazure Sea - Water/EVENT_Water").AccessibilityLevel
     )
+    local obj = Tracker:FindObjectForCode("fireElement")
     if accessibilityLevel >= AccessibilityLevel.Normal then
-        local obj = Tracker:FindObjectForCode("fireElement")
         obj.Active = true
     end
+    return obj.Active
 end
 function hasLight()
 	
@@ -205,11 +209,11 @@ function hasLight()
     Tracker:FindObjectForCode("@Valhalla Breath West/Valhalla Breath West - Light/EVENT_Light").AccessibilityLevel,
     Tracker:FindObjectForCode("@Heavens Valley Snow Route Low/Heavens Valley Snow Route Low - Light/EVENT_Light").AccessibilityLevel
     )
+    local obj = Tracker:FindObjectForCode("lightElement")
     if accessibilityLevel >= AccessibilityLevel.Normal then
-        local obj = Tracker:FindObjectForCode("lightElement")
         obj.Active = true
     end
-
+    return obj.Active
 end
 function hasDark()
 	
@@ -219,10 +223,11 @@ function hasDark()
     Tracker:FindObjectForCode("@Blushwood/Blushwood - Dark/EVENT_Dark").AccessibilityLevel,
     Tracker:FindObjectForCode("@Verdazure Swamp/Verdazure Swamp - Dark/EVENT_Dark").AccessibilityLevel
     )
+    local obj = Tracker:FindObjectForCode("darkElement")
     if accessibilityLevel >= AccessibilityLevel.Normal then
-        local obj = Tracker:FindObjectForCode("darkElement")
         obj.Active = true
     end
+    return obj.Active
 end
 
 
