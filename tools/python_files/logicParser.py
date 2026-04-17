@@ -121,7 +121,7 @@ TeviRuleToPoptacker = {
     "AllMemine":"$False",
     "Explorer":"$False",
     "Goal":"$CanFinish",
-    "Chapter":"$SomethingWrong",
+    "Chapter":"^$SomethingWrong",
     "BounceKick":"$hasAmount|airJump|1,[$False]",
     "ADCKick":"$hasAmount|airDash|1,[$False]",
     "BarrierSkip":"$airOrSlide,[$False]",
@@ -195,7 +195,7 @@ class OpLit:
             elif itemstack[0] == "EVENT_Memine":
                 return TeviRuleToPoptacker[itemstack[0]]
             elif itemstack[0] == "Chapter":
-                return f"$Chapter|{itemstack[1]}"
+                return f"^$Chapter|{itemstack[1]}"
             elif "Teleporter" in itemstack[0]:
                 return f"$canUseTeleporter|{itemstack[1]}"
             elif not '$' in TeviRuleToPoptacker[itemstack[0]]:
@@ -218,6 +218,15 @@ class OpLit:
                     return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1,$hasAmount|ranged|2,$hasAmount|sable|1"
                 elif "OrbTypeC" in self.name:
                     return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1,$hasAmount|ranged|2,$hasAmount|celia|1"
+                elif "ITEM_MASK" in self.name:
+                    return f"[$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1]"
+                elif "ITEM_ZCrystal" in self.name:
+                    return f"[$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1]"
+                elif "ITEM_AntiDecay" in self.name:
+                    return f"[$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1]"
+                elif "ITEM_TempRing" in self.name:
+                    return f"[$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1]"
+                
                 return f"$hasAmount|{TeviRuleToPoptacker[itemstack[0]]}|1"
             f = TeviRuleToPoptacker[self.name]
             return f

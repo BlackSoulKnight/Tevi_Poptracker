@@ -3827,28 +3827,28 @@
             "name": "Toasted Meringue Waffle",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|3"
+              "$True , ^$Chapter|3"
             ]
           },
           {
             "name": "Good Morning Waffle",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|4"
+              "$True , ^$Chapter|4"
             ]
           },
           {
             "name": "Berry Pink Waffle",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|5"
+              "$True , ^$Chapter|5"
             ]
           },
           {
             "name": "Blueberry Waffle",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|6"
+              "$True , ^$Chapter|6"
             ]
           },
           {
@@ -4130,7 +4130,7 @@
             "name": "Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|6"
+              "$True , ^$Chapter|6"
             ]
           }
         ],
@@ -7204,8 +7204,8 @@
             "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|decayMask|1",
-              "$hasAmount|decayAntidote|1"
+              "[$hasAmount|decayMask|1]",
+              "[$hasAmount|decayAntidote|1]"
             ]
           }
         ],
@@ -7230,8 +7230,8 @@
             "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|decayMask|1",
-              "$hasAmount|decayAntidote|1"
+              "[$hasAmount|decayMask|1]",
+              "[$hasAmount|decayAntidote|1]"
             ]
           }
         ],
@@ -7254,8 +7254,8 @@
             "name": "Aplomb",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|decayMask|1",
-              "$hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|decayAntidote|1"
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , [$hasAmount|decayMask|1]",
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , [$hasAmount|decayAntidote|1]"
             ]
           }
         ],
@@ -7538,6 +7538,30 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Plague Forest - Money Room X: 23 Y: 15",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "500 Zennie Pack #1",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , [$hasAmount|decayMask|1]",
+              "$hasAmount|slide|1 , $hasAmount|bombs|1 , [$hasAmount|decayAntidote|1]"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Plagued Forest",
+            "x": 600,
+            "y": 456,
+            "force_invisibility_rules": [
+              "$ShowMoney"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -7546,9 +7570,9 @@
     "access_rules": [
       "@Plague Forest,$hasAmount|bombs|1",
       "@Plague Forest,$canBombThrow",
-      "@TeleportHub,$canUseTeleporter|11 , $hasAmount|decayAntidote|1",
-      "@TeleportHub,$canUseTeleporter|11 , $hasAmount|alembicCrystal|1",
-      "@TeleportHub,$canUseTeleporter|11 , $hasAmount|decayMask|1"
+      "@TeleportHub,$canUseTeleporter|11 , [$hasAmount|decayAntidote|1]",
+      "@TeleportHub,$canUseTeleporter|11 , [$hasAmount|alembicCrystal|1]",
+      "@TeleportHub,$canUseTeleporter|11 , [$hasAmount|decayMask|1]"
     ],
     "children": [
       {
@@ -7775,8 +7799,8 @@
   {
     "name": "Plague Forest to Ulskan",
     "access_rules": [
-      "@Plague Forest,$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|decayMask|1",
-      "@Plague Forest,$canBombThrow , $hasAmount|slide|1 , $hasAmount|decayMask|1",
+      "@Plague Forest,$hasAmount|bombs|1 , $hasAmount|slide|1 , [$hasAmount|decayMask|1]",
+      "@Plague Forest,$canBombThrow , $hasAmount|slide|1 , [$hasAmount|decayMask|1]",
       "@Exit Logic/1004"
     ],
     "children": [
@@ -7788,8 +7812,8 @@
             "name": "Blood Armor",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|decayMask|1",
-              "$hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , $hasAmount|decayAntidote|1"
+              "$hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , [$hasAmount|decayMask|1]",
+              "$hasAmount|powder|1,$hasAmount|slide|1 , $hasAmount|slide|1 , $hasAmount|bombs|1 , [$hasAmount|decayAntidote|1]"
             ]
           }
         ],
@@ -7798,30 +7822,6 @@
             "map": "Plagued Forest",
             "x": 600,
             "y": 504
-          }
-        ]
-      },
-      {
-        "name": "Plague Forest - Money Room X: 23 Y: 15",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "500 Zennie Pack #1",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Plagued Forest",
-            "x": 600,
-            "y": 456,
-            "force_invisibility_rules": [
-              "$ShowMoney"
-            ]
           }
         ]
       }
@@ -9230,7 +9230,7 @@
             "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , $Chapter|4"
+              "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , ^$Chapter|4"
             ]
           },
           {
@@ -9365,7 +9365,7 @@
             "name": "EVENT_Memine5",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|5"
+              "^$Chapter|5"
             ]
           }
         ],
@@ -9720,7 +9720,7 @@
             "name": "Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|6"
+              "$True , ^$Chapter|6"
             ]
           }
         ],
@@ -11394,7 +11394,7 @@
             "name": "Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|6"
+              "$True , ^$Chapter|6"
             ]
           }
         ],
@@ -14025,7 +14025,7 @@
             "name": "Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|6"
+              "$True , ^$Chapter|6"
             ]
           }
         ],
@@ -15716,8 +15716,8 @@
             "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|decayAntidote|1",
-              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|alembicCrystal|1"
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , [$hasAmount|decayAntidote|1]",
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , [$hasAmount|alembicCrystal|1]"
             ]
           }
         ],
@@ -15742,8 +15742,8 @@
             "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|decayAntidote|1",
-              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|alembicCrystal|1"
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , [$hasAmount|decayAntidote|1]",
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , [$hasAmount|alembicCrystal|1]"
             ]
           }
         ],
@@ -15766,8 +15766,8 @@
             "name": "EVENT_Memloch",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|decayAntidote|1",
-              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|alembicCrystal|1"
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , [$hasAmount|decayAntidote|1]",
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , [$hasAmount|alembicCrystal|1]"
             ]
           }
         ],
@@ -16163,10 +16163,10 @@
       "@Gallery of Souls,$hasAmount|bombs|1 , $canChargeShot , $hasAmount|slide|1",
       "@Gallery of Souls,$canBombThrow , $canChargeShot , $hasAmount|slide|1",
       "@Gallery of Souls to Sea,$hasAmount|bombRange|3",
-      "@Teleporter Frank Boss,$canBombThrow , $hasAmount|slide|1 , $hasAmount|decayAntidote|1",
-      "@Teleporter Frank Boss,$canBombThrow , $hasAmount|slide|1 , $hasAmount|alembicCrystal|1",
-      "@Teleporter Frank Boss,$hasAmount|bombs|1 , $hasAmount|bombRange|3 , $hasAmount|slide|1 , $hasAmount|decayAntidote|1",
-      "@Teleporter Frank Boss,$hasAmount|bombs|1 , $hasAmount|bombRange|3 , $hasAmount|slide|1 , $hasAmount|alembicCrystal|1"
+      "@Teleporter Frank Boss,$canBombThrow , $hasAmount|slide|1 , [$hasAmount|decayAntidote|1]",
+      "@Teleporter Frank Boss,$canBombThrow , $hasAmount|slide|1 , [$hasAmount|alembicCrystal|1]",
+      "@Teleporter Frank Boss,$hasAmount|bombs|1 , $hasAmount|bombRange|3 , $hasAmount|slide|1 , [$hasAmount|decayAntidote|1]",
+      "@Teleporter Frank Boss,$hasAmount|bombs|1 , $hasAmount|bombRange|3 , $hasAmount|slide|1 , [$hasAmount|alembicCrystal|1]"
     ],
     "children": [
       {
@@ -16198,8 +16198,8 @@
             "name": "Astral Gear",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|decayAntidote|1",
-              "$hasAmount|alembicCrystal|1"
+              "[$hasAmount|decayAntidote|1]",
+              "[$hasAmount|alembicCrystal|1]"
             ]
           }
         ],
@@ -16224,8 +16224,8 @@
             "name": "EVENT_BOSS",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|decayAntidote|1",
-              "$hasAmount|alembicCrystal|1"
+              "[$hasAmount|decayAntidote|1]",
+              "[$hasAmount|alembicCrystal|1]"
             ]
           }
         ],
@@ -18373,7 +18373,7 @@
             "name": "Rainbow Bunny Potion",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|6"
+              "$True , ^$Chapter|6"
             ]
           }
         ],
@@ -21203,28 +21203,28 @@
             "name": "Cloud Bomb",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|4"
+              "$True , ^$Chapter|4"
             ]
           },
           {
             "name": "BB Rabbit",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|2"
+              "$True , ^$Chapter|2"
             ]
           },
           {
             "name": "Calico Bomb",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|3"
+              "$True , ^$Chapter|3"
             ]
           },
           {
             "name": "Tabby Bomb",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|5"
+              "$True , ^$Chapter|5"
             ]
           }
         ],
@@ -21262,7 +21262,7 @@
             "name": "Sable Type-A: Voracious",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|1"
+              "$True , ^$Chapter|1"
             ]
           }
         ],
@@ -21402,7 +21402,7 @@
             "name": "Celia Type-A: Stunning",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|1"
+              "$True , ^$Chapter|1"
             ]
           }
         ],
@@ -21542,7 +21542,7 @@
             "name": "C. Rank Frenzy: Fierce",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|2"
+              "$True , ^$Chapter|2"
             ]
           }
         ],
@@ -21562,7 +21562,7 @@
             "name": "Full Stop A",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|2"
+              "$True , ^$Chapter|2"
             ]
           }
         ],
@@ -21582,7 +21582,7 @@
             "name": "Orbital Efficiency B",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|2"
+              "$True , ^$Chapter|2"
             ]
           }
         ],
@@ -21602,7 +21602,7 @@
             "name": "Style Combo: Upper A",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|2"
+              "$True , ^$Chapter|2"
             ]
           }
         ],
@@ -21622,7 +21622,7 @@
             "name": "Two-pronged Shot",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|3"
+              "$True , ^$Chapter|3"
             ]
           }
         ],
@@ -21642,7 +21642,7 @@
             "name": "MP Quicken: Melee",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|3"
+              "$True , ^$Chapter|3"
             ]
           }
         ],
@@ -21662,7 +21662,7 @@
             "name": "Dextrous",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|3"
+              "$True , ^$Chapter|3"
             ]
           }
         ],
@@ -21682,7 +21682,7 @@
             "name": "Drop Kick",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|3"
+              "$True , ^$Chapter|3"
             ]
           }
         ],
@@ -21702,7 +21702,7 @@
             "name": "Weak Dominance A",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|3"
+              "$True , ^$Chapter|3"
             ]
           }
         ],
@@ -21722,7 +21722,7 @@
             "name": "Power Drop",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|4"
+              "$True , ^$Chapter|4"
             ]
           }
         ],
@@ -21742,7 +21742,7 @@
             "name": "Magic Cannon",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|4"
+              "$True , ^$Chapter|4"
             ]
           }
         ],
@@ -21762,7 +21762,7 @@
             "name": "Synchronized Support I",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|4"
+              "$True , ^$Chapter|4"
             ]
           }
         ],
@@ -21782,7 +21782,7 @@
             "name": "Health Surge",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|4"
+              "$True , ^$Chapter|4"
             ]
           }
         ],
@@ -21802,7 +21802,7 @@
             "name": "Core Expansion: Full Offense",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|4"
+              "$True , ^$Chapter|4"
             ]
           }
         ],
@@ -21822,7 +21822,7 @@
             "name": "MP Quicken: Sacrifice",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|5"
+              "$True , ^$Chapter|5"
             ]
           }
         ],
@@ -21842,7 +21842,7 @@
             "name": "EP Booster: Synthesizer",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|5"
+              "$True , ^$Chapter|5"
             ]
           }
         ],
@@ -21862,7 +21862,7 @@
             "name": "Style Combo: Afterimage S",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|5"
+              "$True , ^$Chapter|5"
             ]
           }
         ],
@@ -21882,7 +21882,7 @@
             "name": "Mana Platform",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|5"
+              "$True , ^$Chapter|5"
             ]
           }
         ],
@@ -21902,7 +21902,7 @@
             "name": "Style Combo: Tornado A",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|5 , $hasAmount|dagger|1"
+              "$True , ^$Chapter|5 , $hasAmount|dagger|1"
             ]
           }
         ],
@@ -21922,7 +21922,7 @@
             "name": "Daisy Chain",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|6"
+              "$True , ^$Chapter|6"
             ]
           }
         ],
@@ -21942,7 +21942,7 @@
             "name": "Spanner Bash: Bounce",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|6"
+              "$True , ^$Chapter|6"
             ]
           }
         ],
@@ -21962,7 +21962,7 @@
             "name": "Full Stop B",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|6"
+              "$True , ^$Chapter|6"
             ]
           }
         ],
@@ -21982,7 +21982,7 @@
             "name": "Armor Piercer",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|6"
+              "$True , ^$Chapter|6"
             ]
           }
         ],
@@ -22002,7 +22002,7 @@
             "name": "Supernova",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|6 , $hasAmount|burst|1"
+              "$True , ^$Chapter|6 , $hasAmount|burst|1"
             ]
           }
         ],
@@ -22022,7 +22022,7 @@
             "name": "EP Booster: MP",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|7"
+              "$True , ^$Chapter|7"
             ]
           }
         ],
@@ -22042,7 +22042,7 @@
             "name": "The Untamed",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|7"
+              "$True , ^$Chapter|7"
             ]
           }
         ],
@@ -22062,7 +22062,7 @@
             "name": "Weak Dominance B",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|7"
+              "$True , ^$Chapter|7"
             ]
           }
         ],
@@ -22082,7 +22082,7 @@
             "name": "Range Break",
             "item_count": 1,
             "access_rules": [
-              "$True , $Chapter|7"
+              "$True , ^$Chapter|7"
             ]
           }
         ],
@@ -22122,7 +22122,7 @@
             "name": "Mananite Shard",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|1"
+              "^$Chapter|1"
             ]
           }
         ],
@@ -22142,7 +22142,7 @@
             "name": "Mananite Shard",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|1"
+              "^$Chapter|1"
             ]
           }
         ],
@@ -22162,7 +22162,7 @@
             "name": "Mananite Shard",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           }
         ],
@@ -22182,7 +22182,7 @@
             "name": "Mananite Shard",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|3"
+              "^$Chapter|3"
             ]
           }
         ],
@@ -22202,7 +22202,7 @@
             "name": "Mananite Shard",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|4"
+              "^$Chapter|4"
             ]
           }
         ],
@@ -22222,7 +22222,7 @@
             "name": "Mananite Shard",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|5"
+              "^$Chapter|5"
             ]
           }
         ],
@@ -22242,7 +22242,7 @@
             "name": "Mananite Shard",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|6"
+              "^$Chapter|6"
             ]
           }
         ],
@@ -22262,7 +22262,7 @@
             "name": "Mananite Shard",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|7"
+              "^$Chapter|7"
             ]
           }
         ],
@@ -22282,7 +22282,7 @@
             "name": "Mananite Shard",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|8"
+              "^$Chapter|8"
             ]
           }
         ],
@@ -22302,7 +22302,7 @@
             "name": "Magitite Shard",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|1"
+              "^$Chapter|1"
             ]
           }
         ],
@@ -22322,7 +22322,7 @@
             "name": "Magitite Shard",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|1"
+              "^$Chapter|1"
             ]
           }
         ],
@@ -22342,7 +22342,7 @@
             "name": "Magitite Shard",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           }
         ],
@@ -22362,7 +22362,7 @@
             "name": "Magitite Shard",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|3"
+              "^$Chapter|3"
             ]
           }
         ],
@@ -22382,7 +22382,7 @@
             "name": "Magitite Shard",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|4"
+              "^$Chapter|4"
             ]
           }
         ],
@@ -22402,7 +22402,7 @@
             "name": "Magitite Shard",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|5"
+              "^$Chapter|5"
             ]
           }
         ],
@@ -22422,7 +22422,7 @@
             "name": "Magitite Shard",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|6"
+              "^$Chapter|6"
             ]
           }
         ],
@@ -22442,7 +22442,7 @@
             "name": "Magitite Shard",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|7"
+              "^$Chapter|7"
             ]
           }
         ],
@@ -22462,7 +22462,7 @@
             "name": "Magitite Shard",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|8"
+              "^$Chapter|8"
             ]
           }
         ],
@@ -23132,7 +23132,7 @@
             "name": "Decay Mask",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|decayMask|1 , $canUpgradeItems"
+              "[$hasAmount|decayMask|1] , $canUpgradeItems"
             ]
           }
         ],
@@ -23152,7 +23152,7 @@
             "name": "Decay Mask",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|decayMask|1 , $canUpgradeItems"
+              "[$hasAmount|decayMask|1] , $canUpgradeItems"
             ]
           }
         ],
@@ -23172,7 +23172,7 @@
             "name": "Equilibrium Ring",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|ringTemp|1 , $canUpgradeItems"
+              "[$hasAmount|ringTemp|1] , $canUpgradeItems"
             ]
           }
         ],
@@ -23192,7 +23192,7 @@
             "name": "Equilibrium Ring",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|ringTemp|1 , $canUpgradeItems"
+              "[$hasAmount|ringTemp|1] , $canUpgradeItems"
             ]
           }
         ],
@@ -24133,11 +24133,11 @@
   {
     "name": "Shop Bonus",
     "access_rules": [
-      "@Morose City Shop,$Chapter|2 , fate , ticketHeaven , ticketHell , flute , memory",
-      "@Ana Thema Shop,$Chapter|2 , fate , ticketHeaven , ticketHell , flute , memory",
-      "@Tartarus Shop,$Chapter|2 , fate , ticketHeaven , ticketHell , flute , memory",
-      "@Snow City Shop,$Chapter|2 , fate , ticketHeaven , ticketHell , flute , memory",
-      "@Valhalla City Shop,$Chapter|2 , fate , ticketHeaven , ticketHell , flute , memory"
+      "@Morose City Shop,^$Chapter|2 , fate , ticketHeaven , ticketHell , flute , memory",
+      "@Ana Thema Shop,^$Chapter|2 , fate , ticketHeaven , ticketHell , flute , memory",
+      "@Tartarus Shop,^$Chapter|2 , fate , ticketHeaven , ticketHell , flute , memory",
+      "@Snow City Shop,^$Chapter|2 , fate , ticketHeaven , ticketHell , flute , memory",
+      "@Valhalla City Shop,^$Chapter|2 , fate , ticketHeaven , ticketHell , flute , memory"
     ],
     "children": [
       {
@@ -24148,245 +24148,245 @@
             "name": "Mananite Shard #1",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Mananite Shard #2",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Mananite Shard #3",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Mananite Shard #4",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Mananite Shard #5",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Mananite Shard #6",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Mananite Shard #7",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Mananite Shard #8",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Mananite Shard #9",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Mananite Shard #10",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Mananite Shard #11",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Mananite Shard #12",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Mananite Shard #13",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Mananite Shard #14",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Mananite Shard #15",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Mananite Shard #16",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|6"
+              "^$Chapter|6"
             ]
           },
           {
             "name": "Mananite Shard #17",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|6"
+              "^$Chapter|6"
             ]
           },
           {
             "name": "Magitite Shard #1",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Magitite Shard #2",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Magitite Shard #3",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Magitite Shard #4",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Magitite Shard #5",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Magitite Shard #6",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Magitite Shard #7",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Magitite Shard #8",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Magitite Shard #9",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Magitite Shard #10",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Magitite Shard #11",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Magitite Shard #12",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Magitite Shard #13",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Magitite Shard #14",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2"
+              "^$Chapter|2"
             ]
           },
           {
             "name": "Magitite Shard #15",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2 , ^$EVENT_Memloch"
+              "^$Chapter|2 , ^$EVENT_Memloch"
             ]
           },
           {
             "name": "Magitite Shard #16",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2 , ^$EVENT_Memloch"
+              "^$Chapter|2 , ^$EVENT_Memloch"
             ]
           },
           {
             "name": "Magitite Shard #17",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2 , ^$EVENT_Demonfray"
+              "^$Chapter|2 , ^$EVENT_Demonfray"
             ]
           },
           {
             "name": "Magitite Shard #18",
             "item_count": 1,
             "access_rules": [
-              "$Chapter|2 , ^$EVENT_Demonfray"
+              "^$Chapter|2 , ^$EVENT_Demonfray"
             ]
           }
         ],
@@ -25122,11 +25122,11 @@
   {
     "name": "V_Chariot",
     "access_rules": [
-      "@Valhalla Breath West Extended"
+      "@Valhalla Breath West Extended,$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
     ],
     "children": [
       {
-        "name": "Valhalla Breath West - Money Room X: 9 Y: 1",
+        "name": "Unique Enemy Magitite - V_Chariot",
         "access_rules": [],
         "sections": [
           {
@@ -25140,7 +25140,7 @@
         "map_locations": [
           {
             "map": "Valhalla's Breath (West)",
-            "x": 360,
+            "x": 312,
             "y": 24
           }
         ]
@@ -26018,7 +26018,7 @@
     "access_rules": [
       "@Swamp,$hasAmount|bombs|1",
       "@Swamp,$canBombThrow",
-      "@TeleportHub,$canUseTeleporter|19 , $hasAmount|ringTemp|1"
+      "@TeleportHub,$canUseTeleporter|19 , [$hasAmount|ringTemp|1]"
     ],
     "children": []
   },
@@ -26096,9 +26096,6 @@
     "name": "EverGarden To Valley",
     "clear_as_group": false,
     "access_rules": [
-      "@EverGarden,$hasAmount|airJump|1",
-      "@EverGarden,$hasAmount|jetpack|1",
-      "@EverGarden,$hasAmount|airDash|1",
       "@Exit Logic/2900"
     ],
     "children": []
@@ -26107,9 +26104,9 @@
     "name": "Teleporter Ulvosa",
     "clear_as_group": false,
     "access_rules": [
-      "@TeleportHub,$canUseTeleporter|12 , $hasAmount|decayAntidote|1",
-      "@TeleportHub,$canUseTeleporter|12 , $hasAmount|alembicCrystal|1",
-      "@TeleportHub,$canUseTeleporter|12 , $hasAmount|decayMask|1"
+      "@TeleportHub,$canUseTeleporter|12 , [$hasAmount|decayAntidote|1]",
+      "@TeleportHub,$canUseTeleporter|12 , [$hasAmount|alembicCrystal|1]",
+      "@TeleportHub,$canUseTeleporter|12 , [$hasAmount|decayMask|1]"
     ],
     "children": []
   },
@@ -26157,7 +26154,7 @@
     "name": "Teleporter Sinner's Oath",
     "clear_as_group": false,
     "access_rules": [
-      "@TeleportHub,$canUseTeleporter|28 , $hasAmount|ringTemp|1"
+      "@TeleportHub,$canUseTeleporter|28 , [$hasAmount|ringTemp|1]"
     ],
     "children": []
   },
@@ -26181,8 +26178,8 @@
     "name": "Teleporter Gallery East",
     "clear_as_group": false,
     "access_rules": [
-      "@TeleportHub,$canUseTeleporter|33 , $hasAmount|decayAntidote|1",
-      "@TeleportHub,$canUseTeleporter|33 , $hasAmount|alembicCrystal|1"
+      "@TeleportHub,$canUseTeleporter|33 , [$hasAmount|decayAntidote|1]",
+      "@TeleportHub,$canUseTeleporter|33 , [$hasAmount|alembicCrystal|1]"
     ],
     "children": []
   },
@@ -26190,8 +26187,8 @@
     "name": "Teleporter Frank Boss",
     "clear_as_group": false,
     "access_rules": [
-      "@TeleportHub,$canUseTeleporter|34 , $hasAmount|decayAntidote|1",
-      "@TeleportHub,$canUseTeleporter|34 , $hasAmount|alembicCrystal|1"
+      "@TeleportHub,$canUseTeleporter|34 , [$hasAmount|decayAntidote|1]",
+      "@TeleportHub,$canUseTeleporter|34 , [$hasAmount|alembicCrystal|1]"
     ],
     "children": []
   },
