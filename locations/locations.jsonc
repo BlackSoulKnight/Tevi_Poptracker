@@ -315,8 +315,8 @@
         "map_locations": [
           {
             "map": "Oasis",
-            "x": -264,
-            "y": -456
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -1277,8 +1277,8 @@
         "map_locations": [
           {
             "map": "Thanatara Canyon + Gurun Desert",
-            "x": -24,
-            "y": -72
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -2561,8 +2561,8 @@
         "map_locations": [
           {
             "map": "Solennian Ruins",
-            "x": -600,
-            "y": -216
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -3669,8 +3669,8 @@
         "map_locations": [
           {
             "map": "Morose",
-            "x": -504,
-            "y": -408,
+            "x": 0,
+            "y": 0,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -4318,8 +4318,8 @@
         "map_locations": [
           {
             "map": "Travoll Industrial Park",
-            "x": -312,
-            "y": -552
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -4654,8 +4654,8 @@
         "map_locations": [
           {
             "map": "Travoll Mines",
-            "x": -24,
-            "y": -264
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -6322,8 +6322,8 @@
         "map_locations": [
           {
             "map": "Gloamwood",
-            "x": -72,
-            "y": -168
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -8167,8 +8167,8 @@
         "map_locations": [
           {
             "map": "Ulvosa",
-            "x": -120,
-            "y": -312
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -8480,8 +8480,8 @@
         "map_locations": [
           {
             "map": "Copperwood",
-            "x": -24,
-            "y": -648
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -8984,8 +8984,8 @@
         "map_locations": [
           {
             "map": "Relicts",
-            "x": -24,
-            "y": -72
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -9328,8 +9328,8 @@
         "map_locations": [
           {
             "map": "Ana Thema",
-            "x": -552,
-            "y": -408,
+            "x": 0,
+            "y": 0,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -12991,8 +12991,8 @@
         "map_locations": [
           {
             "map": "Verdazure Sea",
-            "x": -120,
-            "y": -456
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -13350,8 +13350,8 @@
         "map_locations": [
           {
             "map": "Blushwood",
-            "x": -168,
-            "y": -216
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -14157,8 +14157,8 @@
         "map_locations": [
           {
             "map": "Evernight Garden",
-            "x": -264,
-            "y": -120
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -14941,8 +14941,8 @@
         "map_locations": [
           {
             "map": "Cloister",
-            "x": -840,
-            "y": -264
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -15053,8 +15053,8 @@
         "map_locations": [
           {
             "map": "Cloister",
-            "x": -840,
-            "y": -264,
+            "x": 0,
+            "y": 0,
             "force_invisibility_rules": [
               "$True"
             ]
@@ -18808,8 +18808,8 @@
         "map_locations": [
           {
             "map": "Snowveilian City + HQ",
-            "x": -120,
-            "y": -168
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -20929,8 +20929,8 @@
         "map_locations": [
           {
             "map": "Sinner's Oath",
-            "x": -216,
-            "y": -24
+            "x": 0,
+            "y": 0
           }
         ]
       },
@@ -23829,8 +23829,8 @@
         "map_locations": [
           {
             "map": "Desert Base",
-            "x": -72,
-            "y": -360
+            "x": 0,
+            "y": 0
           }
         ]
       }
@@ -23858,8 +23858,8 @@
         "map_locations": [
           {
             "map": "Verdawn Forest",
-            "x": -120,
-            "y": -312
+            "x": 0,
+            "y": 0
           }
         ]
       }
@@ -23887,8 +23887,8 @@
         "map_locations": [
           {
             "map": "Plagued Forest",
-            "x": -504,
-            "y": -264
+            "x": 0,
+            "y": 0
           }
         ]
       }
@@ -23916,8 +23916,8 @@
         "map_locations": [
           {
             "map": "Snowveil",
-            "x": -504,
-            "y": -168
+            "x": 0,
+            "y": 0
           }
         ]
       }
@@ -23946,7 +23946,7 @@
           {
             "map": "Forgotten City + Ocean",
             "x": 24,
-            "y": -168
+            "y": 0
           }
         ]
       }
@@ -23977,7 +23977,7 @@
           {
             "map": "Magma + Swamplands",
             "x": 24,
-            "y": -72
+            "y": 0
           }
         ]
       }
@@ -24007,8 +24007,8 @@
         "map_locations": [
           {
             "map": "Dreamers Keep",
-            "x": -504,
-            "y": -168
+            "x": 0,
+            "y": 0
           }
         ]
       }
@@ -24035,8 +24035,8 @@
         "map_locations": [
           {
             "map": "Valhalla's Breath (East)",
-            "x": -72,
-            "y": -120
+            "x": 0,
+            "y": 0
           }
         ]
       }
@@ -24065,8 +24065,8 @@
         "map_locations": [
           {
             "map": "Valhalla's Breath (West)",
-            "x": -72,
-            "y": -24
+            "x": 0,
+            "y": 0
           }
         ]
       }
@@ -24095,7 +24095,7 @@
           {
             "map": "Catacombs + Lab",
             "x": 24,
-            "y": -168
+            "y": 0
           }
         ]
       }
@@ -24123,8 +24123,8 @@
         "map_locations": [
           {
             "map": "Gallery of Mirrors",
-            "x": -408,
-            "y": -168
+            "x": 0,
+            "y": 0
           }
         ]
       }

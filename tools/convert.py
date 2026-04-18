@@ -109,8 +109,8 @@ for val in RandomizerLocationList:
         locdata = knownMapLocation[v["Area"]]
         locTemplate["map_locations"]+=[{
             "map": locdata["areaName"],
-            "x": locdata["StartRoom"]["PixelX"]+((v["X"] - locdata["StartRoom"]["X"])*48)+24,
-            "y": locdata["StartRoom"]["PixelY"]+((v["Y"] - locdata["StartRoom"]["Y"])*48)+24
+            "x": max(locdata["StartRoom"]["PixelX"]+((v["X"] - locdata["StartRoom"]["X"])*48)+24,0),
+            "y": max(locdata["StartRoom"]["PixelY"]+((v["Y"] - locdata["StartRoom"]["Y"])*48)+24,0)
           }]
         
         locationCode = v["Area"]*10000+v["X"]*100+v["Y"]
