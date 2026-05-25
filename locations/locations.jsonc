@@ -25269,7 +25269,7 @@
   {
     "name": "V_Unicorn",
     "access_rules": [
-      "@EverGarden To Valley"
+      "@EverGarden To Valhalla"
     ],
     "children": [
       {
@@ -26096,6 +26096,9 @@
     "name": "EverGarden To Valley",
     "clear_as_group": false,
     "access_rules": [
+      "@EverGarden,$hasAmount|airDash|1",
+      "@EverGarden,$hasAmount|airJump|1",
+      "@EverGarden,$hasAmount|jetpack|1",
       "@Exit Logic/2900"
     ],
     "children": []
