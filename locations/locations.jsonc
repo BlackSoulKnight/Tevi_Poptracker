@@ -8532,6 +8532,7 @@
     "access_rules": [
       "@Exit Logic/0705",
       "@CopperWood EP Pot,$hasAmount|bombs|1",
+      "@CopperWood,$hasAmount|slide|1",
       "@Teleporter Copper Forest,$hasAmount|bombs|1",
       "@Teleporter Copper Forest,$canBombThrow"
     ],
@@ -13996,7 +13997,8 @@
             "item_count": 1,
             "access_rules": [
               "$hasAmount|bombs|1",
-              "$canBombThrow"
+              "$canBombThrow",
+              "$hasAmount|dagger|1"
             ]
           }
         ],
@@ -14848,8 +14850,10 @@
             "name": "Crouching Bunny",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|bombs|1",
-              "$canBombThrow , $hasAmount|bombs|1"
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$hasAmount|bombRange|1,$hasAmount|bombs|1 , $hasAmount|bombs|1 , $hasAmount|jetpack|2",
+              "$canBombThrow , $hasAmount|bombs|1 , $hasAmount|airJump|1",
+              "$canBombThrow , $hasAmount|bombs|1 , $hasAmount|jetpack|2"
             ]
           }
         ],
@@ -17662,7 +17666,8 @@
       "@Snowveil Entrance,$hasAmount|bombs|1",
       "@Snowveil Entrance,$canBombThrow",
       "@Exit Logic/1204",
-      "@Snowveil Ex,$canBombThrow"
+      "@Snowveil Ex,$canBombThrow",
+      "@Snowveil Ex,$hasAmount|slide|1"
     ],
     "children": [
       {
@@ -19534,6 +19539,150 @@
     ]
   },
   {
+    "name": "Teleporter DreamKeeper Inside",
+    "access_rules": [
+      "@DreamKeeper,$hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@DreamKeeper,$hasAmount|slide|1 , $canBombThrow",
+      "@TeleportHub,$canUseTeleporter|21"
+    ],
+    "children": [
+      {
+        "name": "DreamKeeper - MP Quicken: Sugar Rush",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "MP Quicken: Sugar Rush",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|dagger|1 , $hasAmount|slide|1",
+              "$canUseVenaBomb , $hasAmount|slide|1",
+              "$canChargeShot , $hasAmount|slide|1",
+              "$canBombThrow , $hasAmount|slide|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dreamers Keep",
+            "x": 552,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "DreamKeeper - Alius fight",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Astral Gear",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dreamers Keep",
+            "x": 552,
+            "y": 552
+          },
+          {
+            "map": "Bosses",
+            "x": 600,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "DreamKeeper - Boss Alius",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "EVENT_BOSS",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dreamers Keep",
+            "x": 552,
+            "y": 552,
+            "force_invisibility_rules": [
+              "$True"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "DreamKeeper - Grip Sole Boots",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Grip Sole Boots",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dreamers Keep",
+            "x": 360,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "DreamKeeper - Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dreamers Keep",
+            "x": 552,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "DreamKeeper - Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1",
+              "$canBombThrow"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dreamers Keep",
+            "x": 456,
+            "y": 504
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "DreamKeeper",
     "access_rules": [
       "@DreamKeeper Outside Right,$hasAmount|vortex|1,[$hasAmount|dagger|1] , $canChargeShot , $hasAmount|bombs|1 , $hasAmount|slide|1 , ^$EVENT_SnowMechanic",
@@ -19552,29 +19701,6 @@
       "@Teleporter DreamKeeper Inside,$hasAmount|slide|1 , $canBombThrow"
     ],
     "children": [
-      {
-        "name": "DreamKeeper - MP Quicken: Sugar Rush",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "MP Quicken: Sugar Rush",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|dagger|1",
-              "$canUseVenaBomb",
-              "$canChargeShot",
-              "$canBombThrow"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Dreamers Keep",
-            "x": 552,
-            "y": 408
-          }
-        ]
-      },
       {
         "name": "DreamKeeper - Refractor",
         "access_rules": [],
@@ -19787,135 +19913,16 @@
     ]
   },
   {
-    "name": "Teleporter DreamKeeper Inside",
-    "access_rules": [
-      "@DreamKeeper,$hasAmount|slide|1 , $hasAmount|bombs|1",
-      "@DreamKeeper,$hasAmount|slide|1 , $canBombThrow",
-      "@TeleportHub,$canUseTeleporter|21"
-    ],
-    "children": [
-      {
-        "name": "DreamKeeper - Alius fight",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Astral Gear",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Dreamers Keep",
-            "x": 552,
-            "y": 552
-          },
-          {
-            "map": "Bosses",
-            "x": 600,
-            "y": 408
-          }
-        ]
-      },
-      {
-        "name": "DreamKeeper - Boss Alius",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "EVENT_BOSS",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Dreamers Keep",
-            "x": 552,
-            "y": 552,
-            "force_invisibility_rules": [
-              "$True"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "DreamKeeper - Grip Sole Boots",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Grip Sole Boots",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Dreamers Keep",
-            "x": 360,
-            "y": 552
-          }
-        ]
-      },
-      {
-        "name": "DreamKeeper - Blueberry Bunny Potion",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Blueberry Bunny Potion",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Dreamers Keep",
-            "x": 552,
-            "y": 504
-          }
-        ]
-      },
-      {
-        "name": "DreamKeeper - Lemon Bunny Potion",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Lemon Bunny Potion",
-            "item_count": 1,
-            "access_rules": [
-              "$hasAmount|bombs|1",
-              "$canBombThrow"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Dreamers Keep",
-            "x": 456,
-            "y": 504
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "Dreamless Depths 2",
     "access_rules": [
-      "@Teleporter Deep Dream,$hasAmount|highJump|1 , $hasAmount|dagger|1 , $hasAmount|slide|1",
-      "@Teleporter Deep Dream,$hasAmount|wallJump|1 , $hasAmount|slide|1",
-      "@Teleporter Deep Dream,$hasAmount|jetpack|1 , $hasAmount|dagger|1 , $hasAmount|slide|1",
-      "@Teleporter Deep Dream,$hasAmount|airJump|1 , $hasAmount|dagger|1 , $hasAmount|slide|1"
+      "@Teleporter Deep Dream,$hasAmount|highJump|1 , $hasAmount|dagger|1 , $hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Teleporter Deep Dream,$hasAmount|highJump|1 , $hasAmount|dagger|1 , $hasAmount|slide|1 , $canBombThrow",
+      "@Teleporter Deep Dream,$hasAmount|wallJump|1 , $hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Teleporter Deep Dream,$hasAmount|wallJump|1 , $hasAmount|slide|1 , $canBombThrow",
+      "@Teleporter Deep Dream,$hasAmount|jetpack|1 , $hasAmount|dagger|1 , $hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Teleporter Deep Dream,$hasAmount|jetpack|1 , $hasAmount|dagger|1 , $hasAmount|slide|1 , $canBombThrow",
+      "@Teleporter Deep Dream,$hasAmount|airJump|1 , $hasAmount|dagger|1 , $hasAmount|slide|1 , $hasAmount|bombs|1",
+      "@Teleporter Deep Dream,$hasAmount|airJump|1 , $hasAmount|dagger|1 , $hasAmount|slide|1 , $canBombThrow"
     ],
     "children": [
       {
@@ -21093,9 +21100,9 @@
   {
     "name": "Vena Shop",
     "access_rules": [
-      "@Ana Thema,^$EVENT_MoroseVisited",
-      "@Tartarus,^$EVENT_MoroseVisited",
-      "@Valhalla City,^$EVENT_MoroseVisited"
+      "@Ana Thema,^$EVENT_MoroseVisited , $hasAmount|flute|1",
+      "@Tartarus,^$EVENT_MoroseVisited , $hasAmount|ticketHell|1",
+      "@Valhalla City,^$EVENT_MoroseVisited , $hasAmount|ticketHeaven|1"
     ],
     "children": [
       {
@@ -24317,28 +24324,30 @@
             "name": "Magitite Shard #15",
             "item_count": 1,
             "access_rules": [
-              "^$Chapter|2 , ^$EVENT_Memloch"
+              "^$Chapter|2 , ^$EVENT_Memloch",
+              "^$Chapter|2 , ^$EVENT_Demonfray"
             ]
           },
           {
             "name": "Magitite Shard #16",
             "item_count": 1,
             "access_rules": [
-              "^$Chapter|2 , ^$EVENT_Memloch"
+              "^$Chapter|2 , ^$EVENT_Memloch",
+              "^$Chapter|2 , ^$EVENT_Demonfray"
             ]
           },
           {
             "name": "Magitite Shard #17",
             "item_count": 1,
             "access_rules": [
-              "^$Chapter|2 , ^$EVENT_Demonfray"
+              "^$Chapter|2 , ^$EVENT_Memloch , ^$EVENT_Demonfray"
             ]
           },
           {
             "name": "Magitite Shard #18",
             "item_count": 1,
             "access_rules": [
-              "^$Chapter|2 , ^$EVENT_Demonfray"
+              "^$Chapter|2 , ^$EVENT_Memloch , ^$EVENT_Demonfray"
             ]
           }
         ],
@@ -25106,7 +25115,7 @@
     ],
     "children": [
       {
-        "name": "ItemStack #5",
+        "name": "Unique Enemy Magitite - T_Skeleton",
         "access_rules": [],
         "sections": [
           {
@@ -25120,7 +25129,7 @@
         "map_locations": [
           {
             "map": "Magma + Swamplands",
-            "x": 840,
+            "x": 888,
             "y": 264
           }
         ]
