@@ -170,7 +170,7 @@
                 "name": "Rainbow Bunny Potion",
                 "item_count": 1,
                 "access_rules": [
-                    "$True , $Chapter|6"
+                    "$True , ^$Chapter|6"
                 ]
             }
         ]
@@ -189,28 +189,28 @@
                 "name": "Toasted Meringue Waffle",
                 "item_count": 1,
                 "access_rules": [
-                    "$True , $Chapter|3"
+                    "$True , ^$Chapter|3"
                 ]
             },
             {
                 "name": "Good Morning Waffle",
                 "item_count": 1,
                 "access_rules": [
-                    "$True , $Chapter|4"
+                    "$True , ^$Chapter|4"
                 ]
             },
             {
                 "name": "Berry Pink Waffle",
                 "item_count": 1,
                 "access_rules": [
-                    "$True , $Chapter|5"
+                    "$True , ^$Chapter|5"
                 ]
             },
             {
                 "name": "Blueberry Waffle",
                 "item_count": 1,
                 "access_rules": [
-                    "$True , $Chapter|6"
+                    "$True , ^$Chapter|6"
                 ]
             },
             {
@@ -269,21 +269,21 @@
                 "name": "Astral Gear",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , $Chapter|4"
+                    "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , ^$Chapter|4"
                 ]
             },
             {
                 "name": "Astral Gear",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , $Chapter|4"
+                    "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , ^$Chapter|4"
                 ]
             },
             {
                 "name": "Astral Gear",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , $Chapter|4"
+                    "$hasAmount|key|1 , [SuperBoss] , $hasAmount|dagger|1 , ^$Chapter|4"
                 ]
             },
             {
@@ -476,7 +476,7 @@
                 "name": "Rainbow Bunny Potion",
                 "item_count": 1,
                 "access_rules": [
-                    "$True , $Chapter|6"
+                    "$True , ^$Chapter|6"
                 ]
             }
         ]
@@ -607,7 +607,7 @@
                 "name": "Rainbow Bunny Potion",
                 "item_count": 1,
                 "access_rules": [
-                    "$True , $Chapter|6"
+                    "$True , ^$Chapter|6"
                 ]
             }
         ]
@@ -738,7 +738,7 @@
                 "name": "Rainbow Bunny Potion",
                 "item_count": 1,
                 "access_rules": [
-                    "$True , $Chapter|6"
+                    "$True , ^$Chapter|6"
                 ]
             }
         ]
@@ -855,7 +855,7 @@
                 "name": "Rainbow Bunny Potion",
                 "item_count": 1,
                 "access_rules": [
-                    "$True , $Chapter|6"
+                    "$True , ^$Chapter|6"
                 ]
             }
         ]
@@ -916,28 +916,28 @@
                 "name": "Cloud Bomb",
                 "item_count": 1,
                 "access_rules": [
-                    "$True , $Chapter|4"
+                    "$True , ^$Chapter|4"
                 ]
             },
             {
                 "name": "BB Rabbit",
                 "item_count": 1,
                 "access_rules": [
-                    "$True , $Chapter|2"
+                    "$True , ^$Chapter|2"
                 ]
             },
             {
                 "name": "Calico Bomb",
                 "item_count": 1,
                 "access_rules": [
-                    "$True , $Chapter|3"
+                    "$True , ^$Chapter|3"
                 ]
             },
             {
                 "name": "Tabby Bomb",
                 "item_count": 1,
                 "access_rules": [
-                    "$True , $Chapter|5"
+                    "$True , ^$Chapter|5"
                 ]
             }
         ]
@@ -998,28 +998,28 @@
                 "name": "Cloud Bomb",
                 "item_count": 1,
                 "access_rules": [
-                    "$True , $Chapter|4"
+                    "$True , ^$Chapter|4"
                 ]
             },
             {
                 "name": "BB Rabbit",
                 "item_count": 1,
                 "access_rules": [
-                    "$True , $Chapter|2"
+                    "$True , ^$Chapter|2"
                 ]
             },
             {
                 "name": "Calico Bomb",
                 "item_count": 1,
                 "access_rules": [
-                    "$True , $Chapter|3"
+                    "$True , ^$Chapter|3"
                 ]
             },
             {
                 "name": "Tabby Bomb",
                 "item_count": 1,
                 "access_rules": [
-                    "$True , $Chapter|5"
+                    "$True , ^$Chapter|5"
                 ]
             }
         ]
@@ -1080,28 +1080,28 @@
                 "name": "Cloud Bomb",
                 "item_count": 1,
                 "access_rules": [
-                    "$True , $Chapter|4"
+                    "$True , ^$Chapter|4"
                 ]
             },
             {
                 "name": "BB Rabbit",
                 "item_count": 1,
                 "access_rules": [
-                    "$True , $Chapter|2"
+                    "$True , ^$Chapter|2"
                 ]
             },
             {
                 "name": "Calico Bomb",
                 "item_count": 1,
                 "access_rules": [
-                    "$True , $Chapter|3"
+                    "$True , ^$Chapter|3"
                 ]
             },
             {
                 "name": "Tabby Bomb",
                 "item_count": 1,
                 "access_rules": [
-                    "$True , $Chapter|5"
+                    "$True , ^$Chapter|5"
                 ]
             }
         ]
@@ -1139,245 +1139,247 @@
                 "name": "Mananite Shard #1",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #2",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #3",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #4",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #5",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #6",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #7",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #8",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #9",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #10",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #11",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #12",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #13",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #14",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #15",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #16",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|6"
+                    "^$Chapter|6"
                 ]
             },
             {
                 "name": "Mananite Shard #17",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|6"
+                    "^$Chapter|6"
                 ]
             },
             {
                 "name": "Magitite Shard #1",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #2",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #3",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #4",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #5",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #6",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #7",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #8",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #9",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #10",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #11",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #12",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #13",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #14",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #15",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2 , ^$EVENT_Memloch"
+                    "^$Chapter|2 , ^$EVENT_Memloch",
+                    "^$Chapter|2 , ^$EVENT_Demonfray"
                 ]
             },
             {
                 "name": "Magitite Shard #16",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2 , ^$EVENT_Memloch"
+                    "^$Chapter|2 , ^$EVENT_Memloch",
+                    "^$Chapter|2 , ^$EVENT_Demonfray"
                 ]
             },
             {
                 "name": "Magitite Shard #17",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2 , ^$EVENT_Demonfray"
+                    "^$Chapter|2 , ^$EVENT_Memloch , ^$EVENT_Demonfray"
                 ]
             },
             {
                 "name": "Magitite Shard #18",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2 , ^$EVENT_Demonfray"
+                    "^$Chapter|2 , ^$EVENT_Memloch , ^$EVENT_Demonfray"
                 ]
             }
         ]
@@ -1389,245 +1391,247 @@
                 "name": "Mananite Shard #1",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #2",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #3",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #4",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #5",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #6",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #7",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #8",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #9",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #10",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #11",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #12",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #13",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #14",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #15",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #16",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|6"
+                    "^$Chapter|6"
                 ]
             },
             {
                 "name": "Mananite Shard #17",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|6"
+                    "^$Chapter|6"
                 ]
             },
             {
                 "name": "Magitite Shard #1",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #2",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #3",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #4",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #5",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #6",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #7",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #8",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #9",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #10",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #11",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #12",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #13",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #14",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #15",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2 , ^$EVENT_Memloch"
+                    "^$Chapter|2 , ^$EVENT_Memloch",
+                    "^$Chapter|2 , ^$EVENT_Demonfray"
                 ]
             },
             {
                 "name": "Magitite Shard #16",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2 , ^$EVENT_Memloch"
+                    "^$Chapter|2 , ^$EVENT_Memloch",
+                    "^$Chapter|2 , ^$EVENT_Demonfray"
                 ]
             },
             {
                 "name": "Magitite Shard #17",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2 , ^$EVENT_Demonfray"
+                    "^$Chapter|2 , ^$EVENT_Memloch , ^$EVENT_Demonfray"
                 ]
             },
             {
                 "name": "Magitite Shard #18",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2 , ^$EVENT_Demonfray"
+                    "^$Chapter|2 , ^$EVENT_Memloch , ^$EVENT_Demonfray"
                 ]
             }
         ]
@@ -1639,245 +1643,247 @@
                 "name": "Mananite Shard #1",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #2",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #3",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #4",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #5",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #6",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #7",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #8",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #9",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #10",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #11",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #12",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #13",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #14",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #15",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #16",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|6"
+                    "^$Chapter|6"
                 ]
             },
             {
                 "name": "Mananite Shard #17",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|6"
+                    "^$Chapter|6"
                 ]
             },
             {
                 "name": "Magitite Shard #1",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #2",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #3",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #4",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #5",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #6",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #7",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #8",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #9",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #10",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #11",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #12",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #13",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #14",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #15",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2 , ^$EVENT_Memloch"
+                    "^$Chapter|2 , ^$EVENT_Memloch",
+                    "^$Chapter|2 , ^$EVENT_Demonfray"
                 ]
             },
             {
                 "name": "Magitite Shard #16",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2 , ^$EVENT_Memloch"
+                    "^$Chapter|2 , ^$EVENT_Memloch",
+                    "^$Chapter|2 , ^$EVENT_Demonfray"
                 ]
             },
             {
                 "name": "Magitite Shard #17",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2 , ^$EVENT_Demonfray"
+                    "^$Chapter|2 , ^$EVENT_Memloch , ^$EVENT_Demonfray"
                 ]
             },
             {
                 "name": "Magitite Shard #18",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2 , ^$EVENT_Demonfray"
+                    "^$Chapter|2 , ^$EVENT_Memloch , ^$EVENT_Demonfray"
                 ]
             }
         ]
@@ -1889,245 +1895,247 @@
                 "name": "Mananite Shard #1",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #2",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #3",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #4",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #5",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #6",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #7",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #8",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #9",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #10",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #11",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #12",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #13",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #14",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #15",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Mananite Shard #16",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|6"
+                    "^$Chapter|6"
                 ]
             },
             {
                 "name": "Mananite Shard #17",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|6"
+                    "^$Chapter|6"
                 ]
             },
             {
                 "name": "Magitite Shard #1",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #2",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #3",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #4",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #5",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #6",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #7",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #8",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #9",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #10",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #11",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #12",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #13",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #14",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2"
+                    "^$Chapter|2"
                 ]
             },
             {
                 "name": "Magitite Shard #15",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2 , ^$EVENT_Memloch"
+                    "^$Chapter|2 , ^$EVENT_Memloch",
+                    "^$Chapter|2 , ^$EVENT_Demonfray"
                 ]
             },
             {
                 "name": "Magitite Shard #16",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2 , ^$EVENT_Memloch"
+                    "^$Chapter|2 , ^$EVENT_Memloch",
+                    "^$Chapter|2 , ^$EVENT_Demonfray"
                 ]
             },
             {
                 "name": "Magitite Shard #17",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2 , ^$EVENT_Demonfray"
+                    "^$Chapter|2 , ^$EVENT_Memloch , ^$EVENT_Demonfray"
                 ]
             },
             {
                 "name": "Magitite Shard #18",
                 "item_count": 1,
                 "access_rules": [
-                    "$Chapter|2 , ^$EVENT_Demonfray"
+                    "^$Chapter|2 , ^$EVENT_Memloch , ^$EVENT_Demonfray"
                 ]
             }
         ]
@@ -2351,305 +2359,280 @@
                 "name": "500 Zennie Pack #1",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1"
+                    "$canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$canChargeShot , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$canChargeShot , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$canChargeShot , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$canChargeShot , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #2",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1"
+                    "$canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$canChargeShot , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$canChargeShot , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$canChargeShot , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$canChargeShot , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #3",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1"
+                    "$canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$canChargeShot , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$canChargeShot , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$canChargeShot , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$canChargeShot , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #4",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1"
+                    "$canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$canChargeShot , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$canChargeShot , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$canChargeShot , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$canChargeShot , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #5",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $canChargeShot , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|bombs|1",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
-                    "$hasAmount|slide|1 , $hasAmount|wallJump|1 , ceilingKick , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1"
+                    "$canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$canChargeShot , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$canChargeShot , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$canChargeShot , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$canChargeShot , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$canChargeShot , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airJump|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|jetpack|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|jetpack|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|airDash|1 , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|highJump|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|airDash|1 , $hasAmount|jetpack|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $canBombThrow",
+                    "$hasAmount|wallJump|1 , ceilingKick , $hasAmount|jetpack|1 , $hasAmount|airJump|1 , $canChargeShot , $hasAmount|dagger|1 , $hasAmount|slide|1"
                 ]
             }
         ]
@@ -3153,35 +3136,35 @@
                 "name": "500 Zennie Pack #1",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|bombs|1"
+                    "$hasAmount|bombs|1 , $hasAmount|slide|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #2",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|bombs|1"
+                    "$hasAmount|bombs|1 , $hasAmount|slide|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #3",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|bombs|1"
+                    "$hasAmount|bombs|1 , $hasAmount|slide|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #4",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|bombs|1"
+                    "$hasAmount|bombs|1 , $hasAmount|slide|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #5",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|bombs|1"
+                    "$hasAmount|bombs|1 , $hasAmount|slide|1"
                 ]
             }
         ]
@@ -3220,6 +3203,14 @@
             },
             {
                 "name": "500 Zennie Pack #2",
+                "item_count": 1,
+                "access_rules": [
+                    "$hasAmount|bombs|1 , $hasAmount|slide|1",
+                    "$canBombThrow , $hasAmount|slide|1"
+                ]
+            },
+            {
+                "name": "500 Zennie Pack #3",
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1",
@@ -3744,7 +3735,9 @@
                     "$canChargeShot , $hasAmount|bombs|1 , $hasAmount|bombRange|3",
                     "$hasAmount|airJump|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|3",
                     "$hasAmount|wallJump|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|3",
-                    "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|3"
+                    "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|3",
+                    "$hasAmount|bombs|1 , $hasAmount|dagger|1 , $canChargeShot",
+                    "$canBombThrow , $hasAmount|dagger|1 , $canChargeShot"
                 ]
             },
             {
@@ -3754,7 +3747,9 @@
                     "$canChargeShot , $hasAmount|bombs|1 , $hasAmount|bombRange|3",
                     "$hasAmount|airJump|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|3",
                     "$hasAmount|wallJump|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|3",
-                    "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|3"
+                    "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|3",
+                    "$hasAmount|bombs|1 , $hasAmount|dagger|1 , $canChargeShot",
+                    "$canBombThrow , $hasAmount|dagger|1 , $canChargeShot"
                 ]
             },
             {
@@ -3764,7 +3759,9 @@
                     "$canChargeShot , $hasAmount|bombs|1 , $hasAmount|bombRange|3",
                     "$hasAmount|airJump|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|3",
                     "$hasAmount|wallJump|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|3",
-                    "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|3"
+                    "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|3",
+                    "$hasAmount|bombs|1 , $hasAmount|dagger|1 , $canChargeShot",
+                    "$canBombThrow , $hasAmount|dagger|1 , $canChargeShot"
                 ]
             },
             {
@@ -3774,7 +3771,9 @@
                     "$canChargeShot , $hasAmount|bombs|1 , $hasAmount|bombRange|3",
                     "$hasAmount|airJump|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|3",
                     "$hasAmount|wallJump|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|3",
-                    "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|3"
+                    "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|3",
+                    "$hasAmount|bombs|1 , $hasAmount|dagger|1 , $canChargeShot",
+                    "$canBombThrow , $hasAmount|dagger|1 , $canChargeShot"
                 ]
             }
         ]
@@ -3894,45 +3893,50 @@
                 "name": "500 Zennie Pack #1",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|bombs|1 , $canChargeShot",
-                    "$canBombThrow , $canChargeShot",
-                    "$hasAmount|dagger|1 , $canChargeShot"
+                    "$canChargeShot , $hasAmount|bombs|1",
+                    "$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
+                    "$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
+                    "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #2",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|bombs|1 , $canChargeShot",
-                    "$canBombThrow , $canChargeShot",
-                    "$hasAmount|dagger|1 , $canChargeShot"
+                    "$canChargeShot , $hasAmount|bombs|1",
+                    "$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
+                    "$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
+                    "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #3",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|bombs|1 , $canChargeShot",
-                    "$canBombThrow , $canChargeShot",
-                    "$hasAmount|dagger|1 , $canChargeShot"
+                    "$canChargeShot , $hasAmount|bombs|1",
+                    "$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
+                    "$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
+                    "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #4",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|bombs|1 , $canChargeShot",
-                    "$canBombThrow , $canChargeShot",
-                    "$hasAmount|dagger|1 , $canChargeShot"
+                    "$canChargeShot , $hasAmount|bombs|1",
+                    "$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
+                    "$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
+                    "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #5",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|bombs|1 , $canChargeShot",
-                    "$canBombThrow , $canChargeShot",
-                    "$hasAmount|dagger|1 , $canChargeShot"
+                    "$canChargeShot , $hasAmount|bombs|1",
+                    "$hasAmount|airJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
+                    "$hasAmount|wallJump|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1",
+                    "$hasAmount|highJump|1 , $hasAmount|jetpack|3 , $hasAmount|dagger|1 , $hasAmount|bombRange|3 , $hasAmount|bombs|1"
                 ]
             }
         ]
@@ -4049,16 +4053,16 @@
                 "name": "500 Zennie Pack #1",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|bombs|1",
-                    "$hasAmount|dagger|1"
+                    "$hasAmount|bombs|1 , $hasAmount|slide|1",
+                    "$hasAmount|dagger|1 , $hasAmount|slide|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #2",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|bombs|1",
-                    "$hasAmount|dagger|1"
+                    "$hasAmount|bombs|1 , $hasAmount|slide|1",
+                    "$hasAmount|dagger|1 , $hasAmount|slide|1"
                 ]
             }
         ]
@@ -5008,7 +5012,6 @@
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
-                    "$canBombThrow , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
                     "$hasAmount|dagger|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1"
                 ]
             },
@@ -5017,7 +5020,6 @@
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
-                    "$canBombThrow , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
                     "$hasAmount|dagger|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1"
                 ]
             },
@@ -5026,7 +5028,6 @@
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
-                    "$canBombThrow , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
                     "$hasAmount|dagger|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1"
                 ]
             },
@@ -5035,7 +5036,6 @@
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
-                    "$canBombThrow , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
                     "$hasAmount|dagger|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1"
                 ]
             },
@@ -5044,7 +5044,6 @@
                 "item_count": 1,
                 "access_rules": [
                     "$hasAmount|bombs|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
-                    "$canBombThrow , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1",
                     "$hasAmount|dagger|1 , $hasAmount|slide|1 , $hasAmount|powder|1,$hasAmount|slide|1"
                 ]
             }
@@ -5724,42 +5723,35 @@
         "name": "Valhalla Breath West - Money Room X: 9 Y: 1",
         "sections": [
             {
-                "name": "Magitite Shard",
-                "item_count": 1,
-                "access_rules": [
-                    "$True"
-                ]
-            },
-            {
                 "name": "500 Zennie Pack #1",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|dagger|1"
+                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1",
+                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #2",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|dagger|1"
+                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1",
+                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #3",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|dagger|1"
+                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1",
+                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #4",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1",
-                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|dagger|1"
+                    "$hasAmount|slide|1 , $hasAmount|airJump|1 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1",
+                    "$hasAmount|slide|1 , $hasAmount|jetpack|1 , $hasAmount|dagger|1 , $hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
                 ]
             }
         ]
@@ -6389,54 +6381,90 @@
                 "name": "500 Zennie Pack #1",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|bombs|1",
-                    "$canBombThrow",
-                    "$hasAmount|dagger|1"
+                    "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+                    "$hasAmount|bombs|1 , $hasAmount|airDash|1",
+                    "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+                    "$canBombThrow , $hasAmount|jetpack|1",
+                    "$canBombThrow , $hasAmount|airDash|1",
+                    "$canBombThrow , $hasAmount|airJump|1",
+                    "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
+                    "$hasAmount|dagger|1 , $hasAmount|airDash|1",
+                    "$hasAmount|dagger|1 , $hasAmount|airJump|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #2",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|bombs|1",
-                    "$canBombThrow",
-                    "$hasAmount|dagger|1"
+                    "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+                    "$hasAmount|bombs|1 , $hasAmount|airDash|1",
+                    "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+                    "$canBombThrow , $hasAmount|jetpack|1",
+                    "$canBombThrow , $hasAmount|airDash|1",
+                    "$canBombThrow , $hasAmount|airJump|1",
+                    "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
+                    "$hasAmount|dagger|1 , $hasAmount|airDash|1",
+                    "$hasAmount|dagger|1 , $hasAmount|airJump|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #3",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|bombs|1",
-                    "$canBombThrow",
-                    "$hasAmount|dagger|1"
+                    "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+                    "$hasAmount|bombs|1 , $hasAmount|airDash|1",
+                    "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+                    "$canBombThrow , $hasAmount|jetpack|1",
+                    "$canBombThrow , $hasAmount|airDash|1",
+                    "$canBombThrow , $hasAmount|airJump|1",
+                    "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
+                    "$hasAmount|dagger|1 , $hasAmount|airDash|1",
+                    "$hasAmount|dagger|1 , $hasAmount|airJump|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #4",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|bombs|1",
-                    "$canBombThrow",
-                    "$hasAmount|dagger|1"
+                    "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+                    "$hasAmount|bombs|1 , $hasAmount|airDash|1",
+                    "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+                    "$canBombThrow , $hasAmount|jetpack|1",
+                    "$canBombThrow , $hasAmount|airDash|1",
+                    "$canBombThrow , $hasAmount|airJump|1",
+                    "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
+                    "$hasAmount|dagger|1 , $hasAmount|airDash|1",
+                    "$hasAmount|dagger|1 , $hasAmount|airJump|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #5",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|bombs|1",
-                    "$canBombThrow",
-                    "$hasAmount|dagger|1"
+                    "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+                    "$hasAmount|bombs|1 , $hasAmount|airDash|1",
+                    "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+                    "$canBombThrow , $hasAmount|jetpack|1",
+                    "$canBombThrow , $hasAmount|airDash|1",
+                    "$canBombThrow , $hasAmount|airJump|1",
+                    "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
+                    "$hasAmount|dagger|1 , $hasAmount|airDash|1",
+                    "$hasAmount|dagger|1 , $hasAmount|airJump|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #6",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|bombs|1",
-                    "$canBombThrow",
-                    "$hasAmount|dagger|1"
+                    "$hasAmount|bombs|1 , $hasAmount|jetpack|1",
+                    "$hasAmount|bombs|1 , $hasAmount|airDash|1",
+                    "$hasAmount|bombs|1 , $hasAmount|airJump|1",
+                    "$canBombThrow , $hasAmount|jetpack|1",
+                    "$canBombThrow , $hasAmount|airDash|1",
+                    "$canBombThrow , $hasAmount|airJump|1",
+                    "$hasAmount|dagger|1 , $hasAmount|jetpack|1",
+                    "$hasAmount|dagger|1 , $hasAmount|airDash|1",
+                    "$hasAmount|dagger|1 , $hasAmount|airJump|1"
                 ]
             }
         ]
@@ -7639,18 +7667,20 @@
                 "name": "500 Zennie Pack #1",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|bombs|1",
                     "$canBombThrow , $canBombFuel",
-                    "$hasAmount|dagger|1 , $canBombFuel"
+                    "$hasAmount|bombs|1 , $canBombFuel",
+                    "$hasAmount|dagger|1 , $hasAmount|daggerExtend|2",
+                    "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
                 ]
             },
             {
                 "name": "500 Zennie Pack #2",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|bombs|1",
                     "$canBombThrow , $canBombFuel",
-                    "$hasAmount|dagger|1 , $canBombFuel"
+                    "$hasAmount|bombs|1 , $canBombFuel",
+                    "$hasAmount|dagger|1 , $hasAmount|daggerExtend|2",
+                    "$hasAmount|bombs|1 , $hasAmount|bombRange|1,$hasAmount|bombs|1"
                 ]
             }
         ]
@@ -7822,21 +7852,30 @@
                 "name": "500 Zennie Pack #1",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|dagger|1"
+                    "$hasAmount|dagger|1",
+                    "$canBombThrow",
+                    "$hasAmount|bombs|1",
+                    "^$EVENT_FreeStrongAttack"
                 ]
             },
             {
                 "name": "500 Zennie Pack #2",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|dagger|1"
+                    "$hasAmount|dagger|1",
+                    "$canBombThrow",
+                    "$hasAmount|bombs|1",
+                    "^$EVENT_FreeStrongAttack"
                 ]
             },
             {
                 "name": "500 Zennie Pack #3",
                 "item_count": 1,
                 "access_rules": [
-                    "$hasAmount|dagger|1"
+                    "$hasAmount|dagger|1",
+                    "$canBombThrow",
+                    "$hasAmount|bombs|1",
+                    "^$EVENT_FreeStrongAttack"
                 ]
             }
         ]
@@ -9175,6 +9214,152 @@
                 "item_count": 1,
                 "access_rules": [
                     "$True"
+                ]
+            }
+        ]
+    },
+    "321412": {
+        "name": "Train - Money Room X: 14 Y: 2",
+        "sections": [
+            {
+                "name": "500 Zennie Pack #1",
+                "item_count": 1,
+                "access_rules": [
+                    "$False , $hasAmount|bombs|1",
+                    "$False , $canBombThrow",
+                    "$False , $hasAmount|dagger|1"
+                ]
+            },
+            {
+                "name": "500 Zennie Pack #2",
+                "item_count": 1,
+                "access_rules": [
+                    "$False , $hasAmount|bombs|1",
+                    "$False , $canBombThrow",
+                    "$False , $hasAmount|dagger|1"
+                ]
+            },
+            {
+                "name": "500 Zennie Pack #3",
+                "item_count": 1,
+                "access_rules": [
+                    "$False , $hasAmount|bombs|1",
+                    "$False , $canBombThrow",
+                    "$False , $hasAmount|dagger|1"
+                ]
+            },
+            {
+                "name": "500 Zennie Pack #4",
+                "item_count": 1,
+                "access_rules": [
+                    "$False , $hasAmount|bombs|1",
+                    "$False , $canBombThrow",
+                    "$False , $hasAmount|dagger|1"
+                ]
+            }
+        ]
+    },
+    "321812": {
+        "name": "Train - Money Room X: 18 Y: 2",
+        "sections": [
+            {
+                "name": "500 Zennie Pack #1",
+                "item_count": 1,
+                "access_rules": [
+                    "$False , $hasAmount|bombs|1",
+                    "$False , $canBombThrow",
+                    "$False , $hasAmount|dagger|1"
+                ]
+            },
+            {
+                "name": "500 Zennie Pack #2",
+                "item_count": 1,
+                "access_rules": [
+                    "$False , $hasAmount|bombs|1",
+                    "$False , $canBombThrow",
+                    "$False , $hasAmount|dagger|1"
+                ]
+            },
+            {
+                "name": "500 Zennie Pack #3",
+                "item_count": 1,
+                "access_rules": [
+                    "$False , $hasAmount|bombs|1",
+                    "$False , $canBombThrow",
+                    "$False , $hasAmount|dagger|1"
+                ]
+            }
+        ]
+    },
+    "321205": {
+        "name": "Train - Money Room X: 12 Y: 5",
+        "sections": [
+            {
+                "name": "500 Zennie Pack #1",
+                "item_count": 1,
+                "access_rules": [
+                    "$False , $hasAmount|bombs|1",
+                    "$False , $canBombThrow",
+                    "$False , $hasAmount|dagger|1"
+                ]
+            },
+            {
+                "name": "500 Zennie Pack #2",
+                "item_count": 1,
+                "access_rules": [
+                    "$False , $hasAmount|bombs|1",
+                    "$False , $canBombThrow",
+                    "$False , $hasAmount|dagger|1"
+                ]
+            },
+            {
+                "name": "500 Zennie Pack #3",
+                "item_count": 1,
+                "access_rules": [
+                    "$False , $hasAmount|bombs|1",
+                    "$False , $canBombThrow",
+                    "$False , $hasAmount|dagger|1"
+                ]
+            }
+        ]
+    },
+    "321705": {
+        "name": "Train - Money Room X: 17 Y: 5",
+        "sections": [
+            {
+                "name": "500 Zennie Pack #1",
+                "item_count": 1,
+                "access_rules": [
+                    "$False , $hasAmount|bombs|1",
+                    "$False , $canBombThrow",
+                    "$False , $hasAmount|dagger|1"
+                ]
+            },
+            {
+                "name": "500 Zennie Pack #2",
+                "item_count": 1,
+                "access_rules": [
+                    "$False , $hasAmount|bombs|1",
+                    "$False , $canBombThrow",
+                    "$False , $hasAmount|dagger|1"
+                ]
+            },
+            {
+                "name": "500 Zennie Pack #3",
+                "item_count": 1,
+                "access_rules": [
+                    "$False , $hasAmount|bombs|1",
+                    "$False , $canBombThrow",
+                    "$False , $hasAmount|dagger|1"
+                ]
+            },
+            {
+                "name": "500 Zennie Pack #4",
+                "item_count": 1,
+                "access_rules": [
+                    "$False , $hasAmount|bombs|1",
+                    "$False , $canBombThrow",
+                    "$False , $hasAmount|dagger|1"
                 ]
             }
         ]

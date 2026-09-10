@@ -269,6 +269,15 @@ knownMapLocation = {
             "PixelY":48*4,
         }
     },
+    32: {
+        "areaName":"Train",
+        "StartRoom":{
+            "X":0,
+            "Y":0,
+            "PixelX":48*0,
+            "PixelY":48*0,
+        }
+    },
     99: {
         "areaName":"Crafting",
         "StartRoom":{

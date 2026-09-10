@@ -3436,7 +3436,7 @@
     "name": "Valhalla Breath West Extended",
     "access_rules": [
       "@Valhalla Breath West 2,$hasAmount|airDash|1",
-      "@Valhalla Breath West 2,$hasAmount|airJump|1",
+      "@Valhalla Breath West 2,$hasAmount|airJump|1 , $hasAmount|speed|1",
       "@Valhalla Breath West 2,$hasAmount|jetpack|1"
     ],
     "children": [
@@ -8240,6 +8240,14 @@
               "$hasAmount|bombs|1 , $hasAmount|slide|1",
               "$canBombThrow , $hasAmount|slide|1"
             ]
+          },
+          {
+            "name": "500 Zennie Pack #3",
+            "item_count": 1,
+            "access_rules": [
+              "$hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$canBombThrow , $hasAmount|slide|1"
+            ]
           }
         ],
         "map_locations": [
@@ -11052,6 +11060,26 @@
             "force_invisibility_rules": [
               "$True"
             ]
+          }
+        ]
+      },
+      {
+        "name": "Tartarus - DLC Vassago Fight",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "QUEST_BlueFlame",
+            "item_count": 1,
+            "access_rules": [
+              "$False , $hasAmount|airJump|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tartarus",
+            "x": 552,
+            "y": 216
           }
         ]
       },
@@ -18467,16 +18495,16 @@
             "name": "500 Zennie Pack #1",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$hasAmount|dagger|1"
+              "$hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$hasAmount|dagger|1 , $hasAmount|slide|1"
             ]
           },
           {
             "name": "500 Zennie Pack #2",
             "item_count": 1,
             "access_rules": [
-              "$hasAmount|bombs|1",
-              "$hasAmount|dagger|1"
+              "$hasAmount|bombs|1 , $hasAmount|slide|1",
+              "$hasAmount|dagger|1 , $hasAmount|slide|1"
             ]
           }
         ],
@@ -23400,6 +23428,342 @@
             "map": "Crafting",
             "x": 1704,
             "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Train",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "Train - Volt Shock",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Volt Shock",
+            "item_count": 1,
+            "access_rules": [
+              "$False"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Train",
+            "x": 552,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Train - Lemon Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Lemon Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$False"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Train",
+            "x": 504,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Train - Kiwi Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Kiwi Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$False"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Train",
+            "x": 600,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Train - Grape Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Grape Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$False"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Train",
+            "x": 504,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Train - Blueberry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Blueberry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$False , $hasAmount|slide|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Train",
+            "x": 744,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Train - Cherry Bunny Potion",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cherry Bunny Potion",
+            "item_count": 1,
+            "access_rules": [
+              "$False"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Train",
+            "x": 936,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Train - Kill Enemies",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Mananite Shard",
+            "item_count": 1,
+            "access_rules": [
+              "$True"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Train",
+            "x": 24,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Train - Money Room X: 14 Y: 2",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "500 Zennie Pack #1",
+            "item_count": 1,
+            "access_rules": [
+              "$False , $hasAmount|bombs|1",
+              "$False , $canBombThrow",
+              "$False , $hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #2",
+            "item_count": 1,
+            "access_rules": [
+              "$False , $hasAmount|bombs|1",
+              "$False , $canBombThrow",
+              "$False , $hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #3",
+            "item_count": 1,
+            "access_rules": [
+              "$False , $hasAmount|bombs|1",
+              "$False , $canBombThrow",
+              "$False , $hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #4",
+            "item_count": 1,
+            "access_rules": [
+              "$False , $hasAmount|bombs|1",
+              "$False , $canBombThrow",
+              "$False , $hasAmount|dagger|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Train",
+            "x": 696,
+            "y": 600,
+            "force_invisibility_rules": [
+              "$ShowMoney"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Train - Money Room X: 18 Y: 2",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "500 Zennie Pack #1",
+            "item_count": 1,
+            "access_rules": [
+              "$False , $hasAmount|bombs|1",
+              "$False , $canBombThrow",
+              "$False , $hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #2",
+            "item_count": 1,
+            "access_rules": [
+              "$False , $hasAmount|bombs|1",
+              "$False , $canBombThrow",
+              "$False , $hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #3",
+            "item_count": 1,
+            "access_rules": [
+              "$False , $hasAmount|bombs|1",
+              "$False , $canBombThrow",
+              "$False , $hasAmount|dagger|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Train",
+            "x": 888,
+            "y": 600,
+            "force_invisibility_rules": [
+              "$ShowMoney"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Train - Money Room X: 12 Y: 5",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "500 Zennie Pack #1",
+            "item_count": 1,
+            "access_rules": [
+              "$False , $hasAmount|bombs|1",
+              "$False , $canBombThrow",
+              "$False , $hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #2",
+            "item_count": 1,
+            "access_rules": [
+              "$False , $hasAmount|bombs|1",
+              "$False , $canBombThrow",
+              "$False , $hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #3",
+            "item_count": 1,
+            "access_rules": [
+              "$False , $hasAmount|bombs|1",
+              "$False , $canBombThrow",
+              "$False , $hasAmount|dagger|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Train",
+            "x": 600,
+            "y": 264,
+            "force_invisibility_rules": [
+              "$ShowMoney"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Train - Money Room X: 17 Y: 5",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "500 Zennie Pack #1",
+            "item_count": 1,
+            "access_rules": [
+              "$False , $hasAmount|bombs|1",
+              "$False , $canBombThrow",
+              "$False , $hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #2",
+            "item_count": 1,
+            "access_rules": [
+              "$False , $hasAmount|bombs|1",
+              "$False , $canBombThrow",
+              "$False , $hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #3",
+            "item_count": 1,
+            "access_rules": [
+              "$False , $hasAmount|bombs|1",
+              "$False , $canBombThrow",
+              "$False , $hasAmount|dagger|1"
+            ]
+          },
+          {
+            "name": "500 Zennie Pack #4",
+            "item_count": 1,
+            "access_rules": [
+              "$False , $hasAmount|bombs|1",
+              "$False , $canBombThrow",
+              "$False , $hasAmount|dagger|1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Train",
+            "x": 840,
+            "y": 264,
+            "force_invisibility_rules": [
+              "$ShowMoney"
+            ]
           }
         ]
       }

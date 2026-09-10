@@ -49,11 +49,7 @@
       {
         "name": "0101",
         "access_rules": [
-          "@Thanatara Canyon,$hasAmount|ranged|2",
-          "@Thanatara Canyon,airJump",
-          "@Thanatara Canyon,jetpack",
-          "@Thanatara Canyon,airDash",
-          "@Thanatara Canyon,wallJump, ceilingKick"
+          "@Thanatara Canyon"
         ],
         "sections": [
           {
@@ -647,7 +643,7 @@
       {
         "name": "1700",
         "access_rules": [
-          "@Magma Pits Entrance,bombs"
+          "@Magma Pits Entrance"
         ],
         "sections": [
           {
@@ -757,7 +753,7 @@
       {
         "name": "0700",
         "access_rules": [
-          "@CopperWood,bombs"
+          "@CopperWood"
         ],
         "sections": [
           {
@@ -911,7 +907,7 @@
       {
         "name": "2706",
         "access_rules": [
-          "@Gallery of Mirrors West,$hasAmount|ranged|2"
+          "@Gallery of Mirrors West"
         ],
         "sections": [
           {
@@ -1087,7 +1083,7 @@
       {
         "name": "2406",
         "access_rules": [
-          "@Relicts to Gloamwood,bombs"
+          "@Relicts to Gloamwood"
         ],
         "sections": [
           {
@@ -1329,7 +1325,7 @@
       {
         "name": "1300",
         "access_rules": [
-          "@Verdazure Sea East,$hasAmount|ranged|2, slide"
+          "@Verdazure Sea East"
         ],
         "sections": [
           {
@@ -1373,9 +1369,7 @@
       {
         "name": "1307",
         "access_rules": [
-          "@Verdazure Sea West,airJump",
-          "@Verdazure Sea West,jetpack",
-          "@Verdazure Sea West,ADCKick"
+          "@Outer Moat"
         ],
         "sections": [
           {
@@ -1595,9 +1589,7 @@
       {
         "name": "1600",
         "access_rules": [
-          "@Snowveil Above HQ,airJump",
-          "@Snowveil Above HQ,wallJump",
-          "@Snowveil Above HQ,jetpack"
+          "@Snowveil Above HQ"
         ],
         "sections": [
           {
@@ -1861,7 +1853,7 @@
       {
         "name": "2008",
         "access_rules": [
-          "@Valhalla City,slide, bombs"
+          "@Valhalla City"
         ],
         "sections": [
           {

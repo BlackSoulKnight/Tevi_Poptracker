@@ -127,7 +127,8 @@ TeviRuleToPoptacker = {
     "BarrierSkip":"$airOrSlide,[$False]",
     "WindSkip":"[$False]",
     "EnemyManip":"[$False]",
-    "Hard":"[$False]"
+    "Hard":"[$False]",
+    "DLC1":"$False"
 }
 
 isExpr = lambda s: not isinstance(s, str)
