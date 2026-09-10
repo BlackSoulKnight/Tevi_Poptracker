@@ -128,6 +128,8 @@ TeviRuleToPoptacker = {
     "WindSkip":"[$False]",
     "EnemyManip":"[$False]",
     "Hard":"[$False]",
+
+    ## DLC Logic
     "DLC1":"$False"
 }
 

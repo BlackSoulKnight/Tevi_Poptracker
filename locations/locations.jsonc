@@ -11079,7 +11079,10 @@
           {
             "map": "Tartarus",
             "x": 552,
-            "y": 216
+            "y": 216,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -23453,7 +23456,10 @@
           {
             "map": "Train",
             "x": 552,
-            "y": 120
+            "y": 120,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -23473,7 +23479,10 @@
           {
             "map": "Train",
             "x": 504,
-            "y": 120
+            "y": 120,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -23493,7 +23502,10 @@
           {
             "map": "Train",
             "x": 600,
-            "y": 120
+            "y": 120,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -23513,7 +23525,10 @@
           {
             "map": "Train",
             "x": 504,
-            "y": 264
+            "y": 264,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -23533,7 +23548,10 @@
           {
             "map": "Train",
             "x": 744,
-            "y": 264
+            "y": 264,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -23553,7 +23571,10 @@
           {
             "map": "Train",
             "x": 936,
-            "y": 264
+            "y": 264,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },
@@ -23573,7 +23594,10 @@
           {
             "map": "Train",
             "x": 24,
-            "y": 24
+            "y": 24,
+            "force_invisibility_rules": [
+              "$True"
+            ]
           }
         ]
       },

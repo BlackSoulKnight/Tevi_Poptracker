@@ -132,6 +132,9 @@ for val in RandomizerLocationList:
     if "EVENT" in val["Itemname"]:
         for v in locTemplate["map_locations"]:
             v["force_invisibility_rules"] = ["$True"]
+    if val["DLC"] != 0:
+        for v in locTemplate["map_locations"]:
+            v["force_invisibility_rules"] = ["$True"]
     if "I14" in val["Itemname"]:
         for v in locTemplate["map_locations"]:
             v["force_invisibility_rules"] = ["$ShowMoney"]
